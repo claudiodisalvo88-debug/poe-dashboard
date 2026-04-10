@@ -1,91 +1,116 @@
 import streamlit as st
 import pandas as pd
 import time
+import os
 
 st.set_page_config(page_title="PoE Dashboard", layout="wide")
 
-st.title("⚡ Proof of Energy (PoE) Dashboard")
+# HEADER
+st.title("⚡ Proof of Energy (PoE)")
+st.markdown("Monitoraggio energetico in tempo reale + Energy Reputation")
 
-st.markdown("""
-**PoE** è un sistema di valutazione energetica decentralizzato che assegna reputazione ai nodi in base a:
+# PATH SICURO
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FILE_PATH = os.path.join(BASE_DIR, "poe_data.csv")
 
-- produzione energetica
-- stato operativo
-- affidabilità complessiva
+# --- FUNZIONE ENERGY REPUTATION ---
+def calculate_reputation(df):
+    grouped = df.groupby("node_id")
 
-L'obiettivo è identificare i nodi più efficienti e affidabili, così da supportare un modello di accesso prioritario all’energia basato su performance reali.
-""")
+    reputation_data = []
 
-try:
-    df = pd.read_csv("poe_data.csv", sep=";", header=None)
-    df.columns = ["timestamp", "node_id", "volt", "ampere", "watt", "reputation", "state"]
+    for node, data in grouped:
+        total_energy = data["energy_wh"].sum()
+        stability = data["watt"].std() if len(data) > 1 else 0
 
-    df["watt"] = pd.to_numeric(df["watt"], errors="coerce")
-    df["reputation"] = pd.to_numeric(df["reputation"], errors="coerce")
+        # Formula semplice MVP:
+        # più energia = meglio
+        # meno variazione = meglio
+        score = total_energy / (1 + stability)
 
-    state_bonus = {
-        "solar": 1.2,
-        "battery": 1.0,
-        "load": 0.8
-    }
+        reputation_data.append({
+            "node_id": node,
+            "reputation": round(score, 2)
+        })
 
-    df["state_multiplier"] = df["state"].map(state_bonus)
-    df["energy_score"] = (df["watt"] * 0.7 + df["reputation"] * 0.3) * df["state_multiplier"]
+    return pd.DataFrame(reputation_data).sort_values("reputation", ascending=False)
 
-    ranking = df.groupby("node_id")["energy_score"].mean().sort_values(ascending=False)
-    best_node = ranking.index[0]
-    best_score = ranking.iloc[0]
+# --- LOOP LIVE ---
+placeholder = st.empty()
 
-    col1, col2, col3 = st.columns(3)
-    col1.metric("⚡ Energia media", round(df["watt"].mean(), 2))
-    col2.metric("📊 Nodi attivi", df["node_id"].nunique())
-    col3.metric("🏆 Best node", best_node)
+while True:
+    with placeholder.container():
 
-    st.subheader("📄 Ultimi dati raccolti")
-    st.write("Righe caricate:", len(df))
-    st.dataframe(df.tail(10), use_container_width=True)
+        # CONTROLLO FILE
+        if not os.path.exists(FILE_PATH):
+            st.error("File dati non trovato")
+            st.info("Avvia test.py prima")
+            st.stop()
 
-    st.subheader("⚡ Potenza media per nodo")
-    st.bar_chart(df.groupby("node_id")["watt"].mean())
+        try:
+            df = pd.read_csv(FILE_PATH, sep=";")
+        except Exception as e:
+            st.error(f"Errore lettura file: {e}")
+            st.stop()
 
-    st.subheader("🔋 Energy Reputation per nodo")
-    st.bar_chart(df.groupby("node_id")["reputation"].mean())
+        if df.empty:
+            st.warning("Nessun dato disponibile")
+            st.stop()
 
-    st.subheader("📈 Performance energetica nodi")
-    st.bar_chart(df.groupby("node_id")["energy_score"].mean())
+        # PARSING
+        df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+        df = df.dropna(subset=["timestamp"])
 
-    st.subheader("🔌 Stato nodi")
-    state_count = df["state"].value_counts()
-    st.bar_chart(state_count)
+        # KPI
+        total_energy = df["energy_wh"].sum()
+        avg_power = df["watt"].mean()
+        nodes = df["node_id"].nunique()
 
-    st.subheader("🧭 Legenda stati")
-    st.markdown("""
-- **solar** → nodo in produzione energetica  
-- **battery** → nodo in accumulo / stabilizzazione  
-- **load** → nodo in consumo energetico
-""")
+        st.subheader("📊 KPI Principali")
 
-    st.subheader("🏆 Ranking nodi")
-    st.dataframe(ranking, use_container_width=True)
+        col1, col2, col3 = st.columns(3)
+        col1.metric("Energia Totale (Wh)", round(total_energy, 2))
+        col2.metric("Potenza Media (W)", round(avg_power, 2))
+        col3.metric("Nodi Attivi", nodes)
 
-    st.success(f"🔥 Nodo migliore: {best_node} (score: {round(best_score, 2)})")
+        st.divider()
 
-    st.subheader("🧠 Insight del sistema")
-    st.info(
-        f"Il nodo con la migliore performance attuale è **{best_node}**, "
-        f"con uno score medio di **{round(best_score, 2)}**. "
-        f"Questo indica una combinazione più efficiente tra produzione, stato operativo e reputazione energetica."
-    )
+        # ENERGY REPUTATION
+        st.subheader("🏆 Energy Reputation")
 
-    time.sleep(2)
-    st.rerun()
+        rep_df = calculate_reputation(df)
 
-except FileNotFoundError:
-    st.error("File poe_data.csv non trovato")
+        st.dataframe(rep_df, use_container_width=True)
 
-except pd.errors.EmptyDataError:
-    st.warning("File vuoto. Avvia test.py")
+        st.bar_chart(rep_df.set_index("node_id")["reputation"])
 
-except Exception as e:
-    st.error(f"Errore: {e}")
-    
+        st.divider()
+
+        # ANALISI
+        st.subheader("⚡ Analisi Energetica")
+
+        colA, colB = st.columns(2)
+
+        with colA:
+            st.markdown("**Energia per nodo**")
+            st.bar_chart(df.groupby("node_id")["energy_wh"].sum())
+
+        with colB:
+            st.markdown("**Stato nodi**")
+            st.bar_chart(df["state"].value_counts())
+
+        st.divider()
+
+        # TIME SERIES
+        st.subheader("📈 Andamento nel tempo")
+
+        df = df.sort_values("timestamp")
+        st.line_chart(df.set_index("timestamp")["watt"])
+
+        st.divider()
+
+        # DATI
+        st.subheader("📄 Dati grezzi")
+        st.dataframe(df, use_container_width=True)
+
+    time.sleep(3)
