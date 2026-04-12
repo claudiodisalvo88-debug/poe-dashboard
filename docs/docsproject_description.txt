@@ -1,0 +1,46 @@
+PROJECT: PROOF OF ENERGY (PoE)
+
+DESCRIZIONE:
+
+Proof of Energy è un sistema di monitoraggio energetico distribuito che raccoglie dati reali dai nodi e calcola un indice di affidabilità chiamato "Energy Reputation".
+
+Il sistema analizza:
+
+- energia prodotta
+- stabilità del segnale
+- continuità operativa (online/offline)
+
+Ogni nodo riceve un punteggio dinamico che rappresenta la sua affidabilità energetica.
+
+FUNZIONAMENTO:
+
+1. I nodi generano dati energetici (watt, energia, stato)
+2. I dati vengono raccolti in un dataset centrale
+3. Il sistema calcola:
+   - stabilità (variazione potenza)
+   - energia totale
+   - reputazione energetica
+4. Viene generato un ranking dei nodi
+5. La dashboard mostra:
+   - stato rete
+   - qualità complessiva
+   - nodi online/offline
+
+INNOVAZIONE:
+
+Il sistema introduce il concetto di "Proof of Energy":
+una metrica oggettiva per valutare la qualità e l'affidabilità energetica dei nodi.
+
+APPLICAZIONI:
+
+- smart grid
+- comunità energetiche
+- infrastrutture decentralizzate
+- sistemi IoT energetici
+
+STATO ATTUALE:
+
+MVP funzionante con:
+- dashboard real-time
+- simulazione dati live
+- calcolo reputazione energetica
