@@ -1,21 +1,28 @@
-PROOF OF ENERGY (PoE)
+# Proof of Energy (PoE) — MVP ufficiale
 
-Sistema di monitoraggio energetico distribuito con calcolo della Energy Reputation dei nodi.
+## Descrizione
+Proof of Energy è un MVP per il monitoraggio energetico distribuito con calcolo della Energy Reputation dei nodi.
 
-FUNZIONALITÀ PRINCIPALI:
-- Raccolta dati energetici da nodi multipli
-- Calcolo stabilità e affidabilità dei nodi
-- Generazione ranking (Energy Reputation)
-- Monitoraggio stato nodi (online/offline)
-- Dashboard real-time con aggiornamento automatico
+## Runtime ufficiale
+- api.py → backend FastAPI
+- db.py → SQLite
+- live_data.py → dati live
+- dashboard.py → dashboard Streamlit via API
 
-COMPONENTI:
-- test.py → dashboard principale (Streamlit)
-- live_data.py → simulazione dati live
-- poe_data.csv → dataset energetico
+## Avvio
+Terminale 1:
+uvicorn api:app --reload
 
-OBIETTIVO:
-Creare un protocollo di “Proof of Energy” per valutare l'affidabilità energetica reale dei nodi.
+Terminale 2:
+python3 live_data.py
 
-STATO:
-MVP funzionante con dati live simulati.
+Terminale 3:
+streamlit run dashboard.py
+
+## URL
+- http://127.0.0.1:8000/docs
+- http://localhost:8501
+
+## Note
+- CSV non più usato
+- fonte dati: SQLite via API
