@@ -1,6 +1,7 @@
-streamlit
-pandas
-streamlit-autorefresh
 fastapi
 uvicorn
+pydantic
+pandas
+streamlit
 requests
+streamlit-autorefresh
