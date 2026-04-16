@@ -1,7 +1,8 @@
 import sqlite3
-from datetime import datetime
+from pathlib import Path
 
-DB_PATH = "poe.db"
+BASE_DIR = Path(__file__).resolve().parent
+DB_PATH = BASE_DIR / "poe.db"
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
@@ -43,3 +44,4 @@ def read_data():
     data = c.fetchall()
     conn.close()
     return data
+    

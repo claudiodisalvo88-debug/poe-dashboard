@@ -3,7 +3,7 @@ import random
 from datetime import datetime
 from db import init_db, insert_data
 
-INTERVAL = 5
+INTERVAL = 10
 NODES = ["NODE_01", "NODE_02", "NODE_03"]
 
 init_db()
