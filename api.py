@@ -1,34 +1,25 @@
 from fastapi import FastAPI
-from db import read_data
-import pandas as pd
+from db import init_db
+from schemas import (
+    NodeIngestPayload,
+    IngestResponse,
+    SummaryResponse,
+    ReputationItem,
+)
+from services import (
+    ingest_node_data,
+    get_nodes_data,
+    get_summary_data,
+    get_reputation_data,
+)
 
 app = FastAPI(
     title="Proof of Energy API",
     description="API del MVP Proof of Energy per monitoraggio nodi, summary energetico e ranking di Energy Reputation.",
-    version="1.0.0"
+    version="1.1.0"
 )
 
-
-def build_dataframe():
-    data = read_data()
-
-    df = pd.DataFrame(
-        data,
-        columns=[
-            "timestamp",
-            "node_id",
-            "watt",
-            "energy_wh"
-        ]
-    )
-
-    if df.empty:
-        return df
-
-    df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
-    df = df.dropna(subset=["timestamp"])
-
-    return df
+init_db()
 
 
 @app.get("/", tags=["System"])
@@ -36,7 +27,7 @@ def home():
     return {
         "status": "ok",
         "service": "Proof of Energy API",
-        "version": "1.0.0"
+        "version": "1.1.0"
     }
 
 
@@ -47,61 +38,21 @@ def health():
     }
 
 
+@app.post("/ingest", tags=["Ingest"], response_model=IngestResponse)
+def ingest(payload: NodeIngestPayload):
+    return ingest_node_data(payload)
+
+
 @app.get("/nodes", tags=["Nodes"])
 def get_nodes():
-    df = build_dataframe()
-
-    if df.empty:
-        return []
-
-    return df.to_dict(orient="records")
+    return get_nodes_data()
 
 
-@app.get("/summary", tags=["Analytics"])
+@app.get("/summary", tags=["Analytics"], response_model=SummaryResponse)
 def summary():
-    df = build_dataframe()
-
-    if df.empty:
-        return {
-            "total_energy": 0.0,
-            "avg_power": 0.0,
-            "nodes": 0,
-            "records": 0
-        }
-
-    result = {
-        "total_energy": float(df["energy_wh"].sum()),
-        "avg_power": float(df["watt"].mean()),
-        "nodes": int(df["node_id"].nunique()),
-        "records": int(len(df))
-    }
-
-    return result
+    return get_summary_data()
 
 
-@app.get("/reputation", tags=["Analytics"])
+@app.get("/reputation", tags=["Analytics"], response_model=list[ReputationItem])
 def reputation():
-    df = build_dataframe()
-
-    if df.empty:
-        return []
-
-    result = []
-
-    for node_id, group in df.groupby("node_id"):
-        total_energy = group["energy_wh"].sum()
-        stability = group["watt"].std() if len(group) > 1 else 0
-        stability = 0 if pd.isna(stability) else stability
-
-        reputation_score = total_energy / (1 + stability)
-
-        result.append({
-            "node_id": node_id,
-            "reputation": round(float(reputation_score), 2),
-            "energy": round(float(total_energy), 2),
-            "stability": round(float(stability), 2)
-        })
-
-    result.sort(key=lambda x: x["reputation"], reverse=True)
-    return result
-    
+    return get_reputation_data()

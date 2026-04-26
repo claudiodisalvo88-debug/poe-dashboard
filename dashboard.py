@@ -44,8 +44,8 @@ except RequestException as e:
     st.error("API non raggiungibile.")
     st.code(
         "Avvia questi processi:\n"
-        "1) uvicorn api:app --reload\n"
-        "2) python3 live_data.py\n"
+        "1) python3 -m uvicorn api:app --reload\n"
+        "2) python3 multi_node_sender.py\n"
         "3) streamlit run dashboard.py"
     )
     st.caption(f"Dettaglio errore: {e}")
@@ -56,11 +56,18 @@ rep_df = pd.DataFrame(rep)
 
 if df.empty:
     st.warning("Nessun dato disponibile dall'API.")
-    st.info("Avvia prima il simulatore dati con: python3 live_data.py")
+    st.info("Avvia prima il sender dati.")
     st.stop()
 
 df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
 df = df.dropna(subset=["timestamp"]).sort_values("timestamp")
+
+# KPI calcolati localmente dal dataset reale
+local_total_energy = round(float(df["energy_wh"].sum()), 2)
+local_avg_power = round(float(df["watt"].mean()), 2)
+local_nodes = int(df["node_id"].nunique())
+local_records = int(len(df))
+local_last_update = df["timestamp"].max().strftime("%H:%M:%S")
 
 st.title("⚡ Proof of Energy (PoE)")
 st.markdown("Monitoraggio energetico in tempo reale + Energy Reputation")
@@ -71,9 +78,9 @@ st.divider()
 st.subheader("📊 KPI Principali")
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Energia Totale (Wh)", round(float(summary["total_energy"]), 2))
-col2.metric("Potenza Media (W)", round(float(summary["avg_power"]), 2))
-col3.metric("Nodi Attivi", int(summary["nodes"]))
+col1.metric("Energia Totale (Wh)", local_total_energy)
+col2.metric("Potenza Media (W)", local_avg_power)
+col3.metric("Nodi Attivi", local_nodes)
 
 st.divider()
 
@@ -83,7 +90,7 @@ st.subheader("🏆 Energy Reputation")
 if rep_df.empty:
     rep_df = calculate_reputation_local(df)
 
-st.dataframe(rep_df, use_container_width=True, hide_index=True)
+st.dataframe(rep_df, width="stretch", hide_index=True)
 
 if not rep_df.empty and "node_id" in rep_df.columns and "reputation" in rep_df.columns:
     st.bar_chart(rep_df.set_index("node_id")["reputation"])
@@ -101,11 +108,9 @@ with colA:
     st.bar_chart(energy_per_node)
 
 with colB:
-    st.markdown("**Stato nodi**")
-    if "state" in df.columns:
-        st.bar_chart(df["state"].value_counts())
-    else:
-        st.info("Campo 'state' non ancora disponibile nel backend attuale.")
+    st.markdown("**Distribuzione records per nodo**")
+    records_per_node = df["node_id"].value_counts().sort_index()
+    st.bar_chart(records_per_node)
 
 st.divider()
 
@@ -121,8 +126,8 @@ st.divider()
 st.subheader("📌 Snapshot operativo")
 
 k1, k2, k3 = st.columns(3)
-k1.metric("Records", int(summary["records"]))
-k2.metric("Ultimo update", df["timestamp"].max().strftime("%H:%M:%S"))
+k1.metric("Records", local_records)
+k2.metric("Ultimo update", local_last_update)
 if not rep_df.empty:
     k3.metric("Top Node", str(rep_df.iloc[0]["node_id"]))
 else:
@@ -132,4 +137,4 @@ st.divider()
 
 # DATI GREZZI
 st.subheader("📄 Dati grezzi")
-st.dataframe(df.tail(50), use_container_width=True, hide_index=True)
+st.dataframe(df.tail(50), width="stretch", hide_index=True)
