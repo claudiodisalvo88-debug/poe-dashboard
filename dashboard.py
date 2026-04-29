@@ -200,6 +200,7 @@ with st.sidebar:
     st.markdown("### Controlli")
     auto_refresh = st.checkbox("Auto refresh", value=False)
     refresh_seconds = st.selectbox("Intervallo refresh", [15, 30, 60], index=1)
+    st.caption(f"API attuale: {API_URL}")
     if st.button("Ricarica dati"):
         st.cache_data.clear()
         st.rerun()
@@ -255,6 +256,7 @@ network_quality = classify_quality(rep_df)
 top_node = rep_df.iloc[0]["Node"] if not rep_df.empty else "-"
 top_reputation = rep_df.iloc[0]["Reputation"] if not rep_df.empty else "-"
 
+
 def pill_for(label: str):
     x = label.lower()
     if x in ["healthy", "ok", "stabile"]:
@@ -266,6 +268,7 @@ def pill_for(label: str):
     else:
         cls = "neutral"
     return f'<span class="status-pill {cls}">{label.upper()}</span>'
+
 
 st.title("⚡ Proof of Energy")
 st.caption("Sistema di monitoraggio e confronto dell’affidabilità energetica dei nodi")
@@ -412,3 +415,4 @@ with tab3:
         }
     )
     st.dataframe(display_df.tail(50), width="stretch", hide_index=True)
+    

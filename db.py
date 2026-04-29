@@ -1,8 +1,10 @@
+import os
 import sqlite3
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "poe.db"
+DEFAULT_DB_PATH = BASE_DIR / "poe.db"
+DB_PATH = os.getenv("POE_DB_PATH", str(DEFAULT_DB_PATH))
 
 
 def get_connection() -> sqlite3.Connection:

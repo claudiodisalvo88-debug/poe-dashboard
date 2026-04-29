@@ -1,7 +1,7 @@
-fastapi
-uvicorn
-pydantic
-pandas
-streamlit
-requests
-streamlit-autorefresh
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pandas==2.2.3
+requests==2.32.3
+streamlit==1.39.0
+streamlit-autorefresh==1.0.1

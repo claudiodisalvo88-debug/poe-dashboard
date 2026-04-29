@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+poe.db
+poe_test.db
+.env
+.venv/

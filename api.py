@@ -1,4 +1,7 @@
+import os
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from db import init_db
 from schemas import (
     NodeIngestPayload,
@@ -13,10 +16,24 @@ from services import (
     get_reputation_data,
 )
 
+APP_NAME = os.getenv("POE_APP_NAME", "Proof of Energy API")
+APP_VERSION = os.getenv("POE_APP_VERSION", "1.1.0")
+POE_CORS_ORIGINS = os.getenv("POE_CORS_ORIGINS", "*")
+
 app = FastAPI(
-    title="Proof of Energy API",
+    title=APP_NAME,
     description="API del MVP Proof of Energy per monitoraggio nodi, summary energetico e ranking di Energy Reputation.",
-    version="1.1.0"
+    version=APP_VERSION,
+)
+
+cors_origins = [origin.strip() for origin in POE_CORS_ORIGINS.split(",") if origin.strip()]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=cors_origins if cors_origins else ["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 init_db()
@@ -26,15 +43,17 @@ init_db()
 def home():
     return {
         "status": "ok",
-        "service": "Proof of Energy API",
-        "version": "1.1.0"
+        "service": APP_NAME,
+        "version": APP_VERSION,
     }
 
 
 @app.get("/health", tags=["System"])
 def health():
     return {
-        "status": "healthy"
+        "status": "healthy",
+        "service": APP_NAME,
+        "version": APP_VERSION,
     }
 
 
