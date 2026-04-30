@@ -17,12 +17,12 @@ from services import (
 )
 
 APP_NAME = os.getenv("POE_APP_NAME", "Proof of Energy API")
-APP_VERSION = os.getenv("POE_APP_VERSION", "1.1.0")
+APP_VERSION = os.getenv("POE_APP_VERSION", "1.2.0")
 POE_CORS_ORIGINS = os.getenv("POE_CORS_ORIGINS", "*")
 
 app = FastAPI(
     title=APP_NAME,
-    description="API del MVP Proof of Energy per monitoraggio nodi, summary energetico e ranking di Energy Reputation.",
+    description="Proof of Energy MVP API: live nodes, history, KPI and Energy Reputation ranking.",
     version=APP_VERSION,
 )
 
@@ -45,6 +45,7 @@ def home():
         "status": "ok",
         "service": APP_NAME,
         "version": APP_VERSION,
+        "endpoints": ["/health", "/live", "/history", "/kpi", "/ranking", "/ingest"]
     }
 
 
@@ -62,16 +63,51 @@ def ingest(payload: NodeIngestPayload):
     return ingest_node_data(payload)
 
 
-@app.get("/nodes", tags=["Nodes"])
+# NEW STANDARD ENDPOINTS
+
+@app.get("/live", tags=["Nodes"])
+def live():
+    data = get_nodes_data()
+    if not data:
+        return []
+
+    latest_by_node = {}
+
+    for row in data:
+        node_id = row["node_id"]
+        if node_id not in latest_by_node or row["timestamp"] > latest_by_node[node_id]["timestamp"]:
+            latest_by_node[node_id] = row
+
+    return list(latest_by_node.values())
+
+
+@app.get("/history", tags=["Nodes"])
+def history():
+    return get_nodes_data()
+
+
+@app.get("/kpi", tags=["Analytics"], response_model=SummaryResponse)
+def kpi():
+    return get_summary_data()
+
+
+@app.get("/ranking", tags=["Analytics"], response_model=list[ReputationItem])
+def ranking():
+    return get_reputation_data()
+
+
+# OLD COMPATIBILITY ENDPOINTS
+
+@app.get("/nodes", tags=["Compatibility"])
 def get_nodes():
     return get_nodes_data()
 
 
-@app.get("/summary", tags=["Analytics"], response_model=SummaryResponse)
+@app.get("/summary", tags=["Compatibility"], response_model=SummaryResponse)
 def summary():
     return get_summary_data()
 
 
-@app.get("/reputation", tags=["Analytics"], response_model=list[ReputationItem])
+@app.get("/reputation", tags=["Compatibility"], response_model=list[ReputationItem])
 def reputation():
     return get_reputation_data()

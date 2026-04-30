@@ -13,7 +13,6 @@ st.set_page_config(
 API_URL = os.getenv("POE_API_URL", "http://127.0.0.1:8000").rstrip("/")
 
 
-@st.cache_data(ttl=20)
 def fetch_json(endpoint: str):
     response = requests.get(f"{API_URL}{endpoint}", timeout=5)
     response.raise_for_status()
@@ -198,7 +197,7 @@ st.markdown(
 
 with st.sidebar:
     st.markdown("### Controlli")
-    auto_refresh = st.checkbox("Auto refresh", value=False)
+    auto_refresh = st.checkbox("Auto refresh", value=True)
     refresh_seconds = st.selectbox("Intervallo refresh", [15, 30, 60], index=1)
     st.caption(f"API attuale: {API_URL}")
     if st.button("Ricarica dati"):
@@ -211,8 +210,9 @@ if auto_refresh:
 
 try:
     health = fetch_json("/health")
-    nodes = fetch_json("/nodes")
-    reputation = fetch_json("/reputation")
+    nodes = fetch_json("/history")
+    reputation = fetch_json("/ranking")
+    kpi = fetch_json("/kpi")
 except RequestException as e:
     st.error("API non raggiungibile.")
     st.code(
@@ -246,10 +246,10 @@ else:
         }
     )
 
-total_energy = round(float(df["energy_wh"].sum()), 2)
-avg_power = round(float(df["watt"].mean()), 2)
-node_count = int(df["node_id"].nunique())
-record_count = int(len(df))
+total_energy = round(float(kpi["total_energy"]), 2)
+avg_power = round(float(kpi["avg_power"]), 2)
+node_count = int(kpi["nodes"])
+record_count = int(kpi["records"])
 last_update = df["timestamp"].max().strftime("%H:%M:%S")
 
 network_quality = classify_quality(rep_df)

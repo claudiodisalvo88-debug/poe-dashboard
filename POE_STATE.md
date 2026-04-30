@@ -1,0 +1,265 @@
+# POE_STATE.md
+Ultimo aggiornamento: 30 aprile 2026
+
+## Ruolo del file
+Questo file è la fonte unica di verità tecnica del progetto Proof of Energy.
+Prima di modificare codice, leggere questo file.
+Dopo ogni modifica importante, aggiornare questo file.
+
+---
+
+## Architettura reale attuale
+
+Il progetto attuale NON usa più il CSV come sorgente live principale.
+
+Architettura reale:
+
+live_data.py → poe.db → db.py → services.py → api.py → dashboard.py
+
+Il file poe_data.csv esiste ancora, ma va considerato archivio storico/vecchio, non fonte live principale.
+
+---
+
+## Cartella progetto attiva
+
+/Users/franco/Desktop/POE_MASTER/poe_progetto
+
+---
+
+## File attivi principali
+
+- live_data.py
+- db.py
+- services.py
+- schemas.py
+- api.py
+- dashboard.py
+- poe.db
+- requirements.txt
+- Procfile
+
+---
+
+## Stato live_data.py
+
+live_data.py genera dati continui e li scrive nel database SQLite poe.db.
+
+Segnale atteso nel terminale:
+
+LIVE DB START
+write DB
+write DB
+write DB
+
+Verifica DB:
+
+python3 -c "from db import read_data; print(len(read_data()))"
+
+Se il numero cresce, live_data.py sta funzionando.
+
+---
+
+## Stato DB
+
+Database attivo:
+
+poe.db
+
+Nota:
+poe_test.db esiste ma non deve essere considerato sorgente principale.
+poe_data.csv esiste ma non deve essere considerato sorgente live.
+
+---
+
+## Stato API locale
+
+Backend FastAPI locale:
+
+http://127.0.0.1:8000
+
+Endpoint vecchi già presenti:
+
+- /health
+- /nodes
+- /summary
+- /reputation
+- /ingest
+
+Endpoint target nuovi da standardizzare:
+
+- /health
+- /live
+- /history
+- /kpi
+- /ranking
+- /ingest
+
+Test API:
+
+curl http://127.0.0.1:8000/health
+curl http://127.0.0.1:8000/kpi
+curl http://127.0.0.1:8000/ranking
+
+Problema riscontrato:
+in alcuni test API restava ferma a records = 910 mentre il DB cresceva oltre 1600 record.
+Possibile causa: processo uvicorn vecchio, porta 8000 sporca, API lanciata da cartella sbagliata o versione backend non allineata.
+
+---
+
+## Stato dashboard.py
+
+Dashboard Streamlit locale:
+
+streamlit run dashboard.py
+
+URL locale:
+
+http://localhost:8501
+
+Modifiche già fatte su dashboard.py:
+
+- rimossa cache principale @st.cache_data(ttl=20)
+- auto refresh impostato a True
+- endpoint cambiati:
+  - /nodes → /history
+  - /reputation → /ranking
+  - aggiunto /kpi
+- KPI letti da API:
+  - total_energy = kpi["total_energy"]
+  - avg_power = kpi["avg_power"]
+  - node_count = kpi["nodes"]
+  - record_count = kpi["records"]
+
+Problema attuale:
+dashboard risulta statica perché API locale /kpi non vedeva i record aggiornati.
+
+Conclusione:
+prima di toccare dashboard.py, risolvere allineamento API ↔ DB.
+
+---
+
+## Stato Render
+
+Da verificare.
+
+Possibile backend Render creato/preparato in sessione precedente, ma URL non ancora registrato in questo file.
+
+Cose da recuperare:
+
+- URL Render backend
+- nome servizio Render
+- start command
+- branch GitHub collegato
+- variabili ambiente
+- endpoint online funzionanti
+
+Quando recuperato, aggiungere qui:
+
+RENDER_BACKEND_URL = inserire URL
+
+---
+
+## Stato GitHub
+
+Repository noto:
+
+poe-dashboard
+
+Da verificare:
+
+- remote origin
+- branch attivo
+- ultimo commit
+- file effettivamente pushati
+
+Comandi utili:
+
+git remote -v
+git branch
+git status
+git log --oneline -5
+
+---
+
+## Procedura terminali standard
+
+Usare sempre questi nomi:
+
+Terminale A = LIVE DATA
+
+cd ~/Desktop/POE_MASTER/poe_progetto
+python3 live_data.py
+
+Terminale B = API
+
+cd ~/Desktop/POE_MASTER/poe_progetto
+uvicorn api:app --reload
+
+Terminale C = DASHBOARD
+
+cd ~/Desktop/POE_MASTER/poe_progetto
+streamlit run dashboard.py
+
+Terminale D = TEST
+
+curl http://127.0.0.1:8000/kpi
+
+---
+
+## Regola anti-confusione
+
+Non cambiare codice se prima non sono verificati:
+
+1. cartella corretta
+2. DB che cresce
+3. API che legge lo stesso DB
+4. dashboard che legge la stessa API
+
+---
+
+## Prossimo step tecnico corretto
+
+1. Chiudere tutti i processi uvicorn/streamlit/live_data.
+2. Avviare solo live_data.py.
+3. Verificare che il DB cresca con:
+
+python3 -c "from db import read_data; print(len(read_data()))"
+
+4. Avviare solo api.py con uvicorn dalla cartella corretta.
+5. Verificare che:
+
+curl http://127.0.0.1:8000/kpi
+
+mostri records uguale o vicino al numero letto direttamente dal DB.
+
+6. Solo dopo aprire dashboard.py.
+
+---
+
+## Stato strategico
+
+Priorità assoluta:
+blindare flusso dati live_data.py → poe.db → api.py → dashboard.py.
+
+Non migliorare grafica finché API e DB non sono allineati.
+
+
+---
+
+## FIX CRITICO 30 APRILE 2026 ORE 15:40
+
+Problema risolto:
+API mostrava records fermi a ~910 mentre il DB superava 2000 record.
+
+Causa:
+services.py usava pd.to_datetime senza format="mixed", quindi scartava molti timestamp validi.
+
+Fix applicato:
+pd.to_datetime(df["timestamp"], errors="coerce", format="mixed")
+
+Stato verificato:
+DB > 2080 record
+API /kpi > 2090 record
+Dashboard live sincronizzata.
+
+Flusso backend locale stabile.

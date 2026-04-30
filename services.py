@@ -38,7 +38,11 @@ def build_dataframe() -> pd.DataFrame:
     if df.empty:
         return df
 
-    df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+    # Parse timestamp in mixed formats without dropping historical valid records.
+    # Some records use ISO format, others use "YYYY-MM-DD HH:MM:SS".
+    df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce", format="mixed")
+
+    # Drop only truly broken placeholder rows.
     df = df.dropna(subset=["timestamp"])
 
     return df
