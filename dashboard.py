@@ -414,5 +414,5 @@ with tab3:
             "energy_wh": "Energy Wh",
         }
     )
-    st.dataframe(display_df.tail(50), width="stretch", hide_index=True)
+    st.dataframe(display_df.tail(50), use_container_width=True, hide_index=True)
     
