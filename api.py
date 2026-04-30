@@ -15,6 +15,7 @@ from services import (
     get_summary_data,
     get_reputation_data,
 )
+from internal_generator import start_internal_generator
 
 APP_NAME = os.getenv("POE_APP_NAME", "Proof of Energy API")
 APP_VERSION = os.getenv("POE_APP_VERSION", "1.2.0")
@@ -37,6 +38,11 @@ app.add_middleware(
 )
 
 init_db()
+
+
+@app.on_event("startup")
+def startup_event():
+    start_internal_generator()
 
 
 @app.get("/", tags=["System"])
