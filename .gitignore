@@ -4,3 +4,6 @@ poe.db
 poe_test.db
 .env
 .venv/.DS_Store
+
+.DS_Store
+**/.DS_Store
