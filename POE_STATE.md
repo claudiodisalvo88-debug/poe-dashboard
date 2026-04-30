@@ -318,3 +318,49 @@ Dashboard aggiornata correttamente con dati provenienti dal backend Render.
 
 Stato:
 Demo cloud PoE funzionante.
+
+
+--------------------------------------------------
+AGGIORNAMENTO 30 APRILE 2026 ORE 16:50
+--------------------------------------------------
+
+STATO MVP CLOUD VERIFICATO:
+
+1. Backend FastAPI online su Render funzionante:
+https://poe-backend-roqn.onrender.com
+
+Endpoint verificati:
+- /health
+- /live
+- /history
+- /kpi
+- /ranking
+- /ingest
+
+2. Dashboard pubblica Streamlit Cloud funzionante:
+https://poe-dashboard.streamlit.app
+
+Fix eseguiti:
+- compatibilità Python/Streamlit cloud
+- rimossi tutti i parametri width="stretch"
+- sostituiti con use_container_width=True
+
+3. Dashboard ora legge correttamente backend Render.
+
+4. Numeri KPI/ranking crescono SOLO se è attivo localmente:
+
+POE_API_URL=https://poe-backend-roqn.onrender.com python3 multi_node_sender.py
+
+Questo significa:
+
+ATTUALE ARCHITETTURA = SENDER ANCORA LOCALE
+
+Mac locale --> Render backend --> Streamlit cloud
+
+5. PROSSIMO STEP CRITICO:
+portare anche il generatore dati in cloud h24
+per rendere PoE completamente autonomo senza terminali accesi.
+
+NOTE OPERATIVE:
+ogni futura sessione tecnica deve iniziare SEMPRE leggendo POE_STATE.md
+prima di toccare codice o terminali.
