@@ -263,3 +263,35 @@ API /kpi > 2090 record
 Dashboard live sincronizzata.
 
 Flusso backend locale stabile.
+
+
+---
+
+## RENDER BACKEND VERIFICATO 30 APRILE 2026 ORE 15:55
+
+RENDER_BACKEND_URL = https://poe-backend-roqn.onrender.com
+
+Servizio Render:
+poe-backend
+
+Repo collegata:
+claudiodisalvo88-debug/poe-dashboard
+
+Branch:
+main
+
+Commit deployato:
+c6b0e6a Fix API DB sync and document PoE state
+
+Endpoint online verificati:
+- /health
+- /
+- /live
+- /history
+- /kpi
+- /ranking
+
+Nota:
+Render risponde con version 1.1.0 anche se il codice locale è 1.2.0.
+Probabile variabile ambiente POE_APP_VERSION=1.1.0 su Render.
+Non blocca il funzionamento.
