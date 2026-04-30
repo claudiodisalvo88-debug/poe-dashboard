@@ -400,7 +400,7 @@ with tab2:
     if not rep_df.empty:
         st.bar_chart(rep_df.set_index("Node")[["Reputation"]], height=280)
 
-    st.dataframe(rep_df, width="stretch", hide_index=True)
+    st.dataframe(rep_df, use_container_width=True, hide_index=True)
 
 with tab3:
     st.markdown("### Dataset API")
