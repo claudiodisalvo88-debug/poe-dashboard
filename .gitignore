@@ -3,4 +3,4 @@ __pycache__/
 poe.db
 poe_test.db
 .env
-.venv/
+.venv/.DS_Store
