@@ -364,3 +364,181 @@ per rendere PoE completamente autonomo senza terminali accesi.
 NOTE OPERATIVE:
 ogni futura sessione tecnica deve iniziare SEMPRE leggendo POE_STATE.md
 prima di toccare codice o terminali.
+
+---
+
+## AGGIORNAMENTO 30 APRILE 2026 ORE 18:40
+
+STATO CLOUD AUTONOMO MVP:
+
+Problema iniziale:
+il generatore dati era ancora locale tramite:
+
+POE_API_URL=https://poe-backend-roqn.onrender.com python3 multi_node_sender.py
+
+Questo rendeva la demo dipendente dal Mac acceso.
+
+Tentativo scartato:
+Render Background Worker.
+
+Motivo:
+il Worker risultava a pagamento nella dashboard Render, quindi non è stato usato.
+
+Soluzione applicata:
+aggiunto generatore dati interno al backend FastAPI.
+
+File creato:
+- internal_generator.py
+
+File modificato:
+- api.py
+
+Logica:
+api.py avvia FastAPI e, tramite startup event, chiama:
+
+start_internal_generator()
+
+Il generatore interno:
+- parte solo se POE_ENABLE_INTERNAL_GENERATOR=true
+- genera NODE_01, NODE_02, NODE_03
+- scrive nel database usando la stessa funzione di /ingest:
+  ingest_node_data(payload)
+- intervallo controllato da:
+  POE_INTERNAL_SEND_INTERVAL_SECONDS
+
+Variabili ambiente Render backend:
+- POE_ENABLE_INTERNAL_GENERATOR=true
+- POE_INTERNAL_SEND_INTERVAL_SECONDS=5
+
+Test locale verificato:
+curl http://127.0.0.1:8000/kpi
+
+records cresciuti da:
+1039
+
+a:
+1045
+
+Conclusione:
+internal_generator.py funziona localmente.
+
+Commit GitHub pushato:
+8990091 Add internal data generator for backend demo
+
+Stato Git:
+working tree clean
+
+Stato Render:
+variabili ambiente inserite su servizio poe-backend.
+Deploy eseguito.
+Verifica utente: tutto ok.
+
+ARCHITETTURA ATTUALE AGGIORNATA:
+
+Render backend FastAPI
+    ├── API endpoints
+    ├── internal_generator.py
+    ├── poe.db
+    ↓
+Streamlit Cloud dashboard
+
+Non serve più tenere acceso il Mac per generare dati demo.
+
+ATTENZIONE:
+Render free instance può andare in sleep per inattività.
+Al primo accesso può avere ritardo di circa 50 secondi o più.
+Questo non blocca la demo, ma va ricordato in presentazione.
+
+PROSSIMO STEP CONSIGLIATO:
+verificare domani dashboard pubblica e KPI dopo backend sleep/wake.
+Poi aggiornare documentazione demo e preparare versione pitch/bando.
+
+
+---
+
+## AGGIORNAMENTO 30 APRILE 2026 ORE 18:40
+
+STATO CLOUD AUTONOMO MVP:
+
+Problema iniziale:
+il generatore dati era ancora locale tramite:
+
+POE_API_URL=https://poe-backend-roqn.onrender.com python3 multi_node_sender.py
+
+Questo rendeva la demo dipendente dal Mac acceso.
+
+Tentativo scartato:
+Render Background Worker.
+
+Motivo:
+il Worker risultava a pagamento nella dashboard Render, quindi non è stato usato.
+
+Soluzione applicata:
+aggiunto generatore dati interno al backend FastAPI.
+
+File creato:
+- internal_generator.py
+
+File modificato:
+- api.py
+
+Logica:
+api.py avvia FastAPI e, tramite startup event, chiama:
+
+start_internal_generator()
+
+Il generatore interno:
+- parte solo se POE_ENABLE_INTERNAL_GENERATOR=true
+- genera NODE_01, NODE_02, NODE_03
+- scrive nel database usando la stessa funzione di /ingest:
+  ingest_node_data(payload)
+- intervallo controllato da:
+  POE_INTERNAL_SEND_INTERVAL_SECONDS
+
+Variabili ambiente Render backend:
+- POE_ENABLE_INTERNAL_GENERATOR=true
+- POE_INTERNAL_SEND_INTERVAL_SECONDS=5
+
+Test locale verificato:
+curl http://127.0.0.1:8000/kpi
+
+records cresciuti da:
+1039
+
+a:
+1045
+
+Conclusione:
+internal_generator.py funziona localmente.
+
+Commit GitHub pushato:
+8990091 Add internal data generator for backend demo
+
+Stato Git:
+working tree clean
+
+Stato Render:
+variabili ambiente inserite su servizio poe-backend.
+Deploy eseguito.
+Verifica utente: tutto ok.
+
+ARCHITETTURA ATTUALE AGGIORNATA:
+
+Render backend FastAPI
+    ├── API endpoints
+    ├── internal_generator.py
+    ├── poe.db
+    ↓
+Streamlit Cloud dashboard
+
+Non serve più tenere acceso il Mac per generare dati demo.
+
+ATTENZIONE:
+Render free instance può andare in sleep per inattività.
+Al primo accesso può avere ritardo di circa 50 secondi o più.
+Questo non blocca la demo, ma va ricordato in presentazione.
+
+PROSSIMO STEP CONSIGLIATO:
+verificare domani dashboard pubblica e KPI dopo backend sleep/wake.
+Poi aggiornare documentazione demo e preparare versione pitch/bando.
+
