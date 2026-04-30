@@ -295,3 +295,26 @@ Nota:
 Render risponde con version 1.1.0 anche se il codice locale è 1.2.0.
 Probabile variabile ambiente POE_APP_VERSION=1.1.0 su Render.
 Non blocca il funzionamento.
+
+
+---
+
+## DEMO CLOUD COMPLETA VERIFICATA 30 APRILE 2026 ORE 16:05
+
+Flusso cloud verificato:
+
+multi_node_sender.py → Render backend → dashboard Streamlit
+
+Comando sender verso Render:
+
+POE_API_URL=https://poe-backend-roqn.onrender.com python3 multi_node_sender.py
+
+Comando dashboard collegata a Render:
+
+POE_API_URL=https://poe-backend-roqn.onrender.com streamlit run dashboard.py
+
+Esito:
+Dashboard aggiornata correttamente con dati provenienti dal backend Render.
+
+Stato:
+Demo cloud PoE funzionante.
