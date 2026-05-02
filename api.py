@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -57,17 +57,22 @@ def startup_event():
 
 def _parse_timestamp(value):
     """
-    Converte timestamp ISO in datetime confrontabile.
-    Se il timestamp è vuoto o invalido, torna datetime.min.
-    Serve per evitare Internal Server Error su /live e /history.
+    Converte timestamp ISO in datetime sempre timezone-aware UTC.
+    Evita errori tra datetime offset-naive e offset-aware.
     """
     if not value:
-        return datetime.min
+        return datetime.min.replace(tzinfo=timezone.utc)
 
     try:
-        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+
+        return parsed
+
     except Exception:
-        return datetime.min
+        return datetime.min.replace(tzinfo=timezone.utc)
 
 
 @app.get("/", tags=["System"])
@@ -107,13 +112,6 @@ def ingest(payload: NodeIngestPayload):
 def live():
     """
     Restituisce l'ultimo record valido per ogni nodo.
-
-    Output atteso:
-    [
-        {"timestamp": "...", "node_id": "NODE_01", "watt": ..., "energy_wh": ...},
-        {"timestamp": "...", "node_id": "NODE_02", "watt": ..., "energy_wh": ...},
-        {"timestamp": "...", "node_id": "NODE_03", "watt": ..., "energy_wh": ...}
-    ]
     """
     data = get_nodes_data()
 
