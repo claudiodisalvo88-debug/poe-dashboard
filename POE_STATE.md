@@ -542,3 +542,84 @@ PROSSIMO STEP CONSIGLIATO:
 verificare domani dashboard pubblica e KPI dopo backend sleep/wake.
 Poi aggiornare documentazione demo e preparare versione pitch/bando.
 
+---
+
+## AGGIORNAMENTO 2 MAGGIO 2026
+
+STATO BACKEND CLOUD DOPO VERIFICA:
+
+Backend Render attivo:
+
+https://poe-backend-roqn.onrender.com
+
+Dashboard pubblica attiva:
+
+https://poe-dashboard.streamlit.app
+
+Verifica effettuata:
+- backend online
+- internal_generator attivo su Render
+- log Render mostrano `[INTERNAL OK]` per NODE_01, NODE_02, NODE_03
+- `/kpi` cresce correttamente
+- `/history?limit=5` restituisce correttamente solo 5 record
+- database Render cresce senza Mac acceso
+
+Problema riscontrato:
+`/live` e `/history` inizialmente davano errore o restituivano storico troppo lungo/non leggibile.
+
+Cause tecniche:
+- `/history` restituiva tutto lo storico senza limite
+- `/live` tentava confronti su timestamp con formati diversi
+- il fix con parsing timestamp/timezone ha causato ancora errori su Render
+- soluzione finale: evitare confronto timestamp e usare l’ordine naturale dei record letti dal DB
+
+Fix finale applicato su `api.py`:
+- rimossa logica `_parse_timestamp`
+- rimossa logica `row_time`
+- aggiunte funzioni:
+  - `clean_value(value)`
+  - `clean_row(row)`
+- `/history` ora accetta:
+  - `limit: int = 100`
+- `/history?limit=5` verificato funzionante
+- `/live` ora usa ultimo record disponibile per ogni nodo senza confrontare timestamp
+
+Commit/fix logico:
+stabilizzazione endpoint live/history senza ordinamento timestamp.
+
+STATO ATTUALE BACKEND:
+
+- `/health` = ok
+- `/kpi` = ok e crescente
+- `/history?limit=5` = ok
+- `/ranking` = ok
+- `/ingest` = ok
+- `/live` = da verificare dopo ultimo deploy se restituisce 3 record NODE_01, NODE_02, NODE_03
+
+ARCHITETTURA ATTUALE CONFERMATA:
+
+Render backend FastAPI
+    ├── internal_generator.py attivo
+    ├── poe.db in crescita
+    ├── /kpi funzionante
+    ├── /history limitato funzionante
+    └── /live stabilizzato lato codice
+
+Streamlit Cloud dashboard
+    ↓
+https://poe-dashboard.streamlit.app
+
+NOTA OPERATIVA:
+Non serve più tenere acceso il Mac per generare dati demo.
+Il generatore interno Render produce dati autonomamente.
+
+ATTENZIONE:
+Render free instance può andare in sleep.
+Al primo accesso può servire attendere il risveglio backend.
+
+PROSSIMO STEP:
+1. Verificare definitivamente `/live?t=4001`.
+2. Verificare dashboard pubblica dopo fix backend.
+3. Se tutto è ok, passare alla documentazione demo.
+4. Preparare materiale pitch/bando.
+5. Non fare refactor o grafica finché il flusso demo non è marcato stabile.
