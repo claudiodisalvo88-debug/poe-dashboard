@@ -1,4 +1,6 @@
 import os
+from datetime import datetime
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -17,9 +19,11 @@ from services import (
 )
 from internal_generator import start_internal_generator
 
+
 APP_NAME = os.getenv("POE_APP_NAME", "Proof of Energy API")
 APP_VERSION = os.getenv("POE_APP_VERSION", "1.2.0")
 POE_CORS_ORIGINS = os.getenv("POE_CORS_ORIGINS", "*")
+
 
 app = FastAPI(
     title=APP_NAME,
@@ -27,7 +31,12 @@ app = FastAPI(
     version=APP_VERSION,
 )
 
-cors_origins = [origin.strip() for origin in POE_CORS_ORIGINS.split(",") if origin.strip()]
+
+cors_origins = [
+    origin.strip()
+    for origin in POE_CORS_ORIGINS.split(",")
+    if origin.strip()
+]
 
 app.add_middleware(
     CORSMiddleware,
@@ -37,6 +46,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 init_db()
 
 
@@ -45,13 +55,35 @@ def startup_event():
     start_internal_generator()
 
 
+def _parse_timestamp(value):
+    """
+    Converte timestamp ISO in datetime confrontabile.
+    Se il timestamp è vuoto o invalido, torna datetime.min.
+    Serve per evitare Internal Server Error su /live e /history.
+    """
+    if not value:
+        return datetime.min
+
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except Exception:
+        return datetime.min
+
+
 @app.get("/", tags=["System"])
 def home():
     return {
         "status": "ok",
         "service": APP_NAME,
         "version": APP_VERSION,
-        "endpoints": ["/health", "/live", "/history", "/kpi", "/ranking", "/ingest"]
+        "endpoints": [
+            "/health",
+            "/live",
+            "/history",
+            "/kpi",
+            "/ranking",
+            "/ingest",
+        ],
     }
 
 
@@ -73,23 +105,66 @@ def ingest(payload: NodeIngestPayload):
 
 @app.get("/live", tags=["Nodes"])
 def live():
+    """
+    Restituisce l'ultimo record valido per ogni nodo.
+
+    Output atteso:
+    [
+        {"timestamp": "...", "node_id": "NODE_01", "watt": ..., "energy_wh": ...},
+        {"timestamp": "...", "node_id": "NODE_02", "watt": ..., "energy_wh": ...},
+        {"timestamp": "...", "node_id": "NODE_03", "watt": ..., "energy_wh": ...}
+    ]
+    """
     data = get_nodes_data()
+
     if not data:
         return []
 
     latest_by_node = {}
 
     for row in data:
-        node_id = row["node_id"]
-        if node_id not in latest_by_node or row["timestamp"] > latest_by_node[node_id]["timestamp"]:
+        node_id = row.get("node_id")
+        timestamp = row.get("timestamp")
+
+        if not node_id or not timestamp:
+            continue
+
+        row_time = _parse_timestamp(timestamp)
+
+        if (
+            node_id not in latest_by_node
+            or row_time > _parse_timestamp(latest_by_node[node_id].get("timestamp"))
+        ):
             latest_by_node[node_id] = row
 
     return list(latest_by_node.values())
 
 
 @app.get("/history", tags=["Nodes"])
-def history():
-    return get_nodes_data()
+def history(limit: int = 100):
+    """
+    Restituisce gli ultimi N record ordinati dal più recente al più vecchio.
+
+    Esempio:
+    /history?limit=5
+    """
+    data = get_nodes_data()
+
+    if not data:
+        return []
+
+    clean_data = [
+        row for row in data
+        if row.get("timestamp") and row.get("node_id")
+    ]
+
+    sorted_data = sorted(
+        clean_data,
+        key=lambda row: _parse_timestamp(row.get("timestamp")),
+        reverse=True,
+    )
+
+    return sorted_data[:limit]
 
 
 @app.get("/kpi", tags=["Analytics"], response_model=SummaryResponse)
