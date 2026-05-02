@@ -1,5 +1,5 @@
 import os
-from datetime import datetime, timezone
+import math
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -55,24 +55,35 @@ def startup_event():
     start_internal_generator()
 
 
-def _parse_timestamp(value):
+def clean_value(value):
     """
-    Converte timestamp ISO in datetime sempre timezone-aware UTC.
-    Evita errori tra datetime offset-naive e offset-aware.
+    Rende i valori sicuri per JSON.
+    Evita errori con NaN, inf, timestamp o tipi non standard.
     """
-    if not value:
-        return datetime.min.replace(tzinfo=timezone.utc)
+    if value is None:
+        return None
 
-    try:
-        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    if isinstance(value, float):
+        if math.isnan(value) or math.isinf(value):
+            return None
+        return value
 
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=timezone.utc)
+    return value
 
-        return parsed
 
-    except Exception:
-        return datetime.min.replace(tzinfo=timezone.utc)
+def clean_row(row):
+    """
+    Pulisce una riga prima della risposta API.
+    """
+    cleaned = {}
+
+    for key, value in row.items():
+        if key == "timestamp":
+            cleaned[key] = str(value)
+        else:
+            cleaned[key] = clean_value(value)
+
+    return cleaned
 
 
 @app.get("/", tags=["System"])
@@ -111,7 +122,9 @@ def ingest(payload: NodeIngestPayload):
 @app.get("/live", tags=["Nodes"])
 def live():
     """
-    Restituisce l'ultimo record valido per ogni nodo.
+    Restituisce l'ultimo record disponibile per ogni nodo.
+    Usa l'ordine naturale dei dati letti dal DB.
+    Non confronta timestamp, quindi evita errori timezone/formato.
     """
     data = get_nodes_data()
 
@@ -122,18 +135,11 @@ def live():
 
     for row in data:
         node_id = row.get("node_id")
-        timestamp = row.get("timestamp")
 
-        if not node_id or not timestamp:
+        if not node_id:
             continue
 
-        row_time = _parse_timestamp(timestamp)
-
-        if (
-            node_id not in latest_by_node
-            or row_time > _parse_timestamp(latest_by_node[node_id].get("timestamp"))
-        ):
-            latest_by_node[node_id] = row
+        latest_by_node[node_id] = clean_row(row)
 
     return list(latest_by_node.values())
 
@@ -141,10 +147,8 @@ def live():
 @app.get("/history", tags=["Nodes"])
 def history(limit: int = 100):
     """
-    Restituisce gli ultimi N record ordinati dal più recente al più vecchio.
-
-    Esempio:
-    /history?limit=5
+    Restituisce gli ultimi N record disponibili.
+    Usa la coda della lista dati, senza ordinamento timestamp.
     """
     data = get_nodes_data()
 
@@ -152,17 +156,12 @@ def history(limit: int = 100):
         return []
 
     clean_data = [
-        row for row in data
+        clean_row(row)
+        for row in data
         if row.get("timestamp") and row.get("node_id")
     ]
 
-    sorted_data = sorted(
-        clean_data,
-        key=lambda row: _parse_timestamp(row.get("timestamp")),
-        reverse=True,
-    )
-
-    return sorted_data[:limit]
+    return list(reversed(clean_data[-limit:]))
 
 
 @app.get("/kpi", tags=["Analytics"], response_model=SummaryResponse)
