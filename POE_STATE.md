@@ -623,3 +623,60 @@ PROSSIMO STEP:
 3. Se tutto è ok, passare alla documentazione demo.
 4. Preparare materiale pitch/bando.
 5. Non fare refactor o grafica finché il flusso demo non è marcato stabile.
+---
+
+## AGGIORNAMENTO 2 MAGGIO 2026 — VERIFICA DASHBOARD PUBBLICA
+
+Dashboard pubblica verificata:
+
+https://poe-dashboard.streamlit.app
+
+Esito verifica:
+- dashboard si apre correttamente
+- nessun errore rosso visibile
+- sidebar funzionante
+- auto refresh attivo
+- backend collegato a:
+  https://poe-backend-roqn.onrender.com
+- KPI visibili:
+  - energia totale
+  - potenza media
+  - nodi attivi
+  - ultimo update
+- stato sistema visibile:
+  - Health backend = HEALTHY
+  - Qualità rete = STABILE
+  - Top node visibile
+  - record raccolti visibili
+- grafici visibili:
+  - andamento potenza nel tempo
+  - energia per nodo
+- sezioni operative visibili:
+  - Trend rete
+  - Ranking nodi
+  - Dataset
+
+STATO FINALE MVP CLOUD:
+
+Proof of Energy MVP cloud verificato end-to-end.
+
+Flusso confermato:
+
+internal_generator.py su Render
+    ↓
+poe.db su backend Render
+    ↓
+API FastAPI Render
+    ↓
+Dashboard Streamlit Cloud pubblica
+
+Conclusione:
+Il Mac locale non è più necessario per generare dati demo.
+La dashboard pubblica legge dati dal backend Render.
+Il backend genera dati autonomamente tramite internal_generator.py.
+
+STATO PROGETTO:
+MVP cloud demo pronto per documentazione, pitch e bando.
+
+PROSSIMO STEP:
+preparare documentazione demo, executive summary e materiale bando.
