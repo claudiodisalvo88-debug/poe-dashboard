@@ -86,3 +86,21 @@ Cronologia sintetica modifiche PoE.
 - /history?limit=5 ok
 - /ranking ok
 - records verificati: 46189
+
+
+---
+
+## 5 maggio 2026 - chiusura setup strumenti AI locali
+
+- Confermato LM Studio non utilizzabile su Mac Intel.
+- Confermato Ollama installato e funzionante.
+- Confermati modelli Ollama:
+  - qwen2.5-coder:1.5b
+  - llama3.2:1b
+- Confermato qwen2.5-coder:1.5b come modello locale principale.
+- Testato OpenCode via npm:
+  - npm install -g opencode-ai
+  - opencode --version
+- OpenCode fallisce ancora con:
+  zsh: illegal hardware instruction
+- Decisione: OpenCode escluso dall'ambiente Mac Intel.

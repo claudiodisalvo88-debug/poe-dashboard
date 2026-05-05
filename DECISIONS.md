@@ -85,3 +85,27 @@ Nuova struttura:
 - CHANGELOG.md = cronologia modifiche
 - ARCHITECTURE.md = architettura tecnica
 - BANDO.md = parte documentale/bando
+
+
+---
+
+## Decisione 5 maggio 2026 - chiusura test strumenti AI locali su Mac Intel
+
+LM Studio viene scartato su Mac Intel perché non compatibile con l'hardware disponibile.
+
+Ollama resta lo strumento AI locale operativo.
+Il modello principale per task tecniche leggere è:
+
+qwen2.5-coder:1.5b
+
+OpenCode viene scartato su Mac Intel dopo doppio fallimento:
+1. installazione tramite script ufficiale
+2. installazione tramite npm install -g opencode-ai
+
+Entrambe le strade producono:
+
+zsh: illegal hardware instruction
+
+Conclusione:
+OpenCode non è parte dell'ambiente operativo Mac attuale.
+Potrà essere rivalutato su Dell/Linux dopo SSD.

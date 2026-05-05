@@ -90,3 +90,30 @@ Installato python-docx e rigenerati i documenti.
 
 Stato:
 Risolto.
+
+
+---
+
+## Errore 5 maggio 2026 - OpenCode illegal hardware instruction su Mac Intel
+
+Contesto:
+Mac Intel x86_64.
+
+Errore:
+zsh: illegal hardware instruction
+
+Quando avviene:
+- dopo installazione script ufficiale OpenCode
+- dopo installazione npm install -g opencode-ai
+- al comando opencode --version
+
+Causa probabile:
+incompatibilità del binario/runtime con Mac Intel.
+
+Fix applicato:
+nessun fix operativo conveniente.
+
+Decisione:
+scartare OpenCode su Mac Intel.
+Non bloccare PoE per questo errore.
+Rimandare eventuale test a Dell/Linux dopo SSD.

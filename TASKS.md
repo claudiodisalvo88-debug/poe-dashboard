@@ -68,3 +68,29 @@ Ordine:
 
 Obiettivo:
 costruire PoE Operating System con agenti locali e memoria operativa.
+
+
+---
+
+## Aggiornamento 5 maggio 2026 - strumenti AI locali
+
+Stato strumenti AI locali su Mac Intel:
+
+- LM Studio: scartato perché su macOS richiede Apple Silicon.
+- Ollama: installato e funzionante.
+- Modelli disponibili:
+  - qwen2.5-coder:1.5b
+  - llama3.2:1b
+- Modello operativo principale:
+  - qwen2.5-coder:1.5b
+- OpenCode: scartato su Mac Intel.
+  - script ufficiale installato ma fallisce con:
+    zsh: illegal hardware instruction
+  - installazione via npm completata, ma opencode --version fallisce con lo stesso errore.
+
+Decisione operativa:
+non perdere altro tempo su OpenCode nel Mac Intel.
+Riprovare OpenCode solo su Dell/Linux dopo upgrade SSD.
+
+Priorità successiva:
+passare alla documentazione demo/bando senza modificare codice, deploy o dashboard.

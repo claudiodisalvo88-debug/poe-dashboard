@@ -114,10 +114,13 @@ TASK 2:
 passare alla documentazione demo/bando.
 
 TASK 3:
-installare strumenti AI locali:
-1. LM Studio
-2. Ollama
-3. OpenCode
+strumenti AI locali chiusi su Mac Intel:
+1. LM Studio scartato
+2. Ollama installato e funzionante
+3. OpenCode scartato su Mac Intel per errore illegal hardware instruction
+
+Prossimo focus:
+documentazione demo/bando
 
 ---
 
