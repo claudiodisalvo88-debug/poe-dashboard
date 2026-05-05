@@ -128,3 +128,48 @@ Sezioni già preparate:
 
 Prossima priorità:
 trasformare TESTI_ALLEGATO_10_POE.md in schema incollabile dentro il file Word Allegato 10, rispettando i limiti caratteri delle singole sezioni.
+
+---
+
+## Aggiornamento 5 maggio 2026 - Allegato 10 compilazione campi
+
+Creato e completato il file operativo:
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/ALLEGATO_10_COMPILAZIONE_CAMPI_POE.md`
+
+Funzione:
+trasformare i testi PoE in blocchi pronti da copiare nel modulo Word Allegato 10, rispettando i limiti caratteri delle sezioni.
+
+Sezioni completate:
+- coerenza RIS3 Molise
+- sviluppo sperimentale
+- industrializzazione risultati
+- E.1 soluzioni tecniche/organizzative innovative
+- E.1 ampliamento target utenza
+- E.1 prodotti-servizi innovativi
+- E.1 innovazione sociale/ambientale
+- E.2 economia digitale
+- descrizione programma investimento
+- capacità tecniche
+- assetti tecnico-produttivi
+- struttura organizzativa
+- fattibilità tecnica
+- collaborazioni
+- normativa/autorizzazioni
+- sostenibilità economico-finanziaria
+- criteri costi
+- clientela
+- mercato
+- concorrenza
+- vantaggio competitivo
+- innovazione e ripetibilità
+- marketing
+- grado sviluppo prodotto
+- prezzo
+- canali vendita
+- strategie promozionali
+- obiettivi ricavi
+- scalabilità
+- indicatori risultato
+
+Prossima priorità:
+verificare limiti caratteri e poi iniziare Allegato 3 preventivi.
