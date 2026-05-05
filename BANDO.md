@@ -92,3 +92,39 @@ Prossima priorità:
 3. compilare Allegato 3 preventivi
 4. preparare Allegato 5 DNSH
 5. aggiornare documenti Word finali
+
+---
+
+## Aggiornamento 5 maggio 2026 - testi Allegato 10
+
+Creato e ampliato:
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/TESTI_ALLEGATO_10_POE.md`
+
+Sezioni già preparate:
+- titolo progetto
+- ambiti RIS3 Molise
+- coerenza RIS3
+- sviluppo sperimentale
+- industrializzazione risultati
+- oggetto iniziativa
+- economia digitale
+- descrizione programma investimento
+- capacità tecniche
+- assetti tecnico-produttivi
+- struttura organizzativa
+- fattibilità tecnica
+- clientela
+- mercato
+- concorrenza
+- vantaggio competitivo
+- innovazione e ripetibilità
+- marketing
+- grado sviluppo prodotto
+- obiettivi ricavi
+- canali commerciali
+- strategie promozionali
+- scalabilità
+- indicatori di risultato
+
+Prossima priorità:
+trasformare TESTI_ALLEGATO_10_POE.md in schema incollabile dentro il file Word Allegato 10, rispettando i limiti caratteri delle singole sezioni.
