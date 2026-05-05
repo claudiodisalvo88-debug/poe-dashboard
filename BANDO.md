@@ -201,3 +201,58 @@ non compilare il numero scheda DNSH finché non viene verificato da fonte uffici
 
 Prossima priorità:
 procedere con Allegato 3 / preventivi / piano spese, lasciando DNSH come punto aperto controllato.
+
+---
+
+## Aggiornamento 5 maggio 2026 - chiusura sessione bando
+
+Percorso candidatura scelto:
+società da costituire.
+
+Cartella file ufficiali bando e allegati:
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/file_bando_e_allegati`
+
+Cartella file leggibili dagli agenti:
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable`
+
+File agent-readable creati o aggiornati:
+- ALLEGATO_10_Modulo_di_domanda_società_da_costituire_e_piano_d’impresa.md
+- ALLEGATO_10_SCHEMA_COMPILAZIONE_POE.md
+- CHECKLIST_CANDIDATURA_SOCIETA_DA_COSTITUIRE.md
+- TESTI_ALLEGATO_10_POE.md
+- ALLEGATO_10_COMPILAZIONE_CAMPI_POE.md
+- PIANO_SPESE_POE.md
+- PREVENTIVI_DA_RICHIEDERE_POE.md
+- ALLEGATO_3_SCHEMA_COMPILAZIONE_POE.md
+- ALLEGATO_4_SCHEMA_FORNITORI_CONSULENZA_POE.md
+- ALLEGATO_5_SCHEMA_DNSH_POE.md
+
+Stato Allegato 10:
+mappato, testi principali preparati, campi compilabili creati, verifica limiti caratteri positiva.
+
+Stato Allegato 3:
+schema preventivi creato.
+Non chiudibile finché non arrivano preventivi reali.
+
+Stato Allegato 4:
+schema fornitori consulenza creato.
+Richiede fornitori esterni con P. IVA, almeno 3 anni esperienza e consulenze similari pari ad almeno 3 volte il valore della consulenza proposta.
+
+Stato Allegato 5 DNSH:
+schema creato.
+Numero scheda DNSH ancora da verificare.
+Non compilare il numero scheda finché non viene trovato il documento ufficiale:
+`Verifica-DNSH_Allegato-Rapporto-Ambientale_PR_21-27`
+
+Prossima fase:
+richiedere preventivi reali ai fornitori per:
+1. sviluppo software backend/API/dashboard
+2. cloud/database/security
+3. smart meter/sensori/nodo fisico
+4. consulenza IoT/energia
+5. UX/UI dashboard
+6. eventuale IP/know-how/marchio
+7. eventuale supporto documentazione tecnica e rendicontazione
+
+Nota:
+senza preventivi reali Allegato 3 e piano spese restano bozze interne.
