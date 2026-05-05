@@ -109,3 +109,34 @@ zsh: illegal hardware instruction
 Conclusione:
 OpenCode non è parte dell'ambiente operativo Mac attuale.
 Potrà essere rivalutato su Dell/Linux dopo SSD.
+
+## Decisione — Sistema agenti PoE
+
+Data: 2026-05-05
+
+PoE userà un sistema operativo basato su agenti specializzati.
+
+Agenti definiti:
+- PM Agent
+- Tech Agent
+- Bando Agent
+- Fornitori Agent
+- Pitch Agent
+- QA/Verifier Agent
+- Memory Agent
+
+Regole principali:
+- POE_STATE.md resta la fonte unica di verità.
+- POE_STATE.md non deve diventare enorme.
+- I dettagli vanno nei file modulari.
+- Ogni agente legge solo i file coerenti con il proprio ruolo.
+- Ogni output deve indicare dove va salvato.
+- QA Agent controlla claim, incoerenze e rischi.
+- Memory Agent decide cosa aggiornare nei file.
+- Per i preventivi vale la regola: fornitore competente > fornitore locale; preventivo tecnico > preventivo generico; fase 1 concreta > richiesta vaga per bando.
+
+File di riferimento:
+- AGENTS.md
+- TASKS.md
+- BANDO.md
+- PREVENTIVI_DA_RICHIEDERE_POE.md

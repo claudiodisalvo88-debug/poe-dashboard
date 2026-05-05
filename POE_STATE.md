@@ -145,3 +145,28 @@ Questo non blocca la demo, ma va ricordato in presentazione.
 ## Regola madre
 
 STATO → VERIFICA → MEMORIA → STRUMENTI → CODICE
+
+## Aggiornamento — Sistema agenti PoE
+
+Data: 2026-05-05
+
+Creato file AGENTS.md con struttura del PoE Operating System.
+
+Agenti definiti:
+- PM Agent
+- Tech Agent
+- Bando Agent
+- Fornitori Agent
+- Pitch Agent
+- QA/Verifier Agent
+- Memory Agent
+
+Regola operativa:
+ogni sessione PoE parte da POE_STATE.md e dichiara l'agente attivo.
+
+Per i preventivi bando:
+- fornitore competente > fornitore locale
+- preventivo tecnico > preventivo generico
+- fase 1 concreta > richiesta vaga per bando
+
+Dettagli completi in AGENTS.md.
