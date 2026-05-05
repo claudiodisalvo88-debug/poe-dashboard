@@ -319,4 +319,40 @@ Tabella preventivi con stato:
 
 ### Criterio di completamento
 Almeno 3 preventivi credibili classificati e inseribili nella documentazione bando.
+## Task — Shortlist fornitori seri per preventivi PoE
 
+Stato: aperta  
+Priorità: alta  
+Agente: FORNITORI AGENT
+
+### Obiettivo
+Ottenere preventivi tecnici reali per la Fase 1 di Proof of Energy, evitando fornitori generici e richieste vaghe da bando.
+
+### Regola operativa
+- Fornitore competente > fornitore locale
+- Preventivo tecnico > preventivo generico
+- Fase 1 concreta > richiesta vaga per bando
+
+### Fornitori primo giro
+1. CodeBaker — software/API/IoT — info@codebaker.it
+2. NEXETA — IoT/energy monitoring — info@nexeta.com
+3. Electrex — energy monitoring/API/MQTT — info@electrex.it
+4. Energy Wave — monitoring/consulenza — monitoring@energywave.it / consulting@energywave.it
+5. Eurek — hardware/gateway/nodo fisico — info@eurek.it
+6. Holonix — IoT/data platform — info@holonix.it / commerciale@holonix.it
+
+### Azioni operative
+1. Inviare email mirate ai primi 6 fornitori.
+2. Tracciare risposte ricevute.
+3. Classificare ogni risposta come: valida, da correggere, non adatta.
+4. Mappare ogni preventivo ricevuto su voce spesa bando.
+5. Aggiornare PREVENTIVI_DA_RICHIEDERE_POE.md e PIANO_SPESE_POE.md.
+
+### Output atteso
+Almeno 3 preventivi credibili:
+- 1 software/API;
+- 1 IoT/smart meter;
+- 1 consulenza energy monitoring/cloud.
+
+### Criterio di completamento
+Task completata quando almeno 3 preventivi tecnici reali sono disponibili e mappati nel piano spese PoE.
