@@ -173,3 +173,31 @@ Sezioni completate:
 
 Prossima priorità:
 verificare limiti caratteri e poi iniziare Allegato 3 preventivi.
+
+---
+
+## Aggiornamento 5 maggio 2026 - Allegato 5 DNSH
+
+Creato schema operativo:
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/ALLEGATO_5_SCHEMA_DNSH_POE.md`
+
+Stato Allegato 5:
+- modulo DNSH letto
+- percorso società da costituire confermato
+- firma digitale richiesta da tutte le persone fisiche
+- linea DNSH PoE impostata come progetto prevalentemente digitale/cloud/software
+- hardware previsto solo per test pilota con smart meter/sensori
+- escluse attività fossili, ETS problematiche, discariche, inceneritori, trattamento rifiuti e attività ad alto impatto
+
+Punto aperto:
+numero scheda DNSH da indicare nel modulo.
+
+Esito ricerca locale:
+nella cartella documenti_bando non è presente il documento:
+`Verifica-DNSH_Allegato-Rapporto-Ambientale_PR_21-27`
+
+Decisione:
+non compilare il numero scheda DNSH finché non viene verificato da fonte ufficiale.
+
+Prossima priorità:
+procedere con Allegato 3 / preventivi / piano spese, lasciando DNSH come punto aperto controllato.
