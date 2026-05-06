@@ -287,3 +287,21 @@ Regola confermata:
 
 Prossimo passo:
 monitorare risposte fornitori e trasformare eventuali risposte in preventivi coerenti con Allegato 3 e piano spese PoE.
+---
+
+## Aggiornamento controllo preventivi — 6 maggio 2026
+
+Creato schema di controllo risposte fornitori nel file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/PREVENTIVI_DA_RICHIEDERE_POE.md`
+
+Aggiunti:
+
+- tabella controllo risposte fornitori;
+- criteri per distinguere preventivi buoni, deboli o da scartare;
+- domande da fare ai fornitori;
+- struttura ideale del preventivo Fase 1 PoE;
+- range economici attesi per area.
+
+Obiettivo:
+evitare preventivi generici e ottenere documenti tecnici coerenti con MVP, Allegato 3, piano spese e candidatura bando.
