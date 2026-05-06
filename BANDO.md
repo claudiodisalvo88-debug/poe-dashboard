@@ -256,3 +256,34 @@ richiedere preventivi reali ai fornitori per:
 
 Nota:
 senza preventivi reali Allegato 3 e piano spese restano bozze interne.
+---
+
+## Aggiornamento preventivi fornitori — 6 maggio 2026
+
+Primo giro fornitori avviato.
+
+Email inviate: 4
+
+Fornitori contattati:
+- Nexeta
+- Codebaker
+- Astrorei
+- Higeco Energy
+
+Stato:
+- almeno un ticket / presa in carico ricevuta
+- in attesa di risposte tecniche o commerciali
+
+File operativo aggiornato:
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/PREVENTIVI_DA_RICHIEDERE_POE.md`
+
+Sezione aggiunta:
+`Stato contatti fornitori — 6 maggio 2026`
+
+Regola confermata:
+- fornitore competente > fornitore locale
+- preventivo tecnico > preventivo generico
+- fase 1 concreta > richiesta vaga per bando
+
+Prossimo passo:
+monitorare risposte fornitori e trasformare eventuali risposte in preventivi coerenti con Allegato 3 e piano spese PoE.
