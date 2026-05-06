@@ -305,3 +305,25 @@ Aggiunti:
 
 Obiettivo:
 evitare preventivi generici e ottenere documenti tecnici coerenti con MVP, Allegato 3, piano spese e candidatura bando.
+---
+
+## Aggiornamento Allegato 3 — schema valutazione preventivi
+
+Data: 6 maggio 2026
+
+Aggiornato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/ALLEGATO_3_SCHEMA_COMPILAZIONE_POE.md`
+
+Aggiunto schema per:
+
+- raccolta preventivi ricevuti;
+- classificazione preventivi Classe A/B/C/D;
+- verifica coerenza con Proof of Energy;
+- verifica coerenza con piano spese;
+- collegamento tra aree tecniche e voci di spesa;
+- domande da fare ai fornitori in caso di preventivi incompleti;
+- oggetti consigliati per preventivi software/cloud/IoT.
+
+Obiettivo:
+preparare la trasformazione dei preventivi ricevuti in voci utilizzabili per Allegato 3 e candidatura bando.
