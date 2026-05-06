@@ -382,3 +382,30 @@ Controlli percentuali interni:
 
 Decisione:
 aumentato il peso della voce software/hardware, ridotta la voce personale e resa la bozza più coerente con MVP, Allegato 10 e preventivi richiesti.
+
+
+---
+
+## Aggiornamento dati società da costituire — 6 maggio 2026
+
+Creato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/DATI_SOCIETA_DA_COSTITUIRE_POE.md`
+
+Obiettivo:
+raccogliere i dati necessari per completare la candidatura PoE come società da costituire.
+
+Dati ancora da definire:
+
+- dati anagrafici soggetto proponente;
+- eventuali soci;
+- quote partecipazione;
+- amministratore;
+- sede operativa in Molise;
+- capitale sociale;
+- PEC per invio candidatura;
+- fonte copertura finanziaria;
+- eventuale maggiorazione contributo richiedibile.
+
+Decisione operativa:
+senza questi dati Allegato 10 e domanda di candidatura non sono compilabili in forma definitiva.
