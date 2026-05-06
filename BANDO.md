@@ -347,3 +347,38 @@ Modifiche effettuate:
 
 Obiettivo:
 rendere Allegato 10 più concreto, coerente con MVP già online, più forte su transizione energetica, industrializzazione, piano spese, indicatori e candidatura bando.
+
+
+---
+
+## Aggiornamento piano spese PoE — 6 maggio 2026
+
+Aggiornato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/PIANO_SPESE_POE.md`
+
+Piano spese rivisto in versione più prudente e coerente con il progetto Proof of Energy.
+
+Totale investimento: 90.000 euro.
+
+Ripartizione aggiornata:
+
+- a) Attrezzature tecnologiche: 10.000 euro
+- b) Componenti hardware e software: 28.000 euro
+- c) Certificazioni / brevetti / know-how: 5.000 euro
+- d) Consulenze specialistiche: 19.000 euro
+- e) Altri costi di esercizio: 8.000 euro
+- f) Personale: 15.000 euro
+- g) Costi indiretti: 5.000 euro
+
+Controlli percentuali interni:
+
+- base a+b+c: 43.000 euro
+- limite consulenze specialistiche 50%: 21.500 euro
+- consulenze previste: 19.000 euro
+- limite altri costi di esercizio 20%: 8.600 euro
+- altri costi previsti: 8.000 euro
+- costi indiretti previsti: 5.000 euro
+
+Decisione:
+aumentato il peso della voce software/hardware, ridotta la voce personale e resa la bozza più coerente con MVP, Allegato 10 e preventivi richiesti.
