@@ -437,3 +437,27 @@ non inserire alcun numero scheda finché non viene trovato il documento ufficial
 
 Decisione:
 Allegato 5 resta compilabile nella parte descrittiva, ma formalmente aperto sul numero scheda DNSH.
+
+
+---
+
+## Aggiornamento previsioni economiche triennali — 6 maggio 2026
+
+Creato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/PREVISIONI_ECONOMICHE_3_ANNI_POE.md`
+
+Obiettivo:
+costruire una previsione economica triennale coerente con piano spese, Allegato 10, modello SaaS e candidatura bando.
+
+Sintesi previsioni:
+
+- Anno 1: ricavi stimati 7.000 euro, costi stimati 63.000 euro, risultato -56.000 euro;
+- Anno 2: ricavi stimati 37.000 euro, costi stimati 40.000 euro, risultato -3.000 euro;
+- Anno 3: ricavi stimati 87.000 euro, costi stimati 56.000 euro, risultato +31.000 euro.
+
+Logica:
+primo anno dedicato a sviluppo e validazione, secondo anno a primi clienti e ricavi ricorrenti, terzo anno a scalabilità e margine operativo positivo.
+
+Stato:
+bozza interna pronta, da verificare con preventivi reali e piano economico definitivo.
