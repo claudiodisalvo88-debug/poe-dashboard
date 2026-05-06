@@ -461,3 +461,26 @@ primo anno dedicato a sviluppo e validazione, secondo anno a primi clienti e ric
 
 Stato:
 bozza interna pronta, da verificare con preventivi reali e piano economico definitivo.
+
+
+---
+
+## Aggiornamento dati società da costituire — ipotesi operative
+
+Data: 6 maggio 2026
+
+Aggiornato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/DATI_SOCIETA_DA_COSTITUIRE_POE.md`
+
+Ipotesi operative non sensibili impostate:
+
+- società da costituire con Claudio Di Salvo come fondatore/proponente principale;
+- quota ipotizzata 100% Claudio Di Salvo, salvo ingresso successivo di soci tecnici o finanziari;
+- amministratore ipotizzato: Claudio Di Salvo;
+- capitale sociale ipotizzato: 10.000 euro, da verificare con commercialista/notaio;
+- sede operativa in Molise: indirizzo da definire;
+- cofinanziamento: mezzi propri, capitale sociale e/o finanziamento soci da documentare.
+
+Restano da compilare offline:
+dati anagrafici, codice fiscale, documento identità, residenza, PEC, indirizzo sede e fonte copertura finanziaria documentata.
