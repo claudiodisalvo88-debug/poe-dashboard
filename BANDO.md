@@ -327,3 +327,23 @@ Aggiunto schema per:
 
 Obiettivo:
 preparare la trasformazione dei preventivi ricevuti in voci utilizzabili per Allegato 3 e candidatura bando.
+
+
+---
+
+## Aggiornamento Allegato 10 — rafforzamento testi bando
+
+Data: 6 maggio 2026
+
+Aggiornato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/ALLEGATO_10_COMPILAZIONE_CAMPI_POE.md`
+
+Modifiche effettuate:
+
+- rafforzate sezioni 1-8: RIS3 Molise, sviluppo sperimentale, industrializzazione, innovazione E.1, target utenza, prodotto-servizio innovativo, bisogni ambientali, economia digitale;
+- completata sezione 17: criteri utilizzati per la definizione dei costi;
+- rafforzata sezione 30: indicatori di risultato tecnici, commerciali, economici e occupazionali.
+
+Obiettivo:
+rendere Allegato 10 più concreto, coerente con MVP già online, più forte su transizione energetica, industrializzazione, piano spese, indicatori e candidatura bando.
