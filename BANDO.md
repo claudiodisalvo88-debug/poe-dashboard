@@ -409,3 +409,31 @@ Dati ancora da definire:
 
 Decisione operativa:
 senza questi dati Allegato 10 e domanda di candidatura non sono compilabili in forma definitiva.
+
+
+---
+
+## Aggiornamento DNSH / Allegato 5 — 6 maggio 2026
+
+Verificato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/ALLEGATO_5_SCHEMA_DNSH_POE.md`
+
+Stato:
+schema DNSH PoE pronto nella parte descrittiva.
+
+Contenuto già impostato:
+
+- PoE qualificato come progetto prevalentemente digitale, software e cloud;
+- escluse attività connesse a combustibili fossili, ETS rilevanti, discariche, inceneritori, trattamento meccanico-biologico rifiuti, produzione industriale pesante e impatti ambientali diretti rilevanti;
+- indicata integrazione hardware limitata a smart meter, sensori o nodi fisici per test pilota;
+- definite misure operative DNSH: hardware proporzionato, dispositivi conformi, corretta gestione fine vita, documentazione tecnica fornitori.
+
+Punto aperto critico:
+numero scheda DNSH ufficiale da indicare nel modulo Allegato 5.
+
+Nota:
+non inserire alcun numero scheda finché non viene trovato il documento ufficiale `Verifica-DNSH_Allegato-Rapporto-Ambientale_PR_21-27` o una fonte certa relativa all’Azione 1.1.3.
+
+Decisione:
+Allegato 5 resta compilabile nella parte descrittiva, ma formalmente aperto sul numero scheda DNSH.
