@@ -484,3 +484,36 @@ Ipotesi operative non sensibili impostate:
 
 Restano da compilare offline:
 dati anagrafici, codice fiscale, documento identità, residenza, PEC, indirizzo sede e fonte copertura finanziaria documentata.
+
+
+---
+
+## Aggiornamento checklist candidatura — 6 maggio 2026
+
+Aggiornato file operativo:
+
+`/Users/franco/Desktop/POE_MASTER/documenti_bando/agent_readable/CHECKLIST_CANDIDATURA_SOCIETA_DA_COSTITUIRE.md`
+
+La checklist è stata trasformata in checklist operativa con stati:
+
+- FATTO
+- PARZIALE
+- IN ATTESA
+- DA FARE
+- BLOCCANTE
+- DOPO AMMISSIONE
+
+Stato sintetico:
+il fascicolo PoE è strutturato e avanzato. La parte narrativa, tecnica, economica e strategica è quasi pronta.
+
+Bloccanti attuali:
+
+1. numero scheda DNSH ufficiale;
+2. preventivi reali fornitori;
+3. PEC da usare;
+4. sede operativa Molise;
+5. fonte documentabile del cofinanziamento;
+6. dati personali/documenti da compilare offline.
+
+Prossima priorità:
+monitorare risposte fornitori e verificare numero scheda DNSH ufficiale.
