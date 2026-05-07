@@ -517,3 +517,110 @@ Bloccanti attuali:
 
 Prossima priorità:
 monitorare risposte fornitori e verificare numero scheda DNSH ufficiale.
+
+---
+
+## AGGIORNAMENTO 7 MAGGIO 2026 — CHIARIMENTI BANDO E FORNITORI
+
+### Richiesta chiarimenti a Infobandi
+
+È stata inviata email a:
+
+`infobandi@sviluppoitaliamolise.it`
+
+Finalità:
+richiedere chiarimenti ufficiali sulla compilazione dei moduli e degli allegati del bando.
+
+Stato:
+- richiesta inviata
+- risposta non ancora ricevuta
+
+Impatto operativo:
+alcuni aspetti formali della candidatura restano da confermare prima della compilazione finale.
+
+Punti da verificare con risposta ufficiale:
+- modalità corretta di compilazione moduli
+- eventuale compilazione digitale o manuale
+- firme richieste
+- allegati obbligatori
+- modalità corretta di presentazione della domanda
+- eventuali chiarimenti su società da costituire
+- eventuali chiarimenti su Allegato 3, Allegato 5 DNSH e Allegato 10
+
+Decisione:
+non chiudere la versione finale della candidatura finché non viene ricevuta risposta o finché non viene confermata la procedura da fonte ufficiale.
+
+### Stato preventivi fornitori
+
+Fornitori già contattati:
+- Nexeta
+- Codebaker / CDBKR
+- Astrorei
+- Higeco Energy
+
+Stato generale:
+- contatti avviati
+- call conoscitiva effettuata con Codebaker
+- call Astrorei già fissata
+- preventivi formali non ancora ricevuti
+
+### Codebaker / CDBKR
+
+Call conoscitiva effettuata.
+
+Valutazione:
+Codebaker sembra coerente con il fabbisogno PoE perché ha ragionato su architettura, mantenibilità, specifiche, documentazione, IoT e possibile uso di MQTT, non solo su sviluppo web generico.
+
+Punto emerso:
+il MVP attuale è una proof-of-flow rapida, utile per validare il flusso dati → API → database → KPI → dashboard, ma richiede una fase professionale di analisi tecnica e consolidamento.
+
+Decisione:
+richiedere a Codebaker una proposta/preventivo per una fase 1 di analisi tecnica e architetturale.
+
+Email follow-up:
+preparata ma non inviata oggi.
+
+Motivo:
+evitare pressione subito dopo la call.
+
+Invio previsto:
+domani, dopo verifica rapida di dashboard pubblica, /health e /kpi.
+
+### Perimetro preventivo richiesto a Codebaker
+
+La proposta dovrà possibilmente includere:
+
+- analisi architettura attuale
+- valutazione backend/API/database
+- valutazione dashboard/KPI/ranking
+- analisi criticità tecniche
+- proposta architettura futura
+- separazione componenti IoT/backend/database/cloud/dashboard
+- valutazione evoluzione verso smart meter/nodi fisici
+- possibile architettura MQTT
+- roadmap tecnica per fasi
+- deliverable della fase 1
+- tempi
+- costo
+- utilità del lavoro anche per candidatura/bando
+
+### Stato bloccanti bando aggiornato
+
+Bloccanti ancora aperti:
+1. numero scheda DNSH ufficiale
+2. preventivi reali fornitori
+3. risposta Infobandi su compilazione moduli/allegati
+4. PEC da usare
+5. sede operativa Molise
+6. fonte documentabile del cofinanziamento
+7. dati personali/documenti da compilare offline
+
+### Prossime azioni bando
+
+1. Attendere risposta Infobandi.
+2. Verificare dashboard/backend domani.
+3. Inviare follow-up Codebaker.
+4. Preparare call Astrorei.
+5. Valutare eventuali risposte da Nexeta, Higeco Energy e altri fornitori.
+6. Inserire solo preventivi reali nell’Allegato 3.
+7. Non chiudere candidatura finale finché restano aperti DNSH, preventivi e chiarimenti formali.
