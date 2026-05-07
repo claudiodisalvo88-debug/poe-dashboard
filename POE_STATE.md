@@ -393,3 +393,75 @@ Per la fase bando, ogni ripresa deve partire da:
 
 Non creare nuovi file se esiste già un file operativo adatto.
 Non modificare codice tecnico finché MVP cloud resta stabile.
+
+---
+
+## AGGIORNAMENTO 7 MAGGIO 2026 — CALL CODEBAKER / CDBKR
+
+Effettuata call conoscitiva con Codebaker / CDBKR per Proof of Energy.
+
+Obiettivo della call: qualificare Codebaker come possibile partner tecnico per consolidamento MVP, architettura, backend/API/database, dashboard, cloud, sicurezza e futura parte IoT/smart meter.
+
+Esito sintetico:
+la call è stata positiva. Codebaker non ha trattato PoE come semplice sito web o dashboard, ma come progetto tecnico da analizzare prima di sviluppare ulteriormente.
+
+Punto importante emerso:
+Codebaker ha rilevato che il MVP attuale è nato con approccio rapido e anche tramite strumenti AI. Questo non viene considerato un problema se posizionato correttamente come proof-of-flow, ma implica la necessità di una fase professionale di analisi, specifiche, architettura, documentazione e consolidamento.
+
+Frase guida:
+Il MVP è nato come proof-of-flow rapida, anche con strumenti AI, per validare dati → API → database → KPI → dashboard. Ora l’obiettivo è trasformarlo in una base tecnica mantenibile e professionale.
+
+Indicazione ricevuta:
+prima di spendere su sviluppo ampio, Codebaker consiglia una fase di analisi tecnica e architetturale del MVP.
+
+Prossimo step deciso:
+richiedere a Codebaker un preventivo/proposta per una prima fase di analisi tecnica e architetturale del MVP Proof of Energy.
+
+Perimetro richiesto:
+- analisi architettura attuale
+- valutazione backend/API/database
+- valutazione dashboard/KPI/ranking
+- criticità tecniche e punti da consolidare
+- proposta architettura futura
+- divisione IoT/backend/database/cloud/dashboard
+- valutazione smart meter/nodi fisici
+- possibile architettura MQTT
+- roadmap tecnica per fasi
+- deliverable
+- tempi
+- costo
+- base utile anche per candidatura/bando
+
+Link progetto da inviare a Codebaker:
+
+Dashboard pubblica:
+https://poe-dashboard.streamlit.app
+
+Backend/API:
+https://poe-backend-roqn.onrender.com
+
+Endpoint principali:
+- https://poe-backend-roqn.onrender.com/health
+- https://poe-backend-roqn.onrender.com/live
+- https://poe-backend-roqn.onrender.com/history
+- https://poe-backend-roqn.onrender.com/kpi
+- https://poe-backend-roqn.onrender.com/ranking
+
+Decisione operativa:
+email follow-up preparata ma non inviata. Mandarla domani dopo controllo rapido di dashboard, /health e /kpi.
+
+Valutazione Codebaker:
+Codebaker sembra più coerente di una web agency generica perché ha parlato di architettura, mantenibilità, documentazione, specifiche, IoT, MQTT e analisi prima dello sviluppo.
+
+Stato partner:
+non ancora partner definitivo. Mancano proposta scritta, costo, tempi, deliverable e qualità del preventivo.
+
+Prossime azioni:
+1. Verificare dashboard pubblica.
+2. Verificare /health.
+3. Verificare /kpi.
+4. Mandare email follow-up a Codebaker con URL progetto.
+5. Attendere proposta/preventivo fase 1.
+6. Se proposta valida, inserirla nel percorso bando/preventivi.
+7. Aggiornare anche BANDO.md / FORNITORI se necessario.
+
