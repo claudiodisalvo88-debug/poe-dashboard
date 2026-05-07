@@ -465,3 +465,75 @@ Prossime azioni:
 6. Se proposta valida, inserirla nel percorso bando/preventivi.
 7. Aggiornare anche BANDO.md / FORNITORI se necessario.
 
+---
+
+## AGGIORNAMENTO 7 MAGGIO 2026 — STATO BANDO / FORNITORI
+
+### Infobandi / Sviluppo Italia Molise
+
+Inviata email a:
+
+`infobandi@sviluppoitaliamolise.it`
+
+Oggetto operativo:
+richiesta chiarimenti sulla compilazione dei moduli e degli allegati del bando.
+
+Stato:
+- email inviata
+- in attesa di risposta ufficiale
+
+Decisione:
+non procedere con interpretazioni definitive sui punti formali dei moduli finché non arriva risposta ufficiale, soprattutto per aspetti come compilazione allegati, modalità firma/invio e chiarimenti procedurali.
+
+File da aggiornare quando arriva risposta:
+- BANDO.md
+- CHECKLIST_CANDIDATURA_SOCIETA_DA_COSTITUIRE.md
+- eventuali file operativi Allegato 3 / Allegato 5 / Allegato 10
+
+### Codebaker / CDBKR
+
+Email follow-up Codebaker non inviata oggi.
+
+Motivo:
+evitare di sembrare troppo insistenti subito dopo la call conoscitiva.
+
+Decisione:
+mandare email domani dopo verifica rapida di:
+
+- dashboard pubblica
+- endpoint /health
+- endpoint /kpi
+
+Stato Codebaker:
+- call conoscitiva effettuata
+- valutazione positiva
+- follow-up email preparato
+- invio rimandato a domani
+- proposta/preventivo non ancora ricevuti
+
+Prossimo step Codebaker:
+richiedere proposta/preventivo per fase 1 di analisi tecnica e architetturale del MVP Proof of Energy.
+
+Perimetro fase 1:
+- analisi architettura attuale
+- backend/API/database
+- dashboard/KPI/ranking
+- cloud/deploy
+- sicurezza e mantenibilità
+- possibile evoluzione IoT/smart meter
+- possibile architettura MQTT
+- roadmap tecnica per fasi
+- deliverable
+- tempi
+- costo
+
+### Regola operativa aggiornata
+
+Per oggi non modificare codice.
+
+Priorità:
+1. aggiornare memoria operativa
+2. aggiornare BANDO.md
+3. preparare follow-up Codebaker per domani
+4. preparare call Astrorei
+5. attendere risposta Infobandi
