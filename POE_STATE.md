@@ -537,3 +537,79 @@ Priorità:
 3. preparare follow-up Codebaker per domani
 4. preparare call Astrorei
 5. attendere risposta Infobandi
+
+---
+
+## AGGIORNAMENTO — CAMBIO ROTTA MVP IOT
+
+Data: 2026-05-12
+
+### Decisione
+
+Il percorso bando viene messo temporaneamente in pausa perché lo sportello è offline e non conviene disperdere energia operativa su una candidatura non immediatamente attivabile.
+
+La priorità operativa torna sul progetto principale:
+
+**Proof of Energy come MVP tecnico reale e piattaforma IoT energetica.**
+
+---
+
+### Nuova priorità
+
+Rafforzare il MVP Proof of Energy con un primo nodo energetico reale.
+
+Primo nodo reale:
+
+**REAL_NODE_01**
+
+---
+
+### Smart meter scelto
+
+Dispositivo scelto:
+
+**Shelly Pro EM-50 con 2 pinze CT da 50A incluse.**
+
+Motivo scelta:
+
+- dispositivo monofase da guida DIN
+- adatto a installazione elettrica reale
+- compatibile con rete LAN/Wi-Fi
+- supporta protocolli utili per integrazione software/IoT:
+  - HTTP
+  - MQTT
+  - WebSocket
+  - Modbus TCP
+- più adatto al primo MVP IoT rispetto a soluzioni DC legate al pannellino fotovoltaico
+
+---
+
+### Installazione
+
+Installazione da eseguire con elettricista.
+
+Contatto operativo:
+
+**Enzo**
+
+Obiettivo installazione:
+
+misurare un circuito/carico reale in monofase e rendere disponibili i dati energetici per integrazione software PoE.
+
+---
+
+### Obiettivo tecnico
+
+Leggere dati energetici reali da Shelly Pro EM-50 e inviarli al backend Proof of Energy tramite endpoint:
+
+`/ingest`
+
+Schema target:
+
+```text
+Shelly Pro EM-50
+→ PoE Edge Collector
+→ Backend API
+→ Database
+→ KPI / Energy Reputation
+→ Dashboard
