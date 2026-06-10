@@ -1,56 +1,50 @@
 import pandas as pd
 from datetime import datetime
 
-from db import get_connection, insert_data
+from db import get_connection, read_data
 from schemas import NodeIngestPayload
 
 
-def read_data():
-    with get_connection() as conn:
-        rows = conn.execute("""
-            SELECT timestamp, node_id, watt, energy_wh
-            FROM node_data
-            ORDER BY id ASC
-        """).fetchall()
-
-    return [
-        (row["timestamp"], row["node_id"], row["watt"], row["energy_wh"])
-        for row in rows
-    ]
-
-
 def ingest_node_data(payload: NodeIngestPayload) -> dict:
-    ts = payload.timestamp
+    try:
+        ts = payload.timestamp
 
-    if isinstance(ts, str):
-        try:
-            ts = int(datetime.fromisoformat(ts).timestamp())
-        except:
-            ts = int(datetime.now().timestamp())
+        if isinstance(ts, str):
+            try:
+                ts = int(datetime.fromisoformat(ts).timestamp())
+            except:
+                ts = int(datetime.now().timestamp())
 
-    row = (
-        int(ts),
-        payload.node_id,
-        payload.watt,
-        payload.energy_wh
-    )
+        row = (
+            int(ts),
+            payload.node_id,
+            payload.watt,
+            payload.energy_wh
+        )
 
-    with get_connection() as conn:
-        conn.execute("""
-            INSERT OR IGNORE INTO node_data (
-                timestamp,
-                node_id,
-                watt,
-                energy_wh
-            ) VALUES (?, ?, ?, ?)
-        """, row)
-        conn.commit()
+        with get_connection() as conn:
+            conn.execute("""
+                INSERT OR IGNORE INTO node_data (
+                    timestamp,
+                    node_id,
+                    watt,
+                    energy_wh
+                ) VALUES (?, ?, ?, ?)
+            """, row)
+            conn.commit()
 
-    return {
-        "status": "ok",
-        "message": "Dato nodo salvato correttamente",
-        "node_id": payload.node_id
-    }
+        return {
+            "status": "ok",
+            "message": "Dato nodo salvato correttamente",
+            "node_id": payload.node_id
+        }
+
+    except Exception as e:
+        return {
+            "status": "error",
+            "message": str(e),
+            "node_id": getattr(payload, "node_id", None)
+        }
 
 
 def build_dataframe() -> pd.DataFrame:
@@ -64,7 +58,7 @@ def build_dataframe() -> pd.DataFrame:
     if df.empty:
         return df
 
-    df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce", unit="s")
+    df["timestamp"] = pd.to_datetime(df["timestamp"], unit="s", errors="coerce")
     df = df.dropna(subset=["timestamp"])
 
     return df
@@ -109,11 +103,11 @@ def get_reputation_data() -> list[dict]:
         stability = group["watt"].std() if len(group) > 1 else 0
         stability = 0 if pd.isna(stability) else stability
 
-        reputation_score = total_energy / (1 + stability)
+        score = total_energy / (1 + stability)
 
         result.append({
             "node_id": node_id,
-            "reputation": round(float(reputation_score), 2),
+            "reputation": round(float(score), 2),
             "energy": round(float(total_energy), 2),
             "stability": round(float(stability), 2)
         })

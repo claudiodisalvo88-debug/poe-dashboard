@@ -18,10 +18,11 @@ def init_db() -> None:
         conn.execute("""
             CREATE TABLE IF NOT EXISTS node_data (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                timestamp TEXT NOT NULL,
+                timestamp INTEGER NOT NULL,
                 node_id TEXT NOT NULL,
                 watt REAL NOT NULL,
-                energy_wh REAL NOT NULL
+                energy_wh REAL NOT NULL,
+                UNIQUE(node_id, timestamp)
             )
         """)
         conn.commit()
@@ -30,11 +31,31 @@ def init_db() -> None:
 def insert_data(rows: list[tuple]) -> None:
     with get_connection() as conn:
         conn.executemany("""
-            INSERT INTO node_data (
+            INSERT OR IGNORE INTO node_data (
                 timestamp,
                 node_id,
                 watt,
                 energy_wh
             ) VALUES (?, ?, ?, ?)
         """, rows)
+        conn.commit()
+
+
+def read_data() -> list[tuple]:
+    with get_connection() as conn:
+        rows = conn.execute("""
+            SELECT timestamp, node_id, watt, energy_wh
+            FROM node_data
+            ORDER BY id ASC
+        """).fetchall()
+
+    return [
+        (row["timestamp"], row["node_id"], row["watt"], row["energy_wh"])
+        for row in rows
+    ]
+
+
+def clear_data() -> None:
+    with get_connection() as conn:
+        conn.execute("DELETE FROM node_data")
         conn.commit()
