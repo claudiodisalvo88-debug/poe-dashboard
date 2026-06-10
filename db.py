@@ -3,11 +3,12 @@ import sqlite3
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = os.getenv("POE_DB_PATH", str(BASE_DIR / "poe.db"))
+DEFAULT_DB_PATH = BASE_DIR / "poe.db"
+DB_PATH = os.getenv("POE_DB_PATH", str(DEFAULT_DB_PATH))
 
 
 def get_connection() -> sqlite3.Connection:
-    conn = sqlite3.connect(DB_PATH, check_same_thread=False)
+    conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -15,29 +16,18 @@ def get_connection() -> sqlite3.Connection:
 def init_db() -> None:
     with get_connection() as conn:
         conn.execute("""
-        CREATE TABLE IF NOT EXISTS node_data (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            timestamp INTEGER NOT NULL,
-            node_id TEXT NOT NULL,
-            watt REAL NOT NULL,
-            energy_wh REAL NOT NULL
-        )
+            CREATE TABLE IF NOT EXISTS node_data (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                timestamp TEXT NOT NULL,
+                node_id TEXT NOT NULL,
+                watt REAL NOT NULL,
+                energy_wh REAL NOT NULL
+            )
         """)
-
-        conn.execute("""
-        CREATE INDEX IF NOT EXISTS idx_node_time
-        ON node_data(node_id, timestamp)
-        """)
-
-        conn.execute("""
-        CREATE INDEX IF NOT EXISTS idx_time
-        ON node_data(timestamp)
-        """)
-
         conn.commit()
 
 
-def insert_data(rows: list[tuple[int, str, float, float]]) -> None:
+def insert_data(rows: list[tuple]) -> None:
     with get_connection() as conn:
         conn.executemany("""
             INSERT INTO node_data (

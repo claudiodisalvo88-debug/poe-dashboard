@@ -1,10 +1,35 @@
-from db import get_connection
+import pandas as pd
+from datetime import datetime
+
+from db import get_connection, insert_data
 from schemas import NodeIngestPayload
 
 
+def read_data():
+    with get_connection() as conn:
+        rows = conn.execute("""
+            SELECT timestamp, node_id, watt, energy_wh
+            FROM node_data
+            ORDER BY id ASC
+        """).fetchall()
+
+    return [
+        (row["timestamp"], row["node_id"], row["watt"], row["energy_wh"])
+        for row in rows
+    ]
+
+
 def ingest_node_data(payload: NodeIngestPayload) -> dict:
+    ts = payload.timestamp
+
+    if isinstance(ts, str):
+        try:
+            ts = int(datetime.fromisoformat(ts).timestamp())
+        except:
+            ts = int(datetime.now().timestamp())
+
     row = (
-        int(payload.timestamp),
+        int(ts),
         payload.node_id,
         payload.watt,
         payload.energy_wh
@@ -12,8 +37,11 @@ def ingest_node_data(payload: NodeIngestPayload) -> dict:
 
     with get_connection() as conn:
         conn.execute("""
-            INSERT INTO node_data (
-                timestamp, node_id, watt, energy_wh
+            INSERT OR IGNORE INTO node_data (
+                timestamp,
+                node_id,
+                watt,
+                energy_wh
             ) VALUES (?, ?, ?, ?)
         """, row)
         conn.commit()
@@ -25,60 +53,69 @@ def ingest_node_data(payload: NodeIngestPayload) -> dict:
     }
 
 
-def get_nodes_data() -> list[dict]:
-    with get_connection() as conn:
-        rows = conn.execute("""
-            SELECT timestamp, node_id, watt, energy_wh
-            FROM node_data
-            ORDER BY timestamp ASC
-        """).fetchall()
+def build_dataframe() -> pd.DataFrame:
+    data = read_data()
 
-    return [dict(r) for r in rows]
+    df = pd.DataFrame(
+        data,
+        columns=["timestamp", "node_id", "watt", "energy_wh"]
+    )
+
+    if df.empty:
+        return df
+
+    df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce", unit="s")
+    df = df.dropna(subset=["timestamp"])
+
+    return df
+
+
+def get_nodes_data() -> list[dict]:
+    df = build_dataframe()
+    if df.empty:
+        return []
+    return df.to_dict(orient="records")
 
 
 def get_summary_data() -> dict:
-    with get_connection() as conn:
-        row = conn.execute("""
-            SELECT
-                SUM(energy_wh) AS total_energy,
-                AVG(watt) AS avg_power,
-                COUNT(DISTINCT node_id) AS nodes,
-                COUNT(*) AS records
-            FROM node_data
-        """).fetchone()
+    df = build_dataframe()
+
+    if df.empty:
+        return {
+            "total_energy": 0.0,
+            "avg_power": 0.0,
+            "nodes": 0,
+            "records": 0
+        }
 
     return {
-        "total_energy": row["total_energy"] or 0.0,
-        "avg_power": row["avg_power"] or 0.0,
-        "nodes": row["nodes"] or 0,
-        "records": row["records"] or 0
+        "total_energy": float(df["energy_wh"].sum()),
+        "avg_power": float(df["watt"].mean()),
+        "nodes": int(df["node_id"].nunique()),
+        "records": int(len(df))
     }
 
 
 def get_reputation_data() -> list[dict]:
-    with get_connection() as conn:
-        rows = conn.execute("""
-            SELECT
-                node_id,
-                SUM(energy_wh) AS energy,
-                COALESCE(STDDEV(watt), 0) AS stability
-            FROM node_data
-            GROUP BY node_id
-        """).fetchall()
+    df = build_dataframe()
+
+    if df.empty:
+        return []
 
     result = []
 
-    for r in rows:
-        energy = r["energy"] or 0.0
-        stability = r["stability"] or 0.0
+    for node_id, group in df.groupby("node_id"):
+        total_energy = group["energy_wh"].sum()
+        stability = group["watt"].std() if len(group) > 1 else 0
+        stability = 0 if pd.isna(stability) else stability
 
-        reputation = energy / (1 + stability)
+        reputation_score = total_energy / (1 + stability)
 
         result.append({
-            "node_id": r["node_id"],
-            "energy": round(float(energy), 2),
-            "stability": round(float(stability), 2),
-            "reputation": round(float(reputation), 2)
+            "node_id": node_id,
+            "reputation": round(float(reputation_score), 2),
+            "energy": round(float(total_energy), 2),
+            "stability": round(float(stability), 2)
         })
 
     result.sort(key=lambda x: x["reputation"], reverse=True)

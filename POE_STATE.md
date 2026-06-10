@@ -613,3 +613,40 @@ Shelly Pro EM-50
 → Database
 → KPI / Energy Reputation
 → Dashboard
+
+
+# POE_STATE — 2026-06-10 UPDATE
+
+## RIPARTENZA SISTEMA
+Il progetto PoE è stato riportato a stato stabile MVP e preparato per evoluzione industriale.
+
+## STATO ATTUALE
+- FastAPI + SQLite operativi
+- endpoint attivi: /ingest, /kpi, /live, /ranking
+- multi-node simulator attivo (NODE_01/02/03)
+- pipeline dati end-to-end funzionante
+- ingestion e analytics funzionanti
+
+## ARCHITETTURA
+Node Sender → FastAPI (/ingest) → SQLite (node_data) → services.py (analytics pandas) → API (/kpi /live /ranking)
+
+## FIX RECENTI
+- risolto ImportError db.py (read_data reintegrato)
+- risolto NameError get_connection
+- fix timestamp ISO → epoch ingestion
+- API stabilizzata e riavviabile correttamente
+
+## STATO SISTEMA
+MVP stabile operativo con dati real-time simulati.
+
+## LIMITI ATTUALI
+- assenza constraint DB unico per duplicati
+- ingestion non resiliente (no retry/backoff)
+- dipendenza pandas per analytics
+- sender ancora simulato (non IoT reale)
+
+## PROSSIMI STEP PRIORITARI
+1. HARDENING INDUSTRIALE (DB + ingestion safe + anti-duplicati)
+2. INTEGRAZIONE IOT REALE (Shelly Pro EM-50)
+3. DASHBOARD UI KPI live
+4. eventuale streaming real-time optimization
