@@ -699,3 +699,117 @@ Test eseguito:
 
 ```bash
 curl --max-time 5 http://192.168.1.62/rpc/Shelly.GetStatus
+
+---
+
+## AGGIORNAMENTO — 16 GIUGNO 2026 — STEP 4 COMPLETATO / REAL NODE INGEST
+
+### Stato verificato
+
+Step 4 completato con successo.
+
+Primo ingest reale da Shelly Pro EM-50 riuscito.
+
+Flusso validato:
+
+Shelly Pro EM-50
+→ shelly_adapter.py
+→ edge_collector.py
+→ /ingest
+→ SQLite
+→ /live
+→ /kpi
+
+### Nodo reale
+
+Nodo reale attivo:
+
+- node_id: REAL_NODE_01_MAIN
+- device: Shelly Pro EM-50
+- IP locale: 192.168.1.62
+- canale attivo: em1:1
+- canale energia: em1data:1
+- scope: whole_house
+
+### File creati
+
+Creati tre nuovi file esterni al backend:
+
+- device_registry.py
+- shelly_adapter.py
+- edge_collector.py
+
+Backend invariato.
+
+Non sono stati modificati:
+
+- api.py
+- services.py
+- db.py
+- schemas.py
+
+Database schema invariato.
+
+### Test verificati
+
+Primo payload reale inviato:
+
+- timestamp: 2026-06-16T13:21:10+00:00
+- node_id: REAL_NODE_01_MAIN
+- watt: 102.1
+- energy_wh: 4699.71
+
+Risposta /ingest:
+
+- status: ok
+- message: Dato nodo salvato correttamente
+- node_id: REAL_NODE_01_MAIN
+
+/live mostra REAL_NODE_01_MAIN insieme ai nodi simulati.
+
+/kpi dopo test continuo breve:
+
+- nodes: 4
+- records: 599
+- total_energy: 48012.9677
+- avg_power: 23.601469115191986
+
+### Stato operativo attuale
+
+Sistema in modalità:
+
+SIMULAZIONE + NODO REALE
+
+Nodi presenti:
+
+- NODE_01
+- NODE_02
+- NODE_03
+- REAL_NODE_01_MAIN
+
+### Decisione
+
+Non spegnere subito i simulatori.
+
+Mantenerli temporaneamente per validare:
+
+- stabilità Edge Collector
+- continuità ingest
+- deduplica
+- KPI
+- comportamento DB
+
+### Prossima milestone
+
+Step 5:
+
+passare da sistema ibrido SIMULAZIONE + NODO REALE a sistema con REAL_NODE_01_MAIN come sorgente primaria.
+
+Valutare:
+
+- spegnimento simulatori
+- gestione multi-device reale
+- registry nodi
+- produzione fotovoltaica futura
+- consumo vs produzione
+- Energy Reputation reale
