@@ -139,3 +139,80 @@ Non usare SOLAR_NODE_01 nella fase 1.
 
 Prima stabilizzare REAL_NODE_01.
 Solo dopo valutare SOLAR_NODE_01.
+
+---
+
+## STEP 5B — REGISTRO NODI IoT PoE
+
+Data: 2026-06-16
+
+### Stato attuale
+
+PoE ha un primo nodo reale validato.
+
+### Nodo reale attivo
+
+REAL_NODE_01_MAIN:
+
+- device: Shelly Pro EM-50
+- device_type: shelly_pro_em_50
+- IP locale: 192.168.1.62
+- canale potenza: em1:1
+- canale energia: em1data:1
+- source_type: consumption
+- measurement_scope: whole_house
+- direction: import
+- confidence: real
+- status: active
+
+### Nodi simulati ancora presenti
+
+- NODE_01
+- NODE_02
+- NODE_03
+
+Stato:
+
+- simulated
+- mantenuti temporaneamente per validazione ibrida
+
+### Modalità operativa attuale
+
+HYBRID_VALIDATION
+
+Significa:
+
+- nodo reale attivo
+- simulatori ancora presenti
+- backend invariato
+- dashboard invariata
+- DB schema invariato
+
+### Nodi futuri previsti
+
+SOLAR_NODE_01:
+
+- source_type: production
+- direction: export
+- confidence: real
+- status: planned
+
+BATTERY_NODE_01:
+
+- source_type: storage
+- direction: charge/discharge
+- confidence: real
+- status: planned
+
+GRID_NODE_01:
+
+- source_type: grid
+- direction: import/export
+- confidence: real
+- status: planned
+
+### Decisione
+
+Il registro logico dei nodi deve precedere ogni nuova integrazione hardware.
+
+Ogni nuovo device deve essere aggiunto prima come nodo logico, poi come adapter tecnico.
