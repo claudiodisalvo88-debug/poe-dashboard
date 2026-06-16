@@ -615,38 +615,87 @@ Shelly Pro EM-50
 → Dashboard
 
 
-# POE_STATE — 2026-06-10 UPDATE
+# 10/06/2026 **POE_STATE.md**:
 
-## RIPARTENZA SISTEMA
-Il progetto PoE è stato riportato a stato stabile MVP e preparato per evoluzione industriale.
+---
 
-## STATO ATTUALE
-- FastAPI + SQLite operativi
-- endpoint attivi: /ingest, /kpi, /live, /ranking
-- multi-node simulator attivo (NODE_01/02/03)
-- pipeline dati end-to-end funzionante
-- ingestion e analytics funzionanti
+## STEP 4 — INTEGRAZIONE IoT (Shelly Pro EM-50)
 
-## ARCHITETTURA
-Node Sender → FastAPI (/ingest) → SQLite (node_data) → services.py (analytics pandas) → API (/kpi /live /ranking)
+* analisi completata del dispositivo Shelly Pro EM-50 su rete locale (192.168.1.62)
+* identificata struttura dati reale tramite API `/rpc/Shelly.GetStatus`
+* validati campi energetici operativi:
 
-## FIX RECENTI
-- risolto ImportError db.py (read_data reintegrato)
-- risolto NameError get_connection
-- fix timestamp ISO → epoch ingestion
-- API stabilizzata e riavviabile correttamente
+  * `em1:1.act_power` (potenza)
+  * `em1data:1.total_act_energy` (energia cumulata)
+  * `em1:1.voltage`, `em1:1.current`
 
-## STATO SISTEMA
-MVP stabile operativo con dati real-time simulati.
+---
 
-## LIMITI ATTUALI
-- assenza constraint DB unico per duplicati
-- ingestion non resiliente (no retry/backoff)
-- dipendenza pandas per analytics
-- sender ancora simulato (non IoT reale)
+## DECISIONE ARCHITETTURALE STEP 4 (FONDAMENTALE)
 
-## PROSSIMI STEP PRIORITARI
-1. HARDENING INDUSTRIALE (DB + ingestion safe + anti-duplicati)
-2. INTEGRAZIONE IOT REALE (Shelly Pro EM-50)
-3. DASHBOARD UI KPI live
-4. eventuale streaming real-time optimization
+* confermato che il sistema NON sarà modificato a livello backend
+* FastAPI, SQLite e endpoint `/ingest` rimangono invariati
+* eliminato approccio “multi-node simulator” come fonte dati
+
+---
+
+## NUOVA ARCHITETTURA INTRODOTTA
+
+* introdotto concetto di DEVICE ADAPTER layer separato dal backend
+* PoE backend riceve esclusivamente eventi già normalizzati
+* introdotto concetto di DEVICE REGISTRY per mapping dispositivi → node_id → campi energetici
+* Shelly Pro EM-50 rappresenta il primo device reale integrato nel sistema
+
+---
+
+## FLUSSO DATI ATTUALE (TARGET)
+
+* Shelly Pro EM-50 → Device Adapter → payload PoE → `/ingest` → SQLite → KPI `/live` `/ranking`
+
+---
+
+## STATO IMPLEMENTAZIONE
+
+* analisi completata
+* architettura definita e fissata
+* integrazione codice adapter NON ancora implementata
+* sistema backend invariato e stabile
+
+---
+
+## CONCLUSIONE STEP 4
+
+* transizione da sistema simulato a sistema basato su dati reali avviata
+* definito layer di astrazione per scalabilità multi-device futura
+* nessuna modifica strutturale al backend necessaria o effettuata
+---
+
+## AGGIORNAMENTO — 16 GIUGNO 2026 — STEP 4 / VERIFICA RETE SHELLY
+
+### Stato verificato
+
+Backend locale PoE verificato e operativo.
+
+Verifiche API locali effettuate:
+
+- `/health` = `{"status":"healthy"}`
+- `/kpi` operativo
+- `/live` operativo
+- dati attuali ancora provenienti da nodi simulati:
+  - NODE_01
+  - NODE_02
+  - NODE_03
+
+KPI locali rilevati:
+
+- total_energy: 972.7277
+- avg_power: 22.276536502546687
+- nodes: 3
+- records: 589
+
+### Verifica Shelly
+
+Test eseguito:
+
+```bash
+curl --max-time 5 http://192.168.1.62/rpc/Shelly.GetStatus
