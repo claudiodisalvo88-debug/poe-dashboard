@@ -813,3 +813,47 @@ Valutare:
 - produzione fotovoltaica futura
 - consumo vs produzione
 - Energy Reputation reale
+
+
+## AGGIORNAMENTO — 16 GIUGNO 2026 — INNOVATOR AGENT
+
+### Decisione
+
+Creato nuovo agente operativo:
+
+* Innovator Agent
+
+### Missione
+
+Trasformare Proof of Energy da MVP tecnico a protocollo/prodotto innovativo attraverso:
+
+* formulazione di ipotesi
+* test verificabili
+* validazione scientifica
+* miglioramento iterativo del protocollo
+
+### Metodo
+
+OBSERVE
+→ QUESTION
+→ HYPOTHESIS
+→ TEST
+→ RESULT
+→ IMPROVE
+→ DOCUMENT
+
+### Prima missione assegnata
+
+Validare il modello Energy Reputation Score (ERS).
+
+Domanda guida:
+
+"Quale comportamento energetico genera reputazione reale e quale no?"
+
+### Regola
+
+Nessuna formula reputazionale può essere considerata definitiva senza almeno un test verificabile sui dati reali raccolti dai nodi PoE.
+
+### Implicazione strategica
+
+PoE passa da progettazione teorica della reputazione energetica a validazione sperimentale della reputazione energetica.
