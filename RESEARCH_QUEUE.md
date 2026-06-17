@@ -36,3 +36,25 @@ Nessuna
 
 Prossimo test:
 Identificare quale beneficio può ricevere un nodo collaborativo.
+
+---
+
+## RQ-002
+
+Tema:
+Energy Reputation
+
+Domanda:
+Quale comportamento energetico genera reputazione reale?
+
+Priorità:
+CRITICAL
+
+Stato:
+OPEN
+
+Ultima decisione:
+PoE non premia il consumo energetico.
+
+Prossimo test:
+Classificare comportamenti positivi, neutri e negativi.
