@@ -58,3 +58,25 @@ PoE non premia il consumo energetico.
 
 Prossimo test:
 Classificare comportamenti positivi, neutri e negativi.
+
+---
+
+## RQ-003
+
+Tema:
+System Impact
+
+Domanda:
+Come misurare il contributo sistemico di un nodo?
+
+Priorità:
+CRITICAL
+
+Stato:
+OPEN
+
+Ultima decisione:
+PoE premia il contributo al sistema e non l'energia in senso grezzo.
+
+Prossimo test:
+Definire eventi energetici che migliorano il sistema.
