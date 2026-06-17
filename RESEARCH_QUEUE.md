@@ -1,0 +1,38 @@
+# RESEARCH_QUEUE.md
+
+## Regola
+
+Nessuna idea PoE può essere considerata completata.
+
+Ogni idea deve entrare nella Research Queue.
+
+Workflow:
+
+QUESTION
+→ HYPOTHESIS
+→ TEST
+→ RESULT
+→ DECISION
+→ IMPLEMENTATION
+
+---
+
+## RQ-001
+
+Tema:
+Incentive Model
+
+Domanda:
+Perché un nodo dovrebbe aiutare il sistema invece di ottimizzare solo per sé stesso?
+
+Priorità:
+CRITICAL
+
+Stato:
+OPEN
+
+Ultima decisione:
+Nessuna
+
+Prossimo test:
+Identificare quale beneficio può ricevere un nodo collaborativo.
