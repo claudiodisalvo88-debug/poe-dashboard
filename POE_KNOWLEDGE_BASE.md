@@ -40,6 +40,24 @@ proprieta protocollare derivata da una riduzione verificata, attribuita e sistem
 VALORE non e identico alla RIDUZIONE grezza.
 VALORE e RIDUZIONE qualificata dal protocollo tramite verifica, attribuzione, rilevanza sistemica e controllo contro manipolazioni.
 
+Causal validation:
+PD-001 resta valida come gerarchia protocollare, ma non deve essere letta come ordine causale rigido.
+
+Ordine causale minimo per le prossime metriche:
+INEFFICIENZA VALIDATA
+-> METRICA DELL'INEFFICIENZA
+-> BASELINE / CONDIZIONE DI CONFRONTO
+-> COMPORTAMENTO OSSERVABILE
+-> CONTRIBUTO CANDIDATO
+-> RIDUZIONE MISURATA
+-> VERIFICA DELLA RIDUZIONE
+-> ATTRIBUZIONE AL CONTRIBUTO
+-> VALORE
+-> REPUTAZIONE
+
+Regola:
+Un comportamento osservato non e automaticamente contributo valido. Prima e contributo candidato. Diventa contributo valido solo se collegato a riduzione verificata, attribuzione e rilevanza sistemica.
+
 Validated by:
 RQ-007
 PD-008
