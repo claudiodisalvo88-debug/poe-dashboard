@@ -19,6 +19,7 @@ Current consolidated knowledge:
 - PD-012: VALIDATED
 - PD-013: VALIDATED
 - PD-014: VALIDATED
+- PD-015: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -150,3 +151,14 @@ Plausible but unknown cross-IE harm postpones recognized value.
 Validated by:
 RQ-014
 PD-014
+
+Quantitative measured-reduction metrics:
+ACR_net validates IE-002 measured-reduction quantity only.
+NPSR_net validates IE-003 measured-reduction quantity only.
+UFR_net validates IE-005 measured-reduction quantity only.
+All are gated by PD-010 to PD-014.
+None define recognized value, reputation, incentives, tokens, economic allocation or final scoring.
+
+Validated by:
+RQ-015
+PD-015

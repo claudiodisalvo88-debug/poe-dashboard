@@ -1,5 +1,40 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-015
+
+Quantitative measured-reduction metrics for PoE V1 are validated only as measured-reduction quantities for the three primitive inefficiencies IE-002, IE-003 and IE-005.
+
+They do not define recognized value, reputation, incentives, token issuance, economic allocation or final scoring.
+
+For IE-002, the validated candidate measured-reduction metric is:
+
+ACR_net = max(0, E_base(W | F,C) - E_obs(W) - E_rebound(R) - E_shifted)
+
+ACR_net is valid only if PD-010 baseline, function-preservation, context-equivalence, rebound, shifted-consumption and boundary-integrity checks pass.
+
+For IE-003, the validated candidate measured-reduction metrics are:
+
+PeakStress(W) = integral over W of max(0, P(t) - P_threshold(t)) dt
+
+NPSR_net = max(0, PeakStress_base(Wc) - PeakStress_obs(Wc) - PeakStress_rebound(Wr) - PeakStress_displaced)
+
+NPSR_net is valid only if PD-011 critical-window, peak-threshold, baseline peak-profile, rebound/displacement and artificial-peak rejection checks pass.
+
+For IE-005, the validated candidate measured-reduction metrics are:
+
+UFR_delivered = integral over T of min(abs(DeltaP_obs(t)), abs(Req(t))) dt
+
+UFR_net = max(0, UFR_delivered - UFR_baseline - Response_rebound_penalty)
+
+UFR_net is valid only if PD-012 system-need, response-profile, useful-response, timing, direction, magnitude, duration, fake-flexibility and rebound checks pass.
+
+All three measured-reduction metrics remain invalid or postponed for value recognition unless PD-013 attribution passes and PD-014 cross-IE harm checks do not reject the reduction.
+
+RQ-015 validates quantitative measured-reduction metrics only.
+It does not validate recognized value, reputation scoring, incentives, tokens, economic allocation, final scoring or implementation logic.
+
+STATUS: VALIDATED
+
 ## PD-014
 
 A verified measured reduction of one primitive inefficiency can become recognized value only if it does not create unbounded material harm in another primitive inefficiency and is not merely a transfer of inefficiency across time, node, boundary or IE label.

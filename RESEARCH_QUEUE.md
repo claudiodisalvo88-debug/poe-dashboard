@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-015
+
+Question:
+What quantitative measured-reduction metrics can PoE V1 validate for IE-002, IE-003 and IE-005 after safety rules PD-010 to PD-014?
+
+Output:
+RQ-015_QUANTITATIVE_MEASURED_REDUCTION_METRICS.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-015
+
 ## RQ-014
 
 Question:

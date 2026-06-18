@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-014
+RQ-015
 
 Last postponed research:
 RQ-009
@@ -39,7 +39,10 @@ VALIDATED / CLOSED
 RQ-014:
 VALIDATED / CLOSED
 
-PD-000 to PD-014:
+RQ-015:
+VALIDATED / CLOSED
+
+PD-000 to PD-015:
 VALIDATED
 
 Implementation:
@@ -51,4 +54,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Reopen RQ-009 quantitative metric candidates using validated safety rules PD-010 to PD-014.
+Define the next protocol research question after measured-reduction metrics, without implementing code, reputation, incentives, tokens or economic scoring.
