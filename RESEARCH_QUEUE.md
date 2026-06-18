@@ -9,4 +9,7 @@ Output:
 INEFFICIENCY_CATALOG.md
 
 Status:
-ACTIVE
+VALIDATED
+
+Decision:
+PD-007

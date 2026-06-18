@@ -4,13 +4,19 @@ Active milestone:
 M-001
 
 Active research:
+NONE
+
+Last closed research:
 RQ-005B
 
-PD-000 to PD-006:
+RQ-005B:
+VALIDATED
+
+PD-000 to PD-007:
 VALIDATED
 
 Implementation:
 BLOCKED
 
 Next action:
-classify IE-001 to IE-006 as primitive, derived, rejected, or postponed
+Definire quali comportamenti osservabili riducono IE-002, IE-003 e IE-005.

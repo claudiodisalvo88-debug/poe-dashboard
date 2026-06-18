@@ -52,3 +52,19 @@ STATUS: VALIDATED
 Proof of Energy identifica inefficienze energetiche, misura il contributo dei partecipanti alla loro riduzione e trasforma tale contributo in valore verificabile.
 
 STATUS: VALIDATED
+
+## PD-007
+
+Le inefficienze primitive del protocollo PoE V1 sono:
+
+IE-002 Consumo evitabile
+IE-003 Punte di carico
+IE-005 Mancanza di flessibilita
+
+Le seguenti inefficienze sono classificate come derivate:
+
+IE-001 Energia sprecata
+IE-004 Energia rinnovabile non utilizzata
+IE-006 Instabilita locale
+
+STATUS: VALIDATED
