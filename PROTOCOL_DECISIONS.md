@@ -10,15 +10,10 @@ STATUS: VALIDATED
 
 Gerarchia PoE:
 INEFFICIENZA
-↓
 RIDUZIONE
-↓
 CONTRIBUTO
-↓
 VALORE
-↓
 REPUTAZIONE
-↓
 INCENTIVO
 
 STATUS: VALIDATED
@@ -66,5 +61,23 @@ Le seguenti inefficienze sono classificate come derivate:
 IE-001 Energia sprecata
 IE-004 Energia rinnovabile non utilizzata
 IE-006 Instabilita locale
+
+STATUS: VALIDATED
+
+## PD-008
+
+CONTRIBUTO, RIDUZIONE e VALORE sono oggetti protocollari distinti.
+
+RIDUZIONE:
+delta osservabile e verificabile di una inefficienza catalogata rispetto a baseline, finestra temporale e contesto validati.
+
+CONTRIBUTO:
+comportamento osservabile, verificabile e attribuibile a un nodo o soggetto che partecipa causalmente alla riduzione.
+
+VALORE:
+proprieta protocollare derivata da una riduzione verificata, attribuita e sistemicamente rilevante di una inefficienza catalogata.
+
+VALORE non e identico alla RIDUZIONE grezza.
+VALORE e RIDUZIONE qualificata dal protocollo tramite verifica, attribuzione, rilevanza sistemica e controllo contro manipolazioni.
 
 STATUS: VALIDATED
