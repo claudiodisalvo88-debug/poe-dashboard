@@ -7,16 +7,19 @@ Active research:
 NONE
 
 Last closed research:
-RQ-005B
+RQ-007
 
 RQ-005B:
 VALIDATED
 
-PD-000 to PD-007:
+RQ-007:
+VALIDATED / CLOSED
+
+PD-000 to PD-008:
 VALIDATED
 
 Implementation:
 BLOCKED
 
 Next action:
-Definire quali comportamenti osservabili riducono IE-002, IE-003 e IE-005.
+Definire metriche minime di verifica e attribuzione per IE-002, IE-003 e IE-005 usando la distinzione CONTRIBUTO / RIDUZIONE / VALORE.
