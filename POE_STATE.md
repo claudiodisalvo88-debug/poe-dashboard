@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-008
+RQ-010
 
 Last postponed research:
 RQ-009
@@ -24,7 +24,10 @@ VALIDATED / CLOSED
 RQ-009:
 POSTPONED
 
-PD-000 to PD-009:
+RQ-010:
+VALIDATED / CLOSED
+
+PD-000 to PD-010:
 VALIDATED
 
 Implementation:
@@ -36,4 +39,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Define validation rules required before quantitative metrics can be accepted, starting with IE-002 baseline and function-preservation proof.
+Define IE-003 critical-window, peak-threshold and rebound/displacement validation rules.

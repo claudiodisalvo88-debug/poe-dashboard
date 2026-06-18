@@ -6,6 +6,27 @@ PoE misura il contributo energetico verificabile.
 
 STATUS: VALIDATED
 
+## PD-010
+
+IE-002 measured reduction is valid only when lower energy consumption is shown for the same necessary function under equivalent context, net of rebound and shifted consumption, against a non-gamed baseline, with sufficient evidence for attribution.
+
+For IE-002:
+
+* raw lower consumption is not sufficient;
+* previous consumption alone is not a valid baseline;
+* participant-declared baseline alone is invalid;
+* function loss invalidates reduction;
+* material service degradation invalidates reduction;
+* shifted consumption invalidates reduction;
+* full rebound invalidates reduction;
+* partial rebound reduces measured reduction;
+* missing or material uncertainty postpones validation.
+
+RQ-010 validates IE-002 baseline and function-preservation rules only.
+It does not validate final ACR_net formula, thresholds, scoring rules, tokens, or incentives.
+
+STATUS: VALIDATED
+
 ## PD-001
 
 Gerarchia PoE:

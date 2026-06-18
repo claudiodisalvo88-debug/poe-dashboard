@@ -13,6 +13,8 @@ Current consolidated knowledge:
 - PD-006: VALIDATED
 - PD-007: VALIDATED
 - PD-008: VALIDATED
+- PD-009: VALIDATED
+- PD-010: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -78,3 +80,14 @@ Quantitative formulas remain undefined.
 Validated by:
 RQ-008
 PD-009
+
+IE-002 measurement safety rule:
+Lower consumption becomes verified IE-002 measured reduction only if baseline is valid, necessary function is preserved, context is equivalent or validly normalized, rebound and shifted consumption checks pass, baseline gaming is rejected, data quality is sufficient, and attribution to candidate contribution is possible.
+
+Raw kWh reduction is not sufficient.
+Self-declared baseline alone is invalid.
+Function loss, service degradation, shifted consumption and full rebound invalidate IE-002 measured reduction.
+
+Validated by:
+RQ-010
+PD-010

@@ -58,3 +58,17 @@ NONE
 
 Reason:
 Candidate formulas are coherent but cannot be validated until baseline, equivalence, attribution and cross-IE rejection rules are defined.
+
+## RQ-010
+
+Question:
+What baseline and function-preservation rules are required before IE-002 measured reduction can be verified?
+
+Output:
+RQ-010_IE002_BASELINE_FUNCTION_PROOF.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-010
