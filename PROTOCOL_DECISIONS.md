@@ -1,5 +1,26 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-013
+
+A measured reduction can be attributed to a candidate contribution only when the candidate contribution is observable, temporally aligned with the verified reduction, causally plausible, inside the same measurement boundary, not explained by external causes, not double-counted, and supported by sufficient attribution evidence.
+
+For attribution:
+
+* raw behavior is not attribution;
+* raw reduction is not attribution;
+* coincidence is not attribution;
+* reduction can exist without attribution;
+* recognized value cannot exist without attribution;
+* full recognition must not be given to multiple actors for the same reduction without allocation evidence;
+* aggregate-only evidence is insufficient for individual attribution when individual value recognition is requested;
+* external-cause uncertainty postpones validation;
+* double-claiming uncertainty postpones or rejects validation.
+
+RQ-013 validates attribution safety rules only.
+It does not validate final scoring rules, tokens, incentives or reputation scoring.
+
+STATUS: VALIDATED
+
 ## PD-012
 
 IE-005 measured reduction is valid only when behavior variation is a useful, timely, correctly directed, sufficiently large and sufficiently sustained response to a verified system need, inside the relevant boundary, distinguishable from normal variation, net of rebound, free from fake-flexibility patterns, and attributable to the candidate contribution.

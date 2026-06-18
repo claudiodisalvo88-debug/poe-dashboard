@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-013
+
+Question:
+What attribution standard is required for single-actor and multi-actor reductions across IE-002, IE-003 and IE-005?
+
+Output:
+RQ-013_MULTI_ACTOR_ATTRIBUTION_STANDARD.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-013
+
 ## RQ-005B
 
 Question:

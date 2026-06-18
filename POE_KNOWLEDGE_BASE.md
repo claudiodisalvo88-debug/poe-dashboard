@@ -119,3 +119,17 @@ Wrong direction, late response, insufficient magnitude, insufficient duration, n
 Validated by:
 RQ-012
 PD-012
+
+Attribution safety rule:
+A measured reduction becomes attributable only if the candidate contribution is observable, temporally aligned with the verified reduction, causally plausible, inside the same measurement boundary, not explained by external causes, not double-counted, and supported by sufficient attribution evidence.
+
+Raw behavior is not attribution.
+Raw reduction is not attribution.
+Coincidence is not attribution.
+Reduction can exist without attribution.
+Recognized value cannot exist without attribution.
+Multi-actor reductions require separable attribution or validation must be postponed.
+
+Validated by:
+RQ-013
+PD-013
