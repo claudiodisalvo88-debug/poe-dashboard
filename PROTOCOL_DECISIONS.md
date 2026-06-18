@@ -1,5 +1,25 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-014
+
+A verified measured reduction of one primitive inefficiency can become recognized value only if it does not create unbounded material harm in another primitive inefficiency and is not merely a transfer of inefficiency across time, node, boundary or IE label.
+
+For cross-IE harm:
+
+* target IE measured reduction is necessary but not sufficient for recognized value;
+* attribution must pass before value recognition;
+* material harm to IE-002, IE-003 or IE-005 must be excluded, bounded or explicitly handled by a non-duplicative protocol rule;
+* local improvement is insufficient if aggregate or relevant-boundary system effect worsens;
+* local improvement must not hide harm shifted to another node, boundary or time window;
+* the same measured effect must not be recognized twice as separate value;
+* if material cross-IE harm is confirmed and unbounded, recognized value is rejected;
+* if material cross-IE harm is plausible but unknown, recognized value is postponed.
+
+RQ-014 validates cross-IE harm rejection and postponement rules only.
+It does not validate final scoring rules, materiality thresholds, tokens, incentives or reputation scoring.
+
+STATUS: VALIDATED
+
 ## PD-013
 
 A measured reduction can be attributed to a candidate contribution only when the candidate contribution is observable, temporally aligned with the verified reduction, causally plausible, inside the same measurement boundary, not explained by external causes, not double-counted, and supported by sufficient attribution evidence.

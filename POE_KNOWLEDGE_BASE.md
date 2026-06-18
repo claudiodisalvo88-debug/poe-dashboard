@@ -17,6 +17,8 @@ Current consolidated knowledge:
 - PD-010: VALIDATED
 - PD-011: VALIDATED
 - PD-012: VALIDATED
+- PD-013: VALIDATED
+- PD-014: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -133,3 +135,18 @@ Multi-actor reductions require separable attribution or validation must be postp
 Validated by:
 RQ-013
 PD-013
+
+Cross-IE harm safety rule:
+A verified measured reduction of one primitive inefficiency becomes recognized value only if it does not create unbounded material harm in another primitive inefficiency and is not merely a transfer of inefficiency across time, node, boundary or IE label.
+
+Target IE measured reduction is necessary but not sufficient for recognized value.
+Attribution must pass.
+Material harm to IE-002, IE-003 or IE-005 must be excluded, bounded or explicitly handled.
+Local improvement is insufficient if aggregate or relevant-boundary system effect worsens.
+The same measured effect must not be recognized twice as separate value.
+Confirmed unbounded cross-IE harm rejects recognized value.
+Plausible but unknown cross-IE harm postpones recognized value.
+
+Validated by:
+RQ-014
+PD-014

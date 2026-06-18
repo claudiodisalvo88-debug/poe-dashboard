@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-013
+RQ-014
 
 Last postponed research:
 RQ-009
@@ -36,7 +36,10 @@ VALIDATED / CLOSED
 RQ-013:
 VALIDATED / CLOSED
 
-PD-000 to PD-013:
+RQ-014:
+VALIDATED / CLOSED
+
+PD-000 to PD-014:
 VALIDATED
 
 Implementation:
@@ -48,4 +51,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Define cross-IE harm rejection rule for cases where one behavior reduces one primitive inefficiency but worsens another.
+Reopen RQ-009 quantitative metric candidates using validated safety rules PD-010 to PD-014.

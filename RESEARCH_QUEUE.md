@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-014
+
+Question:
+What cross-IE harm rejection rule is required when one behavior reduces one primitive inefficiency but worsens another?
+
+Output:
+RQ-014_CROSS_IE_HARM_REJECTION_RULE.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-014
+
 ## RQ-013
 
 Question:
