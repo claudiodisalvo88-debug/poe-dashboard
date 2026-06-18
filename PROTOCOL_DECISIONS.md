@@ -1,5 +1,41 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-016
+
+Recognized value is distinct from measured reduction, contribution, reputation, incentive, token issuance, economic allocation and final scoring.
+
+A verified measured reduction becomes eligible for recognized value only if all conditions below hold:
+
+1. The reduction targets a PoE V1 primitive inefficiency: IE-002, IE-003 or IE-005.
+2. The measured reduction passes the relevant safety gate:
+
+   * PD-010 for IE-002;
+   * PD-011 for IE-003;
+   * PD-012 for IE-005.
+3. The measured reduction follows the PD-009 metric structure.
+4. The measured reduction remains distinct from contribution and value under PD-008.
+5. Attribution to a candidate contribution passes under PD-013.
+6. Cross-IE harm checks pass under PD-014.
+7. The reduction is boundary-consistent and does not merely shift inefficiency outside the relevant window, node or system boundary.
+8. The reduction is system-relevant and not merely private local optimization.
+9. The same physical effect is not recognized twice as separate value.
+10. Required evidence is sufficient.
+
+If any required condition is false, recognized value is rejected.
+
+If the eligible measured reduction is zero after safety gates, recognized value is zero.
+
+If only a bounded safe portion of the measured reduction is eligible, recognized value is capped to that eligible portion.
+
+If any required condition is unresolved and materially affects eligibility, recognized value is postponed.
+
+Measured reduction alone never equals recognized value.
+
+RQ-016 validates recognized-value eligibility only.
+It does not validate reputation scoring, incentives, tokens, economic allocation, final scoring or implementation logic.
+
+STATUS: VALIDATED
+
 ## PD-015
 
 Quantitative measured-reduction metrics for PoE V1 are validated only as measured-reduction quantities for the three primitive inefficiencies IE-002, IE-003 and IE-005.
@@ -171,6 +207,9 @@ STATUS: VALIDATED
 ## PD-003
 
 Il valore nel protocollo PoE e la riduzione verificabile di una inefficienza del sistema energetico.
+
+Clarification:
+PD-003 is an early compact definition. After PD-008, PD-009, PD-013, PD-014 and PD-015, "riduzione verificabile" must not be interpreted as raw measured reduction or measured reduction alone. In PoE V1, value means protocol-qualified reduction: verified, attributable, system-relevant, boundary-consistent, non-duplicated, not invalidated by unbounded material cross-IE harm, and supported by sufficient evidence. PD-016 defines the recognized-value eligibility gate.
 
 STATUS: VALIDATED
 

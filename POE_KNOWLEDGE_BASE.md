@@ -20,6 +20,7 @@ Current consolidated knowledge:
 - PD-013: VALIDATED
 - PD-014: VALIDATED
 - PD-015: VALIDATED
+- PD-016: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -162,3 +163,14 @@ None define recognized value, reputation, incentives, tokens, economic allocatio
 Validated by:
 RQ-015
 PD-015
+
+Recognized value eligibility:
+Recognized value is not measured reduction alone.
+PD-016 clarifies PD-003: "riduzione verificabile" means protocol-qualified reduction, not raw measured reduction.
+Recognized value requires primitive IE relevance, valid measured reduction, attribution, cross-IE safety, boundary integrity, system relevance, non-duplication and sufficient evidence.
+Failure outcomes are rejected, zero, capped or postponed depending on evidence and bounded validity.
+PD-016 does not define reputation, incentives, tokens, economic allocation, final scoring or implementation logic.
+
+Validated by:
+RQ-016
+PD-016

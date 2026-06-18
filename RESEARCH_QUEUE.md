@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-016
+
+Question:
+When can a verified measured reduction become recognized value in PoE V1 without collapsing measured reduction into value, reputation, incentive, token logic or scoring?
+
+Output:
+RQ-016_RECOGNIZED_VALUE_ELIGIBILITY.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-016
+
 ## RQ-015
 
 Question:
