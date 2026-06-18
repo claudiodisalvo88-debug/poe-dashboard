@@ -25,7 +25,7 @@ La distinzione minima e:
 - CONTRIBUTO = comportamento osservabile, verificabile e attribuibile a un nodo/soggetto che partecipa causalmente alla riduzione.
 - VALORE = proprieta protocollare derivata da una riduzione verificata, attribuita e sistemicamente rilevante di una inefficienza catalogata.
 
-VALORE non e identico alla RIDUZIONE grezza. VALORE e RIDUZIONE qualificata dal protocollo tramite verifica, attribuzione, rilevanza sistemica e controllo anti-gaming.
+VALORE non e identico alla RIDUZIONE grezza. VALORE e RIDUZIONE qualificata dal protocollo tramite verifica, attribuzione, rilevanza sistemica e controllo contro manipolazioni.
 
 ## Object definitions
 
@@ -95,7 +95,7 @@ Condizioni sufficienti:
 - comportamento misurato;
 - riduzione verificata;
 - nesso causale plausibile e non contraddetto;
-- assenza di gaming evidente.
+- assenza di manipolazione evidente.
 
 Verifica:
 - audit del comportamento;
@@ -117,7 +117,7 @@ Input osservabili:
 - inefficienza target;
 - baseline;
 - finestra temporale;
-- controlli anti-gaming;
+- controlli contro manipolazioni;
 - eventuali effetti collaterali.
 
 Output osservabili:
@@ -182,7 +182,7 @@ Puo esistere miglioramento aggregato non attribuito, ma non puo generare reputaz
 
 ### D. Qual e la definizione minima di VALORE?
 
-VALORE = riduzione verificata, attribuita e sistemicamente rilevante di una inefficienza energetica catalogata, con effetto netto positivo o non negativo e senza evidenza di gaming.
+VALORE = riduzione verificata, attribuita e sistemicamente rilevante di una inefficienza energetica catalogata, con effetto netto positivo o non negativo e senza evidenza di manipolazione.
 
 ### E. VALORE e identico a RIDUZIONE?
 
@@ -205,7 +205,40 @@ PD-003 resta valida solo se interpretata come formula compressa: valore = riduzi
 8. Derived-inefficiency inflation: gonfiare inefficienze derivate per duplicare valore gia contato nelle primitive.
 9. Negative externality masking: produrre riduzione locale creando instabilita, picchi o sprechi altrove.
 
-## Final decision
+## G. Causal validation
+
+RQ-007 introduce una correzione importante: la catena PD-001 non deve essere letta come ordine causale rigido.
+
+PD-001 resta valida come gerarchia protocollare, ma il nesso causale minimo e:
+
+INEFFICIENZA VALIDATA
+-> METRICA DELL'INEFFICIENZA
+-> BASELINE / CONDIZIONE DI CONFRONTO
+-> COMPORTAMENTO OSSERVABILE
+-> CONTRIBUTO CANDIDATO
+-> RIDUZIONE MISURATA
+-> VERIFICA DELLA RIDUZIONE
+-> ATTRIBUZIONE AL CONTRIBUTO
+-> VALORE
+-> REPUTAZIONE
+
+Questa struttura evita il rischio di osservare una riduzione e poi cercare retroattivamente un contributo a cui assegnarla.
+
+## H. Candidate contribution rule
+
+Un comportamento energetico osservato non e automaticamente contributo valido.
+
+Stati minimi:
+
+1. comportamento osservato;
+2. contributo candidato;
+3. contributo verificato;
+4. contributo attribuito;
+5. valore protocollare riconosciuto.
+
+Il passaggio da candidato a valido richiede riduzione verificata, attribuzione e rilevanza rispetto a una inefficienza primitiva o a un percorso derivato autorizzato.
+
+## I. Final decision
 
 RQ-007: VALIDATED / CLOSED
 
@@ -213,3 +246,12 @@ Decisione prodotta: PD-008
 
 Conseguenza protocollare:
 PoE deve trattare CONTRIBUTO, RIDUZIONE e VALORE come oggetti separati nella fase di ricerca, documentazione e futura modellazione dati. La reputazione non deve derivare da riduzioni grezze, ma da valore protocollare riconosciuto.
+
+Conseguenza aggiuntiva:
+Le prossime metriche per IE-002, IE-003 e IE-005 devono misurare separatamente:
+
+- comportamento osservabile;
+- riduzione misurata;
+- verifica della riduzione;
+- attribuzione al contributo;
+- valore riconosciuto.
