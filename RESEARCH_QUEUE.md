@@ -13,3 +13,17 @@ VALIDATED
 
 Decision:
 PD-007
+
+## RQ-007
+
+Question:
+CONTRIBUTO, RIDUZIONE e VALORE sono oggetti distinti oppure parzialmente coincidenti nel protocollo PoE?
+
+Output:
+RQ-007_CONTRIBUTO_RIDUZIONE_VALORE.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-008
