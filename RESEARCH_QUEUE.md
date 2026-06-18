@@ -27,3 +27,17 @@ VALIDATED / CLOSED
 
 Decision:
 PD-008
+
+## RQ-008
+
+Question:
+What is the minimum metric structure for IE-002, IE-003 and IE-005?
+
+Output:
+RQ-008_MINIMUM_METRIC_STRUCTURE.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-009

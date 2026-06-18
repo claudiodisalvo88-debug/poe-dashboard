@@ -61,3 +61,20 @@ Un comportamento osservato non e automaticamente contributo valido. Prima e cont
 Validated by:
 RQ-007
 PD-008
+
+Minimum metric structure PoE V1:
+For each primitive inefficiency, metrics must separate:
+
+* observable behavior;
+* candidate contribution;
+* measured reduction;
+* reduction verification;
+* attribution to contribution;
+* recognized value.
+
+RQ-008 validates only the conceptual metric structure.
+Quantitative formulas remain undefined.
+
+Validated by:
+RQ-008
+PD-009

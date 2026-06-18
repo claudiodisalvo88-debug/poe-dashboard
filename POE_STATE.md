@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-007
+RQ-008
 
 RQ-005B:
 VALIDATED
@@ -15,7 +15,10 @@ VALIDATED
 RQ-007:
 VALIDATED / CLOSED
 
-PD-000 to PD-008:
+RQ-008:
+VALIDATED / CLOSED
+
+PD-000 to PD-009:
 VALIDATED
 
 Implementation:
@@ -27,10 +30,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Definire metriche minime per IE-002, IE-003 e IE-005 separando sempre:
-1. comportamento osservabile;
-2. contributo candidato;
-3. riduzione misurata;
-4. verifica della riduzione;
-5. attribuzione al contributo;
-6. valore riconosciuto.
+Define quantitative metric candidates for IE-002, IE-003 and IE-005, including units, time windows, baseline method, invalidation conditions, and attribution evidence.

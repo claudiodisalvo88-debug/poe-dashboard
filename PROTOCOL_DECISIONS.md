@@ -81,3 +81,31 @@ VALORE non e identico alla RIDUZIONE grezza.
 VALORE e RIDUZIONE qualificata dal protocollo tramite verifica, attribuzione, rilevanza sistemica e controllo contro manipolazioni.
 
 STATUS: VALIDATED
+
+## PD-009
+
+For each primitive inefficiency, PoE V1 metrics must separate:
+
+1. observable behavior;
+2. candidate contribution;
+3. measured reduction;
+4. reduction verification;
+5. attribution to contribution;
+6. recognized value.
+
+IE-002, IE-003 and IE-005 must each define:
+
+* metric target;
+* observable inputs;
+* baseline requirement;
+* valid reduction;
+* invalid reduction;
+* attribution rule;
+* value condition;
+* attack vectors;
+* minimum verification rule.
+
+RQ-008 validates the conceptual metric structure only.
+It does not validate final quantitative formulas, thresholds, scoring rules, tokens, or incentives.
+
+STATUS: VALIDATED
