@@ -6,6 +6,29 @@ PoE misura il contributo energetico verificabile.
 
 STATUS: VALIDATED
 
+## PD-011
+
+IE-003 measured reduction is valid only when peak stress is reduced during a valid system-relevant critical window, against a valid peak baseline and threshold, with rebound/displacement checks, artificial-peak rejection, data-quality checks, and sufficient evidence for attribution.
+
+For IE-003:
+
+* raw kW reduction is not sufficient;
+* not every peak window is critical;
+* participant-declared critical window alone is invalid;
+* previous peak alone is not a valid baseline peak profile;
+* arbitrary or cherry-picked peak threshold is invalid;
+* artificial peak creation invalidates reduction;
+* temporal displacement invalidates reduction when it recreates equivalent stress;
+* cross-node displacement invalidates reduction when stress is transferred outside the measured boundary;
+* full rebound invalidates reduction;
+* partial rebound reduces measured reduction;
+* missing or material uncertainty postpones validation.
+
+RQ-011 validates IE-003 critical-window, peak-threshold, baseline peak-profile and rebound/displacement rules only.
+It does not validate final NPSR_net formula, scoring rules, tokens, or incentives.
+
+STATUS: VALIDATED
+
 ## PD-010
 
 IE-002 measured reduction is valid only when lower energy consumption is shown for the same necessary function under equivalent context, net of rebound and shifted consumption, against a non-gamed baseline, with sufficient evidence for attribution.

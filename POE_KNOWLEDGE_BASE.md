@@ -15,6 +15,7 @@ Current consolidated knowledge:
 - PD-008: VALIDATED
 - PD-009: VALIDATED
 - PD-010: VALIDATED
+- PD-011: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -91,3 +92,16 @@ Function loss, service degradation, shifted consumption and full rebound invalid
 Validated by:
 RQ-010
 PD-010
+
+IE-003 measurement safety rule:
+Peak reduction becomes verified IE-003 measured reduction only if the critical window is valid, peak threshold is valid, baseline peak profile is valid, observed peak stress is lower in the system-relevant window, rebound and displacement checks pass, artificial peak creation is rejected, data quality is sufficient, and attribution to candidate contribution is possible.
+
+Raw kW reduction is not sufficient.
+Not every peak window is critical.
+Participant-declared critical window alone is invalid.
+Previous peak alone is not a valid baseline.
+Artificial peak creation, equivalent rebound, temporal displacement and cross-node displacement invalidate IE-003 measured reduction.
+
+Validated by:
+RQ-011
+PD-011

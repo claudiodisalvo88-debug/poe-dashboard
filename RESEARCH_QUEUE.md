@@ -72,3 +72,17 @@ VALIDATED / CLOSED
 
 Decision:
 PD-010
+
+## RQ-011
+
+Question:
+What critical-window, peak-threshold and rebound/displacement rules are required before IE-003 measured reduction can be verified?
+
+Output:
+RQ-011_IE003_CRITICAL_WINDOW_PEAK_VALIDATION.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-011
