@@ -86,3 +86,17 @@ VALIDATED / CLOSED
 
 Decision:
 PD-011
+
+## RQ-012
+
+Question:
+What system-need, response-profile and useful-response rules are required before IE-005 measured reduction can be verified?
+
+Output:
+RQ-012_IE005_SYSTEM_NEED_RESPONSE_VALIDATION.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-012

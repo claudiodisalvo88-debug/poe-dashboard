@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-011
+RQ-012
 
 Last postponed research:
 RQ-009
@@ -30,7 +30,10 @@ VALIDATED / CLOSED
 RQ-011:
 VALIDATED / CLOSED
 
-PD-000 to PD-011:
+RQ-012:
+VALIDATED / CLOSED
+
+PD-000 to PD-012:
 VALIDATED
 
 Implementation:
@@ -42,4 +45,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Define IE-005 system-need, response-profile and useful-response validation rules.
+Define attribution standard for multi-actor reductions across IE-002, IE-003 and IE-005.

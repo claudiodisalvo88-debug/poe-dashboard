@@ -16,6 +16,7 @@ Current consolidated knowledge:
 - PD-009: VALIDATED
 - PD-010: VALIDATED
 - PD-011: VALIDATED
+- PD-012: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -105,3 +106,16 @@ Artificial peak creation, equivalent rebound, temporal displacement and cross-no
 Validated by:
 RQ-011
 PD-011
+
+IE-005 measurement safety rule:
+Behavior variation becomes verified IE-005 measured reduction only if a valid system need exists, a valid response profile exists before or at the event, the response is useful, timely, correctly directed, sufficiently large, sufficiently sustained, inside the relevant boundary, distinguishable from normal variation, net of rebound, free from fake-flexibility patterns, and attributable to the candidate contribution.
+
+Raw behavior variation is not sufficient.
+Raw response events are not sufficient.
+Participant-declared system need alone is invalid.
+Post-hoc response profile is invalid.
+Wrong direction, late response, insufficient magnitude, insufficient duration, normal variation, fake flexibility and harmful rebound invalidate or postpone IE-005 measured reduction.
+
+Validated by:
+RQ-012
+PD-012

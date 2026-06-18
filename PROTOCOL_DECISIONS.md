@@ -1,5 +1,29 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-012
+
+IE-005 measured reduction is valid only when behavior variation is a useful, timely, correctly directed, sufficiently large and sufficiently sustained response to a verified system need, inside the relevant boundary, distinguishable from normal variation, net of rebound, free from fake-flexibility patterns, and attributable to the candidate contribution.
+
+For IE-005:
+
+* raw behavior variation is not sufficient;
+* raw response events are not sufficient;
+* participant-declared system need alone is invalid;
+* response profile defined after the response is invalid;
+* wrong-direction response invalidates reduction;
+* late response invalidates reduction when it misses the useful deadline;
+* insufficient magnitude invalidates or postpones validation;
+* insufficient duration invalidates or postpones validation;
+* normal variation must not be counted as flexibility;
+* fake flexibility invalidates reduction;
+* harmful rebound invalidates or reduces measured reduction;
+* missing or material uncertainty postpones validation.
+
+RQ-012 validates IE-005 system-need, response-profile and useful-response rules only.
+It does not validate final UFR_net formula, scoring rules, tokens, or incentives.
+
+STATUS: VALIDATED
+
 ## PD-000
 
 PoE misura il contributo energetico verificabile.
