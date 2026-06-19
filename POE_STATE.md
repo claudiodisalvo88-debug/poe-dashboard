@@ -54,10 +54,13 @@ VALIDATED
 Implementation:
 BLOCKED
 
+Operating workflow:
+Repository-based agent workflow formalized through AGENTS.md, WORKFLOW_RUNBOOK.md, AGENT_QUEUE.md, AGENT_OUTPUTS.md and PM_REVIEW.md.
+
 Protocol rule from RQ-007:
 CONTRIBUTO, RIDUZIONE and VALORE are distinct objects.
 PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Define the next protocol research question after reputation eligibility, without implementing code, incentives, tokens, economic scoring or final reputation formula.
+Use the PoE agentic workflow files to manage the next protocol research task after reputation eligibility without relying on chat memory, and without implementing code, incentives, tokens, economic scoring or final reputation formula.

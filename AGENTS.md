@@ -61,7 +61,9 @@ Validare il modello ERS.
 
 Domanda guida:
 
-“Quale comportamento energetico genera reputazione reale e quale no?”# PoE Operating System — Agenti Specializzati
+“Quale comportamento energetico genera reputazione reale e quale no?”
+
+# PoE Operating System — Agenti Specializzati
 
 ## Regola madre
 
@@ -73,6 +75,55 @@ Ogni agente deve:
 3. produrre output operativo;
 4. indicare dove salvare l'output;
 5. non inventare stato tecnico, file, errori, deploy o dati non verificati.
+
+---
+
+# PoE Agentic Workflow
+
+## Principio centrale
+Gli agenti non comunicano tra loro tramite memoria chat.
+Gli agenti comunicano attraverso il repository.
+
+## Ruoli operativi
+
+### PM Agent
+- governa priorità;
+- valida output e vincoli;
+- decide il prossimo task;
+- prepara istruzioni operative per agenti e Codex.
+
+### Innovator Agent
+- stressa e valida regole protocollo;
+- propone test minimi e criteri di validazione;
+- non scrive codice;
+- non modifica il repository.
+
+### Codex
+- modifica solo file autorizzati dal PM;
+- esegue task documentali o tecnici entro i vincoli approvati;
+- non decide protocollo in autonomia.
+
+### QA / Verifier Agent
+- verifica coerenza tra task, output e diff;
+- controlla assenza di modifiche proibite;
+- valida i vincoli prima del commit.
+
+### Memory Agent
+- mantiene `POE_STATE.md` sintetico;
+- sposta dettagli operativi nei file modulari;
+- aiuta a lasciare una next action chiara.
+
+## Flusso ufficiale
+`POE_STATE.md`
+→ `PM`
+→ `AGENT_QUEUE.md`
+→ agente specializzato
+→ `AGENT_OUTPUTS.md`
+→ `PM_REVIEW.md`
+→ `Codex`
+→ `QA`
+→ commit/push
+→ `POE_STATE.md` updated next action
 
 ---
 
@@ -277,4 +328,3 @@ Obiettivo: [TASK].
 Usa solo i file rilevanti.
 Produci output nel formato standard.
 Non modificare altro.
-
