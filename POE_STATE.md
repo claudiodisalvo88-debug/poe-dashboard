@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-017
+RQ-018
 
 Last postponed research:
 RQ-009
@@ -48,7 +48,10 @@ VALIDATED / CLOSED
 RQ-017:
 VALIDATED / CLOSED
 
-PD-000 to PD-017:
+RQ-018:
+VALIDATED / CLOSED
+
+PD-000 to PD-018:
 VALIDATED
 
 Implementation:
@@ -63,4 +66,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Use the PoE agentic workflow files to manage the next protocol research task after reputation eligibility without relying on chat memory, and without implementing code, incentives, tokens, economic scoring or final reputation formula.
+Define the next protocol research question after aggregated reputation evidence boundaries, without implementing code, final reputation formula, ranking, incentives, tokens or economic scoring.

@@ -1,5 +1,59 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-018
+
+Aggregated reputation evidence boundaries
+
+Un insieme di reputation-eligible evidence puo essere aggregato solo come evidenza reputazionale non economica, non finale e non ordinante, entro boundary espliciti di nodo, IE primitive, finestra temporale, tipo di evidenza e non duplicazione.
+
+L'aggregazione deve preservare separazione per IE primitive, impedire duplicazioni, identificare correlazioni, isolare evidenze eccezionali capped, esporre conflitti e vietare netting cross-IE automatico.
+
+Aggregated reputation evidence non definisce final reputation, ranking, score, incentivo, reward, token, payout, allocazione economica, diritto economico, API, database, dashboard o implementation logic.
+
+I gate minimi di aggregazione sono:
+
+1. Ogni item e gia reputation-eligible.
+2. Il node boundary e identico o attribuitivamente compatibile.
+3. La time window e dichiarata.
+4. La IE primitive e dichiarata.
+5. La separazione tra IE-002, IE-003 e IE-005 e preservata.
+6. I duplicati sono esclusi o merged.
+7. Gli item correlati o dipendenti sono identificati.
+8. I conflitti cross-IE sono esclusi, separati, capped o postponed.
+9. Le evidenze eccezionali capped restano separate dalle evidenze ordinarie.
+10. L'aggregato non produce score unico, classifica, ranking, diritto economico, token o incentivo.
+
+Failure outcomes:
+
+rejected:
+L'evidenza non puo entrare nell'aggregazione perche invalida, manipolata, duplicata in modo fraudolento, fuori boundary o conflittuale in modo non risolto.
+
+merged:
+Due o piu evidenze descrivono lo stesso evento sottostante e devono diventare un solo item aggregabile.
+
+capped:
+Evidenza valida ma limitata perche eccezionale, episodica, correlata, dipendente o con incertezza residua.
+
+separated:
+Evidenza valida ma non aggregabile nello stesso bucket per IE, finestra, boundary, tipo o natura ordinaria/eccezionale.
+
+postponed:
+Servono dati aggiuntivi su attribuzione, boundary, correlazione, conflitto o non duplicazione.
+
+aggregation-eligible:
+Evidenza ammessa a essere raggruppata in un bucket descrittivo non economico e non finale.
+
+Anti-formula rule:
+L'aggregazione di evidenza reputazionale non puo produrre valore numerico unico, ordine tra nodi, ranking, leaderboard, formula reputazionale, score economico, incentivo, token, payout, allocazione o diritto economico.
+Se un aggregato permette di dire "Nodo A > Nodo B" senza una decisione reputazionale successiva, l'aggregazione e diventata ranking nascosto.
+Se un aggregato permette di calcolare premio, token o allocazione, l'aggregazione e diventata incentivo nascosto.
+Se un aggregato comprime IE diverse in un solo valore, l'aggregazione e diventata formula cross-IE implicita.
+
+RQ-018 valida solo i boundary di aggregated reputation evidence.
+Non valida formula reputazionale finale, ranking, incentivi, token, payout, allocazione economica, economic scoring, API, database, dashboard logic o implementazione.
+
+STATUS: VALIDATED
+
 ## PD-017
 
 Reputation eligibility after recognized value

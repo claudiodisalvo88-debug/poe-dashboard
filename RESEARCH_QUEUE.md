@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-018
+
+Question:
+When can multiple reputation-eligible recognized values be aggregated as reputation evidence without becoming final reputation formula, ranking, incentive logic, token issuance or economic scoring?
+
+Output:
+RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-018
+
 ## RQ-017
 
 Question:

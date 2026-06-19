@@ -2,18 +2,7 @@
 
 ## Active task
 
-## M-001-RQ-018-DOCUMENTATION
-
-Title: Document RQ-018 reputation evidence aggregation boundaries  
-Owner agent: PM / Codex / QA  
-Source files: `POE_STATE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`  
-Allowed files to edit: not authorized yet  
-Forbidden files: code, API, database, `poe.db`, Python files  
-Objective: prepare the next controlled Codex documentation task for RQ-018 after PM review.  
-Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.  
-Required output: waiting for PM documentation prompt.  
-Validation criteria: task remains active but no protocol files are changed in this commit.  
-Status: ACTIVE
+Nessun task active registrato.
 
 ## Pending tasks
 
@@ -24,6 +13,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-018-DOCUMENTATION
+
+Title: Document RQ-018 reputation evidence aggregation boundaries
+Owner agent: PM / Codex / QA
+Status: COMPLETED
+Result: RQ-018 VALIDATED / CLOSED, PD-018 VALIDATED
 
 ## M-001-RQ-018-INNOVATOR
 

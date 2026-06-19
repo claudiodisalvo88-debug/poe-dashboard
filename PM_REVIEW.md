@@ -5,6 +5,18 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-018-DOCUMENTATION
+
+Related task: M-001-RQ-018-DOCUMENTATION
+Reviewed output: PM documentation instruction for RQ-018 / PD-018
+Decision: ACCEPTED
+Reason: RQ-018 has passed Innovator stress-test with PM correction and can be documented as non-economic aggregation boundary layer.
+Required changes: Document RQ-018 / PD-018 without formula, ranking, incentives, tokens, economic scoring or implementation.
+Allowed Codex actions: update `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `POE_STATE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and create `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`.
+Forbidden Codex actions: code, API, database, `poe.db`, Python files, dashboard, final formula, ranking, incentives, tokens.
+Commit allowed: yes, if only authorized Markdown files are staged.
+Next action: PM verifies commit and decides next research question.
+
 ## PM-REVIEW-RQ-018-INNOVATOR-OUTPUT
 
 Related task: M-001-RQ-018-INNOVATOR

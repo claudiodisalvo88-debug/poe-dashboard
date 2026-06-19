@@ -22,6 +22,7 @@ Current consolidated knowledge:
 - PD-015: VALIDATED
 - PD-016: VALIDATED
 - PD-017: VALIDATED
+- PD-018: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -190,3 +191,19 @@ Eligibility is only informational admissibility and creates no reward, payout, t
 Validated by:
 RQ-017
 PD-017
+
+Aggregated reputation evidence boundaries:
+Recognized value is not reputation eligibility.
+Reputation eligibility is not aggregated reputation evidence.
+Aggregated reputation evidence is not final reputation.
+Final reputation is not incentive.
+Aggregated reputation evidence is a non-economic, non-final and non-ordering descriptive layer made of multiple reputation-eligible evidence items grouped only within explicit boundaries of node, IE primitive, time window, evidence type and non-duplication.
+Primary aggregation remains separated by IE primitive: IE-002 with IE-002, IE-003 with IE-003, IE-005 with IE-005.
+Cross-IE aggregation is allowed only as a separated descriptive view and never as a single cumulative value.
+Duplicate evidence cannot count twice; correlated or dependent evidence cannot be treated as independent and must be merged, capped or separated.
+Negative or conflicting evidence cannot be hidden inside a positive aggregate.
+Aggregated reputation evidence cannot define final reputation, ranking, leaderboard, token, incentive, payout, economic allocation or economic scoring.
+
+Validated by:
+RQ-018
+PD-018
