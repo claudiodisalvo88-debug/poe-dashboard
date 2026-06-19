@@ -5,6 +5,16 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-001-PROTOCOL-KERNEL-CONSOLIDATION
+
+Related task: M-001-PROTOCOL-KERNEL-CONSOLIDATION
+Decision: ACCEPTED
+Reason: After RQ-023 / PD-023, PoE needed a consolidated protocol kernel and updated repository README before continuing toward any future formula-candidate research phase.
+Required changes: Create POE_PROTOCOL_KERNEL.md, update README.md, update POE_STATE.md with consolidation note, register completed task in AGENT_QUEUE.md.
+Forbidden Codex actions: no code, API, database, dashboard, poe.db, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, ranking, incentives, tokens, payout or economic allocation.
+Commit allowed: yes, if only authorized files are staged.
+Next action: PM decides whether to close M-001 or open M-002 as strictly research-only formula-candidate phase.
+
 ## PM-REVIEW-RQ-023-DOCUMENTATION
 
 Related task: M-001-RQ-023-DOCUMENTATION

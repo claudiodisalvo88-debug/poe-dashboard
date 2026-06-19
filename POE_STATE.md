@@ -74,6 +74,7 @@ BLOCKED
 
 Operating workflow:
 Repository-based agent workflow formalized through AGENTS.md, WORKFLOW_RUNBOOK.md, AGENT_QUEUE.md, AGENT_OUTPUTS.md and PM_REVIEW.md.
+Protocol Kernel consolidation completed through POE_PROTOCOL_KERNEL.md and README.md update.
 
 Protocol rule from RQ-007:
 CONTRIBUTO, RIDUZIONE and VALORE are distinct objects.
@@ -81,4 +82,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Define the next protocol research question after formula candidate research opening boundary, without implementing code, formula candidates, final formula, formula syntax, weights, scalar score, ranking, incentives, tokens, payout, economic allocation or economic scoring.
+Decide whether to close M-001 as protocol kernel milestone or open M-002 for strictly research-only formula-candidate phase, without implementing code, formula candidates, final formula, formula syntax, weights, scalar score, ranking, incentives, tokens, payout, economic allocation or economic scoring.

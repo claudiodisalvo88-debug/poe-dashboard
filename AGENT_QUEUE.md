@@ -14,6 +14,13 @@ Nessun task blocked registrato.
 
 ## Completed tasks
 
+## M-001-PROTOCOL-KERNEL-CONSOLIDATION
+
+Title: Consolidate PoE protocol kernel and update README
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: POE_PROTOCOL_KERNEL.md created and README.md updated to reflect RQ-023 / PD-023 protocol state.
+
 ## M-001-RQ-023-DOCUMENTATION
 
 Title: Document RQ-023 formula candidate research opening boundary
