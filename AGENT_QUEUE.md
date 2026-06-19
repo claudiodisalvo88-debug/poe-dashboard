@@ -2,7 +2,18 @@
 
 ## Active task
 
-Nessun task active registrato.
+## M-001-RQ-022-INNOVATOR
+
+Title: Stress-test reputation formula admissibility constraints
+Owner agent: Innovator Agent
+Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`, `AGENTS.md`, `WORKFLOW_RUNBOOK.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`
+Allowed files to edit: none for Innovator Agent
+Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, candidate formulas, final formula, weights, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation
+Objective: stress-test what constraints any future PoE reputation formula must satisfy before formula candidates can be considered.
+Non-objectives: do not define formula candidates, final formula, weights, score, ranking, incentives, token logic, payout, allocation, API, database, dashboard or implementation.
+Required output: Innovator Agent verdict, stale-state check, formula-admissibility risks, proposed acceptance/refinement/rejection, and PM-review-ready synthesis.
+Validation criteria: task is registered only as Innovator task; no protocol decision is documented; no RQ-022 document is created; no code or database files are touched.
+Status: ACTIVE
 
 ## Pending tasks
 

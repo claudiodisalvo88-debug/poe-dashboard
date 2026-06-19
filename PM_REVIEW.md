@@ -5,6 +5,15 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-PREP-RQ-022-INNOVATOR
+
+Related task: M-001-RQ-022-INNOVATOR
+Decision: PREPARED
+Reason: RQ-021 / PD-021 closed the boundary between PoE Reputation object and formula-ready reputation structure. The next required protocol step is to define admissibility constraints for any future reputation formula before formula candidates, weights, scalar score, ranking, incentives, tokens, payout, economic allocation or implementation can be considered.
+Allowed Codex actions: register M-001-RQ-022-INNOVATOR in AGENT_QUEUE.md and record this PM preparation note.
+Forbidden Codex actions: do not update PROTOCOL_DECISIONS.md, RESEARCH_QUEUE.md, POE_KNOWLEDGE_BASE.md or POE_STATE.md; do not create RQ-022 document; do not define PD-022; do not modify code, API, database, dashboard or `poe.db`.
+Next action: user runs Innovator Agent with the M-001-RQ-022-INNOVATOR prompt and returns output to PM for verdict.
+
 ## PM-REVIEW-RQ-021-DOCUMENTATION
 
 Related task: M-001-RQ-021-DOCUMENTATION
