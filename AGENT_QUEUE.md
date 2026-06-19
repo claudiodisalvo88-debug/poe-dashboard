@@ -2,17 +2,17 @@
 
 ## Active task
 
-## M-001-RQ-020-INNOVATOR
+## M-001-RQ-020-DOCUMENTATION
 
-Title: Stress-test PoE Reputation object boundary
-Owner agent: PM / Innovator
-Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`, `AGENTS.md`, `WORKFLOW_RUNBOOK.md`
-Allowed files to edit: `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `AGENT_QUEUE.md`
-Forbidden files: code, API, database, `poe.db`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, closed RQ files, Python files
-Objective: prepare an Innovator Agent stress-test for RQ-020 without validating, documenting or committing protocol decisions.
-Non-objectives: define final reputation formula, ranking, incentives, tokens, economic scoring, reward logic, implementation, API or database changes.
-Required output: Innovator Agent prompt and expected output structure for RQ-020.
-Validation criteria: task remains pre-documentation; no protocol decision is added; no code or database file is touched.
+Title: Document RQ-020 PoE Reputation object boundary
+Owner agent: PM / Codex / QA
+Source files: `POE_STATE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`
+Allowed files to edit: not authorized yet
+Forbidden files: code, API, database, `poe.db`, Python files
+Objective: prepare the next controlled Codex documentation task for RQ-020 after PM review.
+Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.
+Required output: waiting for PM documentation prompt.
+Validation criteria: task remains active but no protocol files are changed in this commit.
 Status: ACTIVE
 
 ## Pending tasks
@@ -24,6 +24,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-020-INNOVATOR
+
+Title: Stress-test PoE Reputation object boundary
+Owner agent: PM / Innovator
+Status: COMPLETED
+Result: Innovator output accepted with PM changes; RQ-020 READY FOR PM REVIEW.
 
 ## M-001-RQ-019-DOCUMENTATION
 

@@ -5,6 +5,18 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-020-INNOVATOR-OUTPUT
+
+Related task: M-001-RQ-020-INNOVATOR
+Reviewed output: OUTPUT-RQ-020-INNOVATOR-001
+Decision: ACCEPTED WITH CHANGES
+Reason: Innovator analysis is protocol-useful and correctly identifies the PoE Reputation object boundary, but its formal verdict was based on stale repository state claiming PD-017, PD-018 and PD-019 were not consolidated. Current repository state confirms RQ-019 and PD-019 are validated.
+Required changes: Replace final verdict "RQ-020 NEEDS REFINEMENT" with "RQ-020 READY FOR PM REVIEW". Preserve minimal object components, separation rules, comparability rule, conflict representation, partial/capped/conditional representation, staleness representation, failure outcomes and anti-leakage rule.
+Allowed Codex actions: update `AGENT_OUTPUTS.md`, `PM_REVIEW.md` and `AGENT_QUEUE.md` only.
+Forbidden Codex actions: code, API, database, `poe.db`, `POE_STATE.md`, protocol decisions, RQ files, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`.
+Commit allowed: yes, if only `AGENT_OUTPUTS.md`, `PM_REVIEW.md` and `AGENT_QUEUE.md` are staged.
+Next action: open documentation task for formal RQ-020 / candidate PD-020.
+
 ## PM-REVIEW-RQ-020-INNOVATOR
 
 Related task: M-001-RQ-020-INNOVATOR
