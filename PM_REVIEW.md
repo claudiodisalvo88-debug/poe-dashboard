@@ -5,6 +5,27 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-021-INNOVATOR-OUTPUT
+
+Related task: M-001-RQ-021-INNOVATOR
+Reviewed output: Innovator Agent output for RQ-021 reputation formula readiness boundary
+Original agent verdict: POSTPONE
+PM verdict: ACCEPT WITH REFINEMENT
+Stale-state correction: Agent verdict was based on outdated repository view. Real repository confirms RQ-020 VALIDATED / CLOSED, PD-000 to PD-020 VALIDATED, M-001-RQ-021-INNOVATOR ACTIVE and Implementation BLOCKED.
+Reason: The substantive reasoning is valid. Formula-ready reputation structure is useful only as a non-economic, non-numeric and non-ordering readiness layer between PoE Reputation object and future formula.
+Accepted content:
+
+* formula-ready reputation structure definition
+* boundary distinction between object, formula-ready structure and future formula
+* minimum gates
+* failure outcomes
+* anti-leakage rules
+* risks against hidden formula, hidden score, hidden ranking, economic leakage and implementation creep
+Required refinement: Documentation must reject the stale POSTPONE recommendation and preserve only the corrected PM verdict.
+Allowed next action: open M-001-RQ-021-DOCUMENTATION as the next controlled Codex task.
+Forbidden next action: do not define formula, weights, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation, API, database, dashboard or implementation.
+Commit allowed: yes, if only AGENT_OUTPUTS.md, PM_REVIEW.md and AGENT_QUEUE.md are staged.
+
 ## PM-PREP-RQ-021-INNOVATOR
 
 Related task: M-001-RQ-021-INNOVATOR

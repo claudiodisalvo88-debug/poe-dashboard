@@ -5,6 +5,63 @@ contenere output sintetici degli agenti, non conversazioni intere.
 
 ## Latest outputs
 
+## AGENT-OUTPUT-RQ-021-INNOVATOR
+
+Related task: M-001-RQ-021-INNOVATOR
+Agent verdict: POSTPONE
+PM stale-state correction: ACCEPT WITH REFINEMENT / READY FOR PM REVIEW
+Stale-state issue: Innovator Agent read outdated repository state and did not see RQ-020 / PD-020 / M-001-RQ-021-INNOVATOR as consolidated.
+Correct repository state: RQ-020 VALIDATED / CLOSED, PD-000 to PD-020 VALIDATED, M-001-RQ-021-INNOVATOR ACTIVE, Implementation BLOCKED.
+Useful protocol finding: formula-ready reputation structure is a non-economic, non-numeric and non-ordering readiness layer between PoE Reputation object and future reputation formula.
+Definition candidate: formula-ready reputation structure is a protocol state in which a PoE Reputation object is complete, bounded, coherent, IE-separated, source-referenced, non-stale, non-conflicting and anti-manipulation-safe enough to support future formula research without defining formula, weights, score, ranking, incentive, token, payout, economic allocation or implementation.
+Boundary distinction:
+
+* PoE Reputation object describes demonstrated systemic capacities.
+* Formula-ready reputation structure prepares the object for future formula research.
+* Future reputation formula calculates; it is not defined by RQ-021.
+Minimum gates:
+
+1. object completeness
+2. IE primitive separation
+3. boundary compatibility
+4. time-window compatibility
+5. readiness status compatibility
+6. conflict clearance
+7. staleness handling
+8. exceptional evidence isolation
+9. manipulation-risk control
+10. no cross-IE netting
+11. no numeric transformation
+12. no ordinal comparison
+13. no economic use
+14. no implementation binding
+Failure outcomes:
+
+* not-formula-ready
+* partial-formula-ready
+* conditional-formula-ready
+* capped-formula-ready
+* conflict-blocked
+* stale-blocked
+* boundary-incomplete
+* manipulation-risk-blocked
+* formula-ready
+Anti-leakage rules:
+* no hidden formula
+* no hidden score
+* no hidden ranking
+* no hidden incentive
+* no hidden token right
+* no hidden economic score
+* no premature implementation
+* no cross-IE netting
+* no stale-as-current
+* no exceptional-as-ordinary
+* no normalization-by-stealth
+* no comparability-by-stealth
+PM usable decision: RQ-021 is ready for controlled documentation as formula readiness boundary, with scope limited to readiness-for-formula-research only.
+Forbidden future content: formula, weights, coefficients, normalization, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, payout, economic allocation, API, database, dashboard, implementation.
+
 ## OUTPUT-RQ-020-INNOVATOR-001
 
 Related task: M-001-RQ-020-INNOVATOR

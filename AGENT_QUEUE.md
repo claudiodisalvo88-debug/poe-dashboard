@@ -2,17 +2,17 @@
 
 ## Active task
 
-## M-001-RQ-021-INNOVATOR
+## M-001-RQ-021-DOCUMENTATION
 
-Title: Stress-test reputation formula readiness boundary
-Owner agent: Innovator Agent
-Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`, `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `AGENTS.md`, `WORKFLOW_RUNBOOK.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`
-Allowed files to edit: none for Innovator Agent
+Title: Document RQ-021 reputation formula readiness boundary
+Owner agent: Codex / PM / QA
+Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`
+Allowed files to edit: not authorized yet
 Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, formula, weights, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation
-Objective: stress-test when the PoE Reputation object can become formula-ready structure without becoming formula, score, ranking, incentive, token, payout or economic scoring.
-Non-objectives: do not define final reputation formula, weights, score, ranking, incentives, token logic, payout, allocation, API, database, dashboard or implementation.
-Required output: Innovator Agent verdict, stale-state check, boundary risks, proposed acceptance/refinement/rejection, and PM-review-ready synthesis.
-Validation criteria: task is registered only as Innovator task; no protocol decision is documented; no RQ-021 document is created; no code or database files are touched.
+Objective: prepare the next controlled Codex documentation task for RQ-021 after PM review.
+Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.
+Required output: waiting for PM documentation prompt.
+Validation criteria: task remains active but no protocol files are changed in this commit.
 Status: ACTIVE
 
 ## Pending tasks
@@ -24,6 +24,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-021-INNOVATOR
+
+Title: Stress-test reputation formula readiness boundary
+Owner agent: Innovator Agent / PM
+Status: COMPLETED
+Result: Innovator output received; stale-state corrected by PM; RQ-021 ready for documentation task.
 
 ## M-001-RQ-020-DOCUMENTATION
 
