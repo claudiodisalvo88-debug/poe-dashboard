@@ -2,17 +2,17 @@
 
 ## Active task
 
-## M-001-RQ-022-INNOVATOR
+## M-001-RQ-022-DOCUMENTATION
 
-Title: Stress-test reputation formula admissibility constraints
-Owner agent: Innovator Agent
-Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`, `AGENTS.md`, `WORKFLOW_RUNBOOK.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`
-Allowed files to edit: none for Innovator Agent
-Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, candidate formulas, final formula, weights, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation
-Objective: stress-test what constraints any future PoE reputation formula must satisfy before formula candidates can be considered.
-Non-objectives: do not define formula candidates, final formula, weights, score, ranking, incentives, token logic, payout, allocation, API, database, dashboard or implementation.
-Required output: Innovator Agent verdict, stale-state check, formula-admissibility risks, proposed acceptance/refinement/rejection, and PM-review-ready synthesis.
-Validation criteria: task is registered only as Innovator task; no protocol decision is documented; no RQ-022 document is created; no code or database files are touched.
+Title: Document RQ-022 reputation formula admissibility constraints
+Owner agent: Codex / PM / QA
+Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`
+Allowed files to edit: not authorized yet
+Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, tokens, payout, economic allocation
+Objective: prepare the next controlled Codex documentation task for RQ-022 after PM review.
+Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.
+Required output: waiting for PM documentation prompt.
+Validation criteria: task remains active but no protocol files are changed in this commit.
 Status: ACTIVE
 
 ## Pending tasks
@@ -24,6 +24,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-022-INNOVATOR
+
+Title: Stress-test reputation formula admissibility constraints
+Owner agent: Innovator Agent / PM
+Status: COMPLETED
+Result: Innovator output received; stale-state corrected by PM; RQ-022 ready for documentation task.
 
 ## M-001-RQ-021-DOCUMENTATION
 

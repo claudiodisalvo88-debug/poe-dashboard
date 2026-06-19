@@ -5,6 +5,27 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-022-INNOVATOR-OUTPUT
+
+Related task: M-001-RQ-022-INNOVATOR
+Reviewed output: Innovator Agent output for RQ-022 reputation formula admissibility constraints
+Original agent verdict: POSTPONE
+PM verdict: ACCEPT WITH REFINEMENT
+Stale-state correction: Agent verdict was based on outdated repository view. Real repository confirms RQ-021 VALIDATED / CLOSED, PD-000 to PD-021 VALIDATED, M-001-RQ-022-INNOVATOR ACTIVE and Implementation BLOCKED.
+Reason: The substantive reasoning is valid. Admissible formula constraints are needed as a non-economic, non-implementative and non-computational constraint layer before future formula candidates.
+Accepted content:
+
+* admissible formula constraints definition
+* boundary distinction between formula-ready structure, admissible constraints, formula candidates and future formula
+* minimum constraints
+* failure outcomes
+* anti-leakage rules
+* risks against hidden formula, hidden weights, hidden score, hidden ranking, incentive leakage, token leakage, economic leakage, false precision, gaming optimization and implementation creep
+Required refinement: Documentation must reject the stale POSTPONE recommendation and preserve only the corrected PM verdict.
+Allowed next action: open M-001-RQ-022-DOCUMENTATION as the next controlled Codex task.
+Forbidden next action: do not define formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, tokens, payout, economic allocation, API, database, dashboard or implementation.
+Commit allowed: yes, if only AGENT_OUTPUTS.md, PM_REVIEW.md and AGENT_QUEUE.md are staged.
+
 ## PM-PREP-RQ-022-INNOVATOR
 
 Related task: M-001-RQ-022-INNOVATOR

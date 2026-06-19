@@ -5,6 +5,71 @@ contenere output sintetici degli agenti, non conversazioni intere.
 
 ## Latest outputs
 
+## AGENT-OUTPUT-RQ-022-INNOVATOR
+
+Related task: M-001-RQ-022-INNOVATOR
+Agent verdict: POSTPONE
+PM stale-state correction: ACCEPT WITH REFINEMENT / READY FOR PM REVIEW
+Stale-state issue: Innovator Agent read outdated repository state and did not see RQ-021 / PD-021 / M-001-RQ-022-INNOVATOR as consolidated.
+Correct repository state: RQ-021 VALIDATED / CLOSED, PD-000 to PD-021 VALIDATED, M-001-RQ-022-INNOVATOR ACTIVE, Implementation BLOCKED.
+Useful protocol finding: PoE needs an admissible formula constraints layer only if it constrains future formula research without anticipating formula, weights, score, ranking, incentive, token, payout, economic allocation or implementation.
+Definition candidate: admissible formula constraints are non-economic, non-implementative and non-computational protocol constraints that any future PoE reputation formula research must satisfy before proposing formula candidates, preserving IE primitive separation, node and boundary integrity, time-window integrity, evidence lineage, readiness status, staleness handling, conflict handling, capped/conditional states, manipulation resistance and separation from score, ranking, incentive, token, payout, economic allocation and implementation.
+Boundary distinction:
+
+* Formula-ready reputation structure prepares inputs for future formula research.
+* Admissible formula constraints define what future formula research must preserve and what it must not violate.
+* Future formula candidates are later proposed transformations and remain out of scope.
+* Future reputation formula is a later validated rule and remains out of scope.
+Minimum constraints:
+
+1. IE separation
+2. node / boundary integrity
+3. time-window integrity
+4. evidence lineage
+5. readiness status preservation
+6. stale handling
+7. conflict handling
+8. capped / conditional state handling
+9. manipulation resistance
+10. no cross-IE netting
+11. no hidden weights
+12. no hidden scalar score
+13. no hidden ranking
+14. no hidden incentive
+15. no hidden token right
+16. no economic allocation
+17. no implementation binding
+Failure outcomes:
+
+* formula-research-blocked
+* formula-candidate-inadmissible
+* partial-admissibility
+* conditional-admissibility
+* cross-IE-blocked
+* stale-blocked
+* conflict-blocked
+* manipulation-risk-blocked
+* economic-leakage-blocked
+* implementation-blocked
+* formula-candidate-admissible-for-research
+Anti-leakage rules:
+
+* anti-hidden formula
+* anti-hidden weights
+* anti-hidden score
+* anti-hidden ranking
+* anti-hidden leaderboard
+* anti-hidden incentive
+* anti-hidden token right
+* anti-hidden payout
+* anti-hidden economic allocation
+* anti-premature implementation
+* anti-false precision
+* anti-gaming optimization
+* anti-cross-IE collapse
+PM usable decision: RQ-022 is ready for controlled documentation as admissible formula constraints, with scope limited to constraints for future formula research only.
+Forbidden future content: formula candidates, final formula, formula syntax, weights, coefficients, normalization, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token issuance, token entitlement, payout, economic allocation, economic score, economic rights, API, database, dashboard, poe.db, implementation, cross-IE quantitative synthesis, stale-decay formula and conversion of exceptional/capped evidence into ordinary continuous capacity.
+
 ## AGENT-OUTPUT-RQ-021-INNOVATOR
 
 Related task: M-001-RQ-021-INNOVATOR
