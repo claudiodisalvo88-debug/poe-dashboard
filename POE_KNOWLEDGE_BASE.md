@@ -23,6 +23,7 @@ Current consolidated knowledge:
 - PD-016: VALIDATED
 - PD-017: VALIDATED
 - PD-018: VALIDATED
+- PD-019: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -207,3 +208,21 @@ Aggregated reputation evidence cannot define final reputation, ranking, leaderbo
 Validated by:
 RQ-018
 PD-018
+
+Reputation readiness boundary:
+Aggregated reputation evidence is not reputation-ready evidence.
+Reputation-ready evidence is not final reputation.
+Final reputation is not ranking.
+Final reputation is not incentive.
+Final reputation is not token.
+Final reputation is not economic score.
+Reputation-ready evidence is a non-economic informational maturity state in which aggregated reputation evidence is sufficiently coherent, fresh, bounded and non-conflicting to inform a future PoE reputation without becoming final reputation.
+Readiness remains separated by IE primitive, node boundary, time window and evidence type.
+Cross-IE readiness remains separated unless a future protocol decision explicitly authorizes a non-economic, non-ordering, non-final cross-IE interpretation.
+Readiness may be partial-ready, conditional-ready, capped-ready, postponed, not-ready, rejected or reputation-ready.
+Stale evidence may remain historically informative but cannot prove full current capacity without sufficient continuity.
+Reputation-ready evidence cannot define score, ranking, leaderboard, token, incentive, payout, economic allocation or implementation logic.
+
+Validated by:
+RQ-019
+PD-019

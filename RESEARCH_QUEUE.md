@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-019
+
+Question:
+When can aggregated reputation evidence become ready to inform future PoE reputation without becoming final reputation, ranking, incentive logic, token issuance or economic scoring?
+
+Output:
+RQ-019_REPUTATION_READINESS_BOUNDARY.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-019
+
 ## RQ-018
 
 Question:

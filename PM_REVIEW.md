@@ -5,6 +5,18 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-019-DOCUMENTATION
+
+Related task: M-001-RQ-019-DOCUMENTATION
+Reviewed output: PM documentation instruction for RQ-019 / PD-019
+Decision: ACCEPTED
+Reason: RQ-019 has passed Innovator stress-test with PM correction and can be documented as non-economic readiness boundary before future reputation.
+Required changes: Document RQ-019 / PD-019 without formula, ranking, incentives, tokens, economic scoring or implementation.
+Allowed Codex actions: update `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `POE_STATE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and create `RQ-019_REPUTATION_READINESS_BOUNDARY.md`.
+Forbidden Codex actions: code, API, database, `poe.db`, Python files, dashboard, final formula, ranking, incentives, tokens.
+Commit allowed: yes, if only authorized Markdown files are staged.
+Next action: PM verifies commit and decides next research question.
+
 ## PM-REVIEW-RQ-019-INNOVATOR-OUTPUT
 
 Related task: M-001-RQ-019-INNOVATOR

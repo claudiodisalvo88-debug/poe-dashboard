@@ -2,18 +2,7 @@
 
 ## Active task
 
-## M-001-RQ-019-DOCUMENTATION
-
-Title: Document RQ-019 reputation readiness boundary
-Owner agent: PM / Codex / QA
-Source files: `POE_STATE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`
-Allowed files to edit: not authorized yet
-Forbidden files: code, API, database, `poe.db`, Python files
-Objective: prepare the next controlled Codex documentation task for RQ-019 after PM review.
-Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.
-Required output: waiting for PM documentation prompt.
-Validation criteria: task remains active but no protocol files are changed in this commit.
-Status: ACTIVE
+Nessun task active registrato.
 
 ## Pending tasks
 
@@ -24,6 +13,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-019-DOCUMENTATION
+
+Title: Document RQ-019 reputation readiness boundary
+Owner agent: PM / Codex / QA
+Status: COMPLETED
+Result: RQ-019 VALIDATED / CLOSED, PD-019 VALIDATED
 
 ## M-001-RQ-019-INNOVATOR
 

@@ -1,5 +1,68 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-019
+
+Reputation readiness boundary
+
+Aggregated reputation evidence puo diventare reputation-ready solo come maturita informativa non economica e non finale, entro vincoli espliciti di IE primitive, node boundary, time window, evidence type, sufficiency, consistency, freshness, conflict status, manipulation risk e boundary integrity.
+
+Reputation-ready evidence deve preservare separazione da final reputation, ranking, score, incentive, token, payout, economic allocation, economic right, API, database, dashboard e implementation logic.
+
+Readiness puo essere partial-ready, conditional-ready, capped-ready, postponed, not-ready, rejected o reputation-ready, in base a sufficiency, consistency, persistence/freshness, conflict status, manipulation risk e boundary integrity.
+
+Cross-IE readiness deve restare separata salvo futura decisione protocollare esplicita che validi una interpretazione cross-IE non economica, non ordinante e non reputazionale finale.
+
+I gate minimi di readiness sono:
+
+1. L'aggregazione e gia valida secondo PD-018.
+2. Il node boundary e identico o attribuitivamente compatibile.
+3. La IE primitive e dichiarata.
+4. La time window e dichiarata.
+5. L'evidenza e sufficiente per descrivere capacita nel tempo.
+6. Esiste coerenza interna tra evidence item aggregati.
+7. Non esiste conflitto cross-IE non risolto.
+8. Nessun peggioramento sistemico e nascosto dietro evidenza positiva.
+9. L'evidenza non e stale oppure e marcata come storica/capped.
+10. Evidenza ordinaria ed evidenza eccezionale restano separate.
+11. Il rischio manipolativo residuo e escluso, delimitato o trattato come capped/postponed.
+12. Nessuna formula implicita viene prodotta.
+13. Nessun ranking implicito viene prodotto.
+14. Nessun uso economico implicito viene prodotto.
+
+Failure outcomes:
+
+rejected:
+Evidenza esclusa dalla readiness perche invalida, manipolata, conflittuale in modo grave, non attribuibile o economicamente contaminata.
+
+not-ready:
+Evidenza valida ma insufficiente per informare reputazione futura.
+
+capped-ready:
+Evidenza pronta solo come segnale limitato, non pieno.
+
+conditional-ready:
+Evidenza pronta solo entro condizioni esplicite.
+
+partial-ready:
+Evidenza pronta per una IE, boundary o finestra, ma non per reputazione generale.
+
+postponed:
+Readiness sospesa per insufficienza dati o conflitto non risolto.
+
+reputation-ready:
+Evidenza ammessa a informare futura reputazione, senza essere reputazione finale.
+
+Anti-reputation leakage rule:
+Reputation-ready evidence e solo uno stato di maturita informativa non economica.
+Non costituisce reputazione finale, score, ranking, leaderboard, token, incentivo, reward, payout, allocazione economica, diritto economico o implementazione.
+Qualsiasi trasformazione da readiness a reputazione richiede decisione protocollare successiva e separata.
+Qualsiasi trasformazione da reputazione a incentivo richiede decisione protocollare successiva e separata.
+
+RQ-019 valida solo il boundary di reputation-ready evidence.
+Non valida formula reputazionale finale, weights, score, ranking, leaderboard, incentivi, token, payout, allocazione economica, economic scoring, API, database, dashboard logic o implementazione.
+
+STATUS: VALIDATED
+
 ## PD-018
 
 Aggregated reputation evidence boundaries
