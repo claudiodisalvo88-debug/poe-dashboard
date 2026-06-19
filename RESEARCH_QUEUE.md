@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-022
+
+Question:
+What admissibility constraints must any future PoE reputation formula satisfy before formula candidates, weights, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation or implementation can be considered?
+
+Output:
+RQ-022_REPUTATION_FORMULA_ADMISSIBILITY_CONSTRAINTS.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-022
+
 ## RQ-021
 
 Question:

@@ -1,5 +1,88 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-022
+
+Reputation formula admissibility constraints
+
+Status:
+VALIDATED
+
+PoE requires an admissible formula constraints layer before any future formula candidates can be researched.
+
+Admissible formula constraints are non-economic, non-implementative and non-computational protocol constraints that any future PoE reputation formula research must satisfy before proposing formula candidates.
+
+This layer must preserve:
+
+* IE primitive separation
+* node and boundary integrity
+* time-window integrity
+* evidence lineage
+* readiness status preservation
+* staleness handling
+* conflict handling
+* capped / conditional state handling
+* manipulation resistance
+* separation from score, ranking, incentive, token, payout, economic allocation and implementation
+
+Boundary distinction:
+
+* Formula-ready reputation structure prepares inputs for future formula research.
+* Admissible formula constraints define what future formula research must preserve and what it must not violate.
+* Future formula candidates are later proposed transformations and remain out of scope.
+* Future reputation formula is a later validated rule and remains out of scope.
+
+Minimum constraints:
+
+1. IE separation
+2. Node / boundary integrity
+3. Time-window integrity
+4. Evidence lineage
+5. Readiness status preservation
+6. Stale handling
+7. Conflict handling
+8. Capped / conditional state handling
+9. Manipulation resistance
+10. No cross-IE netting
+11. No hidden weights
+12. No hidden scalar score
+13. No hidden ranking
+14. No hidden incentive
+15. No hidden token right
+16. No economic allocation
+17. No implementation binding
+
+Failure outcomes:
+
+* formula-research-blocked
+* formula-candidate-inadmissible
+* partial-admissibility
+* conditional-admissibility
+* cross-IE-blocked
+* stale-blocked
+* conflict-blocked
+* manipulation-risk-blocked
+* economic-leakage-blocked
+* implementation-blocked
+* formula-candidate-admissible-for-research
+
+Anti-leakage rules:
+
+* anti-hidden formula
+* anti-hidden weights
+* anti-hidden score
+* anti-hidden ranking
+* anti-hidden leaderboard
+* anti-hidden incentive
+* anti-hidden token right
+* anti-hidden payout
+* anti-hidden economic allocation
+* anti-premature implementation
+* anti-false precision
+* anti-gaming optimization
+* anti-cross-IE collapse
+
+Admissible formula constraints are not formula candidates, not final formula, not formula syntax, not weights, not coefficients, not scalar score, not ranking, not leaderboard, not incentive, not token, not payout, not economic allocation, not economic score and not implementation.
+
 ## PD-021
 
 Reputation formula readiness boundary

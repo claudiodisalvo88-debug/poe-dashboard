@@ -26,6 +26,7 @@ Current consolidated knowledge:
 - PD-019: VALIDATED
 - PD-020: VALIDATED
 - PD-021: VALIDATED
+- PD-022: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -261,3 +262,25 @@ Formula-ready reputation structure:
 Validated by:
 RQ-021
 PD-021
+
+Admissible formula constraints:
+
+* are not formula candidates
+* are not final formula
+* are not formula syntax
+* are not weights
+* are not coefficients
+* are not scalar score
+* are not ranking
+* are not incentive
+* are not token logic
+* are not payout
+* are not economic allocation
+* are not implementation
+* constrain future formula research only
+* require preservation of IE separation, boundary integrity, time-window integrity, evidence lineage, readiness status, staleness handling, conflict handling, capped/conditional states and manipulation resistance
+* forbid hidden formula, hidden weights, hidden score, hidden ranking, hidden incentive, hidden token right, hidden payout, economic leakage, false precision, gaming optimization, cross-IE collapse and implementation creep
+
+Validated by:
+RQ-022
+PD-022
