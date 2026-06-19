@@ -5,6 +5,26 @@ contenere output sintetici degli agenti, non conversazioni intere.
 
 ## Latest outputs
 
+## OUTPUT-RQ-019-INNOVATOR-001
+
+Related task: M-001-RQ-019-INNOVATOR
+Agent: Innovator Agent
+Input source: PM prompt for RQ-019 after PD-018
+Summary: Innovator stress-tested the reputation readiness boundary. The substantive analysis supports a separate non-economic readiness layer between aggregated reputation evidence and future reputation. The output proposed readiness gates, separation rules, partial/conditional/capped readiness, conflict handling, staleness/expiry handling, failure outcomes and an anti-reputation leakage rule.
+Claims:
+
+* VERIFIED: Current PM/GitHub verification confirms RQ-018 VALIDATED / CLOSED, PD-000 to PD-018 VALIDATED, Implementation BLOCKED.
+* INFERRED: Reputation-ready evidence is needed as an intermediate non-economic maturity layer before future reputation.
+* INFERRED: Readiness must remain separated by IE primitive, time window, node boundary, evidence type and ordinary/exceptional evidence.
+* INFERRED: Readiness may be partial, conditional, capped, postponed, not-ready, rejected or reputation-ready.
+* INFERRED: Stale evidence may remain historically informative but cannot prove full current capacity without continuity.
+* INFERRED: Cross-IE conflict blocks global readiness and must be separated, conditionalized, postponed or rejected.
+* UNCERTAIN: Final reputation formula, ranking, weights, economic allocation and implementation remain undefined and out of scope.
+Recommendation: Accept Innovator substance with PM correction. Treat RQ-019 as ready for PM review and next documentation task.
+Files affected: none by Innovator.
+PM decision needed: already reviewed.
+Status: ACCEPTED WITH CHANGES
+
 ## OUTPUT-RQ-018-INNOVATOR-001
 
 Related task: M-001-RQ-018-INNOVATOR
