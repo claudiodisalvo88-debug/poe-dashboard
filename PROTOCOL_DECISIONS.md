@@ -1,5 +1,75 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-021
+
+Reputation formula readiness boundary
+
+Status:
+VALIDATED
+
+A PoE Reputation object can become formula-ready only as a non-economic, non-numeric and non-ordering formula-ready reputation structure when it is complete, bounded, coherent, separated by IE primitive, compatible by boundary and time window, source-referenced, non-stale, non-conflicting, anti-manipulation-safe and free from leakage into formula, weights, scalar score, ranking, leaderboard, incentives, token rights, payout, economic allocation or implementation.
+
+Formula-ready reputation structure prepares future formula research.
+It is not the formula.
+It does not calculate.
+It does not rank.
+It does not allocate.
+It does not reward.
+It does not tokenize.
+It does not implement.
+
+Boundary distinction:
+
+* PoE Reputation object describes demonstrated systemic capacities.
+* Formula-ready reputation structure prepares the object for future formula research.
+* Future reputation formula calculates; it is not defined by RQ-021.
+
+Minimum gates:
+
+1. Object completeness
+2. IE primitive separation
+3. Boundary compatibility
+4. Time-window compatibility
+5. Readiness status compatibility
+6. Conflict clearance
+7. Staleness handling
+8. Exceptional evidence isolation
+9. Manipulation-risk control
+10. No cross-IE netting
+11. No numeric transformation
+12. No ordinal comparison
+13. No economic use
+14. No implementation binding
+
+Failure outcomes:
+
+* not-formula-ready
+* partial-formula-ready
+* conditional-formula-ready
+* capped-formula-ready
+* conflict-blocked
+* stale-blocked
+* boundary-incomplete
+* manipulation-risk-blocked
+* formula-ready
+
+Anti-leakage rules:
+
+* no hidden formula
+* no hidden score
+* no hidden ranking
+* no hidden incentive
+* no hidden token right
+* no hidden economic score
+* no premature implementation
+* no cross-IE netting
+* no stale-as-current
+* no exceptional-as-ordinary
+* no normalization-by-stealth
+* no comparability-by-stealth
+
+Formula-ready reputation structure is not formula, not score, not ranking, not incentive, not token, not economic score and not implementation.
+
 ## PD-020
 
 PoE Reputation object boundary

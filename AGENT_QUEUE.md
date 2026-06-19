@@ -2,18 +2,7 @@
 
 ## Active task
 
-## M-001-RQ-021-DOCUMENTATION
-
-Title: Document RQ-021 reputation formula readiness boundary
-Owner agent: Codex / PM / QA
-Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`
-Allowed files to edit: not authorized yet
-Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, formula, weights, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation
-Objective: prepare the next controlled Codex documentation task for RQ-021 after PM review.
-Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.
-Required output: waiting for PM documentation prompt.
-Validation criteria: task remains active but no protocol files are changed in this commit.
-Status: ACTIVE
+Nessun task active registrato.
 
 ## Pending tasks
 
@@ -24,6 +13,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-021-DOCUMENTATION
+
+Title: Document RQ-021 reputation formula readiness boundary
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: RQ-021 VALIDATED / CLOSED, PD-021 VALIDATED
 
 ## M-001-RQ-021-INNOVATOR
 

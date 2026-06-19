@@ -5,6 +5,18 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-021-DOCUMENTATION
+
+Related task: M-001-RQ-021-DOCUMENTATION
+Reviewed output: PM documentation instruction for RQ-021 / PD-021
+Decision: ACCEPTED
+Reason: RQ-021 passed Innovator stress-test after stale-state correction and can be documented as the boundary between PoE Reputation object and future reputation formula.
+Required changes: Document formula-ready reputation structure as non-economic, non-numeric and non-ordering readiness layer.
+Allowed Codex actions: update `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `POE_STATE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and create `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`.
+Forbidden Codex actions: code, API, database, `poe.db`, Python files, dashboard, final formula, weights, coefficients, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation.
+Commit allowed: yes, if only authorized Markdown files are staged.
+Next action: PM verifies commit and decides next research question.
+
 ## PM-REVIEW-RQ-021-INNOVATOR-OUTPUT
 
 Related task: M-001-RQ-021-INNOVATOR

@@ -25,6 +25,7 @@ Current consolidated knowledge:
 - PD-018: VALIDATED
 - PD-019: VALIDATED
 - PD-020: VALIDATED
+- PD-021: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -244,3 +245,19 @@ Conflict-marked, partial, capped, conditional and historical states remain visib
 Validated by:
 RQ-020
 PD-020
+
+Formula-ready reputation structure:
+
+* is not the future reputation formula
+* is not a score
+* is not ranking
+* is not incentive
+* is not token logic
+* is not economic allocation
+* prepares future formula research only
+* requires complete, bounded, IE-separated, source-referenced, non-stale, non-conflicting, anti-manipulation-safe PoE Reputation object
+* forbids hidden formula, hidden score, hidden ranking, hidden incentive, hidden token right, economic leakage and implementation creep
+
+Validated by:
+RQ-021
+PD-021

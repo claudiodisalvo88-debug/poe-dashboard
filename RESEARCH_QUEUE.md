@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-021
+
+Question:
+When is the PoE Reputation object sufficiently defined to prepare a future reputation formula without yet defining formula, weights, scalar score, ranking, leaderboard, incentive, token, payout, economic allocation or economic scoring?
+
+Output:
+RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-021
+
 ## RQ-020
 
 Question:
