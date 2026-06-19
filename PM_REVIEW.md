@@ -5,6 +5,18 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-019-INNOVATOR
+
+Related task: M-001-RQ-019-INNOVATOR
+Reviewed output: PM task definition before Innovator Agent execution
+Decision: ACCEPTED
+Reason: after PD-018, the next logical protocol risk is determining when aggregated reputation evidence is mature enough to inform future reputation without collapsing into final reputation, ranking, incentive or economic score.
+Required changes: none before Innovator prompt generation.
+Allowed Codex actions: update `AGENT_QUEUE.md` and `PM_REVIEW.md` only.
+Forbidden Codex actions: code, API, database, `poe.db`, protocol decisions, RQ files, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `POE_STATE.md`.
+Commit allowed: yes, if only `AGENT_QUEUE.md` and `PM_REVIEW.md` are staged.
+Next action: PM prepares Innovator Agent prompt for RQ-019.
+
 ## PM-REVIEW-RQ-018-DOCUMENTATION
 
 Related task: M-001-RQ-018-DOCUMENTATION
