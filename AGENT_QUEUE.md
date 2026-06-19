@@ -2,7 +2,18 @@
 
 ## Active task
 
-Nessun task active registrato.
+## M-001-RQ-023-INNOVATOR
+
+Title: Stress-test formula candidate research opening boundary
+Owner agent: Innovator Agent
+Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`, `RQ-022_REPUTATION_FORMULA_ADMISSIBILITY_CONSTRAINTS.md`, `AGENTS.md`, `WORKFLOW_RUNBOOK.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`
+Allowed files to edit: none for Innovator Agent
+Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, tokens, payout, economic allocation
+Objective: stress-test when PoE may open future formula-candidate research without defining formula candidates or formula mechanics.
+Non-objectives: do not define formula candidates, final formula, formula syntax, weights, coefficients, score, ranking, incentives, token logic, payout, allocation, API, database, dashboard or implementation.
+Required output: Innovator Agent verdict, stale-state check, opening-boundary risks, proposed acceptance/refinement/rejection, and PM-review-ready synthesis.
+Validation criteria: task is registered only as Innovator task; no protocol decision is documented; no RQ-023 document is created; no code or database files are touched.
+Status: ACTIVE
 
 ## Pending tasks
 

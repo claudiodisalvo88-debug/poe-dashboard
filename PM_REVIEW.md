@@ -5,6 +5,15 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-PREP-RQ-023-INNOVATOR
+
+Related task: M-001-RQ-023-INNOVATOR
+Decision: PREPARED
+Reason: RQ-022 / PD-022 closed admissible formula constraints. The next required protocol step is to define the boundary for opening future formula-candidate research without yet defining formula candidates, final formula, formula syntax, weights, coefficients, scalar score, ranking, incentives, tokens, payout, economic allocation or implementation.
+Allowed Codex actions: register M-001-RQ-023-INNOVATOR in AGENT_QUEUE.md and record this PM preparation note.
+Forbidden Codex actions: do not update PROTOCOL_DECISIONS.md, RESEARCH_QUEUE.md, POE_KNOWLEDGE_BASE.md or POE_STATE.md; do not create RQ-023 document; do not define PD-023; do not modify code, API, database, dashboard or `poe.db`.
+Next action: user runs Innovator Agent with the M-001-RQ-023-INNOVATOR prompt and returns output to PM for verdict.
+
 ## PM-REVIEW-RQ-022-DOCUMENTATION
 
 Related task: M-001-RQ-022-DOCUMENTATION
