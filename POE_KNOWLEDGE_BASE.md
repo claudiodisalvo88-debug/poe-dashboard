@@ -21,6 +21,7 @@ Current consolidated knowledge:
 - PD-014: VALIDATED
 - PD-015: VALIDATED
 - PD-016: VALIDATED
+- PD-017: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -174,3 +175,18 @@ PD-016 does not define reputation, incentives, tokens, economic allocation, fina
 Validated by:
 RQ-016
 PD-016
+
+Reputation eligibility after recognized value:
+Recognized value is not reputation.
+Reputation is not incentive.
+Reputation is not token.
+Reputation is not economic score.
+Only recognized value that passes separate reputation-eligibility gates can become non-economic reputation evidence.
+Minimum gates are protocol-valid recognized value, preserved attribution, boundary integrity, sufficient evidence, non-duplication, manipulation resistance, cross-IE safety, intra-IE comparability, persistence or repeatability, and separation from incentives.
+Exceptional systemic relevance can only act as a capped exception, not as a shortcut to full reputation eligibility.
+Failure outcomes are rejected, zero, capped, postponed or eligible.
+Eligibility is only informational admissibility and creates no reward, payout, token right, economic allocation or compensation promise.
+
+Validated by:
+RQ-017
+PD-017

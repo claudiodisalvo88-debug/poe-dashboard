@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-016
+RQ-017
 
 Last postponed research:
 RQ-009
@@ -45,7 +45,10 @@ VALIDATED / CLOSED
 RQ-016:
 VALIDATED / CLOSED
 
-PD-000 to PD-016:
+RQ-017:
+VALIDATED / CLOSED
+
+PD-000 to PD-017:
 VALIDATED
 
 Implementation:
@@ -57,4 +60,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Define the next protocol research question after recognized-value eligibility, without implementing code, reputation, incentives, tokens or economic scoring.
+Define the next protocol research question after reputation eligibility, without implementing code, incentives, tokens, economic scoring or final reputation formula.

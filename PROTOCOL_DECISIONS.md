@@ -1,5 +1,59 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-017
+
+Reputation eligibility after recognized value
+
+Un recognized value puo diventare reputation-eligible solo come evidenza non economica della capacita sistemica dimostrata dal nodo, dopo aver superato gate separati di validita protocollare, attribuzione, non duplicazione, evidenza sufficiente, resistenza alla manipolazione, sicurezza cross-IE, boundary integrity e comparabilita intra-IE oppure rilevanza sistemica eccezionale.
+
+Reputation eligibility non definisce formula reputazionale, ranking finale, incentivo, reward, token, payout, allocazione economica o diritto economico.
+
+Un recognized value diventa reputation-eligible solo se supera tutti i gate minimi sotto, salvo eccezione limitata di rilevanza sistemica eccezionale:
+
+1. Protocol-valid recognized value
+2. Attribution preserved
+3. Boundary integrity
+4. Evidence sufficiency
+5. Non-duplication
+6. Manipulation resistance
+7. Cross-IE safety
+8. Intra-IE comparability
+9. Persistence or repeatability
+10. Exceptional systemic relevance, only as capped exception
+11. Non-economic interpretation
+12. Separation from incentives
+
+I recognized value che non superano i gate devono essere classificati come:
+
+rejected / zero / capped / postponed / eligible
+
+Failure outcomes:
+
+rejected:
+Il recognized value non puo entrare nel percorso reputazionale.
+
+zero:
+Il recognized value resta valido come valore, ma non produce evidenza reputazionale utilizzabile.
+
+capped:
+Il recognized value puo essere considerato solo in modo limitato, senza formula numerica definita qui, tipicamente per eventi eccezionali o rischio residuo controllato.
+
+postponed:
+Il recognized value resta sospeso fino a evidenza sufficiente, comparabilita, anti-gaming o verifica cross-IE.
+
+eligible:
+Il recognized value puo essere considerato in una futura logica reputazionale, non definita da RQ-017.
+
+Anti-economic leakage rule:
+L'eligibilita reputazionale e solo ammissibilita informativa non economica.
+Non costituisce incentivo, reward, token, credito, payout, diritto economico, ranking finale, allocazione o promessa di compenso.
+Qualunque uso economico della reputazione richiede una decisione protocollare separata, successiva e non implicita.
+
+RQ-017 valida solo l'ammissibilita reputazionale dopo recognized value.
+Non valida formula reputazionale finale, ranking, incentivi, token, reward, payout, allocazione economica, economic scoring o implementazione.
+
+STATUS: VALIDATED
+
 ## PD-016
 
 Recognized value is distinct from measured reduction, contribution, reputation, incentive, token issuance, economic allocation and final scoring.

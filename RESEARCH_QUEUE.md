@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-017
+
+Question:
+When can recognized value become reputation-eligible in PoE V1 without collapsing value into reputation, incentive, token logic, economic scoring or final ranking?
+
+Output:
+RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-017
+
 ## RQ-016
 
 Question:
