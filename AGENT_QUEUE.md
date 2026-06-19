@@ -2,7 +2,18 @@
 
 ## Active task
 
-Nessun task active registrato.
+## M-001-RQ-020-INNOVATOR
+
+Title: Stress-test PoE Reputation object boundary
+Owner agent: PM / Innovator
+Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-019_REPUTATION_READINESS_BOUNDARY.md`, `RQ-018_REPUTATION_EVIDENCE_AGGREGATION_BOUNDARIES.md`, `RQ-017_REPUTATION_ELIGIBILITY_AFTER_RECOGNIZED_VALUE.md`, `AGENTS.md`, `WORKFLOW_RUNBOOK.md`
+Allowed files to edit: `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `AGENT_QUEUE.md`
+Forbidden files: code, API, database, `poe.db`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, closed RQ files, Python files
+Objective: prepare an Innovator Agent stress-test for RQ-020 without validating, documenting or committing protocol decisions.
+Non-objectives: define final reputation formula, ranking, incentives, tokens, economic scoring, reward logic, implementation, API or database changes.
+Required output: Innovator Agent prompt and expected output structure for RQ-020.
+Validation criteria: task remains pre-documentation; no protocol decision is added; no code or database file is touched.
+Status: ACTIVE
 
 ## Pending tasks
 
