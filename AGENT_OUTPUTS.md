@@ -5,6 +5,96 @@ contenere output sintetici degli agenti, non conversazioni intere.
 
 ## Latest outputs
 
+## AGENT-OUTPUT-RQ-023-INNOVATOR
+
+Related task: M-001-RQ-023-INNOVATOR
+Agent verdict: POSTPONE
+PM stale-state correction: ACCEPT WITH REFINEMENT / READY FOR PM REVIEW
+Stale-state issue: Innovator Agent read outdated repository state and did not see RQ-022 / PD-022 / M-001-RQ-023-INNOVATOR as consolidated.
+Correct repository state: RQ-022 VALIDATED / CLOSED, PD-000 to PD-022 VALIDATED, M-001-RQ-023-INNOVATOR ACTIVE, Implementation BLOCKED.
+Useful protocol finding: PoE may open formula-candidate research only as a research-only phase, after upstream artifacts are repository-confirmed, PM-reviewed, current, bounded, source-referenced, anti-manipulation-safe and explicitly separated from formula syntax, weights, coefficients, score, ranking, incentive, token, payout, economic allocation and implementation.
+Definition candidate: formula candidate research opening boundary is a non-economic, non-implementative and non-computational protocol boundary that defines when PoE may open a future research-only phase on possible formula candidates without proposing formula candidates or formula mechanics.
+Boundary distinction:
+
+* Admissible formula constraints define what future formula research must preserve and must not violate.
+* Formula candidate research opening boundary decides when research-only work may open.
+* Future formula candidates are later proposed structures and remain out of scope.
+* Future reputation formula is a later validated rule and remains out of scope.
+Opening conditions:
+
+1. repository state confirms RQ-022 closed and PD-022 validated
+2. PM review explicitly approves research-only opening
+3. upstream artifacts are complete and validated
+4. IE primitive separation is preserved
+5. boundary integrity is preserved
+6. time-window integrity is preserved
+7. evidence lineage is intact
+8. stale/conflict/capped/conditional states are handled
+9. anti-manipulation controls are active
+10. no cross-IE netting
+11. no hidden weights
+12. no hidden score
+13. no hidden ranking
+14. no hidden incentive
+15. no hidden token right
+16. no economic allocation
+17. no implementation binding
+18. explicit research-only status
+Blocking conditions:
+
+* stale repository state
+* RQ-022 not closed
+* PD-022 not validated
+* missing PM review
+* incomplete upstream artifacts
+* missing source references
+* incomplete boundary
+* incompatible time windows
+* stale evidence not marked
+* unresolved conflict evidence
+* capped/conditional states not separated
+* unmanaged manipulation risk
+* cross-IE netting risk
+* hidden weights risk
+* hidden score risk
+* hidden ranking risk
+* incentive leakage
+* token leakage
+* economic leakage
+* implementation pressure
+* request for formula syntax, coefficients, score or ranking
+Failure outcomes:
+
+* formula-research-opening-blocked
+* formula-research-opening-conditional
+* formula-research-opening-partial
+* formula-research-opening-capped
+* formula-research-opening-stale-blocked
+* formula-research-opening-conflict-blocked
+* formula-research-opening-manipulation-blocked
+* formula-research-opening-economic-leakage-blocked
+* formula-research-opening-implementation-blocked
+* formula-research-opening-approved
+Anti-leakage rules:
+
+* no formula by discussion
+* no hidden formula syntax
+* no hidden formula candidates
+* no hidden weights
+* no hidden score
+* no hidden ranking
+* no hidden leaderboard
+* no hidden incentive
+* no hidden token right
+* no hidden payout
+* no hidden economic allocation
+* no premature implementation
+* no false precision
+* no gaming target creation
+* no cross-IE collapse
+PM usable decision: RQ-023 is ready for controlled documentation as the formula candidate research opening boundary, with scope limited to opening conditions for a future research-only phase.
+Forbidden future content: formula candidates, future reputation formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, token issuance, payout, economic allocation, economic scoring, API, database, dashboard, poe.db, implementation, cross-IE formula synthesis, scalar formula research and ranking/incentive/token/payout research.
+
 ## AGENT-OUTPUT-RQ-022-INNOVATOR
 
 Related task: M-001-RQ-022-INNOVATOR

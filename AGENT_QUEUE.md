@@ -2,17 +2,17 @@
 
 ## Active task
 
-## M-001-RQ-023-INNOVATOR
+## M-001-RQ-023-DOCUMENTATION
 
-Title: Stress-test formula candidate research opening boundary
-Owner agent: Innovator Agent
-Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`, `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`, `RQ-022_REPUTATION_FORMULA_ADMISSIBILITY_CONSTRAINTS.md`, `AGENTS.md`, `WORKFLOW_RUNBOOK.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`
-Allowed files to edit: none for Innovator Agent
+Title: Document RQ-023 formula candidate research opening boundary
+Owner agent: Codex / PM / QA
+Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `RQ-022_REPUTATION_FORMULA_ADMISSIBILITY_CONSTRAINTS.md`, `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`
+Allowed files to edit: not authorized yet
 Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, tokens, payout, economic allocation
-Objective: stress-test when PoE may open future formula-candidate research without defining formula candidates or formula mechanics.
-Non-objectives: do not define formula candidates, final formula, formula syntax, weights, coefficients, score, ranking, incentives, token logic, payout, allocation, API, database, dashboard or implementation.
-Required output: Innovator Agent verdict, stale-state check, opening-boundary risks, proposed acceptance/refinement/rejection, and PM-review-ready synthesis.
-Validation criteria: task is registered only as Innovator task; no protocol decision is documented; no RQ-023 document is created; no code or database files are touched.
+Objective: prepare the next controlled Codex documentation task for RQ-023 after PM review.
+Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.
+Required output: waiting for PM documentation prompt.
+Validation criteria: task remains active but no protocol files are changed in this commit.
 Status: ACTIVE
 
 ## Pending tasks
@@ -24,6 +24,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-023-INNOVATOR
+
+Title: Stress-test formula candidate research opening boundary
+Owner agent: Innovator Agent / PM
+Status: COMPLETED
+Result: Innovator output received; stale-state corrected by PM; RQ-023 ready for documentation task.
 
 ## M-001-RQ-022-DOCUMENTATION
 

@@ -5,6 +5,28 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-023-INNOVATOR-OUTPUT
+
+Related task: M-001-RQ-023-INNOVATOR
+Reviewed output: Innovator Agent output for RQ-023 formula candidate research opening boundary
+Original agent verdict: POSTPONE
+PM verdict: ACCEPT WITH REFINEMENT
+Stale-state correction: Agent verdict was based on outdated repository view. Real repository confirms RQ-022 VALIDATED / CLOSED, PD-000 to PD-022 VALIDATED, M-001-RQ-023-INNOVATOR ACTIVE and Implementation BLOCKED.
+Reason: The substantive reasoning is valid. Formula candidate research opening boundary is needed to define when PoE may open a future research-only formula-candidate phase without proposing formulas.
+Accepted content:
+
+* formula candidate research opening boundary definition
+* boundary distinction between admissible constraints, opening boundary, future candidates and future formula
+* opening conditions
+* blocking conditions
+* failure outcomes
+* anti-leakage rules
+* risks against formula creep, syntax creep, hidden weights, score laundering, ranking leakage, economic leakage, implementation creep, cross-IE wash, false precision and gaming target creation
+Required refinement: Documentation must reject the stale POSTPONE recommendation and preserve only the corrected PM verdict.
+Allowed next action: open M-001-RQ-023-DOCUMENTATION as the next controlled Codex task.
+Forbidden next action: do not define formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, tokens, payout, economic allocation, API, database, dashboard or implementation.
+Commit allowed: yes, if only AGENT_OUTPUTS.md, PM_REVIEW.md and AGENT_QUEUE.md are staged.
+
 ## PM-PREP-RQ-023-INNOVATOR
 
 Related task: M-001-RQ-023-INNOVATOR
