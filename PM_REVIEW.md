@@ -5,6 +5,18 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RQ-023-DOCUMENTATION
+
+Related task: M-001-RQ-023-DOCUMENTATION
+Reviewed output: PM documentation instruction for RQ-023 / PD-023
+Decision: ACCEPTED
+Reason: RQ-023 passed Innovator stress-test after stale-state correction and can be documented as the opening boundary for future formula-candidate research-only phase.
+Required changes: Document formula candidate research opening boundary as non-economic, non-implementative and non-computational opening condition only.
+Allowed Codex actions: update `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `POE_STATE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and create `RQ-023_FORMULA_CANDIDATE_RESEARCH_OPENING_BOUNDARY.md`.
+Forbidden Codex actions: code, API, database, `poe.db`, Python files, dashboard, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, tokens, payout, economic allocation.
+Commit allowed: yes, if only authorized Markdown files are staged.
+Next action: PM verifies commit and decides next research question.
+
 ## PM-REVIEW-RQ-023-INNOVATOR-OUTPUT
 
 Related task: M-001-RQ-023-INNOVATOR

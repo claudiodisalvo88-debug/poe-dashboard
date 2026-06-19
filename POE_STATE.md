@@ -7,7 +7,7 @@ Active research:
 NONE
 
 Last closed research:
-RQ-022
+RQ-023
 
 Last postponed research:
 RQ-009
@@ -63,7 +63,10 @@ VALIDATED / CLOSED
 RQ-022:
 VALIDATED / CLOSED
 
-PD-000 to PD-022:
+RQ-023:
+VALIDATED / CLOSED
+
+PD-000 to PD-023:
 VALIDATED
 
 Implementation:
@@ -78,4 +81,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Define the next protocol research question after reputation formula admissibility constraints, without implementing code, formula candidates, final formula, weights, scalar score, ranking, incentives, tokens, payout, economic allocation or economic scoring.
+Define the next protocol research question after formula candidate research opening boundary, without implementing code, formula candidates, final formula, formula syntax, weights, scalar score, ranking, incentives, tokens, payout, economic allocation or economic scoring.

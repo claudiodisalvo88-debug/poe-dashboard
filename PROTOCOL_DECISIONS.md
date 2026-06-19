@@ -1,5 +1,101 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-023
+
+Formula candidate research opening boundary
+
+Status:
+VALIDATED
+
+PoE may open formula-candidate research only as a research-only phase, after upstream artifacts are repository-confirmed, PM-reviewed, current, bounded, source-referenced, anti-manipulation-safe and explicitly separated from formula syntax, weights, coefficients, score, ranking, incentive, token, payout, economic allocation and implementation.
+
+Formula candidate research opening boundary is a non-economic, non-implementative and non-computational protocol boundary that defines when PoE may open a future research-only phase on possible formula candidates without proposing formula candidates or formula mechanics.
+
+Boundary distinction:
+
+* Admissible formula constraints define what future formula research must preserve and must not violate.
+* Formula candidate research opening boundary decides when research-only work may open.
+* Future formula candidates are later proposed structures and remain out of scope.
+* Future reputation formula is a later validated rule and remains out of scope.
+
+Opening conditions:
+
+1. Repository state confirms RQ-022 closed and PD-022 validated
+2. PM review explicitly approves research-only opening
+3. Upstream artifacts are complete and validated
+4. IE primitive separation is preserved
+5. Boundary integrity is preserved
+6. Time-window integrity is preserved
+7. Evidence lineage is intact
+8. Stale / conflict / capped / conditional states are handled
+9. Anti-manipulation controls are active
+10. No cross-IE netting
+11. No hidden weights
+12. No hidden score
+13. No hidden ranking
+14. No hidden incentive
+15. No hidden token right
+16. No economic allocation
+17. No implementation binding
+18. Explicit research-only status
+
+Blocking conditions:
+
+* stale repository state
+* RQ-022 not closed
+* PD-022 not validated
+* missing PM review
+* incomplete upstream artifacts
+* missing source references
+* incomplete boundary
+* incompatible time windows
+* stale evidence not marked
+* unresolved conflict evidence
+* capped / conditional states not separated
+* unmanaged manipulation risk
+* cross-IE netting risk
+* hidden weights risk
+* hidden score risk
+* hidden ranking risk
+* incentive leakage
+* token leakage
+* economic leakage
+* implementation pressure
+* request for formula syntax, coefficients, score or ranking
+
+Failure outcomes:
+
+* formula-research-opening-blocked
+* formula-research-opening-conditional
+* formula-research-opening-partial
+* formula-research-opening-capped
+* formula-research-opening-stale-blocked
+* formula-research-opening-conflict-blocked
+* formula-research-opening-manipulation-blocked
+* formula-research-opening-economic-leakage-blocked
+* formula-research-opening-implementation-blocked
+* formula-research-opening-approved
+
+Anti-leakage rules:
+
+* no formula by discussion
+* no hidden formula syntax
+* no hidden formula candidates
+* no hidden weights
+* no hidden score
+* no hidden ranking
+* no hidden leaderboard
+* no hidden incentive
+* no hidden token right
+* no hidden payout
+* no hidden economic allocation
+* no premature implementation
+* no false precision
+* no gaming target creation
+* no cross-IE collapse
+
+Formula candidate research opening boundary is not formula candidates, not final formula, not formula syntax, not weights, not coefficients, not scalar score, not ranking, not leaderboard, not incentive, not token, not payout, not economic allocation, not economic score and not implementation.
+
 ## PD-022
 
 Reputation formula admissibility constraints

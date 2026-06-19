@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-023
+
+Question:
+When may PoE open future research on reputation formula candidates without yet defining formula candidates, final formula, formula syntax, weights, coefficients, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation or implementation?
+
+Output:
+RQ-023_FORMULA_CANDIDATE_RESEARCH_OPENING_BOUNDARY.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-023
+
 ## RQ-022
 
 Question:

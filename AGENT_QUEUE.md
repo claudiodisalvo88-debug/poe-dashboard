@@ -2,18 +2,7 @@
 
 ## Active task
 
-## M-001-RQ-023-DOCUMENTATION
-
-Title: Document RQ-023 formula candidate research opening boundary
-Owner agent: Codex / PM / QA
-Source files: `POE_STATE.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `AGENT_OUTPUTS.md`, `PM_REVIEW.md`, `RQ-022_REPUTATION_FORMULA_ADMISSIBILITY_CONSTRAINTS.md`, `RQ-021_REPUTATION_FORMULA_READINESS_BOUNDARY.md`, `RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md`
-Allowed files to edit: not authorized yet
-Forbidden files: code, API, database, `poe.db`, Python files, dashboard, implementation, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, tokens, payout, economic allocation
-Objective: prepare the next controlled Codex documentation task for RQ-023 after PM review.
-Non-objectives: do not edit protocol files until PM provides explicit documentation prompt.
-Required output: waiting for PM documentation prompt.
-Validation criteria: task remains active but no protocol files are changed in this commit.
-Status: ACTIVE
+Nessun task active registrato.
 
 ## Pending tasks
 
@@ -24,6 +13,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-001-RQ-023-DOCUMENTATION
+
+Title: Document RQ-023 formula candidate research opening boundary
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: RQ-023 VALIDATED / CLOSED, PD-023 VALIDATED
 
 ## M-001-RQ-023-INNOVATOR
 

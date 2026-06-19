@@ -27,6 +27,7 @@ Current consolidated knowledge:
 - PD-020: VALIDATED
 - PD-021: VALIDATED
 - PD-022: VALIDATED
+- PD-023: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -284,3 +285,25 @@ Admissible formula constraints:
 Validated by:
 RQ-022
 PD-022
+
+Formula candidate research opening boundary:
+
+* is not formula candidates
+* is not final formula
+* is not formula syntax
+* is not weights
+* is not coefficients
+* is not scalar score
+* is not ranking
+* is not incentive
+* is not token logic
+* is not payout
+* is not economic allocation
+* is not implementation
+* opens only a future research-only phase
+* requires repository-confirmed upstream validation, PM review, IE separation, boundary integrity, time-window integrity, evidence lineage, stale/conflict/capped/conditional handling, anti-manipulation controls and explicit research-only status
+* forbids formula by discussion, hidden formula syntax, hidden formula candidates, hidden weights, hidden score, hidden ranking, hidden incentive, hidden token right, hidden payout, economic leakage, false precision, gaming target creation, cross-IE collapse and implementation creep
+
+Validated by:
+RQ-023
+PD-023
