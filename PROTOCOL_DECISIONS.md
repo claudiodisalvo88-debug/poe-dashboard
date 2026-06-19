@@ -1,5 +1,68 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-020
+
+PoE Reputation object boundary
+
+The PoE Reputation object is a non-economic, multidimensional and non-ordering protocol object that represents demonstrated systemic capacities of a node through bounded reputation-ready evidence separated by IE primitive, node boundary, time window, evidence type, readiness status, conflict state, staleness state and source references.
+
+The PoE Reputation object may contain readiness statuses, evidence summaries, conflict flags, staleness flags, capped markers, conditional markers, manipulation-risk markers, boundary integrity notes and source references.
+
+The PoE Reputation object must not contain or imply weights, formula, scalar score, ranking, leaderboard, incentive, reward, token, payout, economic allocation, economic right, API, database, dashboard logic or implementation.
+
+Reputation objects may be described but not ordinally compared before a separate future protocol decision on reputation formula or ranking.
+
+Minimal object components:
+
+1. Node boundary
+2. IE primitive dimension
+3. Readiness status
+4. Evidence summary
+5. Time window
+6. Evidence type
+7. Conflict flags
+8. Staleness flags
+9. Capped / conditional markers
+10. Manipulation-risk marker
+11. Source references
+12. Boundary integrity note
+
+Failure outcomes:
+
+rejected:
+L'oggetto non puo essere formato perche l'evidenza e invalida, manipolata, non attribuibile, economicamente contaminata o conflittuale in modo grave.
+
+no-reputation-object:
+Il nodo ha evidenza insufficiente o not-ready; esistono dati, ma non un oggetto reputazionale.
+
+partial-reputation-object:
+Esiste solo per una IE, finestra o boundary.
+
+conditional-reputation-object:
+Valido solo sotto condizioni esplicite.
+
+capped-reputation-object:
+Contiene evidenza valida ma limitata, eccezionale, stale o residualmente incerta.
+
+conflict-marked-reputation-object:
+Esiste ma espone conflitti non risolti; non puo essere sintetizzato.
+
+reputation-object-ready:
+L'oggetto e strutturalmente coerente e puo informare una futura formula reputazionale, senza essere formula.
+
+Anti-leakage rule:
+Il PoE Reputation object e una rappresentazione protocollare non economica e non ordinante di capacita sistemiche dimostrate.
+Non puo produrre formula, punteggio, score scalare, ranking, leaderboard, incentivo, reward, token, payout, allocazione, diritto economico, API, database, dashboard o implementazione.
+Qualunque uso numerico, comparativo, economico o decisionale richiede una futura decisione protocollare separata.
+Qualunque oggetto che genera un valore scalare unico deve essere rifiutato come formula nascosta.
+Qualunque oggetto che ordina nodi deve essere rifiutato come ranking nascosto.
+Qualunque oggetto che abilita reward, token, payout o accesso economico deve essere rifiutato come incentive leakage.
+
+RQ-020 valida solo il boundary del PoE Reputation object.
+Non valida formula reputazionale finale, weights, scalar score, ranking, leaderboard, incentivi, token, payout, allocazione economica, economic scoring, API, database, dashboard logic o implementazione.
+
+STATUS: VALIDATED
+
 ## PD-019
 
 Reputation readiness boundary

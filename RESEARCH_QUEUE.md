@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-020
+
+Question:
+When can reputation-ready evidence contribute to defining a PoE Reputation object without becoming final formula, ranking, incentive logic, token issuance or economic scoring?
+
+Output:
+RQ-020_POE_REPUTATION_OBJECT_BOUNDARY.md
+
+Status:
+VALIDATED / CLOSED
+
+Decision:
+PD-020
+
 ## RQ-019
 
 Question:

@@ -24,6 +24,7 @@ Current consolidated knowledge:
 - PD-017: VALIDATED
 - PD-018: VALIDATED
 - PD-019: VALIDATED
+- PD-020: VALIDATED
 
 Primitive Inefficiencies PoE V1
 
@@ -226,3 +227,20 @@ Reputation-ready evidence cannot define score, ranking, leaderboard, token, ince
 Validated by:
 RQ-019
 PD-019
+
+PoE Reputation object boundary:
+Reputation-ready evidence is not PoE Reputation object.
+PoE Reputation object is not formula.
+PoE Reputation object is not score.
+PoE Reputation object is not ranking.
+PoE Reputation object is not incentive.
+PoE Reputation object is not token.
+PoE Reputation object is not economic score.
+PoE Reputation object is a non-economic, multidimensional and non-ordering protocol object that represents demonstrated systemic capacities through bounded reputation-ready evidence separated by IE primitive, node boundary, time window, evidence type, readiness status, conflict state, staleness state and source references.
+The object may contain descriptive status markers and source links, but not scalar values, totals, coefficients, positions or economic rights.
+Objects may be described comparatively only in non-ordinal form and cannot rank nodes before a future explicit protocol decision.
+Conflict-marked, partial, capped, conditional and historical states remain visible rather than collapsed into a synthetic score.
+
+Validated by:
+RQ-020
+PD-020
