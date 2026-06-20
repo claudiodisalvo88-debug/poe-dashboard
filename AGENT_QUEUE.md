@@ -14,6 +14,13 @@ Nessun task blocked registrato.
 
 ## Completed tasks
 
+## M-001-CLOSE-PROTOCOL-KERNEL-MILESTONE
+
+Title: Close M-001 as completed Protocol Kernel milestone
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: M-001 marked CLOSED / COMPLETED, closure file created, no implementation authorized, M-002 not opened.
+
 ## M-001-PROTOCOL-KERNEL-CONSOLIDATION
 
 Title: Consolidate PoE protocol kernel and update README

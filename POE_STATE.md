@@ -1,7 +1,13 @@
 # POE_STATE.md
 
 Active milestone:
-M-001
+NONE
+
+M-001:
+CLOSED / COMPLETED
+
+M-002:
+NOT OPENED
 
 Active research:
 NONE
@@ -69,12 +75,19 @@ VALIDATED / CLOSED
 PD-000 to PD-023:
 VALIDATED
 
+Formula candidates:
+NOT OPENED
+
+Final formula:
+NOT DEFINED
+
 Implementation:
 BLOCKED
 
 Operating workflow:
 Repository-based agent workflow formalized through AGENTS.md, WORKFLOW_RUNBOOK.md, AGENT_QUEUE.md, AGENT_OUTPUTS.md and PM_REVIEW.md.
 Protocol Kernel consolidation completed through POE_PROTOCOL_KERNEL.md and README.md update.
+Protocol Kernel milestone M-001 closed through M-001_PROTOCOL_KERNEL_MILESTONE_CLOSURE.md.
 
 Protocol rule from RQ-007:
 CONTRIBUTO, RIDUZIONE and VALORE are distinct objects.
@@ -82,4 +95,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Decide whether to close M-001 as protocol kernel milestone or open M-002 for strictly research-only formula-candidate phase, without implementing code, formula candidates, final formula, formula syntax, weights, scalar score, ranking, incentives, tokens, payout, economic allocation or economic scoring.
+Separate human-approved decision only: either open a strictly research-only formula-candidate phase or stop with an operational recap. M-002 is not opened by the current repository state.

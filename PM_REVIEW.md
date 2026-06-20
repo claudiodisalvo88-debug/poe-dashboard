@@ -5,6 +5,16 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-001-CLOSE-PROTOCOL-KERNEL-MILESTONE
+
+Related task: M-001-CLOSE-PROTOCOL-KERNEL-MILESTONE
+Decision: ACCEPTED
+Reason: Repository state confirms RQ-001 through RQ-023 completed or explicitly handled, with RQ-009 postponed and PD-000 through PD-023 validated. The Protocol Kernel is sufficiently bounded to close M-001 without opening M-002.
+Required changes: create `M-001_PROTOCOL_KERNEL_MILESTONE_CLOSURE.md`; update `POE_STATE.md`, `README.md`, `POE_PROTOCOL_KERNEL.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md` to mark M-001 closed and keep implementation blocked.
+Forbidden Codex actions: no code, API, database, dashboard, `poe.db`, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, payout or economic allocation.
+Commit allowed: yes, if only authorized Markdown files are staged.
+Next action: explicit human approval is required either to open a strictly research-only formula-candidate phase or to stop with an operational recap.
+
 ## PM-REVIEW-M-001-PROTOCOL-KERNEL-CONSOLIDATION
 
 Related task: M-001-PROTOCOL-KERNEL-CONSOLIDATION

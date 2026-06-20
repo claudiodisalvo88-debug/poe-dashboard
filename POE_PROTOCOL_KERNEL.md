@@ -9,15 +9,23 @@ This file consolidates the validated Proof of Energy protocol kernel as of RQ-02
 * POE_STATE.md remains the operational state file.
 * This document summarizes validated concepts only.
 
+## Closure note
+
+M-001 Protocol Kernel is CLOSED / COMPLETED.
+Closure reference: `M-001_PROTOCOL_KERNEL_MILESTONE_CLOSURE.md`.
+Kernel closure is bounded through RQ-023 and PD-023 only.
+This note does not add protocol rules and does not open formula-candidate research.
+
 ## Current validated state
 
-* Active milestone: M-001
+* M-001 Protocol Kernel: CLOSED / COMPLETED
 * Last closed research: RQ-023
 * Last postponed research: RQ-009
 * PD-000 to PD-023: VALIDATED
 * Implementation: BLOCKED
 * Formula candidates: NOT OPENED
 * Final formula: NOT DEFINED
+* M-002: NOT OPENED
 * Ranking / incentives / tokens / payout / economic allocation: NOT DEFINED
 
 ## Core idea
@@ -154,13 +162,8 @@ This boundary does not propose formula candidates.
 ## Next possible work
 
 The next work should not jump directly to formula.
-Possible next work:
-
-* decide whether to consolidate M-001 as complete
-* prepare M-002 as future formula-candidate research phase
-* define strict research-only rules for M-002
-* update external communication / pitch based on protocol kernel
-* later return to implementation only after protocol gates are respected
+Any next phase requires explicit human approval after M-001 closure.
+M-002 is not opened by this document.
 
 ## Final rule
 
