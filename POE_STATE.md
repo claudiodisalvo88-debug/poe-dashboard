@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-NONE
+RQ-026
 
 Last closed research:
 RQ-025
@@ -108,4 +108,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-PM must decide whether to open a new bounded research question. No formula candidate may be proposed. Implementation remains blocked.
+Innovator Agent / PM must analyze RQ-026 strictly as bounded research-framing only. No formula candidate may be proposed. Implementation remains blocked.

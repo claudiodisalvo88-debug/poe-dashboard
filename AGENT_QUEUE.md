@@ -2,7 +2,18 @@
 
 ## Active task
 
-Nessun task active registrato.
+## M-002-RQ-026-INNOVATOR
+
+Title: Stress-test RQ-026 primitive reputational evidence unit structural properties boundary
+Owner agent: Innovator Agent / PM
+Source files: `POE_STATE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md`, `AGENTS.md`
+Allowed files to edit: none
+Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
+Objective: test whether any additional structural, non-scorable properties beyond Observability, Attributability and Verifiability may be required before a primitively admissible reputational evidence unit becomes a legitimate object of future formula-candidate research.
+Non-objectives: answer RQ-026 as a protocol decision; create `PD-026`; define formula candidate, formula structure, syntax, score, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
+Required output: bounded Innovator analysis for RQ-026 in standard format, explicitly marked VERIFIED / INFERRED / UNCERTAIN where needed.
+Validation criteria: research-framing only; no protocol decision; no implementation logic; no scoring, ordering or economic leakage.
+Status: ACTIVE
 
 ## Pending tasks
 
@@ -13,6 +24,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-OPEN-RESEARCH-FRAMING
+
+Title: Open RQ-026 as primitive reputational evidence unit structural properties boundary
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: RQ-026 opened as OPEN / RESEARCH-FRAMING only; active research set to RQ-026; no answer produced; no PD-026 created; no formula candidate defined; implementation remains blocked.
 
 ## M-002-RQ-025-DOCUMENTATION
 

@@ -1,5 +1,35 @@
 # RESEARCH_QUEUE.md
 
+## RQ-026
+
+Question:
+Quali proprietà strutturali non-scorabili — oltre a Observability, Attributability, Verifiability — un'unità di evidenza reputazionale primitivamente ammissibile deve possedere affinché il protocollo la consideri oggetto legittimo di formula-candidate research, senza che tali proprietà diventino checklist, score, ranking, weighting, soglia numerica o regola implementativa?
+
+Output:
+NONE YET / RESEARCH-FRAMING ONLY
+
+Scope:
+This question asks only for the next non-implementative admissibility boundary after PD-025.
+The scope is limited to identifying which additional structural, non-scorable properties may be required for a primitively admissible reputational evidence unit to be considered a legitimate object of future formula-candidate research.
+RQ-026 is research-framing only and does not authorize a protocol decision, formula candidate, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
+
+Hard exclusions:
+RQ-026 does not authorize final properties as protocol decision, PD-026 creation, formula candidate definition, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
+RQ-026 does not authorize API logic, database logic, dashboard logic, cross-IE formula synthesis or any implementation-facing filter over nodes, evidence units, evidence groups or reputation objects.
+
+Validation criteria:
+The output must remain research-framing only and must not answer the question as settled protocol logic.
+Any acceptable result must preserve the PD-025 gate, keep additional properties strictly non-scorable and non-implementative, and avoid turning them into checklist, score, ranking, ordering, weighting, numeric threshold, operational filter, incentive logic or implementation rule.
+
+Source dependency:
+PD-025
+
+Status:
+OPEN / RESEARCH-FRAMING
+
+Decision:
+NONE
+
 ## RQ-025
 
 Question:

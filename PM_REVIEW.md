@@ -5,6 +5,69 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-OPEN-RESEARCH-FRAMING
+
+Related task:
+M-002-RQ-026-OPEN-RESEARCH-FRAMING
+
+Decision:
+ACCEPTED
+
+Reason:
+PM accepts the Claude refinement and opening request because PD-025 validated only the first primitive admissibility gate and RQ-026 is needed as the next bounded research-framing question on additional structural, non-scorable properties, without allowing protocol closure or implementation leakage.
+
+Required changes:
+Update `RESEARCH_QUEUE.md`, `POE_STATE.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md` to open RQ-026 as OPEN / RESEARCH-FRAMING only.
+
+Forbidden actions:
+No answer to RQ-026.
+No PD-026 creation.
+No formula candidate.
+No formula structure.
+No formula syntax.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API, database, dashboard or runtime logic.
+No implementation.
+
+Next action:
+Innovator Agent / PM analysis of RQ-026 strictly as bounded research-framing only. Implementation remains blocked.
+
+## PM-REVIEW-M-002-RQ-026-WORDING-CORRECTION
+
+Related task:
+M-002-RQ-026-OPEN-RESEARCH-FRAMING
+
+Decision:
+ACCEPTED
+
+Reason:
+PM accepts the Claude refinement because the wording must explicitly constrain RQ-026 to structural, non-scorable admissibility research and prevent slippage into checklist logic, scoring, ranking, weighting, thresholding, operational filtering, economics or implementation.
+
+Required changes:
+Use the refined RQ-026 wording in `RESEARCH_QUEUE.md` and align `POE_STATE.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md` with research-framing only status.
+
+Forbidden actions:
+RQ-026 remains research-framing only.
+No answer produced.
+No PD-026 creation.
+No formula candidate authorized.
+No formula structure authorized.
+No scoring, ranking, ordering, weighting, checklist, numeric threshold, operational filter or economics authorized.
+No implementation authorized.
+
+Next action:
+Open RQ-026 for Innovator Agent / PM analysis before any later documentation decision.
+
 ## PM-REVIEW-M-002-RQ-025-DOCUMENTATION
 
 Related task:
