@@ -5,6 +5,16 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-OPEN-FORMULA-CANDIDATE-RESEARCH-PHASE
+
+Related task: M-002-OPEN-FORMULA-CANDIDATE-RESEARCH-PHASE
+Decision: ACCEPTED
+Reason: Repository state confirms M-001 CLOSED / COMPLETED, RQ-023 already established the formula candidate research opening boundary, PD-000 through PD-023 are validated, and M-002 may be opened only as a strictly research-only milestone boundary.
+Required changes: create `M-002_FORMULA_CANDIDATE_RESEARCH_PHASE_OPENING.md`; update `POE_STATE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `README.md` to mark M-002 opened as research-only while keeping active research at NONE.
+Forbidden Codex actions: no code, API, database, dashboard, `poe.db`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `POE_PROTOCOL_KERNEL.md`, closed RQ documents, RQ-024 creation, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, payout, economic allocation or implementation.
+Commit allowed: yes, if only authorized Markdown files are staged.
+Next action: separate human approval is required to decide whether to create RQ-024 as a research-framing task only.
+
 ## PM-REVIEW-M-001-CLOSE-PROTOCOL-KERNEL-MILESTONE
 
 Related task: M-001-CLOSE-PROTOCOL-KERNEL-MILESTONE

@@ -9,20 +9,23 @@ PoE works by separating observed behavior, measured reduction, attribution, reco
 ## Current status
 
 * M-001 Protocol Kernel: CLOSED / COMPLETED
+* M-002 Formula Candidate Research Phase: OPENED / RESEARCH-ONLY
 * Last closed research: RQ-023
 * Last postponed research: RQ-009
 * PD-000 to PD-023 validated
 * Implementation blocked for protocol reputation logic
-* Formula candidates not opened
+* Formula candidate research phase opened, with no candidates defined
 * Final formula not defined
-* M-002 not opened
+* No ranking, incentives, tokens or implementation defined
 * MVP backend/dashboard exists but is not the full protocol
 
 ## Milestone status
 
 The repository contains the closed M-001 Protocol Kernel milestone.
 Closure is documented in `M-001_PROTOCOL_KERNEL_MILESTONE_CLOSURE.md`.
+M-002 is opened only as a research-only milestone boundary through `M-002_FORMULA_CANDIDATE_RESEARCH_PHASE_OPENING.md`.
 This repository is not production-ready protocol execution.
+
 
 ## Repository structure
 

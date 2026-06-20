@@ -14,6 +14,13 @@ Nessun task blocked registrato.
 
 ## Completed tasks
 
+## M-002-OPEN-FORMULA-CANDIDATE-RESEARCH-PHASE
+
+Title: Open M-002 as strictly research-only formula candidate research phase
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: M-002 opened as research-only milestone boundary, no RQ-024 created, no formula candidate defined, implementation remains blocked.
+
 ## M-001-CLOSE-PROTOCOL-KERNEL-MILESTONE
 
 Title: Close M-001 as completed Protocol Kernel milestone
