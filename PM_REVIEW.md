@@ -5,6 +5,16 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-024-OPEN-RESEARCH-FRAMING
+
+Related task: M-002-RQ-024-OPEN-RESEARCH-FRAMING
+Decision: ACCEPTED
+Reason: Repository state confirms M-002 OPENED / RESEARCH-ONLY, no active research currently open, and RQ-024 may be opened as the first research-framing task before any future formula-candidate work.
+Required changes: create `RQ-024_FORMULA_CANDIDATE_RESEARCH_FRAMING.md`; update `POE_STATE.md`, `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md` to open RQ-024 without producing any answer or decision.
+Forbidden Codex actions: no code, API, database, dashboard, `poe.db`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, `POE_PROTOCOL_KERNEL.md`, `README.md`, closed milestone documents, closed RQ documents, PD-024 creation, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, payout, economic allocation or implementation.
+Commit allowed: yes, if only authorized Markdown files are staged.
+Next action: Innovator Agent / PM analysis of RQ-024 as research-framing only.
+
 ## PM-REVIEW-M-002-OPEN-FORMULA-CANDIDATE-RESEARCH-PHASE
 
 Related task: M-002-OPEN-FORMULA-CANDIDATE-RESEARCH-PHASE

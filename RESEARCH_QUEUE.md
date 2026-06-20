@@ -1,5 +1,19 @@
 # RESEARCH_QUEUE.md
 
+## RQ-024
+
+Question:
+What is the first admissible research-framing boundary for exploring future PoE formula candidates without defining formula candidates, formula syntax, weights, coefficients, scalar score, ranking, leaderboard, incentives, tokens, payout, economic allocation or implementation?
+
+Output:
+RQ-024_FORMULA_CANDIDATE_RESEARCH_FRAMING.md
+
+Status:
+OPEN / RESEARCH-FRAMING ONLY
+
+Decision:
+NONE
+
 ## RQ-023
 
 Question:

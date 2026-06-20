@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-NONE
+RQ-024
 
 Last closed research:
 RQ-023
@@ -72,6 +72,9 @@ VALIDATED / CLOSED
 RQ-023:
 VALIDATED / CLOSED
 
+RQ-024:
+OPEN / RESEARCH-FRAMING ONLY
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -96,4 +99,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Human-approved decision whether to create RQ-024 as a research-framing task only.
+Send RQ-024 to Innovator Agent / PM for research-framing analysis only.

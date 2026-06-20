@@ -2,7 +2,12 @@
 
 ## Active task
 
-Nessun task active registrato.
+## M-002-RQ-024-INNOVATOR
+
+Title: Stress-test RQ-024 formula candidate research framing boundary
+Owner agent: Innovator Agent / PM
+Status: ACTIVE
+Objective: Stress-test RQ-024 research-framing boundary without defining formula candidates, formula syntax, weights, score, ranking, incentives, tokens, payout, economic allocation or implementation.
 
 ## Pending tasks
 
@@ -13,6 +18,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-024-OPEN-RESEARCH-FRAMING
+
+Title: Open RQ-024 as first active research-framing task inside M-002
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: RQ-024 opened as OPEN / RESEARCH-FRAMING ONLY, no answer produced, no PD-024 created, no formula candidate defined.
 
 ## M-002-OPEN-FORMULA-CANDIDATE-RESEARCH-PHASE
 
