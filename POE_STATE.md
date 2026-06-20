@@ -108,4 +108,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Innovator Agent / PM must analyze RQ-026 strictly as bounded research-framing only. No formula candidate may be proposed. Implementation remains blocked.
+Critic / Verifier Agent / PM must stress-test the RQ-026 A-D candidate directions strictly as research-framing only before any future documentation decision. No formula candidate may be proposed. Implementation remains blocked.

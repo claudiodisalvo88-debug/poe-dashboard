@@ -5,6 +5,45 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-INNOVATOR
+
+Related task:
+M-002-RQ-026-INNOVATOR
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+The Innovator output is structurally useful after PD-025 because it identifies candidate structural-property directions without forcing immediate protocol closure. PM accepts it only with constraints because any direct answer to RQ-026 still risks collapsing into checklist logic, score logic, ranking, ordering, weighting, thresholding, operational filtering, economics or implementation.
+
+Required changes:
+Create `RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md` as research-framing only and update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md` to record the result and open the next Critic / Verifier stress-test task.
+
+Forbidden actions:
+RQ-026 remains OPEN / RESEARCH-FRAMING.
+No answer to RQ-026 as final protocol logic.
+No PD-026 creation.
+No protocol closure.
+No formula candidate.
+No formula structure.
+No formula syntax.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API, database, dashboard or runtime logic.
+No implementation.
+
+Next action:
+Open `M-002-RQ-026-CRITIC` as the active task to stress-test A-D for checklist/scoring/implementation leakage before any future documentation decision. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-026-OPEN-RESEARCH-FRAMING
 
 Related task:

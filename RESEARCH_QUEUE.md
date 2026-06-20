@@ -6,12 +6,17 @@ Question:
 Quali proprietà strutturali non-scorabili — oltre a Observability, Attributability, Verifiability — un'unità di evidenza reputazionale primitivamente ammissibile deve possedere affinché il protocollo la consideri oggetto legittimo di formula-candidate research, senza che tali proprietà diventino checklist, score, ranking, weighting, soglia numerica o regola implementativa?
 
 Output:
-NONE YET / RESEARCH-FRAMING ONLY
+RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md
 
 Scope:
 This question asks only for the next non-implementative admissibility boundary after PD-025.
 The scope is limited to identifying which additional structural, non-scorable properties may be required for a primitively admissible reputational evidence unit to be considered a legitimate object of future formula-candidate research.
 RQ-026 is research-framing only and does not authorize a protocol decision, formula candidate, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
+
+Current research note:
+Innovator output status is ACCEPT_WITH_CONSTRAINTS.
+The A-D directions are recorded only as candidate research-framing categories for later Critic / Verifier stress-test.
+They are not final protocol properties, not checklist items, not validation rules, not thresholds, not operational filters and not implementation logic.
 
 Hard exclusions:
 RQ-026 does not authorize final properties as protocol decision, PD-026 creation, formula candidate definition, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.

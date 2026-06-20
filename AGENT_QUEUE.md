@@ -2,17 +2,17 @@
 
 ## Active task
 
-## M-002-RQ-026-INNOVATOR
+## M-002-RQ-026-CRITIC
 
-Title: Stress-test RQ-026 primitive reputational evidence unit structural properties boundary
-Owner agent: Innovator Agent / PM
-Source files: `POE_STATE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md`, `AGENTS.md`
+Title: Stress-test RQ-026 candidate structural property directions for checklist/scoring/implementation leakage
+Owner agent: Critic / Verifier Agent / PM
+Source files: `POE_STATE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md`, `AGENTS.md`, `RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md`
 Allowed files to edit: none
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
-Objective: test whether any additional structural, non-scorable properties beyond Observability, Attributability and Verifiability may be required before a primitively admissible reputational evidence unit becomes a legitimate object of future formula-candidate research.
-Non-objectives: answer RQ-026 as a protocol decision; create `PD-026`; define formula candidate, formula structure, syntax, score, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
-Required output: bounded Innovator analysis for RQ-026 in standard format, explicitly marked VERIFIED / INFERRED / UNCERTAIN where needed.
-Validation criteria: research-framing only; no protocol decision; no implementation logic; no scoring, ordering or economic leakage.
+Objective: stress-test whether the candidate research directions A-D create hidden checklist logic, score logic, ranking logic, ordering logic, weighting logic, threshold logic, operational filtering or implementation leakage.
+Non-objectives: answer RQ-026 as a protocol decision; create `PD-026`; define final protocol properties, formula candidate, formula structure, syntax, score, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
+Required output: bounded Critic / Verifier analysis that tests the A-D directions only as research-framing categories and explicitly identifies any leakage into checklist, scoring, ordering, weighting, thresholds, operations, economics or implementation.
+Validation criteria: RQ-026 remains OPEN / RESEARCH-FRAMING; A-D remain directions only; no protocol decision; no implementation logic; no scoring, ordering, weighting, checklist or economic leakage.
 Status: ACTIVE
 
 ## Pending tasks
@@ -31,6 +31,13 @@ Title: Open RQ-026 as primitive reputational evidence unit structural properties
 Owner agent: Codex / PM / QA
 Status: COMPLETED
 Result: RQ-026 opened as OPEN / RESEARCH-FRAMING only; active research set to RQ-026; no answer produced; no PD-026 created; no formula candidate defined; implementation remains blocked.
+
+## M-002-RQ-026-INNOVATOR
+
+Title: Stress-test RQ-026 primitive reputational evidence unit structural properties boundary
+Owner agent: Innovator Agent / PM
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. RQ-026 remains OPEN / RESEARCH-FRAMING; A-D recorded only as candidate research directions for later stress-test; no PD-026 created; no protocol closure; no formula candidate, formula structure, score, ranking, ordering, weighting, checklist, threshold, operational filter, economics or implementation authorized; implementation remains blocked.
 
 ## M-002-RQ-025-DOCUMENTATION
 
