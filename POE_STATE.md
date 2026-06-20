@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-024
+NONE
 
 Last closed research:
 RQ-023
@@ -73,10 +73,13 @@ RQ-023:
 VALIDATED / CLOSED
 
 RQ-024:
-OPEN / RESEARCH-FRAMING ONLY
+CONDITIONAL / CLOSED
 
 PD-000 to PD-023:
 VALIDATED
+
+PD-024:
+CONDITIONAL
 
 Formula candidates:
 RESEARCH PHASE OPENED / NO CANDIDATES DEFINED
@@ -99,4 +102,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Send RQ-024 to Innovator Agent / PM for research-framing analysis only.
+Human-approved decision required before opening any next research question. No formula candidate may be proposed without a separate research-framing task.

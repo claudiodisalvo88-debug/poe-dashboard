@@ -1,5 +1,19 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-024
+
+Formula candidate research framing boundary
+
+Status:
+CONDITIONAL
+
+Decision:
+RQ-024 validates only a conditional research-framing boundary for future PoE formula-candidate exploration, limited to admissibility gates, object separation, evidence integrity, leakage rejection and anti-gaming constraints, while excluding formula candidates, formula syntax, weights, coefficients, scores, ranking, incentives, tokens, payout, economic allocation and implementation.
+
+RQ-024 does not authorize formula-candidate proposals.
+RQ-024 does not authorize any computation, scoring, comparison, ranking, economic use or implementation.
+Future work may proceed only by creating a separate human-approved research question.
+
 ## PD-023
 
 Formula candidate research opening boundary

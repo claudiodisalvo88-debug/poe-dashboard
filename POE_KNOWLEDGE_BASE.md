@@ -28,6 +28,13 @@ Current consolidated knowledge:
 - PD-021: VALIDATED
 - PD-022: VALIDATED
 - PD-023: VALIDATED
+- PD-024: CONDITIONAL
+
+RQ-024 conditional research-framing boundary:
+
+* RQ-024 created a conditional research-framing boundary.
+* It allows only admissibility gates, object separation, evidence integrity, leakage rejection and anti-gaming constraints.
+* It does not define formula candidates, formulas, weights, scores, rankings, incentives, tokens, payout, economic allocation or implementation.
 
 Primitive Inefficiencies PoE V1
 

@@ -5,6 +5,26 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-024-DOCUMENTATION-CONDITIONAL
+
+Related task:
+M-002-RQ-024-DOCUMENTATION-CONDITIONAL
+
+Decision:
+ACCEPTED WITH CONDITIONAL STATUS
+
+Reason:
+The first Innovator output was rejected as stale-state. The retry output is accepted only as CONDITIONAL because RQ-024 is safe as negative framing and admissibility research, but unsafe if it introduces comparability, normalization, aggregation, scoring, ranking, economic linkage or implementation pressure.
+
+Required changes:
+Document RQ-024 as CONDITIONAL / CLOSED and PD-024 as CONDITIONAL.
+
+Forbidden actions:
+No code, API, database, dashboard, poe.db, formula candidates, final formula, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, payout, economic allocation or implementation.
+
+Next action:
+Human approval required before opening any next research question.
+
 ## PM-REVIEW-M-002-RQ-024-OPEN-RESEARCH-FRAMING
 
 Related task: M-002-RQ-024-OPEN-RESEARCH-FRAMING
