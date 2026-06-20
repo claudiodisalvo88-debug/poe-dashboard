@@ -108,4 +108,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Critic / Verifier Agent / PM must stress-test the RQ-026 A-D candidate directions strictly as research-framing only before any future documentation decision. No formula candidate may be proposed. Implementation remains blocked.
+PM / Verifier Agent must decide whether refined A/B/D can support later RQ-026 documentation while C remains split out as future RQ-027 candidate only. `RQ-026` stays OPEN / RESEARCH-FRAMING, `PD-026` is not created, no formula candidate may be proposed, and implementation remains blocked.

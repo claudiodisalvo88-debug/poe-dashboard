@@ -2,17 +2,17 @@
 
 ## Active task
 
-## M-002-RQ-026-CRITIC
+## M-002-RQ-026-PM-REFINEMENT
 
-Title: Stress-test RQ-026 candidate structural property directions for checklist/scoring/implementation leakage
-Owner agent: Critic / Verifier Agent / PM
-Source files: `POE_STATE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md`, `AGENTS.md`, `RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md`
+Title: Decide whether refined A/B/D can support later RQ-026 documentation while C is split out as future RQ-027 candidate
+Owner agent: PM / Verifier Agent
+Source files: `POE_STATE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md`, `AGENTS.md`, `RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md`, `RQ-026_CRITIC_STRUCTURAL_PROPERTY_LEAKAGE_REVIEW.md`
 Allowed files to edit: none
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
-Objective: stress-test whether the candidate research directions A-D create hidden checklist logic, score logic, ranking logic, ordering logic, weighting logic, threshold logic, operational filtering or implementation leakage.
-Non-objectives: answer RQ-026 as a protocol decision; create `PD-026`; define final protocol properties, formula candidate, formula structure, syntax, score, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
-Required output: bounded Critic / Verifier analysis that tests the A-D directions only as research-framing categories and explicitly identifies any leakage into checklist, scoring, ordering, weighting, thresholds, operations, economics or implementation.
-Validation criteria: RQ-026 remains OPEN / RESEARCH-FRAMING; A-D remain directions only; no protocol decision; no implementation logic; no scoring, ordering, weighting, checklist or economic leakage.
+Objective: decide whether the refined A/B/D directions are safe enough to support later RQ-026 documentation while keeping C outside RQ-026 as split-required future `RQ-027` candidate only.
+Non-objectives: answer RQ-026 as a protocol decision; create `PD-026`; close `RQ-026`; open `RQ-027`; define final protocol properties, formula candidate, formula structure, syntax, score, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
+Required output: PM / Verifier decision on whether refined A/B/D remain acceptable as research-framing only, with explicit confirmation that C stays excluded from active RQ-026 directions and remains future `RQ-027` candidate only.
+Validation criteria: `RQ-026` remains OPEN / RESEARCH-FRAMING; `PD-026` remains absent; A/B/D remain refined research directions only; C remains split-required and not accepted inside `RQ-026`; no protocol decision; no implementation logic; no scoring, ordering, weighting, checklist, thresholds, operational filtering or economic leakage.
 Status: ACTIVE
 
 ## Pending tasks
@@ -38,6 +38,13 @@ Title: Stress-test RQ-026 primitive reputational evidence unit structural proper
 Owner agent: Innovator Agent / PM
 Status: COMPLETED
 Result: ACCEPT_WITH_CONSTRAINTS. RQ-026 remains OPEN / RESEARCH-FRAMING; A-D recorded only as candidate research directions for later stress-test; no PD-026 created; no protocol closure; no formula candidate, formula structure, score, ranking, ordering, weighting, checklist, threshold, operational filter, economics or implementation authorized; implementation remains blocked.
+
+## M-002-RQ-026-CRITIC
+
+Title: Stress-test RQ-026 candidate structural property directions for checklist/scoring/implementation leakage
+Owner agent: Critic / Verifier Agent / PM
+Status: COMPLETED
+Result: REFINE_REQUIRED. `RQ-026` remains OPEN / RESEARCH-FRAMING; A, B and D refined as research directions only; C marked SPLIT REQUIRED and removed from active `RQ-026` directions as future `RQ-027` candidate only; no `PD-026` created; no protocol closure; no formula candidate, formula structure, score, ranking, ordering, weighting, checklist, threshold, operational filter, economics or implementation authorized; implementation remains blocked.
 
 ## M-002-RQ-025-DOCUMENTATION
 

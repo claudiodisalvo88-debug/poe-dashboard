@@ -5,6 +5,46 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-CRITIC
+
+Related task:
+M-002-RQ-026-CRITIC
+
+Decision:
+ACCEPTED
+
+Reason:
+PM accepts the Critic / Verifier output because it identifies concrete leakage risks inside the original A-D wording and preserves `RQ-026` as bounded research-framing only. A, B and D can continue only after wording refinement. C cannot continue inside `RQ-026` because it leaks dependency graph, computation, ordering and implementation-facing structure.
+
+Required changes:
+Create `RQ-026_CRITIC_STRUCTURAL_PROPERTY_LEAKAGE_REVIEW.md` as research-framing only. Update `RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md`, `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md` to record `REFINE_REQUIRED`, refine A/B/D wording, and record C only as split-required future `RQ-027` candidate without opening `RQ-027`.
+
+Forbidden actions:
+`RQ-026` remains OPEN / RESEARCH-FRAMING.
+No answer to `RQ-026` as final protocol logic.
+No `PD-026` creation.
+No `RQ-026` closure.
+No `RQ-027` opening.
+No formula candidate.
+No formula structure.
+No formula syntax.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API, database, dashboard or runtime logic.
+No implementation.
+
+Next action:
+Open `M-002-RQ-026-PM-REFINEMENT` as the active task to decide whether refined A/B/D can support later `RQ-026` documentation while C stays split out as future `RQ-027` candidate only. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-026-INNOVATOR
 
 Related task:
