@@ -8,7 +8,7 @@ Nessun task active registrato.
 
 ## M-002-RQ-025-INNOVATOR
 
-Title: Stress-test RQ-025 first pre-formula admissibility gate
+Title: Stress-test RQ-025 first pre-candidate admissibility gate boundary
 Owner agent: Innovator Agent / PM
 Status: PENDING
 
@@ -17,6 +17,13 @@ Status: PENDING
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-025-WORDING-CORRECTION
+
+Title: Correct RQ-025 pre-candidate gate wording
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: RQ-025 wording corrected after Claude / external critic review; RQ-025 remains OPEN / RESEARCH-FRAMING; no answer produced; no PD-025 created; no formula candidate defined; implementation remains blocked.
 
 ## M-002-RQ-025-OPEN-RESEARCH-FRAMING
 

@@ -5,6 +5,31 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-025-WORDING-CORRECTION
+
+Related task:
+M-002-RQ-025-WORDING-CORRECTION
+
+Decision:
+ACCEPTED
+
+Reason:
+Claude / external critic output returned REVISE_BEFORE_OPENING. PM accepted the revision because the original RQ-025 wording still risked hidden formula design, ordering, scoring, weighting or selection logic.
+
+Required changes:
+Update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md` to correct RQ-025 wording as a first pre-candidate admissibility gate boundary only.
+
+Forbidden actions:
+RQ-025 remains research-framing only.
+No formula candidate authorized.
+No formula structure authorized.
+No scoring, ranking, ordering, weighting or economics authorized.
+No implementation authorized.
+No PD-025 creation.
+
+Next action:
+Innovator Agent / PM analysis of RQ-025 before any documentation decision.
+
 ## PM-REVIEW-M-002-RQ-025-OPEN-RESEARCH-FRAMING
 
 Related task:

@@ -3,20 +3,22 @@
 ## RQ-025
 
 Question:
-Qual e il primo gate minimo, non numerico e non comparativo, che deve essere soddisfatto prima che una futura formula candidate possa essere anche solo proposta alla ricerca?
+Qual è il primo criterio minimo di ammissibilità, strettamente non numerico, non comparativo e non ordinativo, che deve essere verificato prima che una futura formula candidate possa essere considerata ammissibile come oggetto di ricerca, senza definire formula candidate, struttura di formula, scoring, ranking, weighting o logiche economiche?
 
 Scope:
-This question asks only for the first pre-formula admissibility gate that must exist before any future formula-candidate proposal can even be researched.
-The scope is limited to research framing for the first gate and must preserve object separation, evidence lineage, evidence integrity, anti-gaming constraints, leakage rejection, economic block and implementation block.
+This question asks only for the first pre-candidate admissibility gate boundary that must exist before any future formula candidate can be considered admissible as a research object.
+The scope is limited to research framing of a strictly non-numeric, non-comparative and non-ordinative first gate.
+The scope does not authorize formula candidate definition, formula structure, scoring, ranking, weighting, economic logic or implementation.
+Any acceptable framing must preserve object separation, evidence lineage, attribution integrity, auditability, anti-gaming constraints and leakage rejection.
 
 Hard exclusions:
-RQ-025 does not authorize formulas, formula candidates, formula names, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
+RQ-025 does not authorize formula candidates, formulas, formula names, formula syntax, formula structure, weights, coefficients, scalar score, total score, scoring, ranking, leaderboard, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
 RQ-025 does not authorize API logic, database logic, dashboard logic, cross-IE formula synthesis or any ordering of nodes, contributions, evidence groups or reputation objects.
 
 Validation criteria:
-The output must identify only whether a first pre-formula admissibility gate should be researched and bounded without answering it as protocol decision.
-Any acceptable framing must remain non-numeric, non-comparative, non-economic, non-implementative and explicitly separated from formula definition or proposal.
-Any acceptable framing must preserve object separation, evidence lineage, evidence integrity, anti-gaming constraints, leakage rejection, economic block and implementation block.
+The output must identify only how the first pre-candidate admissibility gate boundary should be researched and bounded without answering it as protocol decision.
+Any acceptable framing must remain non-numeric, non-comparative, non-ordinative, non-economic and non-implementative and explicitly separated from formula definition or proposal.
+Any acceptable framing must preserve object separation, evidence lineage, attribution integrity, auditability, anti-gaming constraints and leakage rejection.
 
 Source dependency:
 PD-024
