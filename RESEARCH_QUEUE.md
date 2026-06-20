@@ -14,8 +14,8 @@ The scope is limited to identifying which additional structural, non-scorable pr
 RQ-026 is research-framing only and does not authorize a protocol decision, formula candidate, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
 
 Current research note:
-Critic / Verifier output status is REFINE_REQUIRED.
-A, B and D remain only refined research-framing directions and are not final protocol properties, not checklist items, not validation rules, not thresholds, not operational filters and not implementation logic.
+PM refinement status is ACCEPT_WITH_CONSTRAINTS.
+A, B and D remain only refined research-framing directions that may support later `RQ-026` documentation and are not final protocol properties, not checklist items, not validation rules, not thresholds, not operational filters and not implementation logic.
 C does not advance inside `RQ-026`. It is split required and recorded only as future `RQ-027` candidate, without opening `RQ-027`.
 
 Hard exclusions:
@@ -25,7 +25,7 @@ RQ-026 does not authorize API logic, database logic, dashboard logic, cross-IE f
 Validation criteria:
 The output must remain research-framing only and must not answer the question as settled protocol logic.
 Any acceptable result must preserve the PD-025 gate, keep additional properties strictly non-scorable and non-implementative, and avoid turning them into checklist, score, ranking, ordering, weighting, numeric threshold, operational filter, incentive logic or implementation rule.
-A/B/D may survive only as refined research directions. C is excluded from active `RQ-026` directions and may exist only as a future split candidate.
+A/B/D may survive only as refined research directions that may support later documentation. C is excluded from active `RQ-026` directions and may exist only as a future split candidate.
 
 Source dependency:
 PD-025

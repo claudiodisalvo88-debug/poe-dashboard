@@ -96,5 +96,6 @@ Hard exclusions:
 
 Decision boundary:
 A/B/D are refined research directions only.
+A/B/D may support later `RQ-026` documentation only as research-framing directions.
 C is split required and future `RQ-027` candidate only.
 Nothing in this file is a final protocol property.

@@ -5,6 +5,46 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-PM-REFINEMENT
+
+Related task:
+M-002-RQ-026-PM-REFINEMENT
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+PM accepts the refined A/B/D wording only as bounded research-framing support for possible later `RQ-026` documentation. The accepted scope remains structural and non-final. C remains excluded because it still introduces dependency graph, computation, functional relation, hidden ordering, formula-structure leakage and implementation-facing structure.
+
+Required changes:
+Create `RQ-026_PM_REFINEMENT_DECISION.md` as research-framing only. Update `RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md`, `RQ-026_CRITIC_STRUCTURAL_PROPERTY_LEAKAGE_REVIEW.md`, `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md` to record `ACCEPT_WITH_CONSTRAINTS`, confirm A/B/D as documentation-supporting research directions only, and keep C excluded from active `RQ-026` as future `RQ-027` candidate only without opening `RQ-027`.
+
+Forbidden actions:
+`RQ-026` remains OPEN / RESEARCH-FRAMING.
+No answer to `RQ-026` as final protocol logic.
+No `PD-026` creation.
+No `RQ-026` closure.
+No `RQ-027` opening.
+No formula candidate.
+No formula structure.
+No formula syntax.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API, database, dashboard or runtime logic.
+No implementation.
+
+Next action:
+Open `M-002-RQ-026-DOCUMENTATION-READINESS` as the active task to decide whether `RQ-026` can be documented as research-framing complete without creating `PD-026`. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-026-CRITIC
 
 Related task:

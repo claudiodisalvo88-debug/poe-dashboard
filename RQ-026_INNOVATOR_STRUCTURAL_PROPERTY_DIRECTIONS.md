@@ -6,6 +6,7 @@ OPEN / RESEARCH-FRAMING ONLY
 Source:
 M-002-RQ-026-INNOVATOR
 Refined after M-002-RQ-026-CRITIC
+Accepted with constraints after M-002-RQ-026-PM-REFINEMENT
 External Innovator / Critic Agent output
 PM accepted with constraints and Critic refinements
 
@@ -13,7 +14,7 @@ Question:
 Quali proprietà strutturali non-scorabili, oltre a Observability, Attributability e Verifiability, possono richiedere ulteriore stress-test prima che un'unità di evidenza reputazionale primitivamente ammissibile sia considerata oggetto legittimo di future formula-candidate research?
 
 Core finding:
-RQ-026 remains structurally usable only as research-framing. After Critic review, A/B/D may remain only in refined form. C is not safe inside active RQ-026 because it leaks dependency, computation, ordering and implementation-facing structure.
+RQ-026 remains structurally usable only as research-framing. After Critic review and PM refinement, A/B/D may remain only in refined non-final form and may support later documentation only at research-framing level. C is not safe inside active RQ-026 because it leaks dependency, computation, ordering and implementation-facing structure.
 
 Research-framing boundary:
 
@@ -25,10 +26,12 @@ Research-framing boundary:
 * A/B/D are not thresholds.
 * A/B/D are not operational filters.
 * A/B/D are not implementation logic.
+* A/B/D may support later `RQ-026` documentation only as research-framing directions.
 * C is not an active `RQ-026` direction.
 * C is split required and future `RQ-027` candidate only.
 * This file does not close `RQ-026`.
 * This file does not create `PD-026`.
+* This file does not open `RQ-027`.
 
 Candidate directions for stress-test only:
 
@@ -38,7 +41,7 @@ Directional meaning:
 L'unità possiede una struttura referenziale verso un'entità di dominio. La ricerca indaga l'esistenza di tale struttura come proprietà, non la qualità, disambiguazione o validità del riferimento.
 
 Constraint:
-This is not a binary validation, not a quality grade, not an ambiguity filter, not a whitelist, not a registry rule, not an ordering rule and not a selection filter.
+This is not a binary validation, not a quality grade, not an ambiguity filter, not a whitelist, not a registry rule, not a validation rule, not an operational filter, not an ordering rule and not a selection filter.
 
 ## B. Temporal delimitation
 
@@ -46,7 +49,7 @@ Directional meaning:
 L'unità possiede una struttura che la colloca in una dimensione temporale. La ricerca indaga l'esistenza di tale struttura come proprietà, non la precisione, il formato o la validità della collocazione.
 
 Constraint:
-This is not a temporal standard, not a timestamp schema requirement, not a precision threshold, not a time-quality score, not a freshness ranking and not an implementation timer rule.
+This is not a temporal standard, not a timestamp schema requirement, not a precision threshold, not a freshness criterion, not a time-quality score and not an implementation timer rule.
 
 ## C. Non-derivability
 
@@ -67,7 +70,7 @@ Directional meaning:
 L'unità può essere oggetto di considerazione indipendente da un contesto aggregativo. La ricerca indaga se questa proprietà esiste strutturalmente, senza definire cosa costituisce un aggregato, senza operazioni di aggregazione, senza filtri di isolamento.
 
 Constraint:
-This is not an aggregate definition, not an aggregation recipe, not an isolation filter, not an ordering rule, not an operational classifier and not an implementation filter.
+This is not an aggregate definition, not an aggregation recipe, not an isolation filter, not an aggregate classifier, not an operational aggregation rule, not an ordering rule and not an implementation filter.
 
 Explicit exclusions:
 
@@ -89,4 +92,4 @@ Explicit exclusions:
 * no implementation
 
 Next required step:
-PM / Verifier decision on whether refined A/B/D can support later `RQ-026` documentation while C remains split out as future `RQ-027` candidate only.
+PM / QA / Verifier decision on whether `RQ-026` can be documented as research-framing complete without creating `PD-026`.
