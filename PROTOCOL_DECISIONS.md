@@ -1,5 +1,51 @@
 # PROTOCOL_DECISIONS.md
 
+## PD-025
+
+First pre-candidate admissibility gate
+
+Status:
+VALIDATED
+
+Decision:
+A future reputation formula candidate may become admissible only as an object of research if there exists at least one primitively admissible reputational evidence unit satisfying all three of the following properties:
+
+* Observability
+* Attributability
+* Verifiability
+
+Boundary clarification:
+
+* "At least one unit" means logical existence only.
+* It is not a numeric threshold.
+* It is not a count requirement.
+* It is not a score.
+* It is not a checklist.
+* It is not a ranking rule.
+* It is not an ordering rule.
+* It is not a weighting rule.
+* It is not a formula structure.
+* It is not an operational filter.
+* It is not an implementation rule.
+
+Anti-leakage rules:
+
+* no formula candidate definition
+* no formula syntax
+* no formula structure
+* no scoring
+* no ranking
+* no ordering
+* no weighting
+* no incentive logic
+* no token logic
+* no payout logic
+* no economic allocation
+* no API, database or dashboard logic
+* no implementation
+
+Implementation remains blocked.
+
 ## PD-024
 
 Formula candidate research framing boundary

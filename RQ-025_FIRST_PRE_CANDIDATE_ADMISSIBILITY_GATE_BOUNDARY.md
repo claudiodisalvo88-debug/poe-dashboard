@@ -1,10 +1,11 @@
 # RQ-025 — First pre-candidate admissibility gate boundary
 
 Status:
-RESEARCH-FRAMING / PM-REVIEWED
+VALIDATED / CLOSED
 
 Source:
 M-002-RQ-025-INNOVATOR
+M-002-RQ-025-DOCUMENTATION
 PM review accepted with safety constraints
 
 Question:
@@ -31,10 +32,14 @@ Evidence must be externally auditable without privileged trust assumptions.
 Safety clarification:
 
 * "Existence" is not a numeric threshold.
+* "At least one unit" means logical existence only.
+* "At least one unit" is not a count requirement.
 * "Unit" is not a scoring object.
+* "At least one unit" is not a checklist.
 * The three properties are not weights.
 * The three properties are not an ordered sequence.
 * The gate is not formula structure.
+* The gate is not an operational filter.
 * The gate is not implementation logic.
 
 Exclusions:
@@ -66,8 +71,11 @@ Failure modes:
 * cross-IE synthesis without separation
 * treating logical existence as numeric threshold
 
+Decision:
+PD-025
+
 Documentation boundary:
-This file may support future PM decision, but it does not create PD-025 and does not close RQ-025 as protocol decision.
+This file closes RQ-025 only as the validation of a logical-existence gate. It does not define any formula candidate, formula structure, score, ranking, ordering, weighting, incentive, token, payout, economic allocation or implementation.
 
 Forbidden outputs:
 

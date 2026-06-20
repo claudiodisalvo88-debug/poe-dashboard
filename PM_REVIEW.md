@@ -5,6 +5,38 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-025-DOCUMENTATION
+
+Related task:
+M-002-RQ-025-DOCUMENTATION
+
+Decision:
+ACCEPTED
+
+Reason:
+Repository state and PM decision allow closing RQ-025 as VALIDATED / CLOSED and creating PD-025 only as the first pre-candidate admissibility gate, provided that "at least one unit" remains logical existence only and does not become numeric threshold, count, score, checklist, ranking, ordering, weighting, formula structure, operational filter, implementation rule or economic logic.
+
+Required changes:
+Update `RQ-025_FIRST_PRE_CANDIDATE_ADMISSIBILITY_GATE_BOUNDARY.md`, `PROTOCOL_DECISIONS.md`, `RESEARCH_QUEUE.md`, `POE_KNOWLEDGE_BASE.md`, `POE_STATE.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md`.
+
+Forbidden actions:
+No formula candidate.
+No formula structure.
+No formula syntax.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API, database or dashboard logic.
+No implementation.
+
+Next action:
+PM decides whether to open a new bounded research question. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-025-INNOVATOR
 
 Related task:

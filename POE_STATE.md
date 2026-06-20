@@ -10,10 +10,10 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-025
+NONE
 
 Last closed research:
-RQ-023
+RQ-025
 
 Last postponed research:
 RQ-009
@@ -76,13 +76,16 @@ RQ-024:
 CONDITIONAL / CLOSED
 
 RQ-025:
-OPEN / RESEARCH-FRAMING
+VALIDATED / CLOSED
 
 PD-000 to PD-023:
 VALIDATED
 
 PD-024:
 CONDITIONAL
+
+PD-025:
+VALIDATED
 
 Formula candidates:
 RESEARCH PHASE OPENED / NO CANDIDATES DEFINED
@@ -105,4 +108,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-PM must review RQ-025 documentation boundary before any separate later decision on CONDITIONAL or VALIDATED status. No formula candidate may be proposed.
+PM must decide whether to open a new bounded research question. No formula candidate may be proposed. Implementation remains blocked.

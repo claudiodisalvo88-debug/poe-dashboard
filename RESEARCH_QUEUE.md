@@ -19,15 +19,17 @@ RQ-025 does not authorize formula candidates, formulas, formula names, formula s
 RQ-025 does not authorize API logic, database logic, dashboard logic, cross-IE formula synthesis or any ordering of nodes, contributions, evidence groups or reputation objects.
 
 Validation criteria:
-The output must identify only how the first pre-candidate admissibility gate boundary should be researched and bounded without answering it as protocol decision.
-Any acceptable framing must remain non-numeric, non-comparative, non-ordinative, non-economic and non-implementative and explicitly separated from formula definition or proposal.
-Any acceptable framing must preserve object separation, evidence lineage, attribution integrity, auditability, anti-gaming constraints and leakage rejection.
+The output must validate only the first pre-candidate admissibility gate as a logical-existence boundary and must not define any formula candidate, formula structure, score, ranking, ordering, weighting, economic logic or implementation.
+Any acceptable result must preserve object separation, evidence lineage, attribution integrity, auditability, anti-gaming constraints and leakage rejection.
 
 Source dependency:
 PD-024
 
 Status:
-OPEN / RESEARCH-FRAMING
+VALIDATED / CLOSED
+
+Decision:
+PD-025
 
 ## RQ-024
 

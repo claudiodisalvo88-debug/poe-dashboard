@@ -29,6 +29,15 @@ Current consolidated knowledge:
 - PD-022: VALIDATED
 - PD-023: VALIDATED
 - PD-024: CONDITIONAL
+- PD-025: VALIDATED
+
+RQ-025 first pre-candidate admissibility gate:
+
+* PD-025 validates only a logical existence gate.
+* A future reputation formula candidate may become admissible as an object of research only if there exists at least one primitively admissible reputational evidence unit.
+* That unit must satisfy observability, attributability and verifiability.
+* "At least one unit" is logical existence only and does not create numeric threshold, count, score, checklist, ranking, ordering, weighting, formula structure, implementation logic or economic logic.
+* PD-025 does not define formula candidates, formulas, scores, rankings, incentives, tokens, payout, economic allocation or implementation.
 
 RQ-024 conditional research-framing boundary:
 

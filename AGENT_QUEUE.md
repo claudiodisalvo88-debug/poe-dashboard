@@ -14,6 +14,13 @@ Nessun task blocked registrato.
 
 ## Completed tasks
 
+## M-002-RQ-025-DOCUMENTATION
+
+Title: Close RQ-025 and document PD-025 first pre-candidate admissibility gate
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: RQ-025 documented as VALIDATED / CLOSED; PD-025 created as VALIDATED; PD-025 limited to logical existence of at least one primitively admissible reputational evidence unit satisfying observability, attributability and verifiability; no formula candidate defined; implementation remains blocked.
+
 ## M-002-RQ-025-INNOVATOR-REVIEW-DOCUMENTATION
 
 Title: Document RQ-025 Innovator review boundary
