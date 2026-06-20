@@ -5,6 +5,35 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-025-INNOVATOR
+
+Related task:
+M-002-RQ-025-INNOVATOR
+
+Decision:
+ACCEPTED WITH SAFETY CONSTRAINTS
+
+Reason:
+Innovator output safely identifies the first pre-candidate gate as logical existence of primitively admissible reputational evidence, but PM constrains the wording to avoid treating "at least one unit" as numeric threshold, formula structure, checklist, score, ranking, ordering, weighting or implementation logic.
+
+Required changes:
+Create `RQ-025_FIRST_PRE_CANDIDATE_ADMISSIBILITY_GATE_BOUNDARY.md` and update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md`.
+
+Forbidden actions:
+No PD-025 creation.
+No formula candidate.
+No formula structure.
+No formula syntax.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No economics.
+No implementation.
+
+Next action:
+PM must review documentation before deciding whether RQ-025 can move from OPEN / RESEARCH-FRAMING to CONDITIONAL or VALIDATED in a separate later task.
+
 ## PM-REVIEW-M-002-RQ-025-WORDING-CORRECTION
 
 Related task:

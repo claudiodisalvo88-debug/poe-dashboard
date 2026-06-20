@@ -105,4 +105,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-RQ-025 requires Innovator / PM analysis before any documentation decision. No formula candidate may be proposed.
+PM must review RQ-025 documentation boundary before any separate later decision on CONDITIONAL or VALIDATED status. No formula candidate may be proposed.

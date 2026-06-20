@@ -5,6 +5,9 @@
 Question:
 Qual è il primo criterio minimo di ammissibilità, strettamente non numerico, non comparativo e non ordinativo, che deve essere verificato prima che una futura formula candidate possa essere considerata ammissibile come oggetto di ricerca, senza definire formula candidate, struttura di formula, scoring, ranking, weighting o logiche economiche?
 
+Output:
+RQ-025_FIRST_PRE_CANDIDATE_ADMISSIBILITY_GATE_BOUNDARY.md
+
 Scope:
 This question asks only for the first pre-candidate admissibility gate boundary that must exist before any future formula candidate can be considered admissible as a research object.
 The scope is limited to research framing of a strictly non-numeric, non-comparative and non-ordinative first gate.

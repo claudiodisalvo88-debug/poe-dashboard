@@ -6,17 +6,27 @@ Nessun task active registrato.
 
 ## Pending tasks
 
-## M-002-RQ-025-INNOVATOR
-
-Title: Stress-test RQ-025 first pre-candidate admissibility gate boundary
-Owner agent: Innovator Agent / PM
-Status: PENDING
+Nessun task pending registrato.
 
 ## Blocked tasks
 
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-025-INNOVATOR-REVIEW-DOCUMENTATION
+
+Title: Document RQ-025 Innovator review boundary
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: Innovator output accepted by PM with safety constraints; RQ-025 documented as research-framing / PM-reviewed; RQ-025 remains OPEN / RESEARCH-FRAMING; no PD-025 created; no formula candidate defined; implementation remains blocked.
+
+## M-002-RQ-025-INNOVATOR
+
+Title: Stress-test RQ-025 first pre-candidate admissibility gate boundary
+Owner agent: Innovator Agent / PM
+Status: COMPLETED
+Result: Innovator output accepted by PM with safety constraints as research-framing only; no PD-025 created; no formula candidate defined; implementation remains blocked.
 
 ## M-002-RQ-025-WORDING-CORRECTION
 
