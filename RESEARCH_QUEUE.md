@@ -1,5 +1,29 @@
 # RESEARCH_QUEUE.md
 
+## RQ-025
+
+Question:
+Qual e il primo gate minimo, non numerico e non comparativo, che deve essere soddisfatto prima che una futura formula candidate possa essere anche solo proposta alla ricerca?
+
+Scope:
+This question asks only for the first pre-formula admissibility gate that must exist before any future formula-candidate proposal can even be researched.
+The scope is limited to research framing for the first gate and must preserve object separation, evidence lineage, evidence integrity, anti-gaming constraints, leakage rejection, economic block and implementation block.
+
+Hard exclusions:
+RQ-025 does not authorize formulas, formula candidates, formula names, formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
+RQ-025 does not authorize API logic, database logic, dashboard logic, cross-IE formula synthesis or any ordering of nodes, contributions, evidence groups or reputation objects.
+
+Validation criteria:
+The output must identify only whether a first pre-formula admissibility gate should be researched and bounded without answering it as protocol decision.
+Any acceptable framing must remain non-numeric, non-comparative, non-economic, non-implementative and explicitly separated from formula definition or proposal.
+Any acceptable framing must preserve object separation, evidence lineage, evidence integrity, anti-gaming constraints, leakage rejection, economic block and implementation block.
+
+Source dependency:
+PD-024
+
+Status:
+OPEN / RESEARCH-FRAMING
+
 ## RQ-024
 
 Question:

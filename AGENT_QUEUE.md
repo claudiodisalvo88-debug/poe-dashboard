@@ -6,13 +6,24 @@ Nessun task active registrato.
 
 ## Pending tasks
 
-Nessun task pending registrato.
+## M-002-RQ-025-INNOVATOR
+
+Title: Stress-test RQ-025 first pre-formula admissibility gate
+Owner agent: Innovator Agent / PM
+Status: PENDING
 
 ## Blocked tasks
 
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-025-OPEN-RESEARCH-FRAMING
+
+Title: Open RQ-025 as first pre-formula admissibility gate research-only task
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: RQ-025 opened as OPEN / RESEARCH-FRAMING ONLY, no answer produced, no PD-025 created, no formula candidate defined, implementation remains blocked.
 
 ## M-002-RQ-024-DOCUMENTATION-CONDITIONAL
 

@@ -5,6 +5,29 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-025-OPEN-RESEARCH-FRAMING
+
+Related task:
+M-002-RQ-025-OPEN-RESEARCH-FRAMING
+
+Decision:
+ACCEPTED
+
+Reason:
+Human approval confirms that RQ-025 may be opened only as a research-framing task to identify the first pre-formula admissibility gate before any future formula-candidate proposal can even be researched.
+
+Required changes:
+Update `POE_STATE.md`, `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md` and `PM_REVIEW.md` to open RQ-025 as OPEN / RESEARCH-FRAMING only.
+
+Forbidden actions:
+No formula candidate authorized.
+No implementation authorized.
+No PD-025 creation.
+No formula syntax, weights, coefficients, scalar score, total score, ranking, leaderboard, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring, API logic, database logic or dashboard logic.
+
+Next action:
+Innovator Agent / PM analysis of RQ-025 before any documentation decision.
+
 ## PM-REVIEW-M-002-RQ-024-DOCUMENTATION-CONDITIONAL
 
 Related task:
