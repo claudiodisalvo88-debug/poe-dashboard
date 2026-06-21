@@ -1,12 +1,12 @@
 # AGENT_QUEUE.md
 
 ## Active task
-## M-002-RQ-027-CRITIC
+## M-002-RQ-027-PM-REFINEMENT
 
-Title: Stress-test RQ-027 Innovator output for graph, computation, ordering, formula-structure, checklist, operational-filter and implementation leakage
-Owner agent: Critic / Verifier Agent / PM
+Title: Decide whether refined methodological-boundary wording can support later RQ-027 documentation
+Owner agent: PM / Verifier Agent
 Status: ACTIVE
-Objective: stress-test the Innovator output only as research-framing; no protocol decision, no formula, no implementation.
+Objective: decide whether the refined RQ-027 wording can support later documentation while preserving `RQ-027` as research-framing only; no protocol decision, no formula, no implementation.
 Allowed files to edit for next task: none
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -19,6 +19,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-027-CRITIC
+
+Title: Document Critic review of RQ-027 Innovator output for gate, classifier, graph, computation, formula-structure and implementation leakage
+Owner agent: Critic / Verifier Agent / PM
+Status: COMPLETED
+Result: REFINE_REQUIRED. `RQ-027` remains OPEN / RESEARCH-FRAMING; Decision remains `NONE`; `PD-027` not created; `PD-026` not created; non-dependency of consideration remains usable only after refinement into methodological boundary wording; no formula, no graph computation and no implementation authorized; implementation remains blocked.
 
 ## M-002-RQ-027-INNOVATOR
 

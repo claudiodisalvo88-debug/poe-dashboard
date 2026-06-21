@@ -16,8 +16,9 @@ RQ-027 does not answer the question, does not validate the question, does not tr
 Current research note:
 RQ-027 is opened because C / non-derivability was excluded from active `RQ-026` and isolated into a separate research-framing boundary.
 Innovator status is ACCEPT_WITH_CONSTRAINTS.
-Non-dependency of consideration may survive only as a research-framing direction.
-It is not a final protocol property, not a validation rule, not a checklist, not a classifier, not a graph rule, not a dependency computation and not implementation logic.
+Critic status is REFINE_REQUIRED.
+Non-dependency of consideration must be refined into a methodological research boundary, not a unit property and not a researchable-only-if gate.
+No primitive / non-primitive classifier, no admissibility filter, no non-derivability validation rule, no graph computation, no dependency computation and no implementation logic are authorized.
 This does not close `RQ-026`, does not create `PD-026`, does not create `PD-027`, does not define any formula candidate or formula structure, and does not authorize implementation.
 
 Hard exclusions:

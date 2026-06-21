@@ -114,4 +114,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-027-CRITIC` / Critic-Verifier stress-test of the Innovator output. `RQ-026` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-027` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `PD-026` remains absent, `PD-027` remains absent, formula candidates stay `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`, final formula stays `NOT DEFINED`, and implementation remains blocked.
+`M-002-RQ-027-PM-REFINEMENT`. `RQ-026` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-027` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `PD-026` remains absent, `PD-027` remains absent, formula candidates stay `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`, final formula stays `NOT DEFINED`, and implementation remains blocked.

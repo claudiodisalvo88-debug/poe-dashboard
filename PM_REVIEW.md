@@ -5,6 +5,46 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-027-CRITIC
+
+Related task:
+M-002-RQ-027-CRITIC
+
+Decision:
+ACCEPTED
+
+Reason:
+PM accepts the Critic output because it identifies gate leakage inside the Innovator wording. Non-dependency of consideration remains useful only if reframed as a methodological research boundary, not as a condition satisfied by an evidence unit.
+
+Required changes:
+Create `RQ-027_CRITIC_NON_DERIVABILITY_LEAKAGE_REVIEW.md` as research-framing only. Update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md` to record `REFINE_REQUIRED` and open the PM refinement task.
+
+Forbidden actions:
+No answer to `RQ-027` as settled protocol logic.
+No `PD-027`.
+No `PD-026`.
+No formula candidate.
+No formula structure.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency computation.
+No primitive / non-primitive classifier.
+No admissibility filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No implementation.
+
+Next action:
+Open `M-002-RQ-027-PM-REFINEMENT` as active task. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-027-INNOVATOR
 
 Related task:
