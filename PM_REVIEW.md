@@ -5,6 +5,45 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-DOCUMENTATION-READINESS
+
+Related task:
+M-002-RQ-026-DOCUMENTATION-READINESS
+
+Decision:
+ACCEPTED
+
+Reason:
+PM / QA accepts documenting `RQ-026` as research-framing complete only. The repository state supports a documentation-readiness decision for bounded research framing, but not a protocol decision. A/B/D remain non-final research directions only. C remains excluded from active `RQ-026` and may survive only as future `RQ-027` candidate without opening `RQ-027`.
+
+Required changes:
+Create `RQ-026_DOCUMENTATION_READINESS_DECISION.md`. Update `PM_REVIEW.md`, `AGENT_QUEUE.md`, `POE_STATE.md` and `RESEARCH_QUEUE.md` to record that `RQ-026` is documentation-ready only at research-framing level, while preserving `RQ-026` as OPEN / RESEARCH-FRAMING, Decision `NONE`, absence of `PD-026`, unopened `RQ-027`, no formula candidate definition and blocked implementation.
+
+Forbidden actions:
+`RQ-026` remains OPEN / RESEARCH-FRAMING.
+Decision remains `NONE`.
+No `PD-026` creation.
+No `RQ-026` closure.
+No `RQ-027` opening.
+No formula candidate.
+No formula structure.
+No scoring.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API, database, dashboard or runtime logic.
+No implementation.
+
+Next action:
+Human / PM decision on whether to open a separate future `RQ-027` candidate for C / non-derivability, or continue `RQ-026` documentation boundary work. Do not open `RQ-027`. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-026-PM-REFINEMENT
 
 Related task:

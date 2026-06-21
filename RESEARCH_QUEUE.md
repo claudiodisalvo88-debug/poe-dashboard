@@ -17,6 +17,8 @@ Current research note:
 PM refinement status is ACCEPT_WITH_CONSTRAINTS.
 A, B and D remain only refined research-framing directions that may support later `RQ-026` documentation and are not final protocol properties, not checklist items, not validation rules, not thresholds, not operational filters and not implementation logic.
 C does not advance inside `RQ-026`. It is split required and recorded only as future `RQ-027` candidate, without opening `RQ-027`.
+Documentation readiness status is APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY.
+This does not create `PD-026`, does not close `RQ-026`, does not open `RQ-027`, does not define any formula candidate or formula structure, and does not authorize implementation.
 
 Hard exclusions:
 RQ-026 does not authorize final properties as protocol decision, PD-026 creation, formula candidate definition, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.

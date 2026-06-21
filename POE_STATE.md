@@ -108,4 +108,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-PM / QA / Verifier Agent must decide whether `RQ-026` can be documented as research-framing complete without creating `PD-026`. `RQ-026` stays OPEN / RESEARCH-FRAMING, refined A/B/D may support later documentation only as non-final research directions, C remains excluded as future `RQ-027` candidate only, `RQ-027` is not opened, no formula candidate may be proposed, and implementation remains blocked.
+Human / PM must decide whether to open a separate future `RQ-027` candidate for C / non-derivability, or continue `RQ-026` documentation boundary work. `RQ-026` stays OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `PD-026` remains absent, `RQ-027` remains unopened, formula candidates stay `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`, final formula stays `NOT DEFINED`, and implementation remains blocked.

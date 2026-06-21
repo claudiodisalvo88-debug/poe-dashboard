@@ -1,19 +1,7 @@
 # AGENT_QUEUE.md
 
 ## Active task
-
-## M-002-RQ-026-DOCUMENTATION-READINESS
-
-Title: Decide whether RQ-026 can be documented as research-framing complete without creating PD-026
-Owner agent: PM / QA / Verifier Agent
-Source files: `POE_STATE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md`, `AGENTS.md`, `RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md`, `RQ-026_CRITIC_STRUCTURAL_PROPERTY_LEAKAGE_REVIEW.md`, `RQ-026_PM_REFINEMENT_DECISION.md`
-Allowed files to edit: none
-Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
-Objective: decide whether `RQ-026` can be documented as research-framing complete using the accepted refined A/B/D directions while keeping C excluded and without creating `PD-026`.
-Non-objectives: answer `RQ-026` as a protocol decision; create `PD-026`; close `RQ-026`; open `RQ-027`; define final protocol properties, formula candidate, formula structure, syntax, score, ranking, ordering, weighting, checklist, numeric threshold, operational filter, incentives, tokens, payout, economic allocation or implementation logic.
-Required output: PM / QA / Verifier decision on whether `RQ-026` is documentation-ready as research-framing only, with explicit confirmation that A/B/D remain non-final directions and C stays future `RQ-027` candidate only.
-Validation criteria: `RQ-026` remains OPEN / RESEARCH-FRAMING; `PD-026` remains absent; `RQ-027` remains unopened; A/B/D remain refined research-framing directions only; C remains excluded from active `RQ-026`; no protocol decision; no implementation logic; no scoring, ordering, weighting, checklist, thresholds, operational filtering or economic leakage.
-Status: ACTIVE
+Nessun task active registrato.
 
 ## Pending tasks
 
@@ -24,6 +12,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-DOCUMENTATION-READINESS
+
+Title: Document PM/QA decision that RQ-026 is research-framing documentation-ready without creating PD-026
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: `RQ-026` documented as research-framing documentation-ready only; `RQ-026` remains OPEN / RESEARCH-FRAMING; Decision remains `NONE`; `PD-026` not created; `RQ-027` not opened; A/B/D remain refined research-framing directions only; C remains future `RQ-027` candidate only; no formula candidate or formula structure defined; implementation remains blocked.
 
 ## M-002-RQ-026-OPEN-RESEARCH-FRAMING
 
