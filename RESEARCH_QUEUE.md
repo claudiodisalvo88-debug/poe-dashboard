@@ -20,6 +20,11 @@ Critic status is REFINE_REQUIRED.
 PM refinement status is ACCEPT_WITH_CONSTRAINTS.
 La primitivita, in `RQ-027`, non e ancora una proprieta dell'unita. E un vincolo metodologico della ricerca: non introdurre una macchina di derivazione prima di aver definito l'oggetto di studio.
 Non-dependency of consideration is methodological-boundary wording only. It is not a unit property. It is not a validation rule. It is not a primitive / non-primitive classifier. It is not an admissibility filter. It is not graph computation. It is not dependency computation. It is not implementation logic.
+Documentation-readiness status is APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY.
+This documentation-readiness does not close `RQ-027`.
+This documentation-readiness does not create `PD-027`.
+This documentation-readiness does not answer `RQ-027` as settled protocol logic.
+Non-dependency of consideration remains methodological-boundary wording only.
 This does not close `RQ-026`, does not create `PD-026`, does not create `PD-027`, does not define any formula candidate or formula structure, and does not authorize implementation.
 
 Hard exclusions:

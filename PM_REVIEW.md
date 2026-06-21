@@ -5,6 +5,47 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-027-DOCUMENTATION-READINESS
+
+Related task:
+M-002-RQ-027-DOCUMENTATION-READINESS
+
+Decision:
+APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY
+
+Reason:
+PM accepts documentation-readiness because the refined wording preserves non-dependency of consideration only as a methodological boundary of research, not as a property, classifier, gate, filter, formula structure, graph rule, dependency computation or implementation logic.
+
+Required changes:
+Create `RQ-027_DOCUMENTATION_READINESS_DECISION.md`. Update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md` to record documentation-readiness only while preserving `RQ-027` as OPEN / RESEARCH-FRAMING with Decision `NONE`, without creating `PD-027`.
+
+Forbidden actions:
+No answer to `RQ-027` as settled protocol logic.
+No `RQ-027` closure.
+No `PD-027`.
+No `PD-026`.
+No formula candidate.
+No formula structure.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency computation.
+No primitive / non-primitive classifier.
+No admissibility filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No implementation.
+
+Next action:
+Human / PM next research decision.
+
 ## PM-REVIEW-M-002-RQ-027-PM-REFINEMENT
 
 Related task:

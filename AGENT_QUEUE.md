@@ -1,14 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-## M-002-RQ-027-DOCUMENTATION-READINESS
+Human / PM next research decision
 
-Title: Decide whether RQ-027 refined methodological-boundary research framing is documentation-ready without creating PD-027
-Owner agent: PM / QA / Verifier Agent
-Status: ACTIVE
-Objective: decide whether `RQ-027` can be documented as research-framing documentation-ready without creating `PD-027`, without closing `RQ-027` and without defining formula or implementation.
-Allowed files to edit for next task: none
-Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
+Status: WAITING_HUMAN_PM
+Objective: decide whether to continue `RQ-027` research-framing, open a future RQ, or pause `M-002`; no protocol decision, no formula, no implementation.
 
 ## Pending tasks
 
@@ -19,6 +15,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-027-DOCUMENTATION-READINESS
+
+Title: Document RQ-027 documentation-readiness decision without creating PD-027
+Owner agent: PM / QA / Verifier Agent
+Status: COMPLETED
+Result: `RQ-027` is documentation-ready only as research-framing; `RQ-027` remains OPEN / RESEARCH-FRAMING; Decision remains `NONE`; `PD-027` not created; `PD-026` not created; no final non-derivability property, no primitive-unit classifier, no admissibility filter, no formula, no graph computation and no implementation authorized; implementation remains blocked.
 
 ## M-002-RQ-027-PM-REFINEMENT
 
