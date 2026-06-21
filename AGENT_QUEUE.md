@@ -1,12 +1,12 @@
 # AGENT_QUEUE.md
 
 ## Active task
-## M-002-RQ-028-PM-REFINEMENT
+## M-002-RQ-028-DOCUMENTATION-READINESS
 
-Title: Refine RQ-028 handoff boundary wording to prevent safe-handoff, provenance and negative-constraint leakage
-Owner agent: PM / Verifier Agent
+Title: Decide whether RQ-028 can be documented as research-framing complete without creating PD-028
+Owner agent: PM / QA / Verifier Agent
 Status: ACTIVE
-Objective: Decide whether the Critic constraints require wording refinement before documentation-readiness.
+Objective: Decide whether `RQ-028` is documentation-ready only as research-framing, without closing `RQ-028`, without creating `PD-028` and without authorizing formula candidates or implementation.
 Allowed files to edit for next task: none
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -19,6 +19,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-028-PM-REFINEMENT
+
+Title: Refine RQ-028 handoff boundary wording to prevent safe-handoff, provenance and negative-constraint leakage
+Owner agent: PM / Verifier Agent
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. `RQ-028` remains OPEN / RESEARCH-FRAMING; Decision remains `NONE`; safe handoff is refined into research-boundary carry-forward and remains leakage-prevention wording only; `PD-028` not created; `PD-027` not created; `PD-026` not created; no formula, no classifier, no gate and no implementation authorized; implementation remains blocked.
 
 ## M-002-RQ-028-CRITIC
 

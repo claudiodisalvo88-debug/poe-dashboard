@@ -23,6 +23,10 @@ Current research note:
 Innovator / PM status is ACCEPT_WITH_CONSTRAINTS.
 Critic / Verifier status is ACCEPT_WITH_CONSTRAINTS.
 The Critic accepts the Innovator output only if safe handoff remains leakage-prevention wording and does not become protocol object, handoff package, handoff template, readiness milestone, formula-preparation layer, standard schema, operational step, checklist, gate, classifier, dependency graph or implementation-facing structure.
+PM refinement status is ACCEPT_WITH_CONSTRAINTS.
+Safe handoff is refined into research-boundary carry-forward.
+This means non-binding research context, source lineage and leakage-prevention memory only.
+It is not a protocol object, handoff package, template, readiness gate, formula-preparation layer, standard schema, operational step, checklist, gate, classifier, dependency graph, formula structure or implementation-facing structure.
 `RQ-028` remains OPEN / RESEARCH-FRAMING and Decision remains `NONE`.
 `RQ-026` and `RQ-027` may be carried forward only as non-binding research context.
 They must not become checklist, gate, classifier, formula structure, scoring logic, ranking logic, weighting logic, operational filter, dependency graph or implementation logic.

@@ -5,6 +5,60 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-028-PM-REFINEMENT
+
+Related task:
+M-002-RQ-028-PM-REFINEMENT
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+PM accepts the Critic constraints and refines the wording so that safe handoff becomes only research-boundary carry-forward: non-binding research context, source lineage and leakage-prevention memory only. It must not become protocol object, package, template, readiness gate, formula-preparation layer, checklist, classifier, dependency structure, operational filter or implementation-facing logic.
+
+Required changes:
+Create `RQ-028_PM_REFINEMENT_DECISION.md`.
+Update `AGENT_QUEUE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Open `M-002-RQ-028-DOCUMENTATION-READINESS`.
+
+Forbidden actions:
+No `PD-028`.
+No `PD-027`.
+No `PD-026`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No checklist as protocol rule.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+`M-002-RQ-028-DOCUMENTATION-READINESS`
+
 ## PM-REVIEW-M-002-RQ-028-CRITIC
 
 Related task:
