@@ -17,8 +17,9 @@ Current research note:
 RQ-027 is opened because C / non-derivability was excluded from active `RQ-026` and isolated into a separate research-framing boundary.
 Innovator status is ACCEPT_WITH_CONSTRAINTS.
 Critic status is REFINE_REQUIRED.
-Non-dependency of consideration must be refined into a methodological research boundary, not a unit property and not a researchable-only-if gate.
-No primitive / non-primitive classifier, no admissibility filter, no non-derivability validation rule, no graph computation, no dependency computation and no implementation logic are authorized.
+PM refinement status is ACCEPT_WITH_CONSTRAINTS.
+La primitivita, in `RQ-027`, non e ancora una proprieta dell'unita. E un vincolo metodologico della ricerca: non introdurre una macchina di derivazione prima di aver definito l'oggetto di studio.
+Non-dependency of consideration is methodological-boundary wording only. It is not a unit property. It is not a validation rule. It is not a primitive / non-primitive classifier. It is not an admissibility filter. It is not graph computation. It is not dependency computation. It is not implementation logic.
 This does not close `RQ-026`, does not create `PD-026`, does not create `PD-027`, does not define any formula candidate or formula structure, and does not authorize implementation.
 
 Hard exclusions:
