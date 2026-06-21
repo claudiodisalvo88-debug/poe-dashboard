@@ -1,5 +1,40 @@
 # RESEARCH_QUEUE.md
 
+## RQ-027
+
+Question:
+E possibile definire una nozione di primitivita / non-derivability per un'unita di evidenza reputazionale che non richieda computazione di dipendenze, costruzione di grafi, relazioni funzionali, ordinamento, formula structure, operational filter o logica implementativa?
+
+Output:
+RQ-027_NON_DERIVABILITY_PRIMITIVITY_RESEARCH_FRAMING.md
+
+Scope:
+This question is opened strictly as research-framing only.
+The scope is limited to testing whether a bounded notion of primitive reputational evidence unit can even be framed without dependency graph construction, dependency computation, functional relation computation, hidden ordering, formula structure or implementation-facing structure.
+RQ-027 does not answer the question, does not validate the question, does not transform C into a protocol property and does not authorize protocol decision, PD-027 creation, PD-026 creation, formula candidate, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, numeric threshold, operational filter, economics or implementation logic.
+
+Current research note:
+RQ-027 is opened because C / non-derivability was excluded from active `RQ-026` and isolated into a separate research-framing boundary.
+This opening records only the need for a separate stress-test boundary.
+This does not close `RQ-026`, does not create `PD-026`, does not create `PD-027`, does not define any formula candidate or formula structure, and does not authorize implementation.
+
+Hard exclusions:
+RQ-027 does not authorize answer as settled protocol logic, PD-027 creation, PD-026 creation, `RQ-026` closure, formula candidate definition, final formula, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
+RQ-027 does not authorize dependency graph algorithm, dependency graph construction, dependency computation, functional relation computation, hidden ordering, API logic, database logic, dashboard logic, runtime logic or any implementation-facing filter over nodes, evidence units, evidence groups or reputation objects.
+
+Validation criteria:
+The output must remain research-framing only and must not answer the question as settled protocol logic.
+Any acceptable result must preserve the separation from active `RQ-026`, keep the inquiry strictly pre-decisional, and reject formula, scoring, ranking, ordering, weighting, checklist, numeric threshold, operational filter, economics, graph computation, dependency computation and implementation leakage.
+
+Source dependency:
+RQ-026 / PD-025
+
+Status:
+OPEN / RESEARCH-FRAMING
+
+Decision:
+NONE
+
 ## RQ-026
 
 Question:

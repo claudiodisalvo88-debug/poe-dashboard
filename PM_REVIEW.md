@@ -5,6 +5,42 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-027-OPEN-RESEARCH-FRAMING
+
+Related task:
+M-002-RQ-027-OPEN-RESEARCH-FRAMING
+
+Decision:
+ACCEPTED
+
+Reason:
+C / non-derivability was excluded from active `RQ-026` because it risks dependency graph, computation, functional relation, hidden ordering, formula-structure leakage and implementation-facing structure. Opening a separate `RQ-027` is safer than keeping C inside `RQ-026`.
+
+Required changes:
+Create `RQ-027_NON_DERIVABILITY_PRIMITIVITY_RESEARCH_FRAMING.md`. Update `PM_REVIEW.md`, `AGENT_QUEUE.md`, `POE_STATE.md` and `RESEARCH_QUEUE.md` to open `RQ-027` strictly as research-framing only while preserving `RQ-026` as OPEN / RESEARCH-FRAMING with Decision `NONE`, preserving absence of `PD-026` and `PD-027`, keeping formula candidates undefined and implementation blocked.
+
+Forbidden actions:
+No answer to `RQ-027`.
+No `PD-027`.
+No `PD-026`.
+No formula candidate.
+No formula structure.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No implementation.
+
+Next action:
+Open `M-002-RQ-027-INNOVATOR` as the active task to stress-test `RQ-027` strictly as research-framing only. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-026-DOCUMENTATION-READINESS
 
 Related task:
