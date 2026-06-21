@@ -5,6 +5,44 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-027-INNOVATOR
+
+Related task:
+M-002-RQ-027-INNOVATOR
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+PM accepts the Innovator framing because it avoids treating non-derivability as a positive protocol property and reframes it as non-dependency of consideration. This preserves `RQ-027` as research-framing and blocks graph, computation, ordering, formula-structure and implementation leakage.
+
+Required changes:
+Create `RQ-027_INNOVATOR_NON_DERIVABILITY_REVIEW.md` as research-framing only. Update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md` to record the Innovator result and open the next Critic / Verifier stress-test task.
+
+Forbidden actions:
+No answer to `RQ-027` as settled protocol logic.
+No `PD-027`.
+No `PD-026`.
+No formula candidate.
+No formula structure.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No numeric threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency computation.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No implementation.
+
+Next action:
+Open `M-002-RQ-027-CRITIC` as active task. Implementation remains blocked.
+
 ## PM-REVIEW-M-002-RQ-027-OPEN-RESEARCH-FRAMING
 
 Related task:

@@ -1,12 +1,12 @@
 # AGENT_QUEUE.md
 
 ## Active task
-## M-002-RQ-027-INNOVATOR
+## M-002-RQ-027-CRITIC
 
-Title: Stress-test RQ-027 non-derivability / primitive evidence unit boundary for graph, computation, ordering, formula-structure and implementation leakage
-Owner agent: Innovator Agent / PM
+Title: Stress-test RQ-027 Innovator output for graph, computation, ordering, formula-structure, checklist, operational-filter and implementation leakage
+Owner agent: Critic / Verifier Agent / PM
 Status: ACTIVE
-Objective: stress-test `RQ-027` only as research-framing; no protocol decision, no formula, no implementation.
+Objective: stress-test the Innovator output only as research-framing; no protocol decision, no formula, no implementation.
 Allowed files to edit for next task: none
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -19,6 +19,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-027-INNOVATOR
+
+Title: Document Innovator review of RQ-027 non-derivability / primitive evidence unit boundary
+Owner agent: Innovator Agent / PM
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. `RQ-027` remains OPEN / RESEARCH-FRAMING; Decision remains `NONE`; `PD-027` not created; `PD-026` not created; non-dependency of consideration may survive only as research-framing direction; no final non-derivability property, no primitive-unit classifier, no formula, no graph computation and no implementation authorized; implementation remains blocked.
 
 ## M-002-RQ-027-OPEN-RESEARCH-FRAMING
 
