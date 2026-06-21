@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-027
+RQ-028
 
 Last closed research:
 RQ-025
@@ -84,6 +84,9 @@ OPEN / RESEARCH-FRAMING
 RQ-027:
 OPEN / RESEARCH-FRAMING
 
+RQ-028:
+OPEN / RESEARCH-FRAMING
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -114,4 +117,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Human / PM next research decision: decide whether to continue `RQ-027` research-framing, open a future RQ, or pause `M-002`; no protocol decision, no formula, no implementation. `RQ-026` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-027` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `PD-026` remains absent, `PD-027` remains absent, formula candidates stay `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`, final formula stays `NOT DEFINED`, and implementation remains blocked.
+Innovator Agent / PM analysis of `RQ-028` strictly as research-framing only. `RQ-026` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-027` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-028` is OPEN / RESEARCH-FRAMING, `PD-026` remains absent, `PD-027` remains absent, `PD-028` remains absent, formula candidates stay `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`, final formula stays `NOT DEFINED`, and implementation remains blocked.

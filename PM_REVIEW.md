@@ -5,6 +5,49 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-028-OPEN-RESEARCH-FRAMING
+
+Related task:
+M-002-RQ-028-OPEN-RESEARCH-FRAMING
+
+Decision:
+ACCEPTED
+
+Reason:
+PM opens `RQ-028` because `RQ-026` and `RQ-027` created useful research-framing outputs, but their integration could create hidden checklist, gate, classifier, formula-structure, scoring, ranking, operational-filter or implementation leakage. A separate research handoff boundary is required before any future formula-candidate research readiness milestone.
+
+Required changes:
+Create `RQ-028_RESEARCH_HANDOFF_BOUNDARY_FRAMING.md`. Update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md` to open `RQ-028` strictly as research-framing only while preserving `RQ-026` and `RQ-027` as OPEN / RESEARCH-FRAMING with Decision `NONE`, preserving absence of `PD-026`, `PD-027` and `PD-028`, keeping formula candidates undefined and implementation blocked.
+
+Forbidden actions:
+No answer to `RQ-028`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `PD-028`.
+No `PD-027`.
+No `PD-026`.
+No formula candidate.
+No formula structure.
+No score.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No numeric threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency computation.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No implementation.
+
+Next action:
+Open `M-002-RQ-028-INNOVATOR` as active task.
+
 ## PM-REVIEW-M-002-RQ-027-DOCUMENTATION-READINESS
 
 Related task:

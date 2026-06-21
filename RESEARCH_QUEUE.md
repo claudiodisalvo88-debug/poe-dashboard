@@ -1,5 +1,46 @@
 # RESEARCH_QUEUE.md
 
+## RQ-028
+
+Question:
+Come possono gli output research-framing di `RQ-026` e `RQ-027` essere trasformati in un handoff sicuro verso futura formula-candidate research senza diventare checklist, gate, classifier, scoring, ranking, weighting, formula structure, operational filter, dependency graph o implementation logic?
+
+Output:
+RQ-028_RESEARCH_HANDOFF_BOUNDARY_FRAMING.md
+
+Scope:
+This question is opened strictly as research-framing only.
+The scope is limited to defining the research handoff boundary after `RQ-026` and `RQ-027`, so future formula-candidate research readiness can be explored without turning prior research outputs into checklist, gate, classifier, scoring logic, ranking logic, weighting logic, formula structure, operational filter, dependency graph or implementation logic.
+`RQ-028` does not answer `RQ-026` or `RQ-027`.
+`RQ-028` does not close `RQ-026` or `RQ-027`.
+`RQ-028` does not create `PD-026`, `PD-027` or `PD-028`.
+`RQ-028` does not define formula candidate, formula structure, score, ranking, ordering, weighting, checklist, classifier, gate, operational filter, dependency graph or implementation logic.
+
+Current research note:
+`RQ-028` exists to prevent premature integration leakage.
+`RQ-026` produced structural-property research-framing directions.
+`RQ-027` produced methodological-boundary research-framing around non-dependency of consideration.
+The integration risk is hidden checklist, gate, classifier, formula-structure, scoring, ranking, operational-filter or implementation leakage.
+This opening records only the need for a separate research handoff boundary.
+This does not close `RQ-026`, does not close `RQ-027`, does not create `PD-026`, does not create `PD-027`, does not create `PD-028`, does not define any formula candidate or formula structure, and does not authorize implementation.
+
+Hard exclusions:
+`RQ-028` does not authorize answer as settled protocol logic, `RQ-026` closure, `RQ-027` closure, `PD-028` creation, `PD-027` creation, `PD-026` creation, formula candidate definition, final formula, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, classifier, gate, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
+`RQ-028` does not authorize dependency graph algorithm, dependency graph construction, dependency computation, functional relation computation, API logic, database logic, dashboard logic, runtime logic or any implementation-facing filter over nodes, evidence units, evidence groups or reputation objects.
+
+Validation criteria:
+The output must remain research-framing only and must not answer the question as settled protocol logic.
+Any acceptable result must preserve `RQ-026` and `RQ-027` as non-binding research context, keep handoff inquiry strictly pre-decisional, and reject checklist, gate, classifier, scoring, ranking, weighting, formula-structure, dependency-graph and implementation leakage.
+
+Source dependency:
+RQ-026 / RQ-027 / PD-025
+
+Status:
+OPEN / RESEARCH-FRAMING
+
+Decision:
+NONE
+
 ## RQ-027
 
 Question:

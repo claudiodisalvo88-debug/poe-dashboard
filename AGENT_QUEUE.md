@@ -1,10 +1,14 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM next research decision
+## M-002-RQ-028-INNOVATOR
 
-Status: WAITING_HUMAN_PM
-Objective: decide whether to continue `RQ-027` research-framing, open a future RQ, or pause `M-002`; no protocol decision, no formula, no implementation.
+Title: Stress-test RQ-028 research handoff boundary for checklist, gate, classifier, formula-structure, scoring, ranking, operational-filter and implementation leakage
+Owner agent: Innovator Agent / PM
+Status: ACTIVE
+Objective: stress-test `RQ-028` only as research-framing; no protocol decision, no formula, no implementation.
+Allowed files to edit for next task: none
+Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
 
@@ -15,6 +19,18 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+Human / PM next research decision
+
+Status: SUPERSEDED
+Result: superseded by `M-002-RQ-028-OPEN-RESEARCH-FRAMING`
+
+## M-002-RQ-028-OPEN-RESEARCH-FRAMING
+
+Title: Open RQ-028 research handoff boundary after RQ-026 and RQ-027
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: `RQ-028` opened as OPEN / RESEARCH-FRAMING only; active research set to `RQ-028`; `RQ-028` not answered; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-027` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-028` not created; `PD-027` not created; `PD-026` not created; no formula candidate, formula structure, scoring, ranking, ordering, weighting, checklist, classifier, gate, threshold, operational filter, dependency graph algorithm, dependency computation, economics or implementation authorized; implementation remains blocked.
 
 ## M-002-RQ-027-DOCUMENTATION-READINESS
 
