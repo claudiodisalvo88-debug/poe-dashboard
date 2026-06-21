@@ -1,12 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-## M-002-RQ-028-DOCUMENTATION-READINESS
+Human / PM next research decision
 
-Title: Decide whether RQ-028 can be documented as research-framing complete without creating PD-028
-Owner agent: PM / QA / Verifier Agent
 Status: ACTIVE
-Objective: Decide whether `RQ-028` is documentation-ready only as research-framing, without closing `RQ-028`, without creating `PD-028` and without authorizing formula candidates or implementation.
+Objective: Decide next research action after `RQ-028` documentation-readiness without opening a new RQ automatically.
 Allowed files to edit for next task: none
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -19,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-028-DOCUMENTATION-READINESS
+
+Title: Decide whether RQ-028 can be documented as research-framing complete without creating PD-028
+Owner agent: PM / QA / Verifier Agent
+Status: COMPLETED
+Result: APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY. `RQ-028` remains OPEN / RESEARCH-FRAMING; Decision remains `NONE`; `PD-028` not created; `RQ-026` and `RQ-027` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; research-boundary carry-forward remains non-binding context, source lineage and leakage-prevention memory only; no formula candidate, formula structure, checklist, gate, classifier, dependency graph, operational filter or implementation authorized.
 
 ## M-002-RQ-028-PM-REFINEMENT
 

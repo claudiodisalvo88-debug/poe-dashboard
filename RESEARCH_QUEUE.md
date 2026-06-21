@@ -27,6 +27,13 @@ PM refinement status is ACCEPT_WITH_CONSTRAINTS.
 Safe handoff is refined into research-boundary carry-forward.
 This means non-binding research context, source lineage and leakage-prevention memory only.
 It is not a protocol object, handoff package, template, readiness gate, formula-preparation layer, standard schema, operational step, checklist, gate, classifier, dependency graph, formula structure or implementation-facing structure.
+Documentation-readiness status is APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY.
+`RQ-028` is documentation-ready only as leakage-prevention research-framing.
+This does not close `RQ-028`.
+This does not answer `RQ-028` as settled protocol logic.
+This does not create `PD-028`.
+Research-boundary carry-forward remains non-binding research context, source lineage and leakage-prevention memory only.
+It is not a protocol object, readiness gate, package, template, formula-preparation layer, checklist, classifier, dependency graph, operational filter or implementation-facing structure.
 `RQ-028` remains OPEN / RESEARCH-FRAMING and Decision remains `NONE`.
 `RQ-026` and `RQ-027` may be carried forward only as non-binding research context.
 They must not become checklist, gate, classifier, formula structure, scoring logic, ranking logic, weighting logic, operational filter, dependency graph or implementation logic.

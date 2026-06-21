@@ -5,6 +5,61 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-028-DOCUMENTATION-READINESS
+
+Related task:
+M-002-RQ-028-DOCUMENTATION-READINESS
+
+Decision:
+APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY
+
+Reason:
+PM / QA / Verifier approves documentation-readiness because Innovator, Critic and PM refinement bounded `RQ-028` as leakage-prevention research only. Research-boundary carry-forward remains non-binding research context, source lineage and leakage-prevention memory only. It is not protocol logic, not protocol object, not readiness gate, not formula-preparation layer, not checklist, not classifier, not dependency graph, not operational filter and not implementation-facing logic.
+
+Required changes:
+Create `RQ-028_DOCUMENTATION_READINESS_DECISION.md`.
+Update `AGENT_QUEUE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set next action to Human / PM next research decision.
+
+Forbidden actions:
+No `PD-028`.
+No `PD-027`.
+No `PD-026`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No checklist as protocol rule.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+Human / PM next research decision
+
 ## PM-REVIEW-M-002-RQ-028-PM-REFINEMENT
 
 Related task:
