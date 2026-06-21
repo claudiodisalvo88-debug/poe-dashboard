@@ -1,12 +1,12 @@
 # AGENT_QUEUE.md
 
 ## Active task
-## M-002-RQ-028-CRITIC
+## M-002-RQ-028-PM-REFINEMENT
 
-Title: Stress-test RQ-028 Innovator handoff boundary output for checklist, gate, classifier, formula-structure, scoring, ranking, dependency-graph, operational-filter and implementation leakage
-Owner agent: Critic / Verifier Agent / PM
+Title: Refine RQ-028 handoff boundary wording to prevent safe-handoff, provenance and negative-constraint leakage
+Owner agent: PM / Verifier Agent
 Status: ACTIVE
-Objective: stress-test the Innovator output only as research-framing; no protocol decision, no formula, no implementation.
+Objective: Decide whether the Critic constraints require wording refinement before documentation-readiness.
 Allowed files to edit for next task: none
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -19,6 +19,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-028-CRITIC
+
+Title: Stress-test RQ-028 Innovator handoff boundary output for checklist, gate, classifier, formula-structure, scoring, ranking, dependency-graph, operational-filter and implementation leakage
+Owner agent: Critic / Verifier Agent / PM
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. `RQ-028` remains OPEN / RESEARCH-FRAMING; Decision remains `NONE`; `PD-028` not created; `PD-027` not created; `PD-026` not created; safe handoff must not become protocol object, template, readiness gate, formula-preparation layer, checklist or implementation-facing structure; implementation remains blocked.
 
 ## M-002-RQ-028-INNOVATOR
 
