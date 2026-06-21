@@ -5,6 +5,60 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-028-INNOVATOR
+
+Related task:
+M-002-RQ-028-INNOVATOR
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+Innovator output is accepted only because it keeps `RQ-026` and `RQ-027` as non-binding research context and frames `RQ-028` as a negative leakage boundary, not as formula readiness, checklist, gate, classifier, formula structure, graph computation, filter or implementation logic.
+
+Required changes:
+Create `RQ-028_INNOVATOR_RESEARCH_HANDOFF_LEAKAGE_REVIEW.md`.
+Update `AGENT_QUEUE.md`, `RESEARCH_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Open `M-002-RQ-028-CRITIC`.
+
+Forbidden actions:
+No `PD-028`.
+No `PD-027`.
+No `PD-026`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No checklist as protocol rule.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+`M-002-RQ-028-CRITIC`
+
 ## PM-REVIEW-M-002-RQ-028-OPEN-RESEARCH-FRAMING
 
 Related task:

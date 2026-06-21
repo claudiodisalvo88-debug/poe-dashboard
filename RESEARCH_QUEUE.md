@@ -20,6 +20,10 @@ Current research note:
 `RQ-028` exists to prevent premature integration leakage.
 `RQ-026` produced structural-property research-framing directions.
 `RQ-027` produced methodological-boundary research-framing around non-dependency of consideration.
+Innovator / PM status is ACCEPT_WITH_CONSTRAINTS.
+`RQ-028` remains OPEN / RESEARCH-FRAMING and Decision remains `NONE`.
+`RQ-026` and `RQ-027` may be carried forward only as non-binding research context.
+They must not become checklist, gate, classifier, formula structure, scoring logic, ranking logic, weighting logic, operational filter, dependency graph or implementation logic.
 The integration risk is hidden checklist, gate, classifier, formula-structure, scoring, ranking, operational-filter or implementation leakage.
 This opening records only the need for a separate research handoff boundary.
 This does not close `RQ-026`, does not close `RQ-027`, does not create `PD-026`, does not create `PD-027`, does not create `PD-028`, does not define any formula candidate or formula structure, and does not authorize implementation.
