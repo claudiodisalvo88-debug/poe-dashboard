@@ -120,4 +120,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Documentation-readiness review for `RQ-029` research-framing only, while keeping `RQ-029` OPEN / RESEARCH-FRAMING with Decision `NONE`; keeping `RQ-026`, `RQ-027` and `RQ-028` OPEN / RESEARCH-FRAMING with Decision `NONE`; keeping `PD-026`, `PD-027`, `PD-028` and `PD-029` absent; keeping formula candidates as `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; keeping final formula `NOT DEFINED`; keeping implementation blocked.
+Human / PM route decision after `RQ-029` documentation-readiness, while keeping `RQ-029` OPEN / RESEARCH-FRAMING with Decision `NONE`; keeping `RQ-029` not answered, not validated and not closed; keeping `PD-029` absent; keeping `RQ-026`, `RQ-027` and `RQ-028` OPEN / RESEARCH-FRAMING with Decision `NONE`; keeping `PD-026`, `PD-027` and `PD-028` absent; keeping formula candidates as `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; keeping final formula `NOT DEFINED`; keeping implementation blocked.

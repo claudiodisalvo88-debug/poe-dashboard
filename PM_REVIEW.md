@@ -5,6 +5,31 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-029-DOCUMENTATION-READINESS
+
+Decision:
+APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY
+
+Reason:
+`RQ-029` is documentation-ready only as leakage-constrained research-framing. The PM refinement has bounded the safe object to possible existence of referential relation toward a research placeholder, while explicitly blocking whitelist drift, admissibility spillover, validation-rule spillover and implementation-shaped leakage.
+
+Documentation-readiness interpretation:
+
+* `RQ-029` remains OPEN / RESEARCH-FRAMING
+* `RQ-029` Decision remains `NONE`
+* `RQ-029` is not answered
+* `RQ-029` is not validated
+* `RQ-029` is not closed
+* `PD-029` is not created
+* `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`
+* `PD-026`, `PD-027` and `PD-028` remain absent
+* Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`
+* Final formula remains `NOT DEFINED`
+* Implementation remains `BLOCKED`
+
+Next action:
+Human / PM route decision after `RQ-029` documentation-readiness, without creating `PD-029`, without closing `RQ-029`, without answering `RQ-029`, without defining formula candidate and without authorizing implementation.
+
 ## PM-REVIEW-M-002-RQ-029-PM-REFINEMENT
 
 Decision:

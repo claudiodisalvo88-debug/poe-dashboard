@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-029-DOCUMENTATION-READINESS
+Human / PM route decision after RQ-029 documentation-readiness
 
 Status: ACTIVE
-Objective: Decide whether `RQ-029` can be documented as research-framing complete without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029` and without creating `PD-029`.
+Objective: Decide the next safe M-002 route after `RQ-029` documentation-readiness without creating `PD-029`, without closing `RQ-029`, without answering `RQ-029`, without defining formula candidate and without authorizing implementation.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-029-DOCUMENTATION-READINESS
+
+Status: COMPLETED
+Result: APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY. `RQ-029` is documentation-ready only as leakage-constrained research-framing; `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029` is not answered, not validated and not closed; `PD-029` remains absent; `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027` and `PD-028` remain absent; no formula candidate, formula structure, scoring, ranking, weighting, checklist, classifier, gate, admissibility logic, validation rule, whitelist logic, registry logic or implementation authorized.
 
 ## M-002-RQ-029-PM-REFINEMENT
 
