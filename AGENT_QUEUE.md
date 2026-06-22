@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM preparation of first separated direction from `RQ-026`
+Human / PM decision on prepared A-only direction
 
 Status: ACTIVE
-Objective: Prepare the future first separated direction for A / referential structure, after PM / Verifier set the safest sequencing order as A first, B second, D third, without opening that future RQ automatically.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_RQ_026_ABD_SEQUENCING_DECISION.md`
+Objective: Decide whether the prepared A-only referential structure direction should later be opened as a separate future research question, without opening that future RQ automatically.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_PREPARE_A_REFERENTIAL_STRUCTURE_DIRECTION.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-PREPARE-A-REFERENTIAL-STRUCTURE-DIRECTION
+
+Title: Prepare future A-only referential structure direction as non-binding PM / Verifier task boundary
+Owner agent: PM / Verifier Agent
+Status: COMPLETED
+Result: APPROVED. Future A-only direction may be prepared as next candidate only for asking whether referential structure can be framed as a non-scorable, non-operational, non-validating research direction. No correctness, validity, uniqueness, registry, whitelist, disambiguation, admissibility or reference-quality logic is authorized. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027` and `PD-028` remain absent; no new `RQ`, no formula, no scoring, no ranking, no checklist, no classifier, no registry logic and no implementation authorized.
 
 ## M-002-RQ-026-ABD-SEQUENCING-DECISION
 

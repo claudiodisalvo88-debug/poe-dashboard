@@ -5,6 +5,70 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-PREPARE-A-REFERENTIAL-STRUCTURE-DIRECTION
+
+Related task:
+POE PM / Verifier preparation review for future A / referential structure direction
+
+Decision:
+APPROVED
+
+Reason:
+PM / Verifier concludes that the future A-only separated direction is safe to prepare as next candidate because its safe object can be kept narrow: existence of referential structure as non-scorable, non-operational, non-validating research-framing only. The unsafe drift is any move toward correctness, validity, uniqueness, registry, whitelist, disambiguation, admissibility or reference-quality logic. No future RQ is opened in this task.
+
+Required changes:
+Create `M-002_PM_PREPARE_A_REFERENTIAL_STRUCTURE_DIRECTION.md`.
+Update `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set next action to Human / PM decision on whether to open the prepared A-only direction as a separate future research question.
+
+Forbidden actions:
+No `PD-026`.
+No `PD-027`.
+No `PD-028`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No `RQ-029`.
+No `RQ-030`.
+No `RQ-031`.
+No new `RQ`.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No registry logic.
+No whitelist logic.
+No ambiguity filter.
+No reference-validity logic.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+Human / PM must decide whether to open the prepared A-only referential structure direction as a separate future research question, without opening it in the same task.
+
 ## PM-REVIEW-M-002-RQ-026-ABD-SEQUENCING-DECISION
 
 Related task:
