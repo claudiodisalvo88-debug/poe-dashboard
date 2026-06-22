@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM sequencing of future split candidates from `RQ-026`
+Human / PM preparation of first separated direction from `RQ-026`
 
 Status: ACTIVE
-Objective: Decide the sequencing order for future separate research questions concerning refined A / B / D, after PM / Verifier determined that bundled continuation inside `RQ-026` is less safe than future separated routing, without opening those future RQs automatically.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_RQ_026_ABD_ROUTE_DECISION.md`
+Objective: Prepare the future first separated direction for A / referential structure, after PM / Verifier set the safest sequencing order as A first, B second, D third, without opening that future RQ automatically.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_RQ_026_ABD_SEQUENCING_DECISION.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-ABD-SEQUENCING-DECISION
+
+Title: Decide safest sequencing order for future separate research questions on refined `RQ-026` directions A / B / D
+Owner agent: PM / Verifier Agent
+Status: COMPLETED
+Result: APPROVED. Safest sequencing order is A first, B second, D third. A is the narrowest leakage surface, B remains single-unit but broadens toward temporal standardization risk, and D is last because it remains the highest-leakage direction and sits closest to aggregate-definition, isolation-filter and aggregation-rule drift. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027` and `PD-028` remain absent; no new `RQ`, no formula, no scoring, no ranking, no checklist, no classifier, no gate, no dependency graph and no implementation authorized.
 
 ## M-002-RQ-026-ABD-ROUTE-DECISION
 

@@ -5,6 +5,66 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-ABD-SEQUENCING-DECISION
+
+Related task:
+POE PM / Verifier sequencing review of refined `RQ-026` directions A / B / D
+
+Decision:
+APPROVED
+
+Reason:
+PM / Verifier concludes that the safest sequencing order for future separate split candidates is A first, B second, D third. A is the narrowest and most locally containable leakage surface. B remains single-unit focused but expands toward temporal standardization and timer logic. D has the broadest and least containable leakage surface because it sits closest to aggregate definition, isolation-filter, aggregate-classifier and aggregation-rule drift. No future RQ is opened in this task.
+
+Required changes:
+Create `M-002_PM_RQ_026_ABD_SEQUENCING_DECISION.md`.
+Update `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set next action to Human / PM preparation of the future first separated direction for A only.
+
+Forbidden actions:
+No `PD-026`.
+No `PD-027`.
+No `PD-028`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No `RQ-029`.
+No `RQ-030`.
+No `RQ-031`.
+No new `RQ`.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+Human / PM must prepare the future first separated direction for A / referential structure, without opening that future RQ in the same task.
+
 ## PM-REVIEW-M-002-RQ-026-ABD-ROUTE-DECISION
 
 Related task:
