@@ -5,6 +5,70 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-029-PM-REFINEMENT
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+`RQ-029` remains useful only if wording explicitly prevents four leakage vectors:
+
+1. domain entity drifting into approved entity list / whitelist
+2. referential structure drifting into admissibility requirement
+3. referential structure drifting into validation / pass-fail rule
+4. reference/domain/entity language drifting into implementation artifacts
+
+Required refinement:
+
+* Treat `domain entity` only as a research placeholder.
+* Treat `referential structure` only as possible existence of relation.
+* State that existence of relation does not imply correctness, validity, authenticity, uniqueness, freshness, ranking, admissibility or operational usability.
+* State that absence of referential structure does not make an evidence unit inadmissible, invalid or excluded.
+* State that referential structure is not a validation condition, not a pass/fail rule, not a verification step.
+* State that `RQ-029` does not imply IDs, schemas, columns, tables, contracts, endpoints, payload shapes, registries, node directories, identity tables or entity catalogs.
+
+Forbidden actions:
+Do not create `PD-029`.
+Do not create `PD-026`.
+Do not create `PD-027`.
+Do not create `PD-028`.
+Do not close `RQ-029`.
+Do not close `RQ-026`.
+Do not close `RQ-027`.
+Do not close `RQ-028`.
+Do not answer `RQ-029`.
+Do not validate `RQ-029`.
+Do not define formula candidate.
+Do not define final formula.
+Do not define formula structure.
+Do not define formula syntax.
+Do not define scoring.
+Do not define ranking.
+Do not define ordering.
+Do not define weighting.
+Do not define checklist.
+Do not define classifier.
+Do not define gate.
+Do not define threshold.
+Do not define operational filter.
+Do not define dependency graph.
+Do not define dependency computation.
+Do not define registry logic.
+Do not define whitelist logic.
+Do not define ambiguity filter.
+Do not define validation rule.
+Do not define reference-validity logic.
+Do not define admissibility logic.
+Do not define incentives.
+Do not define rewards.
+Do not define tokens.
+Do not define payout.
+Do not define economic allocation.
+Do not implement anything.
+
+Next action:
+Documentation-readiness review for `RQ-029` research-framing only, without creating `PD-029`, without closing `RQ-029` and without answering `RQ-029`.
+
 ## PM-REVIEW-M-002-RQ-029-INNOVATOR
 
 Related task:

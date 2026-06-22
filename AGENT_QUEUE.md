@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-029-PM-REFINEMENT
+M-002-RQ-029-DOCUMENTATION-READINESS
 
 Status: ACTIVE
-Objective: Refine `RQ-029` wording to block whitelist drift, admissibility spillover, validation-rule spillover and implementation-shaped leakage while preserving `RQ-029` as OPEN / RESEARCH-FRAMING only.
+Objective: Decide whether `RQ-029` can be documented as research-framing complete without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029` and without creating `PD-029`.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-029-PM-REFINEMENT
+
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. PM refinement tightens `RQ-029` wording against whitelist drift, admissibility spillover, validation-rule spillover and implementation-shaped leakage. `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028` and `PD-029` remain absent; no formula candidate, formula structure, scoring, ranking, weighting, checklist, classifier, gate, operational filter, registry logic, whitelist logic, validation rule, admissibility logic or implementation authorized.
 
 ## M-002-RQ-029-INNOVATOR
 
