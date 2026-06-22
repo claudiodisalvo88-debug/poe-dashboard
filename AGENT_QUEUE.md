@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-PREPARE-B-TEMPORAL-DELIMITATION-DIRECTION
+M-002-DECIDE-B-ONLY-OPENING-READINESS
 
 Status: ACTIVE
-Objective: Prepare B-only temporal delimitation direction as non-binding PM / Verifier task boundary, without opening `RQ-030`, without creating any new `RQ`, without creating `PD-029`, without closing `RQ-029`, without answering `RQ-029`, without defining formula candidate and without authorizing implementation.
+Objective: Decide whether the prepared B-only temporal delimitation direction is safe to open later as a separate research question, without opening `RQ-030` in this task, without creating any new `RQ`, without creating `PD-029`, without closing `RQ-029`, without answering `RQ-029`, without defining formula candidate and without authorizing implementation.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-PREPARE-B-TEMPORAL-DELIMITATION-DIRECTION
+
+Status: COMPLETED
+Result: APPROVED. B-only temporal delimitation may be prepared as a non-binding PM / Verifier research-framing boundary. The safe object is only possible temporal placement structure for an evidence unit; it is not a temporal standard, timestamp schema, timestamp field, required format, precision threshold, freshness criterion, time-quality score, timer rule, ordering rule, validation rule, admissibility rule, formula candidate or implementation logic. This task does not open `RQ-030`, does not create any new `RQ`, does not create `PD-029`, does not close `RQ-029`, does not answer `RQ-029`, does not validate `RQ-029` and does not authorize implementation. `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028` and `PD-029` remain absent.
 
 ## M-002-ROUTE-DECISION-AFTER-RQ-029
 

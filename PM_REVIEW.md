@@ -5,6 +5,46 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-PREPARE-B-TEMPORAL-DELIMITATION-DIRECTION
+
+Decision:
+APPROVED
+
+Reason:
+B-only temporal delimitation can be prepared as a non-binding PM / Verifier research-framing boundary because it is narrower than D and follows the previously approved A → B → D sequence. The safe object is only the possible existence of a temporal relation / temporal placement structure for an evidence unit. This preparation does not open `RQ-030` and does not define any temporal standard, timestamp schema, precision threshold, freshness criterion, time-quality score, timer rule, validation rule, admissibility rule, formula candidate or implementation logic.
+
+Prepared B-only boundary:
+
+* B may ask whether an evidence unit can be framed as possessing temporal delimitation.
+* Temporal delimitation means possible temporal placement as research-framing only.
+* Temporal delimitation is not a timestamp schema.
+* Temporal delimitation is not a required timestamp field.
+* Temporal delimitation is not a date/time format requirement.
+* Temporal delimitation is not a precision rule.
+* Temporal delimitation is not a freshness rule.
+* Temporal delimitation is not a time-quality score.
+* Temporal delimitation is not a timer rule.
+* Temporal delimitation is not an ordering rule.
+* Temporal delimitation is not an admissibility rule.
+* Temporal delimitation is not a validation rule.
+* Temporal delimitation is not implementation logic.
+
+Status interpretation:
+
+* No `RQ-030` is opened.
+* No new `RQ` is created.
+* `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* `RQ-029` is not answered, not validated and not closed.
+* `PD-029` remains absent.
+* `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* `PD-026`, `PD-027` and `PD-028` remain absent.
+* Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`.
+* Final formula remains `NOT DEFINED`.
+* Implementation remains `BLOCKED`.
+
+Next action:
+Human / PM decision on whether to open the prepared B-only temporal delimitation direction later as a separate research question, without opening it in this task.
+
 ## PM-REVIEW-M-002-ROUTE-DECISION-AFTER-RQ-029
 
 Decision:
