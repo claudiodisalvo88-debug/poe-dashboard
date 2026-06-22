@@ -5,6 +5,26 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-ROUTE-DECISION-AFTER-RQ-029
+
+Decision:
+APPROVED
+
+Reason:
+After `RQ-029` documentation-readiness, the safest M-002 continuation is not `PD-029`, not `RQ-029` closure and not formula-candidate definition. A / referential structure has been documented only as leakage-constrained research-framing. The next safe route is to return to the preserved `RQ-026` sequence and prepare B-only temporal delimitation as a separate future research-framing direction.
+
+Route decision:
+
+* A / referential structure has been handled only as `RQ-029` research-framing.
+* `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* B / temporal delimitation is the next direction to prepare.
+* B preparation must be non-binding and must not open a new `RQ` in this task.
+* D / contextual isolability remains later because it has broader aggregate / isolation leakage.
+* No formula candidate, formula structure, scoring, ranking, weighting, checklist, classifier, gate, temporal standard, timestamp schema, freshness criterion, timer rule or implementation is authorized.
+
+Next action:
+Prepare B-only temporal delimitation direction as non-binding PM / Verifier task boundary, without opening `RQ-030` and without creating `PD-029`.
+
 ## PM-REVIEW-M-002-RQ-029-DOCUMENTATION-READINESS
 
 Decision:

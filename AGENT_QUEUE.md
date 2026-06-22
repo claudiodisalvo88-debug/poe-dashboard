@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM route decision after RQ-029 documentation-readiness
+M-002-PREPARE-B-TEMPORAL-DELIMITATION-DIRECTION
 
 Status: ACTIVE
-Objective: Decide the next safe M-002 route after `RQ-029` documentation-readiness without creating `PD-029`, without closing `RQ-029`, without answering `RQ-029`, without defining formula candidate and without authorizing implementation.
+Objective: Prepare B-only temporal delimitation direction as non-binding PM / Verifier task boundary, without opening `RQ-030`, without creating any new `RQ`, without creating `PD-029`, without closing `RQ-029`, without answering `RQ-029`, without defining formula candidate and without authorizing implementation.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-DECISION-AFTER-RQ-029
+
+Status: COMPLETED
+Result: APPROVED. After RQ-029 documentation-readiness, the next safe M-002 route is to prepare B-only temporal delimitation direction as a separate future research-framing candidate. This route decision does not open `RQ-030`, does not create any new `RQ`, does not create `PD-029`, does not close `RQ-029`, does not answer `RQ-029`, does not validate `RQ-029`, does not define formula candidate, formula structure, scoring, ranking, weighting, checklist, classifier, gate, temporal standard, timestamp schema, freshness criterion, timer rule or implementation. `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028` and `PD-029` remain absent.
 
 ## M-002-RQ-029-DOCUMENTATION-READINESS
 
