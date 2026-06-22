@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM route selection on `RQ-026` A / B / D
+Human / PM sequencing of future split candidates from `RQ-026`
 
 Status: ACTIVE
-Objective: Return to `RQ-026` positive research-framing material and decide whether refined A / B / D require a future separate research question, without opening that future RQ automatically.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_ROUTE_SELECTION_AFTER_RQ_026_027_028.md`
+Objective: Decide the sequencing order for future separate research questions concerning refined A / B / D, after PM / Verifier determined that bundled continuation inside `RQ-026` is less safe than future separated routing, without opening those future RQs automatically.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_RQ_026_ABD_ROUTE_DECISION.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-ABD-ROUTE-DECISION
+
+Title: Decide whether refined `RQ-026` directions A / B / D require future separate research routing
+Owner agent: PM / Verifier Agent
+Status: COMPLETED
+Result: APPROVED. A / B / D should be split into multiple future separate research questions rather than remain as one bundled positive continuation inside `RQ-026`. The split is required for safety because the bundle itself risks becoming an implicit admissibility package. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027` and `PD-028` remain absent; no new `RQ`, no formula, no scoring, no ranking, no checklist, no classifier, no gate, no dependency graph and no implementation authorized.
 
 ## M-002-ROUTE-SELECTION-AFTER-RQ-026-027-028
 

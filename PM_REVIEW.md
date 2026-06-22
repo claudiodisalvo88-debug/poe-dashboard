@@ -5,6 +5,63 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-ABD-ROUTE-DECISION
+
+Related task:
+POE PM / Verifier review of refined `RQ-026` directions A / B / D
+
+Decision:
+APPROVED
+
+Reason:
+PM / Verifier concludes that A / B / D should not remain as a single bundled positive continuation inside `RQ-026`. The bundle itself is the residual safety risk because it can later behave like an implicit admissibility package. The safest route is to preserve A, B and D as separate future split candidates, not because they are rejected, but because each one carries a different leakage vector. No future RQ is opened in this task.
+
+Required changes:
+Create `M-002_PM_RQ_026_ABD_ROUTE_DECISION.md`.
+Update `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set next action to Human / PM sequencing of future separate split candidates for A / B / D only.
+
+Forbidden actions:
+No `PD-026`.
+No `PD-027`.
+No `PD-028`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No new `RQ`.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+Human / PM must decide the sequencing order for future separate research questions concerning A, B and D, without opening any of those future RQs in the same task.
+
 ## PM-REVIEW-M-002-ROUTE-SELECTION-AFTER-RQ-026-027-028
 
 Related task:
