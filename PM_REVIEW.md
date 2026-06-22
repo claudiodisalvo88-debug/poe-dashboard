@@ -5,6 +5,72 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DECIDE-A-ONLY-OPENING-EXECUTION
+
+Related task:
+POE PM / Verifier decision on A-only opening execution path
+
+Decision:
+EXECUTE OPENING NEXT
+
+Reason:
+PM / Verifier concludes that the prepared A-only referential structure placeholder should proceed to a separate opening task next. The question boundary is already narrow, the exclusions are explicit, and no additional PM boundary is needed before the later opening step. No new `RQ` is opened in this task.
+
+Required changes:
+Create `M-002_PM_DECIDE_A_ONLY_OPENING_EXECUTION.md`.
+Update `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set next action to a separate Codex task that opens `RQ-029`.
+
+Forbidden actions:
+No `PD-026`.
+No `PD-027`.
+No `PD-028`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No `RQ-029` in this task.
+No `RQ-030`.
+No `RQ-031`.
+No new `RQ` in this task.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No registry logic.
+No whitelist logic.
+No ambiguity filter.
+No validation rule.
+No reference-validity logic.
+No admissibility logic.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+Separate Codex task must open `RQ-029` as the A-only referential structure research question, while preserving all current exclusions.
+
 ## PM-REVIEW-M-002-DECIDE-A-ONLY-OPENING-READINESS
 
 Related task:

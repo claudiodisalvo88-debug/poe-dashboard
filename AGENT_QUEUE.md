@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM decision on later A-only opening step
+Separate Codex task to open `RQ-029`
 
 Status: ACTIVE
-Objective: Decide whether to execute the later opening step for the approved A-only referential structure placeholder, without opening that future RQ automatically.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_DECIDE_A_ONLY_OPENING_READINESS.md`
+Objective: Open `RQ-029` as the A-only referential structure research question in a separate task, preserving the current A-only non-scorable, non-operational, non-validating research-framing boundary and all exclusions.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RESEARCH_QUEUE.md`, `M-002_PM_DECIDE_A_ONLY_OPENING_EXECUTION.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-DECIDE-A-ONLY-OPENING-EXECUTION
+
+Title: Decide whether to execute later opening step for approved A-only referential structure placeholder
+Owner agent: PM / Verifier Agent
+Status: COMPLETED
+Result: EXECUTE OPENING NEXT. The approved A-only placeholder is sufficiently bounded to move to a separate opening task next. No new `RQ` is opened in this task, including no `RQ-029`. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027` and `PD-028` remain absent; no formula, no scoring, no ranking, no checklist, no classifier, no registry logic, no admissibility logic and no implementation authorized.
 
 ## M-002-DECIDE-A-ONLY-OPENING-READINESS
 
