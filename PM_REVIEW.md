@@ -5,6 +5,31 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DECIDE-B-ONLY-OPENING-READINESS
+
+Decision:
+APPROVED TO OPEN LATER
+
+Reason:
+The prepared B-only temporal delimitation direction is safe to open later as a separate research question because its boundary is explicitly limited to possible temporal placement structure as research-framing only. The opening can be considered later only if it remains non-scorable, non-operational and non-validating, and only if it continues to reject temporal standard, timestamp schema, timestamp field, required format, precision threshold, freshness criterion, time-quality score, timer rule, ordering rule, validation rule, admissibility rule, formula candidate and implementation leakage.
+
+Opening-readiness interpretation:
+
+* B-only direction may be opened later as a separate research question.
+* This task does not open `RQ-030`.
+* This task does not create any new `RQ`.
+* This task does not create `PD-029`.
+* `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* `RQ-029` is not answered, not validated and not closed.
+* `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* `PD-026`, `PD-027`, `PD-028` and `PD-029` remain absent.
+* Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`.
+* Final formula remains `NOT DEFINED`.
+* Implementation remains `BLOCKED`.
+
+Next action:
+Human / PM decision on whether to execute the later opening step for the approved B-only temporal delimitation placeholder, without opening `RQ-030` in this task.
+
 ## PM-REVIEW-M-002-PREPARE-B-TEMPORAL-DELIMITATION-DIRECTION
 
 Decision:
