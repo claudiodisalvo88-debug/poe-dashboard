@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM next research decision
+Human / PM route selection on `RQ-026` A / B / D
 
 Status: ACTIVE
-Objective: Decide next research action after `RQ-028` documentation-readiness without opening a new RQ automatically.
-Allowed files to edit for next task: none
+Objective: Return to `RQ-026` positive research-framing material and decide whether refined A / B / D require a future separate research question, without opening that future RQ automatically.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_ROUTE_SELECTION_AFTER_RQ_026_027_028.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-SELECTION-AFTER-RQ-026-027-028
+
+Title: Lightweight PM / Verifier route-selection review after `RQ-028` documentation-readiness
+Owner agent: PM / Verifier Agent
+Status: COMPLETED
+Result: APPROVED. `RQ-026` contains the only positive research-framing material currently preserved for safe next-direction evaluation: refined A / B / D. `RQ-027` remains methodological-boundary wording only. `RQ-028` remains leakage-prevention carry-forward only. Recommended next direction is to return to `RQ-026` material and evaluate whether A / B / D require a future separate research question. `RQ-026`, `RQ-027` and `RQ-028` all remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027` and `PD-028` remain absent; no new `RQ`, no formula, no scoring, no ranking, no checklist, no classifier, no gate, no dependency graph and no implementation authorized.
 
 ## M-002-RQ-028-DOCUMENTATION-READINESS
 
