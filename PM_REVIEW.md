@@ -5,6 +5,28 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DECIDE-B-ONLY-OPENING-EXECUTION
+
+Decision:
+EXECUTE OPENING NEXT
+
+Reason:
+The B-only temporal delimitation placeholder has already passed preparation and opening-readiness as a non-scorable, non-operational, non-validating research-framing direction. The safe next route is to execute a separate opening task next. This task does not open `RQ-030` and does not create any new `RQ`.
+
+Execution decision:
+
+* Execute opening next as a separate task.
+* The next task may open B-only temporal delimitation as `RQ-030`.
+* This task itself does not open `RQ-030`.
+* This task itself does not create any new `RQ`.
+* `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* `RQ-029` is not answered, not validated and not closed.
+* `PD-029` remains absent.
+* No formula candidate, formula structure, temporal standard, timestamp schema, timestamp field, required format, freshness criterion, time-quality score, timer rule, validation rule, admissibility rule or implementation is authorized.
+
+Next action:
+Separate Codex task must open `RQ-030` as B-only temporal delimitation research-framing boundary, while preserving all current exclusions.
+
 ## PM-REVIEW-M-002-DECIDE-B-ONLY-OPENING-READINESS
 
 Decision:
