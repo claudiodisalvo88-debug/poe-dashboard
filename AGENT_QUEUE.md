@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Human / PM decision on prepared A-only direction
+Human / PM decision on later A-only opening step
 
 Status: ACTIVE
-Objective: Decide whether the prepared A-only referential structure direction should later be opened as a separate future research question, without opening that future RQ automatically.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_PREPARE_A_REFERENTIAL_STRUCTURE_DIRECTION.md`
+Objective: Decide whether to execute the later opening step for the approved A-only referential structure placeholder, without opening that future RQ automatically.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `M-002_PM_DECIDE_A_ONLY_OPENING_READINESS.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-DECIDE-A-ONLY-OPENING-READINESS
+
+Title: Decide whether prepared A-only referential structure direction is safe to open later as separate research question
+Owner agent: PM / Verifier Agent
+Status: COMPLETED
+Result: APPROVED TO OPEN LATER. The prepared A-only direction is sufficiently bounded to be opened later as a separate research question because it asks only about existence of referential structure as non-scorable, non-operational, non-validating research-framing. Placeholder allowed only as non-binding future A-only referential structure research question; it is not an opened `RQ` and not `RQ-029`. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027` and `PD-028` remain absent; no new `RQ`, no formula, no scoring, no ranking, no checklist, no classifier, no registry logic, no admissibility logic and no implementation authorized.
 
 ## M-002-PREPARE-A-REFERENTIAL-STRUCTURE-DIRECTION
 

@@ -5,6 +5,72 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DECIDE-A-ONLY-OPENING-READINESS
+
+Related task:
+POE PM / Verifier decision on A-only opening readiness
+
+Decision:
+APPROVED TO OPEN LATER
+
+Reason:
+PM / Verifier concludes that the prepared A-only referential structure direction is safe to open later as a separate research question because the question boundary is already narrow and negative constraints are explicit. The inquiry is limited to existence of referential structure as non-scorable, non-operational, non-validating research-framing only. No future RQ is opened in this task.
+
+Required changes:
+Create `M-002_PM_DECIDE_A_ONLY_OPENING_READINESS.md`.
+Update `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set next action to Human / PM decision on whether to execute the later opening step for the approved A-only placeholder.
+
+Forbidden actions:
+No `PD-026`.
+No `PD-027`.
+No `PD-028`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No `RQ-029`.
+No `RQ-030`.
+No `RQ-031`.
+No new `RQ`.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No weights.
+No coefficients.
+No scalar score.
+No total score.
+No scoring.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph algorithm.
+No dependency graph construction.
+No dependency computation.
+No registry logic.
+No whitelist logic.
+No ambiguity filter.
+No validation rule.
+No reference-validity logic.
+No admissibility logic.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No API logic.
+No database logic.
+No dashboard logic.
+No runtime logic.
+No implementation.
+
+Next action:
+Human / PM must decide whether to execute the later opening step for the approved A-only referential structure placeholder, without opening it in the same task.
+
 ## PM-REVIEW-M-002-PREPARE-A-REFERENTIAL-STRUCTURE-DIRECTION
 
 Related task:
