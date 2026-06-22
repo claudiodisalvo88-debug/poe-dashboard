@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-029-INNOVATOR
+M-002-RQ-029-PM-REFINEMENT
 
 Status: ACTIVE
-Objective: Stress-test `RQ-029` referential-structure boundary for registry, whitelist, disambiguation, validation-rule and implementation leakage while preserving `RQ-029` as OPEN / RESEARCH-FRAMING only.
+Objective: Refine `RQ-029` wording to block whitelist drift, admissibility spillover, validation-rule spillover and implementation-shaped leakage while preserving `RQ-029` as OPEN / RESEARCH-FRAMING only.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-029-INNOVATOR
+
+Title: Stress-test `RQ-029` referential-structure boundary for registry, whitelist, disambiguation, validation-rule and implementation leakage
+Owner agent: Innovator Agent / PM
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. `RQ-029` remains useful only if referential structure is treated as existence of a relation, not as proof of correctness, validity, uniqueness or operational usability. Main risks are whitelist drift, admissibility spillover, validation-rule spillover and implementation-shaped leakage toward IDs, schemas, tables, contracts and registries. `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028` and `PD-029` remain absent.
 
 ## M-002-RQ-029-OPEN-RESEARCH-FRAMING
 

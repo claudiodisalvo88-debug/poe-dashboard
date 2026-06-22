@@ -5,6 +5,61 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-029-INNOVATOR
+
+Related task:
+POE Innovator / PM stress-test of `RQ-029` referential-structure boundary
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+Innovator / PM accepts `RQ-029` only with explicit leakage constraints. The safe core survives: existence of referential structure can be explored as research-framing without testing correctness, validity, uniqueness or disambiguation. The main residual risks are whitelist drift, admissibility spillover, validation-rule spillover and implementation-shaped leakage toward IDs, schemas, registries and contracts.
+
+Required changes:
+Create `RQ-029_INNOVATOR_REFERENTIAL_STRUCTURE_LEAKAGE_REVIEW.md`.
+Update `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set next action to PM refinement of `RQ-029` wording.
+
+Forbidden actions:
+No `PD-026`.
+No `PD-027`.
+No `PD-028`.
+No `PD-029`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No `RQ-029` closure.
+No answer to `RQ-029`.
+No validation of `RQ-029`.
+No formula candidate.
+No final formula.
+No formula structure.
+No scoring.
+No ranking.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph.
+No dependency computation.
+No registry logic.
+No whitelist logic.
+No ambiguity filter.
+No validation rule.
+No reference-validity logic.
+No admissibility logic.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No implementation.
+
+Next action:
+PM refinement task must tighten `RQ-029` wording against whitelist drift, admissibility spillover, validation-rule spillover and implementation-shaped leakage.
+
 ## PM-REVIEW-M-002-RQ-029-OPEN-RESEARCH-FRAMING
 
 Related task:
