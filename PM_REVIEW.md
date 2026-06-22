@@ -5,6 +5,64 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-029-OPEN-RESEARCH-FRAMING
+
+Related task:
+POE Codex task to open `RQ-029` as A-only referential structure research-framing boundary
+
+Decision:
+ACCEPTED
+
+Reason:
+PM prior execution decision authorized the separate opening step. `RQ-029` is opened only as research-framing and only for the bounded A-only referential structure question. The opening preserves exclusions against correctness, validity, uniqueness, registry, whitelist, disambiguation, admissibility, reference-quality, scoring and implementation leakage.
+
+Required changes:
+Create `RQ-029_A_ONLY_REFERENTIAL_STRUCTURE_RESEARCH_FRAMING.md`.
+Update `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`.
+Set active research to `RQ-029`.
+Keep `RQ-029` as OPEN / RESEARCH-FRAMING with Decision `NONE`.
+
+Forbidden actions:
+No `PD-026`.
+No `PD-027`.
+No `PD-028`.
+No `PD-029`.
+No `RQ-026` closure.
+No `RQ-027` closure.
+No `RQ-028` closure.
+No `RQ-029` closure.
+No answer to `RQ-029`.
+No validation of `RQ-029`.
+No formula candidate.
+No final formula.
+No formula structure.
+No formula syntax.
+No scoring.
+No ranking.
+No ordering.
+No weighting.
+No checklist.
+No classifier.
+No gate.
+No threshold.
+No operational filter.
+No dependency graph.
+No dependency computation.
+No registry logic.
+No whitelist logic.
+No ambiguity filter.
+No validation rule.
+No reference-validity logic.
+No admissibility logic.
+No incentives.
+No tokens.
+No payout.
+No economic allocation.
+No implementation.
+
+Next action:
+Innovator / PM stress-test of `RQ-029` referential-structure boundary for registry, whitelist, disambiguation, validation-rule and implementation leakage.
+
 ## PM-REVIEW-M-002-DECIDE-A-ONLY-OPENING-EXECUTION
 
 Related task:

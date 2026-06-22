@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-028
+RQ-029
 
 Last closed research:
 RQ-025
@@ -84,6 +84,9 @@ OPEN / RESEARCH-FRAMING
 RQ-027:
 OPEN / RESEARCH-FRAMING
 
+RQ-029:
+OPEN / RESEARCH-FRAMING
+
 RQ-028:
 OPEN / RESEARCH-FRAMING
 
@@ -117,4 +120,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Separate Codex task must open `RQ-029` as the A-only referential structure research question, preserving the current A-only boundary as non-scorable, non-operational, non-validating research-framing only, and preserving all exclusions against correctness, validity, uniqueness, registry, whitelist, disambiguation, admissibility and implementation logic. In this completed PM / Verifier task, `RQ-026` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-027` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-028` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `PD-026` remains absent, `PD-027` remains absent, `PD-028` remains absent, formula candidates stay `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`, final formula stays `NOT DEFINED`, and implementation remains blocked.
+Innovator / PM stress-test of `RQ-029` referential-structure boundary for registry, whitelist, disambiguation, validation-rule and implementation leakage, while keeping `RQ-029` OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-026` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-027` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-028` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `RQ-029` remains OPEN / RESEARCH-FRAMING, Decision stays `NONE`, `PD-026` remains absent, `PD-027` remains absent, `PD-028` remains absent, `PD-029` remains absent, formula candidates stay `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`, final formula stays `NOT DEFINED`, and implementation remains blocked.

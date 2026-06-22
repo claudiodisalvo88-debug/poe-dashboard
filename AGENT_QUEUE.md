@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-Separate Codex task to open `RQ-029`
+M-002-RQ-029-INNOVATOR
 
 Status: ACTIVE
-Objective: Open `RQ-029` as the A-only referential structure research question in a separate task, preserving the current A-only non-scorable, non-operational, non-validating research-framing boundary and all exclusions.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RESEARCH_QUEUE.md`, `M-002_PM_DECIDE_A_ONLY_OPENING_EXECUTION.md`
+Objective: Stress-test `RQ-029` referential-structure boundary for registry, whitelist, disambiguation, validation-rule and implementation leakage while preserving `RQ-029` as OPEN / RESEARCH-FRAMING only.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,13 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-029-OPEN-RESEARCH-FRAMING
+
+Title: Open `RQ-029` as A-only referential structure research-framing boundary
+Owner agent: Codex / PM / QA
+Status: COMPLETED
+Result: `RQ-029` opened as OPEN / RESEARCH-FRAMING only; active research set to `RQ-029`; `RQ-029` Decision set to `NONE`; `RQ-029` not answered, not validated and not closed; `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028` and `PD-029` not created; no formula candidate, formula structure, scoring, ranking, weighting, checklist, classifier, gate, threshold, operational filter, registry logic, whitelist logic, reference-validity logic, admissibility logic or implementation authorized.
 
 ## M-002-DECIDE-A-ONLY-OPENING-EXECUTION
 

@@ -1,5 +1,46 @@
 # RESEARCH_QUEUE.md
 
+## RQ-029
+
+Question:
+Can a primitively admissible reputational evidence unit be framed as possessing referential structure toward a domain entity, strictly as a non-scorable, non-operational, non-validating research-framing direction, without testing whether the reference is correct, valid, unique, registered, whitelisted, disambiguated, fresh, ranked or admissible?
+
+Output:
+RQ-029_A_ONLY_REFERENTIAL_STRUCTURE_RESEARCH_FRAMING.md
+
+Scope:
+This question is opened strictly as research-framing only.
+The scope is limited to asking whether referential structure can exist as a bounded research direction for a primitively admissible reputational evidence unit toward a domain entity.
+`RQ-029` may ask only about existence of referential structure as research-framing direction.
+`RQ-029` does not define correctness, validity, uniqueness, registry logic, whitelist logic, disambiguation logic, freshness logic, ranking logic, admissibility logic, reference-quality logic or reference-validity logic.
+`RQ-029` does not answer the question, does not validate the question, does not create `PD-029`, does not create `PD-026`, does not create `PD-027`, does not create `PD-028`, and does not authorize implementation.
+
+Current research note:
+`RQ-029` is opened as the first separated A-only continuation from `RQ-026`.
+The safe object is existence of referential structure only.
+The unsafe object is any move toward correctness, validity, uniqueness, registry, whitelist, disambiguation, freshness, ranking, admissibility or reference-quality logic.
+`RQ-029` remains non-scorable, non-operational and non-validating.
+This opening does not close `RQ-026`.
+This opening does not close `RQ-027`.
+This opening does not close `RQ-028`.
+This opening does not define any formula candidate or formula structure.
+
+Hard exclusions:
+`RQ-029` does not authorize answer as settled protocol logic, `PD-029` creation, `PD-028` creation, `PD-027` creation, `PD-026` creation, `RQ-026` closure, `RQ-027` closure, `RQ-028` closure, formula candidate definition, final formula, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, classifier, gate, numeric threshold, operational filter, dependency graph, dependency computation, registry logic, whitelist logic, ambiguity filter, validation rule, reference-validity logic, admissibility logic, incentives, rewards, tokens, payout, economic allocation or implementation.
+
+Validation criteria:
+The output must remain research-framing only and must not answer the question as settled protocol logic.
+Any acceptable result must preserve the narrow A-only boundary, keep the inquiry non-scorable, non-operational and non-validating, and reject registry, whitelist, disambiguation, validation-rule, reference-validity and implementation leakage.
+
+Source dependency:
+RQ-026 / PD-025
+
+Status:
+OPEN / RESEARCH-FRAMING
+
+Decision:
+NONE
+
 ## RQ-028
 
 Question:
