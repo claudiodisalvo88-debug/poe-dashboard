@@ -27,6 +27,18 @@ This opening does not close `RQ-027`.
 This opening does not close `RQ-028`.
 This opening does not close `RQ-029`.
 This opening does not define any formula candidate or formula structure.
+Research-framing documentation: COMPLETE under PM-refined temporal delimitation boundary.
+`RQ-030` remains OPEN / RESEARCH-FRAMING.
+Decision remains `NONE`.
+The question is not answered.
+The question is not validated.
+`RQ-030` is not closed.
+`PD-030` is not created.
+Completion means only that the research-framing boundary has been documented.
+Temporal delimitation survives only as conceptual research-framing possibility that an evidence unit may be discussed as temporally situated.
+No timestamp presence, hidden time field, timestamp schema, timestamp field, required date/time format, event window, baseline, period, schedule, clock reference, external temporal comparator, ordering relation, sequencing relation, before/after relation, recency relation, freshness relation, threshold, range, tolerance, precision band or validity window is required.
+Absence of temporal delimitation does not imply inadmissibility, invalidity, incompleteness, staleness, lower-quality, exclusion or lower research usability.
+`RQ-030` does not prepare formula dimension, evidence-quality dimension, temporal score, aggregate temporal composition, D-side composition, implementation schema, database column, API field, payload field, dashboard attribute or runtime timer.
 
 Hard exclusions:
 `RQ-030` does not authorize answer as settled protocol logic, `PD-030` creation, `PD-029` creation, `PD-028` creation, `PD-027` creation, `PD-026` creation, `RQ-026` closure, `RQ-027` closure, `RQ-028` closure, `RQ-029` closure, formula candidate definition, final formula, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, classifier, gate, numeric threshold, temporal standard, timestamp schema, timestamp field, required date/time format, precision threshold, freshness criterion, time-quality score, timer rule, validation rule, admissibility rule, dependency graph, dependency computation, aggregate logic, incentives, rewards, tokens, payout, economic allocation or implementation.

@@ -93,6 +93,9 @@ OPEN / RESEARCH-FRAMING
 RQ-030:
 OPEN / RESEARCH-FRAMING
 
+RQ-030 research-framing documentation:
+COMPLETE under PM-refined temporal delimitation boundary; not answered, not validated, not closed; PD-030 absent.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -123,4 +126,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-030-DOCUMENT-RESEARCH-FRAMING` must document `RQ-030` as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing `RQ-030`, without closing any other open `RQ`, without defining formula candidate and without implementation.
+`M-002-RQ-030-VERIFY-DOCUMENTATION` must verify that `RQ-030` was documented only as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without validating `RQ-030`, without closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.

@@ -1,12 +1,12 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-030-DOCUMENT-RESEARCH-FRAMING
+M-002-RQ-030-VERIFY-DOCUMENTATION
 
 Status: ACTIVE
-Objective: Document `RQ-030` as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing `RQ-030`, without closing any other open `RQ`, without defining formula candidate and without implementation.
-Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_DOCUMENTATION_READINESS_DECISION.md`
-Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
+Objective: Verify that `RQ-030` was documented only as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without validating `RQ-030`, without closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
+Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-030-DOCUMENT-RESEARCH-FRAMING
+
+Status: COMPLETED
+Result: DOCUMENTED_RESEARCH_FRAMING. `RQ-030` was documented as research-framing complete only. `RQ-030` remains OPEN / RESEARCH-FRAMING. `RQ-030` Decision remains `NONE`. `RQ-030` was not answered, not validated and not closed. `PD-030` was not created. No formula candidate or implementation was authorized.
 
 ## M-002-RQ-030-DOCUMENTATION-READINESS
 
