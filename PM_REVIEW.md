@@ -5,6 +5,26 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-CRITIC
+
+Decision:
+REFINE_REQUIRED
+
+Reason:
+Critic review finds that the Innovator constraints move in the right direction but do not yet fully block hidden leakage from `placement`, `relation` and `bounded` into implicit timestamp requirement, ordering semantics, external temporal reference, admissibility drift, formula-dimension drift and implementation-schema pressure.
+
+Review status:
+
+* `RQ-030` remains OPEN / RESEARCH-FRAMING.
+* `RQ-030` Decision remains `NONE`.
+* `RQ-030` is not answered, not validated and not closed.
+* `PD-030` is not created.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+
+Next action:
+`M-002-RQ-030-PM-REFINEMENT` must refine the `RQ-030` temporal delimitation boundary after Critic review because residual leakage remains, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+
 ## PM-REVIEW-M-002-RQ-030-INNOVATOR
 
 Decision:

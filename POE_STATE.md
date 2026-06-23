@@ -123,4 +123,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-030-CRITIC` must stress-test the `RQ-030` Innovator output for remaining leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation, without answering `RQ-030`, without creating `PD-030`, and without closing any open `RQ`.
+`M-002-RQ-030-PM-REFINEMENT` must refine the `RQ-030` temporal delimitation boundary after Critic review because residual leakage remains, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.

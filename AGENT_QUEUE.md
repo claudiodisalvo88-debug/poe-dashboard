@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-030-CRITIC
+M-002-RQ-030-PM-REFINEMENT
 
 Status: ACTIVE
-Objective: Stress-test the `RQ-030` Innovator output for remaining leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_CRITIC_TEMPORAL_DELIMITATION_LEAKAGE_REVIEW.md`
+Objective: Refine the `RQ-030` temporal delimitation boundary after Critic review because residual leakage remains, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_PM_REFINEMENT_TEMPORAL_DELIMITATION_BOUNDARY.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-030-CRITIC
+
+Status: COMPLETED
+Result: REFINE_REQUIRED. Critic review finds residual leakage in the Innovator output because `placement`, `relation` and `bounded` can still imply hidden timestamp requirement, hidden ordering semantics, hidden external temporal reference, hidden admissibility drift, hidden formula-dimension drift and hidden implementation-schema pressure. `RQ-030` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028`, `PD-029` and `PD-030` remain absent.
 
 ## M-002-RQ-030-INNOVATOR
 
