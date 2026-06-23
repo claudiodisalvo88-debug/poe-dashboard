@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-INNOVATOR
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+Innovator review finds that `RQ-031` can remain usable only if aggregate is kept strictly as possible conceptual relation / composition among multiple primitively admissible reputational evidence units. The current boundary is workable but fragile because aggregate wording can drift into aggregate rule, aggregate formula, ordering, weighting, dependency graph and implementation language. `RQ-031` therefore remains acceptable only as non-scorable, non-operational, non-validating research-framing with tightened negative constraints and no protocol decision.
+
+Next action:
+`M-002-RQ-031-CRITIC` must independently stress-test the Innovator output and `RQ-031` boundary, without answering, validating, closing, creating `PD-031`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-031-VERIFY-OPENING
 
 Decision:
