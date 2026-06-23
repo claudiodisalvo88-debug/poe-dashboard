@@ -5,6 +5,26 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-INNOVATOR
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+Innovator review finds that `RQ-030` can remain open only if temporal delimitation is kept strictly bounded to possible temporal placement / temporal relation of a single primitively admissible reputational evidence unit as research-framing. Main residual risks are drift into temporal standard, timestamp schema, required timestamp field, ordering rule, freshness logic, admissibility gate, formula structure, aggregate temporal logic and implementation-facing schema language.
+
+Review status:
+
+* `RQ-030` remains OPEN / RESEARCH-FRAMING.
+* `RQ-030` Decision remains `NONE`.
+* `RQ-030` is not answered, not validated and not closed.
+* `PD-030` is not created.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+
+Next action:
+`M-002-RQ-030-CRITIC` must stress-test the `RQ-030` Innovator output for remaining leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation.
+
 ## PM-REVIEW-M-002-RQ-030-VERIFY-OPENING
 
 Decision:

@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-030-INNOVATOR
+M-002-RQ-030-CRITIC
 
 Status: ACTIVE
-Objective: Stress-test `RQ-030` B-only temporal delimitation research-framing for leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_INNOVATOR_TEMPORAL_DELIMITATION_LEAKAGE_REVIEW.md`
+Objective: Stress-test the `RQ-030` Innovator output for remaining leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_CRITIC_TEMPORAL_DELIMITATION_LEAKAGE_REVIEW.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-030-INNOVATOR
+
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. `RQ-030` remains usable only if temporal delimitation is treated strictly as possible temporal placement / temporal relation of a single primitively admissible reputational evidence unit as non-scorable, non-operational, non-validating research-framing. Main risks are leakage into temporal standard, timestamp schema, timestamp field, required format, freshness logic, precision threshold, ordering rule, admissibility gate, formula structure, aggregate logic and implementation language. `RQ-030` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028`, `PD-029` and `PD-030` remain absent.
 
 ## M-002-RQ-030-VERIFY-OPENING
 
