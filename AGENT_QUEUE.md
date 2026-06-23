@@ -1,12 +1,12 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-030-DOCUMENTATION-READINESS
+M-002-RQ-030-DOCUMENT-RESEARCH-FRAMING
 
 Status: ACTIVE
-Objective: Decide whether `RQ-030` can be documented as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
-Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
+Objective: Document `RQ-030` as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing `RQ-030`, without closing any other open `RQ`, without defining formula candidate and without implementation.
+Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_DOCUMENTATION_READINESS_DECISION.md`
+Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-030-DOCUMENTATION-READINESS
+
+Status: COMPLETED
+Result: READY_FOR_DOCUMENTATION. `RQ-030` opening exists as OPEN / RESEARCH-FRAMING with Decision `NONE`; opening file, Innovator review, Critic review and PM refinement all exist; Critic residual leakage is addressed by the PM-refined boundary; `RQ-030` remains only a conceptual research-framing placeholder with explicit rejection of timestamp presence, hidden time field, timestamp schema, timestamp field, required format, event window, baseline, period, schedule, clock reference, external comparator, ordering, sequencing, recency, freshness, threshold, validity-window, inadmissibility, formula-dimension, aggregate-composition and implementation drift. `RQ-030` was not answered, not validated and not closed; `PD-030` was not created; `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
 
 ## M-002-RQ-030-PM-REFINEMENT
 

@@ -5,6 +5,27 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-DOCUMENTATION-READINESS
+
+Decision:
+READY_FOR_DOCUMENTATION
+
+Reason:
+Repository review confirms that `RQ-030` can be treated as research-framing complete under the PM-refined temporal delimitation boundary. The opening exists, Innovator review exists, Critic review exists, PM refinement exists, Critic residual leakage has been addressed, and the surviving interpretation is now limited to conceptual temporal situating only, with explicit rejection of hidden timestamp requirement, hidden field, comparison object, ordering, freshness, threshold, aggregate and implementation drift.
+
+Documentation-readiness status:
+
+* `RQ-030` remains OPEN / RESEARCH-FRAMING.
+* `RQ-030` Decision remains `NONE`.
+* `RQ-030` is not answered, not validated and not closed.
+* `PD-030` is not created.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* PM-refined boundary is sufficient for research-framing documentation readiness only.
+
+Next action:
+`M-002-RQ-030-DOCUMENT-RESEARCH-FRAMING` must document `RQ-030` as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing `RQ-030`, without closing any other open `RQ`, without defining formula candidate and without implementation.
+
 ## PM-REVIEW-M-002-RQ-030-PM-REFINEMENT
 
 Decision:
