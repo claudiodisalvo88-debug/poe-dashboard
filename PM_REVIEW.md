@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-VERIFY-OPENING
+
+Decision:
+VERIFIED_OPENING
+
+Reason:
+RQ-031 was verified as opened only as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units. `RQ-031` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-031` was not answered, not validated and not closed. `PD-031` was not created. No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation was defined. Any stale `POE_STATE` wording implying `RQ-031` was not opened was corrected if present.
+
+Next action:
+`M-002-RQ-031-INNOVATOR` must stress-test `RQ-031` as D-only aggregate research-framing, without answering, validating, closing, creating `PD-031`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-031-OPEN-RESEARCH-FRAMING
 
 Decision:

@@ -100,7 +100,7 @@ RQ-030 research-framing documentation:
 COMPLETE under PM-refined temporal delimitation boundary; not answered, not validated, not closed; PD-030 absent.
 
 D-only aggregate opening scope:
-REFINED ONLY; conceptual research-framing placeholder for possible aggregate relation/composition among multiple primitively admissible reputational evidence units; no RQ-031 opened; no aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation defined.
+RQ-031 is now opened as OPEN / RESEARCH-FRAMING only, as conceptual research-framing placeholder for possible aggregate relation/composition among multiple primitively admissible reputational evidence units; no aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation defined.
 
 PD-000 to PD-023:
 VALIDATED
@@ -132,4 +132,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-031-VERIFY-OPENING` must verify that `RQ-031` was opened only as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without closing any open `RQ`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation.
+`M-002-RQ-031-INNOVATOR` must stress-test `RQ-031` as D-only aggregate research-framing, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
