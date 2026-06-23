@@ -97,7 +97,7 @@ RQ-030 research-framing documentation:
 COMPLETE under PM-refined temporal delimitation boundary; not answered, not validated, not closed; PD-030 absent.
 
 D-only aggregate opening scope:
-PREPARED ONLY; no RQ-031 opened; no aggregate rule, aggregate score, aggregate formula or implementation defined.
+REFINED ONLY; conceptual research-framing placeholder for possible aggregate relation/composition among multiple primitively admissible reputational evidence units; no RQ-031 opened; no aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation defined.
 
 PD-000 to PD-023:
 VALIDATED
@@ -129,4 +129,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-D-ONLY-SCOPE-REFINEMENT` must refine D-only aggregate research-framing scope before any `RQ-031` opening, without opening `RQ-031`, without modifying `RESEARCH_QUEUE.md`, without answering or closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
+`M-002-DECIDE-RQ-031-D-ONLY-OPENING-2` must decide again whether to open `RQ-031` as D-only aggregate research-framing after D-only scope refinement, without opening `RQ-031` in that task, without creating `PD-031`, without defining formula candidate or implementation.

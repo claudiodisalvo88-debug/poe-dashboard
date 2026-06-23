@@ -5,6 +5,34 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-D-ONLY-SCOPE-REFINEMENT
+
+Decision:
+D_ONLY_SCOPE_REFINED
+
+Reason:
+Repository verification confirms that the D-only route remains only a future research-framing candidate and that no `RQ-031` has been opened or created. The D-only boundary is now refined so that aggregate survives only as a conceptual placeholder about possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, with explicit rejection of every drift toward aggregate-rule, aggregate-score, aggregate-formula, ranking, weighting, dependency-graph or implementation language.
+
+Refinement status:
+
+* D-only scope refined against aggregate-rule / aggregate-score / aggregate-formula leakage.
+* No `RQ-031` opened.
+* No `RQ-031` created.
+* `RESEARCH_QUEUE.md` not modified.
+* `RQ-030` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* `RQ-030` not answered, validated or closed.
+* `PD-030` and `PD-031` not created.
+* No formula candidate or implementation authorized.
+* `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+
+Refined safe interpretation:
+
+* D-only aggregate = conceptual research-framing placeholder asking whether multiple primitively admissible reputational evidence units can be discussed together as an aggregate relation / composition, without specifying computation, weighting, ordering, scoring, formula, validation, gate, dependency graph, schema, runtime behavior or implementation.
+* D-only aggregate is not aggregate rule, aggregate score, aggregate formula, aggregate ordering, aggregate ranking, weighting, scoring, formula structure, formula candidate, dependency graph computation, database relation, API schema, dashboard grouping, batch processing, checklist, classifier, gate, validation rule, admissibility rule, evidence-quality score, implementation logic or incentives / rewards / tokens / payout / economic allocation.
+
+Next action:
+`M-002-DECIDE-RQ-031-D-ONLY-OPENING-2` must decide again whether to open `RQ-031` as D-only aggregate research-framing after D-only scope refinement, without opening `RQ-031` in that task, without creating `PD-031`, without defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-DECIDE-RQ-031-D-ONLY-OPENING
 
 Decision:

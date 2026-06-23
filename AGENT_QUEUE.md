@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-D-ONLY-SCOPE-REFINEMENT
+M-002-DECIDE-RQ-031-D-ONLY-OPENING-2
 
 Status: ACTIVE
-Objective: Refine D-only aggregate research-framing scope before any `RQ-031` opening, without opening `RQ-031`, without modifying `RESEARCH_QUEUE.md`, without answering or closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
+Objective: Decide again whether to open `RQ-031` as D-only aggregate research-framing after D-only scope refinement, without opening `RQ-031` in that task, without creating `RQ-031`, without modifying `RESEARCH_QUEUE.md` unless explicitly authorized by the next task, without answering or closing `RQ-030`, without creating `PD-030`/`PD-031`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula or implementation.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-D-ONLY-SCOPE-REFINEMENT
+
+Status: COMPLETED
+Result: D_ONLY_SCOPE_REFINED. D-only scope was refined only as conceptual research-framing placeholder for possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units. No `RQ-031` was opened or created. `RESEARCH_QUEUE.md` was not modified. `RQ-030` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `PD-030` and `PD-031` were not created. No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation was authorized.
 
 ## M-002-DECIDE-RQ-031-D-ONLY-OPENING
 
