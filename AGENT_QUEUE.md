@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-031-OPEN-RESEARCH-FRAMING
+M-002-RQ-031-VERIFY-OPENING
 
 Status: ACTIVE
-Objective: Open `RQ-031` as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without closing any open `RQ`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation.
+Objective: Verify that `RQ-031` was opened only as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without closing any open `RQ`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-031_D_ONLY_AGGREGATE_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-031-OPEN-RESEARCH-FRAMING
+
+Status: COMPLETED
+Result: `RQ-031` opened as OPEN / RESEARCH-FRAMING only. `RQ-031` Decision remains `NONE`. `RQ-031` was not answered, validated or closed. `PD-031` was not created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation was defined.
 
 ## M-002-DECIDE-RQ-031-D-ONLY-OPENING-2
 

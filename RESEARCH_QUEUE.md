@@ -1,5 +1,54 @@
 # RESEARCH_QUEUE.md
 
+## RQ-031
+
+Question:
+Can multiple primitively admissible reputational evidence units be discussed together only as possible aggregate relation / aggregate composition, strictly as a conceptual D-only research-framing placeholder, without defining rule, score, formula, ranking, ordering, weighting, dependency graph computation, validation, admissibility, grouping schema, API relation, database relation, dashboard grouping or implementation?
+
+Output:
+RQ-031_D_ONLY_AGGREGATE_RESEARCH_FRAMING.md
+
+Scope:
+This question is opened strictly as research-framing only.
+The scope is limited to asking whether multiple primitively admissible reputational evidence units can be discussed together only as possible aggregate relation / aggregate composition.
+`RQ-031` may ask only about aggregate as conceptual research-framing placeholder.
+Aggregate here does not mean aggregate rule, aggregate score, aggregate formula, aggregate ranking, aggregate ordering, aggregate weighting, dependency graph computation, validation, admissibility, grouping schema, API relation, database relation, dashboard grouping or implementation.
+`RQ-031` does not answer the question, does not validate the question, does not close the question, does not create `PD-031`, and does not authorize implementation.
+
+Current research note:
+`RQ-031` is opened as the separated D-only continuation after A-only `RQ-029` and B-only `RQ-030`.
+The safe object is only possible aggregate relation / aggregate composition as conceptual research-framing placeholder among multiple primitively admissible reputational evidence units.
+The unsafe object is any move toward aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation, validation, admissibility, grouping schema, API relation, database relation, dashboard grouping or implementation.
+`RQ-031` remains non-scorable, non-operational and non-validating.
+This opening does not close `RQ-026`.
+This opening does not close `RQ-027`.
+This opening does not close `RQ-028`.
+This opening does not close `RQ-029`.
+This opening does not close `RQ-030`.
+This opening does not define any formula candidate or formula structure.
+`RQ-031` remains OPEN / RESEARCH-FRAMING.
+Decision remains `NONE`.
+The question is not answered.
+The question is not validated.
+`RQ-031` is not closed.
+`PD-031` is not created.
+
+Hard exclusions:
+`RQ-031` does not authorize answer as settled protocol logic, `PD-031` creation, `PD-030` creation, `PD-029` creation, `PD-028` creation, `PD-027` creation, `PD-026` creation, `RQ-030` closure, `RQ-029` closure, `RQ-028` closure, `RQ-027` closure, `RQ-026` closure, formula candidate definition, final formula, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, classifier, gate, aggregate rule, aggregate score, aggregate formula, aggregate ordering, aggregate ranking, dependency graph, dependency graph computation, dependency graph construction, validation rule, admissibility rule, grouping schema, API relation, database relation, dashboard grouping, incentives, rewards, tokens, payout, economic allocation or implementation.
+
+Validation criteria:
+The output must remain research-framing only and must not answer the question as settled protocol logic.
+Any acceptable result must preserve the narrow D-only boundary, keep the inquiry non-scorable, non-operational and non-validating, and reject aggregate-rule, aggregate-score, aggregate-formula, ranking, ordering, weighting, dependency-graph, validation, admissibility, schema and implementation leakage.
+
+Source dependency:
+RQ-026 / RQ-028 / RQ-029 / RQ-030 / PD-025
+
+Status:
+OPEN / RESEARCH-FRAMING
+
+Decision:
+NONE
+
 ## RQ-030
 
 Question:

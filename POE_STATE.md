@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-030
+RQ-031
 
 Last closed research:
 RQ-025
@@ -93,6 +93,9 @@ OPEN / RESEARCH-FRAMING
 RQ-030:
 OPEN / RESEARCH-FRAMING
 
+RQ-031:
+OPEN / RESEARCH-FRAMING
+
 RQ-030 research-framing documentation:
 COMPLETE under PM-refined temporal delimitation boundary; not answered, not validated, not closed; PD-030 absent.
 
@@ -129,4 +132,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-031-OPEN-RESEARCH-FRAMING` must open `RQ-031` as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without closing any open `RQ`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation.
+`M-002-RQ-031-VERIFY-OPENING` must verify that `RQ-031` was opened only as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without closing any open `RQ`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation.

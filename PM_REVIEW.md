@@ -5,6 +5,26 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-OPEN-RESEARCH-FRAMING
+
+Decision:
+OPENED_RESEARCH_FRAMING_ONLY
+
+Reason:
+RQ-031 was opened only as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering, validating, closing, creating `PD-031`, defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation.
+
+Decision status:
+
+* `RQ-031` is opened only as OPEN / RESEARCH-FRAMING.
+* `RQ-031` Decision remains `NONE`.
+* `RQ-031` is not answered, not validated and not closed.
+* `PD-031` is not created.
+* `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation is defined.
+
+Next action:
+`M-002-RQ-031-VERIFY-OPENING` must verify that `RQ-031` was opened only as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without closing any open `RQ`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation.
+
 ## PM-REVIEW-M-002-DECIDE-RQ-031-D-ONLY-OPENING-2
 
 Decision:
