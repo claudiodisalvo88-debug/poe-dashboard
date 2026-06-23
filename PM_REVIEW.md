@@ -5,6 +5,35 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-PREPARE-D-ONLY-AGGREGATE-OPENING
+
+Decision:
+D_ONLY_SCOPE_PREPARED
+
+Reason:
+Repository verification confirms that `RQ-030` documentation remains verified and bounded as research-framing only, while `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` all remain open and pre-decisional. The repository is therefore suitable for preparing the future D-only aggregate opening scope only, strictly as possible research-framing of aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without merging A-only `RQ-029` and B-only `RQ-030`, and without defining aggregate rule, aggregate score, aggregate formula or implementation.
+
+Preparation status:
+
+* This task prepared future D-only aggregate opening scope only.
+* This task did not open a new `RQ`.
+* This task did not create `RQ-031`.
+* This task did not modify `RESEARCH_QUEUE.md`.
+* This task did not answer, validate or close `RQ-030`.
+* This task did not create `PD-030`.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* Next task may decide whether to open `RQ-031` as D-only aggregate research-framing, but must still require separate authorization.
+
+Prepared D-only scope:
+
+* D-only aggregate means only possible research-framing of aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units.
+* D-only aggregate remains non-scorable, non-operational, non-validating and non-implementative.
+* D-only aggregate does not define aggregate rule, aggregate score, aggregate formula, ranking logic, ordering logic, weighting logic, checklist, classifier, gate, dependency graph computation, database relation, API schema, dashboard grouping, runtime implementation or token / payout logic.
+
+Next action:
+`M-002-DECIDE-RQ-031-D-ONLY-OPENING` must decide whether to open `RQ-031` as D-only aggregate research-framing, without opening it yet in this task, without creating `RQ-031`, without answering or closing `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+
 ## PM-REVIEW-M-002-DECIDE-D-ONLY-OPENING-READINESS
 
 Decision:

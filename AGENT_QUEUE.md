@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-PREPARE-D-ONLY-AGGREGATE-OPENING
+M-002-DECIDE-RQ-031-D-ONLY-OPENING
 
 Status: ACTIVE
-Objective: Prepare the scope for a future D-only aggregate research-framing opening after `RQ-030`, without opening a new `RQ` yet, without creating `RQ-031`, without answering or closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
+Objective: Decide whether to open `RQ-031` as D-only aggregate research-framing, without opening it yet in this task, without creating `RQ-031`, without answering or closing `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-PREPARE-D-ONLY-AGGREGATE-OPENING
+
+Status: COMPLETED
+Result: D_ONLY_SCOPE_PREPARED. D-only aggregate opening scope was prepared only. No new `RQ` was opened. `RQ-031` was not created. `RESEARCH_QUEUE.md` was not modified. `RQ-030` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `PD-030` was not created. No formula candidate or implementation was authorized.
 
 ## M-002-DECIDE-D-ONLY-OPENING-READINESS
 
