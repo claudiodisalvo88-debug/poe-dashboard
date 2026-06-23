@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-029-ROUTE-AFTER-DOCUMENTATION
+M-002-RQ-026-A-B-D-SYNTHESIS-READINESS
 
 Status: ACTIVE
-Objective: Decide the next safe route after `RQ-029` documentation verification, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
+Objective: Decide whether documented and verified A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` can be taken into a future `RQ-026` A/B/D synthesis-readiness check without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-029_A_ONLY_REFERENTIAL_STRUCTURE_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-029-ROUTE-AFTER-DOCUMENTATION
+
+Status: COMPLETED
+Result: Route decision completed. Result: `ROUTE_TO_RQ_026_A_B_D_SYNTHESIS_READINESS`. `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-029` was not answered, validated or closed. `PD-029` was not created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No formula candidate, validation rule, admissibility rule, registry logic, whitelist logic, disambiguation rule, temporal standard, timestamp schema, aggregate rule, aggregate score, aggregate formula, scoring, ranking, weighting, dependency graph computation or implementation was defined.
 
 ## M-002-RQ-029-VERIFY-DOCUMENTATION
 

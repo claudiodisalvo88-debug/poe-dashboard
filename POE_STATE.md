@@ -145,6 +145,10 @@ RQ-029 documentation verification status:
 VERIFIED
 Verified that RQ-029 documentation remains research-framing only under A-only referential-structure boundary; not answered, not validated, not closed; `PD-029` absent; no correctness, validity, uniqueness, registry logic, whitelist logic, disambiguation logic, freshness logic, ranking logic, admissibility logic, reference-quality logic, reference-validity logic, validation rule, formula candidate, formula structure, scoring or implementation defined.
 
+RQ-029 route-after-documentation:
+ROUTE_TO_RQ_026_A_B_D_SYNTHESIS_READINESS
+Reason: A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` are now documented and verified as research-framing only, so the next safe task is a synthesis-readiness check for `RQ-026`; this does not answer, validate or close `RQ-026` and does not define formula candidate or implementation.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -175,4 +179,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-029-ROUTE-AFTER-DOCUMENTATION` must decide the next safe route after `RQ-029` documentation verification, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
+`M-002-RQ-026-A-B-D-SYNTHESIS-READINESS` must decide whether documented and verified A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` can be taken into a future `RQ-026` A/B/D synthesis-readiness check without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
