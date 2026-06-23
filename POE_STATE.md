@@ -149,6 +149,11 @@ RQ-029 route-after-documentation:
 ROUTE_TO_RQ_026_A_B_D_SYNTHESIS_READINESS
 Reason: A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` are now documented and verified as research-framing only, so the next safe task is a synthesis-readiness check for `RQ-026`; this does not answer, validate or close `RQ-026` and does not define formula candidate or implementation.
 
+RQ-026 A/B/D synthesis-readiness:
+READY_FOR_RQ_026_SYNTHESIS_FRAMING
+Reason: documented and verified A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` can move into a future-safe `RQ-026` synthesis-framing step without becoming formula, score, checklist, gate, classifier, validation/admissibility, dependency graph or implementation.
+A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` are documented/verified as research-framing only; next safe task is to document synthesis framing for `RQ-026` without answering, validating or closing `RQ-026` and without creating `PD-026`, formula candidate or implementation.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -179,4 +184,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-026-A-B-D-SYNTHESIS-READINESS` must decide whether documented and verified A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` can be taken into a future `RQ-026` A/B/D synthesis-readiness check without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+`M-002-RQ-026-DOCUMENT-SYNTHESIS-FRAMING` must document `RQ-026` synthesis framing only as a future-safe research-framing boundary for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.

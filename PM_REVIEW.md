@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-A-B-D-SYNTHESIS-READINESS
+
+Decision:
+READY_FOR_RQ_026_SYNTHESIS_FRAMING
+
+Reason:
+A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` are all documented and verified as research-framing only. `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`, and no `PD-026`, no formula candidate and no implementation artifact were introduced. The repository state is therefore ready for a future-safe synthesis-framing step only, limited to checking whether A/B/D can be reviewed together without turning into formula, score, checklist, gate, classifier, validation/admissibility, dependency graph or implementation. This next route does not answer, validate or close `RQ-026`.
+
+Next action:
+`M-002-RQ-026-DOCUMENT-SYNTHESIS-FRAMING` must document `RQ-026` synthesis framing only as a future-safe research-framing boundary for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together, without answering, validating, closing, creating `PD-026`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-029-ROUTE-AFTER-DOCUMENTATION
 
 Decision:
