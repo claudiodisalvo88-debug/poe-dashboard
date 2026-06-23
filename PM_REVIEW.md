@@ -5,6 +5,29 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-VERIFY-OPENING
+
+Decision:
+VERIFIED
+
+Reason:
+Repository verification confirms that `RQ-030` was opened only as B-only temporal delimitation research-framing. The repository content keeps `RQ-030` bounded to possible temporal placement / temporal relation of a primitively admissible reputational evidence unit and does not introduce answer, validation, closure, `PD-030`, formula candidate or implementation.
+
+Verification status:
+
+* `RQ-030` exists.
+* `RQ-030` is OPEN / RESEARCH-FRAMING.
+* `RQ-030` Decision is `NONE`.
+* `RQ-030` was opened only as B-only temporal delimitation research-framing.
+* `RQ-030` was not answered, not validated and not closed.
+* `PD-030` was not created.
+* `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* No formula candidate, formula structure, scoring, ranking, weighting, checklist, classifier, gate, temporal standard, timestamp schema, freshness criterion, timer rule or implementation was defined.
+* Next action is Innovator leakage review.
+
+Next action:
+`M-002-RQ-030-INNOVATOR` must stress-test `RQ-030` B-only temporal delimitation research-framing for leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation, without answering `RQ-030`, without creating `PD-030`, and without closing any open `RQ`.
+
 ## PM-REVIEW-M-002-RQ-030-OPEN-RESEARCH-FRAMING
 
 Decision:

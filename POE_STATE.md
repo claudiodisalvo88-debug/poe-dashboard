@@ -123,4 +123,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Separate verification task must confirm that `RQ-030` was opened only as B-only temporal delimitation research-framing, without answering it, without validating it, without closing it, without creating `PD-030`, without closing `RQ-026`, `RQ-027`, `RQ-028` or `RQ-029`, without defining formula candidate, and without authorizing implementation.
+`M-002-RQ-030-INNOVATOR` must stress-test `RQ-030` B-only temporal delimitation research-framing for leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation, without answering `RQ-030`, without creating `PD-030`, and without closing any open `RQ`.

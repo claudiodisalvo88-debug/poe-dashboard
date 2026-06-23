@@ -1,12 +1,12 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-030-VERIFY-OPENING
+M-002-RQ-030-INNOVATOR
 
 Status: ACTIVE
-Objective: Verify that `RQ-030` was opened only as B-only temporal delimitation research-framing, without answering it, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate or implementation.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
-Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
+Objective: Stress-test `RQ-030` B-only temporal delimitation research-framing for leakage into temporal standards, timestamp schemas, freshness rules, validation rules, admissibility logic, scoring, ordering, formula structure, aggregate logic or implementation.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_INNOVATOR_TEMPORAL_DELIMITATION_LEAKAGE_REVIEW.md`
+Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-030-VERIFY-OPENING
+
+Status: COMPLETED
+Result: VERIFIED. `RQ-030` exists in `RESEARCH_QUEUE.md`, points to `RQ-030_B_ONLY_TEMPORAL_DELIMITATION_RESEARCH_FRAMING.md`, remains OPEN / RESEARCH-FRAMING with Decision `NONE`, and was opened only as B-only temporal delimitation research-framing. No answer, no validation, no closure, no `PD-030`, no formula candidate and no implementation were introduced. `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028` and `PD-029` remain absent.
 
 ## M-002-RQ-030-OPEN-RESEARCH-FRAMING
 
