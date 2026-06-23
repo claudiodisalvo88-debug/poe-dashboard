@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-031
+RQ-029
 
 Last closed research:
 RQ-025
@@ -129,6 +129,11 @@ RQ-031 route-after-documentation:
 ROUTE_TO_RQ_029_DOCUMENTATION_GAP
 Reason: `RQ-030` and `RQ-031` are documented and verified, while `RQ-029` still needs dedicated documentation-gap review before any `RQ-026` synthesis-readiness routing.
 
+RQ-029 documentation-gap review:
+GAP_CONFIRMED
+Reason: `RQ-029` has documentation-readiness recorded, but lacks the equivalent research-framing documentation and documentation-verification flow already completed for `RQ-030` and `RQ-031`.
+`RQ-029` lacks equivalent documentation-readiness / documentation / verification flow compared with `RQ-030` and `RQ-031`; `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-029` absent.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -159,4 +164,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-029-DOCUMENTATION-GAP-REVIEW` must review whether `RQ-029` has a documentation / verification gap relative to `RQ-030` and `RQ-031`, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
+`M-002-RQ-029-DOCUMENTATION-READINESS` must decide whether `RQ-029` is ready for research-framing documentation without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
