@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-031-PM-REFINEMENT
+M-002-RQ-031-DOCUMENTATION-READINESS
 
 Status: ACTIVE
-Objective: Refine the `RQ-031` boundary after Critic review, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
+Objective: Decide whether the PM-refined `RQ-031` boundary is safe for documentation-readiness, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-031_D_ONLY_AGGREGATE_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-031-PM-REFINEMENT
+
+Status: COMPLETED
+Result: PM refinement completed. Result: `ACCEPT_WITH_CONSTRAINTS`. Critic `REFINE_REQUIRED` was addressed by tightening aggregate into conceptual co-discussion / co-presence only. `RQ-031` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-031` was not answered, validated or closed. `PD-031` was not created. No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation was defined.
 
 ## M-002-RQ-031-CRITIC
 

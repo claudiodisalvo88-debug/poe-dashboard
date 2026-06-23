@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-PM-REFINEMENT
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+Critic result `REFINE_REQUIRED` was addressed by removing the unsafe reading of aggregate relation/composition as hidden structure and tightening the safe boundary to conceptual co-discussion / co-presence only among multiple primitively admissible reputational evidence units. Under this refinement, `RQ-031` remains research-framing only, with no formula, score, ranking, weighting, dependency graph or implementation meaning. The boundary is now sufficiently tightened to allow documentation-readiness review as the next step.
+
+Next action:
+`M-002-RQ-031-DOCUMENTATION-READINESS` must decide whether the PM-refined `RQ-031` boundary is safe for documentation-readiness, without answering, validating, closing, creating `PD-031`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-031-CRITIC
 
 Decision:
