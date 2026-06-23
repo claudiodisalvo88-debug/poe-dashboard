@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-CRITIC
+
+Decision:
+REFINE_REQUIRED
+
+Reason:
+Critic review finds that the Innovator `ACCEPT_WITH_CONSTRAINTS` is directionally correct but still too weak because `relation` and especially `composition` leave residual leakage toward aggregate rule, aggregate formula, evidence grouping, hidden readiness-gate language and implementation-shaped interpretation. The plurality of evidence units also keeps pressure toward ordering, weighting, dependency graph and admissibility drift. PM refinement is therefore required before any documentation-readiness step.
+
+Next action:
+`M-002-RQ-031-PM-REFINEMENT` must refine the `RQ-031` boundary after Critic review, without answering, validating, closing, creating `PD-031`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-031-INNOVATOR
 
 Decision:

@@ -106,6 +106,10 @@ RQ-031 Innovator status:
 ACCEPT_WITH_CONSTRAINTS
 RQ-031 remains research-framing only; not answered, not validated, not closed; PD-031 absent.
 
+RQ-031 Critic status:
+REFINE_REQUIRED
+RQ-031 remains research-framing only; not answered, not validated, not closed; PD-031 absent.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -136,4 +140,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-031-CRITIC` must independently stress-test the Innovator output and `RQ-031` boundary, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
+`M-002-RQ-031-PM-REFINEMENT` must refine the `RQ-031` boundary after Critic review, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
