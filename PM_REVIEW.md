@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-029-VERIFY-DOCUMENTATION
+
+Decision:
+VERIFIED
+
+Reason:
+`RQ-029` was verified as documented only as research-framing complete under the A-only referential-structure boundary. The safe boundary remains A-only referential structure as possible existence of reference only toward a domain entity. `RQ-029` was not answered, not validated, not closed, and `PD-029` was not created. No formula, validation rule, admissibility rule, registry logic, whitelist logic, disambiguation rule, scoring, ranking, weighting, dependency graph or implementation meaning was introduced.
+
+Next action:
+`M-002-RQ-029-ROUTE-AFTER-DOCUMENTATION` must decide the next safe route after `RQ-029` documentation verification, without answering, validating, closing, creating `PD-029`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-029-DOCUMENT-RESEARCH-FRAMING
 
 Decision:

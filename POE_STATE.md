@@ -141,6 +141,10 @@ READY_FOR_DOCUMENTATION
 RQ-029 research-framing documentation:
 COMPLETE under A-only referential-structure boundary; not answered, not validated, not closed; `PD-029` absent; no correctness, validity, uniqueness, registry logic, whitelist logic, disambiguation logic, freshness logic, ranking logic, admissibility logic, reference-quality logic, reference-validity logic, validation rule, formula candidate, formula structure, scoring or implementation defined.
 
+RQ-029 documentation verification status:
+VERIFIED
+Verified that RQ-029 documentation remains research-framing only under A-only referential-structure boundary; not answered, not validated, not closed; `PD-029` absent; no correctness, validity, uniqueness, registry logic, whitelist logic, disambiguation logic, freshness logic, ranking logic, admissibility logic, reference-quality logic, reference-validity logic, validation rule, formula candidate, formula structure, scoring or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -171,4 +175,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-029-VERIFY-DOCUMENTATION` must verify that `RQ-029` was documented only as research-framing complete under the A-only referential-structure boundary, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
+`M-002-RQ-029-ROUTE-AFTER-DOCUMENTATION` must decide the next safe route after `RQ-029` documentation verification, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.

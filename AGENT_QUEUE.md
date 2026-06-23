@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-029-VERIFY-DOCUMENTATION
+M-002-RQ-029-ROUTE-AFTER-DOCUMENTATION
 
 Status: ACTIVE
-Objective: Verify that `RQ-029` was documented only as research-framing complete under the A-only referential-structure boundary, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
+Objective: Decide the next safe route after `RQ-029` documentation verification, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-029_A_ONLY_REFERENTIAL_STRUCTURE_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-029-VERIFY-DOCUMENTATION
+
+Status: COMPLETED
+Result: `VERIFIED`. `RQ-029` was documented only as research-framing complete under the A-only referential-structure boundary. `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-029` was not answered, validated or closed. `PD-029` was not created. No formula candidate, validation rule, admissibility rule, registry logic, whitelist logic, disambiguation rule, scoring, ranking, weighting, dependency graph computation or implementation was defined. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
 
 ## M-002-RQ-029-DOCUMENT-RESEARCH-FRAMING
 
