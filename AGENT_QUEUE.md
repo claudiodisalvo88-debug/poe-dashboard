@@ -5,7 +5,7 @@ M-002-RQ-030-OPEN-RESEARCH-FRAMING
 
 Status: ACTIVE
 Objective: Open `RQ-030` as B-only temporal delimitation research-framing boundary, while preserving all current exclusions.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
+Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_B_ONLY_TEMPORAL_DELIMITATION_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
