@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-029
+RQ-030
 
 Last closed research:
 RQ-025
@@ -90,6 +90,9 @@ OPEN / RESEARCH-FRAMING
 RQ-028:
 OPEN / RESEARCH-FRAMING
 
+RQ-030:
+OPEN / RESEARCH-FRAMING
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -120,4 +123,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-Separate Codex task must open `RQ-030` as B-only temporal delimitation research-framing boundary, while preserving all current exclusions; keep `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` OPEN / RESEARCH-FRAMING with Decision `NONE`; keep `RQ-029` not answered, not validated and not closed; keep `PD-026`, `PD-027`, `PD-028`, `PD-029` and `PD-030` absent; keep formula candidates as `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; keep final formula `NOT DEFINED`; keep implementation blocked.
+Separate verification task must confirm that `RQ-030` was opened only as B-only temporal delimitation research-framing, without answering it, without validating it, without closing it, without creating `PD-030`, without closing `RQ-026`, `RQ-027`, `RQ-028` or `RQ-029`, without defining formula candidate, and without authorizing implementation.

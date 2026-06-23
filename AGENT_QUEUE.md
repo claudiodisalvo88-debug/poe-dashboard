@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-030-OPEN-RESEARCH-FRAMING
+M-002-RQ-030-VERIFY-OPENING
 
 Status: ACTIVE
-Objective: Open `RQ-030` as B-only temporal delimitation research-framing boundary, while preserving all current exclusions.
-Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_B_ONLY_TEMPORAL_DELIMITATION_RESEARCH_FRAMING.md`
+Objective: Verify that `RQ-030` was opened only as B-only temporal delimitation research-framing, without answering it, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate or implementation.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-030-OPEN-RESEARCH-FRAMING
+
+Status: COMPLETED
+Result: `RQ-030` opened as OPEN / RESEARCH-FRAMING only. `RQ-030` was opened, `RQ-030` Decision remains `NONE`, `RQ-030` was not answered, was not validated and was not closed, and `PD-030` was not created. `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `PD-026`, `PD-027`, `PD-028` and `PD-029` remain absent. No formula candidate, formula structure, scoring, ranking, weighting, checklist, classifier, gate, temporal standard, timestamp schema, freshness criterion, timer rule or implementation was defined.
 
 ## M-002-DECIDE-B-ONLY-OPENING-EXECUTION
 

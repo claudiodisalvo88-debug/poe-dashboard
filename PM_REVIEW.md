@@ -5,6 +5,26 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-OPEN-RESEARCH-FRAMING
+
+Decision:
+OPENED FOR RESEARCH-FRAMING ONLY
+
+Reason:
+`RQ-030` has been opened only as a bounded B-only temporal delimitation research-framing direction. The opening is limited to possible temporal placement / temporal relation of a primitively admissible reputational evidence unit and does not answer, validate or close `RQ-030`. No `PD-030`, no formula candidate and no implementation are authorized.
+
+Opening status:
+
+* `RQ-030` is open.
+* `RQ-030` Decision remains `NONE`.
+* `RQ-030` is not answered, not validated and not closed.
+* `PD-030` is absent.
+* `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* No formula candidate or implementation is authorized.
+
+Next action:
+Separate verification task must confirm that `RQ-030` opening remained strictly B-only temporal delimitation research-framing, without `PD-030`, without closure of open `RQ`s and without formula-candidate or implementation leakage.
+
 ## PM-REVIEW-M-002-DECIDE-B-ONLY-OPENING-EXECUTION
 
 Decision:

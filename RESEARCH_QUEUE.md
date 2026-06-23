@@ -1,5 +1,49 @@
 # RESEARCH_QUEUE.md
 
+## RQ-030
+
+Question:
+Can a primitively admissible reputational evidence unit be framed as possessing temporal delimitation strictly as a non-scorable, non-operational, non-validating research-framing direction, limited to possible temporal placement / temporal relation of the evidence unit, without defining temporal standard, timestamp schema, timestamp field, required date/time format, precision threshold, freshness criterion, time-quality score, timer rule, ordering rule, validation rule, admissibility rule or implementation logic?
+
+Output:
+RQ-030_B_ONLY_TEMPORAL_DELIMITATION_RESEARCH_FRAMING.md
+
+Scope:
+This question is opened strictly as research-framing only.
+The scope is limited to asking whether temporal delimitation can exist as a bounded B-only research direction for a primitively admissible reputational evidence unit.
+`RQ-030` may ask only about possible temporal placement / temporal relation as research-framing.
+`RQ-030` does not include A referential-structure logic except as already-handled source context through `RQ-029`.
+`RQ-030` does not include D aggregate logic.
+`RQ-030` does not define temporal standard, timestamp schema, timestamp field, required date/time format, precision threshold, freshness criterion, time-quality score, timer rule, ordering rule, validation rule, admissibility rule, checklist, classifier, gate, scoring logic, ranking logic, weighting logic, formula candidate, formula structure or implementation logic.
+`RQ-030` does not answer the question, does not validate the question, does not create `PD-030`, and does not authorize implementation.
+
+Current research note:
+`RQ-030` is opened as the separated B-only continuation from `RQ-026`, after A-only referential-structure handling was isolated into `RQ-029`.
+The safe object is only possible temporal placement / temporal relation of a primitively admissible reputational evidence unit as research-framing.
+The unsafe object is any move toward temporal standardization, timestamp mechanics, freshness logic, scoring logic, validation logic, admissibility logic, aggregate logic or implementation.
+`RQ-030` remains non-scorable, non-operational and non-validating.
+This opening does not close `RQ-026`.
+This opening does not close `RQ-027`.
+This opening does not close `RQ-028`.
+This opening does not close `RQ-029`.
+This opening does not define any formula candidate or formula structure.
+
+Hard exclusions:
+`RQ-030` does not authorize answer as settled protocol logic, `PD-030` creation, `PD-029` creation, `PD-028` creation, `PD-027` creation, `PD-026` creation, `RQ-026` closure, `RQ-027` closure, `RQ-028` closure, `RQ-029` closure, formula candidate definition, final formula, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, classifier, gate, numeric threshold, temporal standard, timestamp schema, timestamp field, required date/time format, precision threshold, freshness criterion, time-quality score, timer rule, validation rule, admissibility rule, dependency graph, dependency computation, aggregate logic, incentives, rewards, tokens, payout, economic allocation or implementation.
+
+Validation criteria:
+The output must remain research-framing only and must not answer the question as settled protocol logic.
+Any acceptable result must preserve the narrow B-only boundary, keep the inquiry non-scorable, non-operational and non-validating, and reject temporal standard, timestamp-schema, freshness, timer-rule, validation-rule, admissibility-rule, aggregate and implementation leakage.
+
+Source dependency:
+RQ-026 / RQ-029 / PD-025
+
+Status:
+OPEN / RESEARCH-FRAMING
+
+Decision:
+NONE
+
 ## RQ-029
 
 Question:
