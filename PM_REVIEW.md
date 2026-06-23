@@ -5,6 +5,28 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-VERIFY-DOCUMENTATION
+
+Decision:
+VERIFIED
+
+Reason:
+Repository verification confirms that `RQ-030` documentation remains limited to research-framing completion only under the PM-refined temporal delimitation boundary. The repository keeps `RQ-030` open, pre-decisional, non-validating and non-implementative, with no `PD-030`, no formula candidate and no implementation authorization introduced by the documentation task.
+
+Verification status:
+
+* `RQ-030` documentation was verified as research-framing complete only.
+* `RQ-030` remains OPEN / RESEARCH-FRAMING.
+* `RQ-030` Decision remains `NONE`.
+* `RQ-030` is not answered, not validated and not closed.
+* `PD-030` is not created.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* Next action is D-only opening readiness decision, not opening, not documentation of a new `RQ`.
+
+Next action:
+`M-002-DECIDE-D-ONLY-OPENING-READINESS` must decide whether to prepare the next D-only aggregate research-framing opening after `RQ-030` documentation verification, without opening a new `RQ` yet, without answering or closing `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+
 ## PM-REVIEW-M-002-RQ-030-DOCUMENT-RESEARCH-FRAMING
 
 Decision:

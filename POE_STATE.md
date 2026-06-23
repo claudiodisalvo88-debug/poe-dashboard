@@ -126,4 +126,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-030-VERIFY-DOCUMENTATION` must verify that `RQ-030` was documented only as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without validating `RQ-030`, without closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
+`M-002-DECIDE-D-ONLY-OPENING-READINESS` must decide whether to prepare the next D-only aggregate research-framing opening after `RQ-030` documentation verification, without opening a new `RQ` yet, without answering or closing `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
