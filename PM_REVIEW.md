@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-DOCUMENTATION-READINESS
+
+Decision:
+READY_FOR_DOCUMENTATION
+
+Reason:
+Repository review confirms that the sequence Innovator `ACCEPT_WITH_CONSTRAINTS`, Critic `REFINE_REQUIRED`, and PM refinement `ACCEPT_WITH_CONSTRAINTS` has produced a sufficiently bounded `RQ-031` object for future documentation. The surviving safe boundary is conceptual co-discussion / co-presence only, with no answer, no validation, no closure, no `PD-031`, no formula, and no implementation meaning. Under this boundary, a later documentation task is safe only as research-framing documentation.
+
+Next action:
+`M-002-RQ-031-DOCUMENT-RESEARCH-FRAMING` must document `RQ-031` as research-framing only under the PM-refined conceptual co-discussion / co-presence boundary, without answering, validating, closing, creating `PD-031`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-031-PM-REFINEMENT
 
 Decision:

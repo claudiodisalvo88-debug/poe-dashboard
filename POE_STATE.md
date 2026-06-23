@@ -114,6 +114,10 @@ RQ-031 PM refinement status:
 ACCEPT_WITH_CONSTRAINTS
 Refined boundary: aggregate survives only as conceptual co-discussion / co-presence of multiple primitively admissible reputational evidence units; no aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation, validation/admissibility, evidence bundle, readiness package, schema/API/database/dashboard grouping or implementation.
 
+RQ-031 documentation-readiness status:
+READY_FOR_DOCUMENTATION
+RQ-031 is ready for research-framing documentation only under the PM-refined conceptual co-discussion / co-presence boundary; not answered, not validated, not closed; PD-031 absent.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -144,4 +148,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-031-DOCUMENTATION-READINESS` must decide whether the PM-refined `RQ-031` boundary is safe for documentation-readiness, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
+`M-002-RQ-031-DOCUMENT-RESEARCH-FRAMING` must document `RQ-031` as research-framing only under the PM-refined conceptual co-discussion / co-presence boundary, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
