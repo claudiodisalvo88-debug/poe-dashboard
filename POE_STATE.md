@@ -131,8 +131,12 @@ Reason: `RQ-030` and `RQ-031` are documented and verified, while `RQ-029` still 
 
 RQ-029 documentation-gap review:
 GAP_CONFIRMED
-Reason: `RQ-029` has documentation-readiness recorded, but lacks the equivalent research-framing documentation and documentation-verification flow already completed for `RQ-030` and `RQ-031`.
+Reason: `RQ-029` has documentation-gap review recorded, but lacks equivalent documentation-readiness / documentation / verification flow compared with `RQ-030` and `RQ-031`.
 `RQ-029` lacks equivalent documentation-readiness / documentation / verification flow compared with `RQ-030` and `RQ-031`; `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-029` absent.
+
+RQ-029 documentation-readiness status:
+READY_FOR_DOCUMENTATION
+`RQ-029` is ready for research-framing documentation only under the A-only referential-structure boundary; not answered, not validated, not closed; `PD-029` absent; no correctness, validity, uniqueness, registry logic, whitelist logic, disambiguation logic, freshness logic, ranking logic, admissibility logic, validation rule, formula candidate or implementation defined.
 
 PD-000 to PD-023:
 VALIDATED
@@ -164,4 +168,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-029-DOCUMENTATION-READINESS` must decide whether `RQ-029` is ready for research-framing documentation without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
+`M-002-RQ-029-DOCUMENT-RESEARCH-FRAMING` must document `RQ-029` as research-framing only under the A-only referential-structure boundary, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.

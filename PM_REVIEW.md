@@ -5,13 +5,24 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-029-DOCUMENTATION-READINESS
+
+Decision:
+READY_FOR_DOCUMENTATION
+
+Reason:
+Gap review result `GAP_CONFIRMED` has been addressed at documentation-readiness level only. `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`, and `RQ-029` is not answered, not validated and not closed. The safe boundary remains existence of referential structure only toward a domain entity, with no `PD-029`, no formula candidate and no implementation meaning. Stale wording in `POE_STATE.md` was corrected so it no longer suggests that current documentation-readiness was already recorded as completed before this task.
+
+Next action:
+`M-002-RQ-029-DOCUMENT-RESEARCH-FRAMING` must document `RQ-029` as research-framing only under the A-only referential-structure boundary, without answering, validating, closing, creating `PD-029`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-029-DOCUMENTATION-GAP-REVIEW
 
 Decision:
 GAP_CONFIRMED
 
 Reason:
-`RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`, and `RQ-029` is not answered, not validated and not closed. Repository review confirms that `RQ-029` exists and has documentation-readiness recorded, but it does not yet have the same downstream research-framing documentation and documentation-verification trail already present for `RQ-030` and `RQ-031`. No `PD-029`, no formula candidate and no implementation artifact were introduced. The safe next route is therefore to run `RQ-029` documentation-readiness as the explicit next repository task in the current branch of work.
+`RQ-029` remains OPEN / RESEARCH-FRAMING with Decision `NONE`, and `RQ-029` is not answered, not validated and not closed. Repository review confirms that `RQ-029` exists and has documentation-gap review recorded, but it does not yet have the same downstream research-framing documentation and documentation-verification trail already present for `RQ-030` and `RQ-031`. No `PD-029`, no formula candidate and no implementation artifact were introduced. The safe next route is therefore to run `RQ-029` documentation-readiness as the explicit next repository task in the current branch of work.
 
 Next action:
 `M-002-RQ-029-DOCUMENTATION-READINESS` must decide whether `RQ-029` is ready for research-framing documentation without answering, validating, closing, creating `PD-029`, defining formula candidate or implementation.
