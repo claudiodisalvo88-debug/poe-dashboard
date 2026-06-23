@@ -133,6 +133,16 @@ This opening does not close `RQ-026`.
 This opening does not close `RQ-027`.
 This opening does not close `RQ-028`.
 This opening does not define any formula candidate or formula structure.
+Research-framing documentation: COMPLETE under A-only referential-structure boundary.
+`RQ-029` remains OPEN / RESEARCH-FRAMING.
+Decision remains `NONE`.
+The question is not answered.
+The question is not validated.
+`RQ-029` is not closed.
+`PD-029` is not created.
+Completion means only that the research-framing boundary has been documented.
+A-only referential structure survives only as possible existence of a reference toward a domain entity for a primitively admissible reputational evidence unit.
+No correctness, validity, uniqueness, registry logic, whitelist logic, disambiguation logic, freshness logic, ranking logic, admissibility logic, reference-quality logic, reference-validity logic, validation rule, formula candidate, formula structure, scoring or implementation is defined.
 
 Hard exclusions:
 `RQ-029` does not authorize answer as settled protocol logic, `PD-029` creation, `PD-028` creation, `PD-027` creation, `PD-026` creation, `RQ-026` closure, `RQ-027` closure, `RQ-028` closure, formula candidate definition, final formula, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, classifier, gate, numeric threshold, operational filter, dependency graph, dependency computation, registry logic, whitelist logic, ambiguity filter, validation rule, reference-validity logic, admissibility logic, incentives, rewards, tokens, payout, economic allocation or implementation.

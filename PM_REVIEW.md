@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-029-DOCUMENT-RESEARCH-FRAMING
+
+Decision:
+DOCUMENTED_RESEARCH_FRAMING
+
+Reason:
+Documentation-readiness result `READY_FOR_DOCUMENTATION` has now been executed only as research-framing completion for `RQ-029`. The safe boundary remains A-only referential structure as possible existence of reference only toward a domain entity. `RQ-029` was not answered, not validated, not closed, and `PD-029` was not created. No formula, validation rule, admissibility rule, registry logic, whitelist logic, disambiguation rule, scoring, ranking, weighting or implementation meaning was introduced.
+
+Next action:
+`M-002-RQ-029-VERIFY-DOCUMENTATION` must verify that `RQ-029` was documented only as research-framing complete under the A-only referential-structure boundary, without answering, validating, closing, creating `PD-029`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-029-DOCUMENTATION-READINESS
 
 Decision:
