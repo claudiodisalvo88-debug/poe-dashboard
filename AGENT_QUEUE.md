@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-031-DOCUMENT-RESEARCH-FRAMING
+M-002-RQ-031-VERIFY-DOCUMENTATION
 
 Status: ACTIVE
-Objective: Document `RQ-031` as research-framing only under the PM-refined conceptual co-discussion / co-presence boundary, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
+Objective: Verify that `RQ-031` was documented only as research-framing complete under the PM-refined conceptual co-discussion / co-presence boundary, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-031_D_ONLY_AGGREGATE_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-031-DOCUMENT-RESEARCH-FRAMING
+
+Status: COMPLETED
+Result: `DOCUMENTED_RESEARCH_FRAMING`. `RQ-031` was documented as research-framing complete only under the PM-refined conceptual co-discussion / co-presence boundary. `RQ-031` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-031` was not answered, validated or closed. `PD-031` was not created. No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation was defined.
 
 ## M-002-RQ-031-DOCUMENTATION-READINESS
 

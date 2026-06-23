@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-DOCUMENT-RESEARCH-FRAMING
+
+Decision:
+DOCUMENTED_RESEARCH_FRAMING
+
+Reason:
+Documentation-readiness result `READY_FOR_DOCUMENTATION` has now been executed only as research-framing completion for `RQ-031`. The documented safe boundary remains conceptual co-discussion / co-presence only. `RQ-031` was not answered, not validated, not closed, and `PD-031` was not created. No formula, score, ranking, weighting, dependency graph or implementation meaning was introduced.
+
+Next action:
+`M-002-RQ-031-VERIFY-DOCUMENTATION` must verify that `RQ-031` was documented only as research-framing complete under the PM-refined conceptual co-discussion / co-presence boundary, without answering, validating, closing, creating `PD-031`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-031-DOCUMENTATION-READINESS
 
 Decision:

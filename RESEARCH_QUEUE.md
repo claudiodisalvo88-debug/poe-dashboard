@@ -26,12 +26,16 @@ This opening does not close `RQ-028`.
 This opening does not close `RQ-029`.
 This opening does not close `RQ-030`.
 This opening does not define any formula candidate or formula structure.
+Research-framing documentation: COMPLETE under PM-refined conceptual co-discussion / co-presence boundary.
 `RQ-031` remains OPEN / RESEARCH-FRAMING.
 Decision remains `NONE`.
 The question is not answered.
 The question is not validated.
 `RQ-031` is not closed.
 `PD-031` is not created.
+Completion means only that the research-framing boundary has been documented.
+D-only aggregate survives only as conceptual co-discussion / co-presence of multiple primitively admissible reputational evidence units.
+No aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation, validation/admissibility, evidence bundle, group object, readiness package, schema/API/database/dashboard grouping or implementation is defined.
 
 Hard exclusions:
 `RQ-031` does not authorize answer as settled protocol logic, `PD-031` creation, `PD-030` creation, `PD-029` creation, `PD-028` creation, `PD-027` creation, `PD-026` creation, `RQ-030` closure, `RQ-029` closure, `RQ-028` closure, `RQ-027` closure, `RQ-026` closure, formula candidate definition, final formula, formula structure, formula syntax, scoring, ranking, ordering, weighting, checklist, classifier, gate, aggregate rule, aggregate score, aggregate formula, aggregate ordering, aggregate ranking, dependency graph, dependency graph computation, dependency graph construction, validation rule, admissibility rule, grouping schema, API relation, database relation, dashboard grouping, incentives, rewards, tokens, payout, economic allocation or implementation.
