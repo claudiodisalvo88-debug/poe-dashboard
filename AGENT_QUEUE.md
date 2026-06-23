@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-031-ROUTE-AFTER-DOCUMENTATION
+M-002-RQ-029-DOCUMENTATION-GAP-REVIEW
 
 Status: ACTIVE
-Objective: Decide the next safe route after `RQ-031` documentation verification, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
-Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-031_D_ONLY_AGGREGATE_RESEARCH_FRAMING.md`
+Objective: Review whether `RQ-029` has a documentation / verification gap relative to `RQ-030` and `RQ-031`, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
+Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-029_A_ONLY_REFERENTIAL_STRUCTURE_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-031-ROUTE-AFTER-DOCUMENTATION
+
+Status: COMPLETED
+Result: Route decision completed. Result: `ROUTE_TO_RQ_029_DOCUMENTATION_GAP`. `RQ-031` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-031` was not answered, validated or closed. `PD-031` was not created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation was defined.
 
 ## M-002-RQ-031-VERIFY-DOCUMENTATION
 

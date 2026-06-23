@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-ROUTE-AFTER-DOCUMENTATION
+
+Decision:
+ROUTE_TO_RQ_029_DOCUMENTATION_GAP
+
+Reason:
+`RQ-031` documentation verification status is `VERIFIED`, and `RQ-031` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-031`, no formula candidate, and no implementation artifact were introduced. The next safe route is not `RQ-026` synthesis-readiness yet, because repository state shows `RQ-030` and `RQ-031` documented and verified, while `RQ-029` currently shows documentation-readiness but not the same documentation / verification closure path. A dedicated `RQ-029` documentation-gap review is therefore the safest next repository task.
+
+Next action:
+`M-002-RQ-029-DOCUMENTATION-GAP-REVIEW` must review whether `RQ-029` has a documentation / verification gap relative to `RQ-030` and `RQ-031`, without answering, validating, closing, creating `PD-029`, defining formula candidate or implementation.
+
 ## PM-REVIEW-M-002-RQ-031-VERIFY-DOCUMENTATION
 
 Decision:

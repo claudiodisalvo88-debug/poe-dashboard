@@ -125,6 +125,10 @@ RQ-031 documentation verification status:
 VERIFIED
 Verified that RQ-031 documentation remains research-framing only under conceptual co-discussion / co-presence boundary; not answered, not validated, not closed; PD-031 absent; no aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation defined.
 
+RQ-031 route-after-documentation:
+ROUTE_TO_RQ_029_DOCUMENTATION_GAP
+Reason: `RQ-030` and `RQ-031` are documented and verified, while `RQ-029` still needs dedicated documentation-gap review before any `RQ-026` synthesis-readiness routing.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -155,4 +159,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-031-ROUTE-AFTER-DOCUMENTATION` must decide the next safe route after `RQ-031` documentation verification, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
+`M-002-RQ-029-DOCUMENTATION-GAP-REVIEW` must review whether `RQ-029` has a documentation / verification gap relative to `RQ-030` and `RQ-031`, without answering `RQ-029`, without validating `RQ-029`, without closing `RQ-029`, without creating `PD-029`, and without defining formula candidate or implementation.
