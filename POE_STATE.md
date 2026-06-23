@@ -123,4 +123,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-030-PM-REFINEMENT` must refine the `RQ-030` temporal delimitation boundary after Critic review because residual leakage remains, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+`M-002-RQ-030-DOCUMENTATION-READINESS` must decide whether `RQ-030` can be documented as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.

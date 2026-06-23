@@ -5,6 +5,27 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-PM-REFINEMENT
+
+Decision:
+ACCEPT_WITH_CONSTRAINTS
+
+Reason:
+PM refinement accepts `RQ-030` only under tightened boundary constraints that convert temporal delimitation into a purely conceptual research-framing placeholder. The refinement explicitly blocks hidden timestamp requirement, hidden time field, event-window dependency, period dependency, ordering semantics, freshness semantics, threshold semantics, inadmissibility drift, formula-dimension drift, aggregate drift and implementation-schema drift.
+
+Review status:
+
+* PM refinement accepts `RQ-030` only under tightened boundary constraints.
+* `RQ-030` remains OPEN / RESEARCH-FRAMING.
+* `RQ-030` Decision remains `NONE`.
+* `RQ-030` is not answered, not validated and not closed.
+* `PD-030` is not created.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028` and `RQ-029` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+
+Next action:
+`M-002-RQ-030-DOCUMENTATION-READINESS` must decide whether `RQ-030` can be documented as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+
 ## PM-REVIEW-M-002-RQ-030-CRITIC
 
 Decision:

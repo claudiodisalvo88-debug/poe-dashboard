@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-030-PM-REFINEMENT
+M-002-RQ-030-DOCUMENTATION-READINESS
 
 Status: ACTIVE
-Objective: Refine the `RQ-030` temporal delimitation boundary after Critic review because residual leakage remains, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
-Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-030_PM_REFINEMENT_TEMPORAL_DELIMITATION_BOUNDARY.md`
+Objective: Decide whether `RQ-030` can be documented as research-framing complete under the PM-refined temporal delimitation boundary, without answering `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-030-PM-REFINEMENT
+
+Status: COMPLETED
+Result: ACCEPT_WITH_CONSTRAINTS. Critic residual leakage was addressed by tightening the `RQ-030` boundary into a purely conceptual research-framing placeholder that explicitly rejects hidden timestamp requirement, hidden time field, event-window dependency, baseline / period / schedule / clock-reference dependency, external temporal comparator, ordering semantics, freshness semantics, threshold semantics, inadmissibility drift, formula-dimension drift, aggregate drift and implementation-schema drift. `RQ-030` remains only research-framing, remains OPEN / RESEARCH-FRAMING with Decision `NONE`, was not answered, not validated and not closed, `PD-030` was not created, and no formula candidate or implementation was authorized.
 
 ## M-002-RQ-030-CRITIC
 
