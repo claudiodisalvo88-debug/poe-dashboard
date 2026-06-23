@@ -121,6 +121,10 @@ RQ-031 is ready for research-framing documentation only under the PM-refined con
 RQ-031 research-framing documentation:
 COMPLETE under PM-refined conceptual co-discussion / co-presence boundary; not answered, not validated, not closed; PD-031 absent; no aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation defined.
 
+RQ-031 documentation verification status:
+VERIFIED
+Verified that RQ-031 documentation remains research-framing only under conceptual co-discussion / co-presence boundary; not answered, not validated, not closed; PD-031 absent; no aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -151,4 +155,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-031-VERIFY-DOCUMENTATION` must verify that `RQ-031` was documented only as research-framing complete under the PM-refined conceptual co-discussion / co-presence boundary, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
+`M-002-RQ-031-ROUTE-AFTER-DOCUMENTATION` must decide the next safe route after `RQ-031` documentation verification, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.

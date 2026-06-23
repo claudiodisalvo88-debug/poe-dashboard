@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-031-VERIFY-DOCUMENTATION
+M-002-RQ-031-ROUTE-AFTER-DOCUMENTATION
 
 Status: ACTIVE
-Objective: Verify that `RQ-031` was documented only as research-framing complete under the PM-refined conceptual co-discussion / co-presence boundary, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
+Objective: Decide the next safe route after `RQ-031` documentation verification, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-031_D_ONLY_AGGREGATE_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-031-VERIFY-DOCUMENTATION
+
+Status: COMPLETED
+Result: `VERIFIED`. `RQ-031` was documented only as research-framing complete under the PM-refined conceptual co-discussion / co-presence boundary. `RQ-031` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-031` was not answered, validated or closed. `PD-031` was not created. No formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, ordering, weighting, dependency graph computation or implementation was defined. Remaining `aggregate relation / aggregate composition` wording is harmless historical opening context because the PM-refined documentation note clearly constrains the current safe boundary to conceptual co-discussion / co-presence only.
 
 ## M-002-RQ-031-DOCUMENT-RESEARCH-FRAMING
 
