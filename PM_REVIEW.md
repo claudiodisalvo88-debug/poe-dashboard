@@ -5,6 +5,31 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DECIDE-D-ONLY-OPENING-READINESS
+
+Decision:
+PREPARE_D_ONLY_OPENING_NEXT
+
+Reason:
+Repository verification confirms that `RQ-030` documentation is complete only as research-framing under the PM-refined temporal delimitation boundary, while `RQ-030` remains open, pre-decisional and non-implementative. The preserved repository state is ready for the next task to prepare the D-only aggregate opening scope, but not to open a new `RQ`, not to create `RQ-031`, not to answer or close `RQ-030`, not to create `PD-030`, and not to authorize formula candidate or implementation.
+
+Readiness status:
+
+* This task does not open a new `RQ`.
+* This task does not create `RQ-031`.
+* This task does not answer, validate or close `RQ-030`.
+* This task does not create `PD-030`.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* `PD-026`, `PD-027`, `PD-028`, `PD-029` and `PD-030` remain absent.
+* Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`.
+* Final formula remains `NOT DEFINED`.
+* Implementation remains `BLOCKED`.
+* Next task may prepare D-only aggregate opening scope, but still must not open the `RQ` unless separately authorized.
+
+Next action:
+`M-002-PREPARE-D-ONLY-AGGREGATE-OPENING` must prepare the scope for a future D-only aggregate research-framing opening after `RQ-030`, without opening a new `RQ` yet, without creating `RQ-031`, without answering or closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
+
 ## PM-REVIEW-M-002-RQ-030-VERIFY-DOCUMENTATION
 
 Decision:
