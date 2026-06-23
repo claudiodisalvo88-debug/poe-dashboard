@@ -5,6 +5,28 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DECIDE-RQ-031-D-ONLY-OPENING-2
+
+Decision:
+AUTHORIZE_RQ_031_OPENING_NEXT
+
+Reason:
+Repository verification confirms that D-only scope is now `REFINED ONLY`, that the surviving D-only meaning is a strictly conceptual research-framing placeholder for possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, and that no `RQ-031` exists yet. The repository also confirms that the refinement task modified only `AGENT_QUEUE.md`, `PM_REVIEW.md` and `POE_STATE.md`, leaving `RESEARCH_QUEUE.md` untouched. Under this refined boundary, a separate next task may open `RQ-031` as D-only aggregate research-framing without defining aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation.
+
+Decision status:
+
+* This task does not open `RQ-031`.
+* This task does not create `RQ-031`.
+* This task does not modify `RESEARCH_QUEUE.md`.
+* This task does not answer, validate or close `RQ-030`.
+* This task does not create `PD-030`.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* Next task may open `RQ-031` as D-only aggregate research-framing, but only within strict research-framing boundaries.
+
+Next action:
+`M-002-RQ-031-OPEN-RESEARCH-FRAMING` must open `RQ-031` as D-only aggregate research-framing, limited to possible aggregate relation / aggregate composition among multiple primitively admissible reputational evidence units, without answering `RQ-031`, without validating `RQ-031`, without closing `RQ-031`, without creating `PD-031`, without closing any open `RQ`, without defining formula candidate, aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation or implementation.
+
 ## PM-REVIEW-M-002-D-ONLY-SCOPE-REFINEMENT
 
 Decision:
