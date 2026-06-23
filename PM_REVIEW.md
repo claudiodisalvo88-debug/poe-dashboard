@@ -5,6 +5,28 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DECIDE-RQ-031-D-ONLY-OPENING
+
+Decision:
+NOT_READY_NEEDS_D_ONLY_REFINEMENT
+
+Reason:
+Repository verification confirms that D-only aggregate opening scope is prepared only, that no new `RQ` was opened, and that `RQ-030` remains open and pre-decisional. However, the current repository boundary for D-only still remains too high-level to safely authorize a separate opening task for `RQ-031`. Given the explicit quality rule, the repository should first refine the D-only scope more tightly against leakage into aggregate rule, aggregate score, aggregate formula, ranking, weighting, dependency graph computation and implementation before any future opening authorization.
+
+Decision status:
+
+* This task does not open `RQ-031`.
+* This task does not create `RQ-031`.
+* This task does not modify `RESEARCH_QUEUE.md`.
+* This task does not answer, validate or close `RQ-030`.
+* This task does not create `PD-030`.
+* No formula candidate or implementation is authorized.
+* `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029` and `RQ-030` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+* Current D-only scope is still too broad to prove that a next opening task would remain fully insulated from aggregate-rule, aggregate-score, aggregate-formula, dependency-graph and implementation drift.
+
+Next action:
+`M-002-D-ONLY-SCOPE-REFINEMENT` must refine D-only aggregate research-framing scope before any `RQ-031` opening, without opening `RQ-031`, without modifying `RESEARCH_QUEUE.md`, without answering or closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
+
 ## PM-REVIEW-M-002-PREPARE-D-ONLY-AGGREGATE-OPENING
 
 Decision:

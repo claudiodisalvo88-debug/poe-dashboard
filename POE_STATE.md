@@ -129,4 +129,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-DECIDE-RQ-031-D-ONLY-OPENING` must decide whether to open `RQ-031` as D-only aggregate research-framing, without opening it yet in that task, without creating `RQ-031`, without answering or closing `RQ-030`, without creating `PD-030`, without closing any open `RQ`, without defining formula candidate and without implementation.
+`M-002-D-ONLY-SCOPE-REFINEMENT` must refine D-only aggregate research-framing scope before any `RQ-031` opening, without opening `RQ-031`, without modifying `RESEARCH_QUEUE.md`, without answering or closing `RQ-030`, without creating `PD-030`, without defining formula candidate and without implementation.
