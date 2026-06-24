@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-029
+RQ-026
 
 Last closed research:
 RQ-025
@@ -154,6 +154,18 @@ READY_FOR_RQ_026_SYNTHESIS_FRAMING
 Reason: documented and verified A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` can move into a future-safe `RQ-026` synthesis-framing step without becoming formula, score, checklist, gate, classifier, validation/admissibility, dependency graph or implementation.
 A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` are documented/verified as research-framing only; next safe task is to document synthesis framing for `RQ-026` without answering, validating or closing `RQ-026` and without creating `PD-026`, formula candidate or implementation.
 
+RQ-026 synthesis-framing documentation:
+COMPLETE as bounded research-framing context only for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-026` absent.
+
+RQ-026 synthesis-framing meaning:
+A-only `RQ-029` = possible referential structure only.
+B-only `RQ-030` = possible temporal situatedness only.
+D-only `RQ-031` = possible conceptual co-discussion / co-presence only.
+These are documented only as research-framing context for `RQ-026`; not settled protocol logic, not formula dimensions, not quality dimensions, not evidence package requirements, not readiness gates and not implementation requirements.
+
+RQ-026 synthesis-framing exclusions:
+No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph logic or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -184,4 +196,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-026-DOCUMENT-SYNTHESIS-FRAMING` must document `RQ-026` synthesis framing only as a future-safe research-framing boundary for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+`M-002-RQ-026-VERIFY-SYNTHESIS-FRAMING` must verify that `RQ-026` synthesis framing was documented only as bounded research-framing context for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.

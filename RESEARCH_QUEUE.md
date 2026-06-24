@@ -268,7 +268,7 @@ Question:
 Quali proprietà strutturali non-scorabili — oltre a Observability, Attributability, Verifiability — un'unità di evidenza reputazionale primitivamente ammissibile deve possedere affinché il protocollo la consideri oggetto legittimo di formula-candidate research, senza che tali proprietà diventino checklist, score, ranking, weighting, soglia numerica o regola implementativa?
 
 Output:
-RQ-026_INNOVATOR_STRUCTURAL_PROPERTY_DIRECTIONS.md
+RQ-026_A_B_D_SYNTHESIS_RESEARCH_FRAMING.md
 
 Scope:
 This question asks only for the next non-implementative admissibility boundary after PD-025.
@@ -281,6 +281,19 @@ A, B and D remain only refined research-framing directions that may support late
 C does not advance inside `RQ-026`. It is split required and recorded only as future `RQ-027` candidate, without opening `RQ-027`.
 Documentation readiness status is APPROVED FOR RESEARCH-FRAMING DOCUMENTATION ONLY.
 This does not create `PD-026`, does not close `RQ-026`, does not open `RQ-027`, does not define any formula candidate or formula structure, and does not authorize implementation.
+Research-framing documentation: COMPLETE for bounded A/B/D synthesis framing only.
+`RQ-026` remains OPEN / RESEARCH-FRAMING.
+Decision remains `NONE`.
+`RQ-026` is not answered.
+`RQ-026` is not validated.
+`RQ-026` is not closed.
+`PD-026` is not created.
+A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` may be reviewed together only as documented research-framing context for `RQ-026`.
+A-only means possible referential structure only.
+B-only means possible temporal situatedness only.
+D-only means possible conceptual co-discussion / co-presence only.
+This documented synthesis framing does not transform A/B/D into final protocol properties, formula dimensions, quality dimensions, evidence package requirements, checklist items, gates, classifiers, validation rules, admissibility rules, dependency graph logic or implementation.
+No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold or implementation is defined.
 
 Hard exclusions:
 RQ-026 does not authorize final properties as protocol decision, PD-026 creation, formula candidate definition, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
@@ -290,6 +303,7 @@ Validation criteria:
 The output must remain research-framing only and must not answer the question as settled protocol logic.
 Any acceptable result must preserve the PD-025 gate, keep additional properties strictly non-scorable and non-implementative, and avoid turning them into checklist, score, ranking, ordering, weighting, numeric threshold, operational filter, incentive logic or implementation rule.
 A/B/D may survive only as refined research directions that may support later documentation. C is excluded from active `RQ-026` directions and may exist only as a future split candidate.
+Any acceptable synthesis framing must preserve A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` only as documented co-review context, without turning them into final protocol properties, checklist items, gates, classifiers, validation rules, admissibility rules, dependency graph logic, formula candidate or implementation.
 
 Source dependency:
 PD-025

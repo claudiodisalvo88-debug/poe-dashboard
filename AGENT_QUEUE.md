@@ -1,11 +1,11 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-026-DOCUMENT-SYNTHESIS-FRAMING
+M-002-RQ-026-VERIFY-SYNTHESIS-FRAMING
 
 Status: ACTIVE
-Objective: Document `RQ-026` synthesis framing only as a future-safe research-framing boundary for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
-Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-029_A_ONLY_REFERENTIAL_STRUCTURE_RESEARCH_FRAMING.md`
+Objective: Verify that `RQ-026` synthesis framing was documented only as bounded research-framing context for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`, `RQ-026_A_B_D_SYNTHESIS_RESEARCH_FRAMING.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-DOCUMENT-SYNTHESIS-FRAMING
+
+Status: COMPLETED
+Result: `DOCUMENTED_SYNTHESIS_FRAMING`. `RQ-026` synthesis framing was documented only as future-safe research-framing for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together. `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-026` was not answered, not validated and not closed. `PD-026` was not created. `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No formula candidate, formula structure, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation was defined.
 
 ## M-002-RQ-026-A-B-D-SYNTHESIS-READINESS
 
