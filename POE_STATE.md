@@ -10,7 +10,7 @@ M-002:
 OPENED / RESEARCH-ONLY
 
 Active research:
-RQ-026
+RQ-028
 
 Last closed research:
 RQ-025
@@ -197,6 +197,10 @@ RQ-026 route-after-documentation:
 ROUTE_TO_RQ_028_HANDOFF_READINESS_REVIEW
 Reason: `RQ-026` documentation is verified as research-framing only, `RQ-027` remains separated, `RQ-028` already exists as handoff-boundary framing, and no remaining post-documentation gap is recorded for `RQ-026`; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, no formula candidate and no implementation introduced.
 
+RQ-028 handoff-readiness review:
+READY_FOR_HANDOFF_READINESS_DOCUMENTATION
+Reason: verified `RQ-026` documentation, separated `RQ-027` non-derivability boundary and existing `RQ-028` research-boundary carry-forward are aligned for a bounded handoff-readiness documentation step only. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; they are not answered, not validated and not closed; `PD-026`, `PD-027` and `PD-028` remain absent; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; C / non-derivability remains separated in `RQ-027`; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -227,4 +231,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-028-HANDOFF-READINESS-REVIEW` must review whether verified `RQ-026` research-framing documentation and separated `RQ-027`/`RQ-028` context are ready for a safe handoff-readiness step, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.
+`M-002-RQ-028-DOCUMENT-HANDOFF-READINESS` must document `RQ-028` handoff-readiness only as research-framing carry-forward from verified `RQ-026` documentation and separated `RQ-027` context, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.

@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-028-HANDOFF-READINESS-REVIEW
+
+Decision:
+READY_FOR_HANDOFF_READINESS_DOCUMENTATION
+
+Reason:
+Repository state shows `RQ-026` documented and verified as research-framing only, `RQ-027` still separated as non-derivability / primitivity research-framing, and `RQ-028` already bounded as research-boundary carry-forward only. No documentation, consistency, boundary, source-lineage or leakage-prevention gap is recorded that would block a handoff-readiness documentation step limited to non-binding research context, source lineage and leakage-prevention memory. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027` or `PD-028`, no formula candidate and no implementation artifact were introduced.
+
+Next action:
+`M-002-RQ-028-DOCUMENT-HANDOFF-READINESS`
+
 ## PM-REVIEW-M-002-RQ-026-ROUTE-AFTER-DOCUMENTATION
 
 Decision:
