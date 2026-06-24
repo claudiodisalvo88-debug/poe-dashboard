@@ -209,6 +209,10 @@ RQ-028 handoff-readiness verification:
 VERIFIED
 Reason: `RQ-028` handoff-readiness was verified as research-framing carry-forward only from verified `RQ-026` documentation and separated `RQ-027` context. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-026`, `PD-027` and `PD-028` absent; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; C / non-derivability remains separated in `RQ-027`; `RQ-028` remains research-boundary carry-forward only and preserves only non-binding research context, source lineage and leakage-prevention memory; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation defined.
 
+Route after `RQ-028` handoff-readiness verification:
+ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_READINESS_REVIEW
+Reason: verified `RQ-026` documentation, separated `RQ-027` boundary and verified `RQ-028` handoff-readiness are aligned for a research-only formula-candidate readiness review step without defining any concrete formula candidate or implementation. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-026`, `PD-027` and `PD-028` absent; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; C / non-derivability remains separated in `RQ-027`; `RQ-028` remains research-boundary carry-forward only; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -239,4 +243,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-028-ROUTE-AFTER-HANDOFF-READINESS` must decide the next safe route after verified `RQ-028` handoff-readiness documentation, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.
+`M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-REVIEW` must review whether verified `RQ-026` documentation, separated `RQ-027` boundary and verified `RQ-028` handoff-readiness are sufficient to prepare a research-only formula-candidate readiness step, without defining any formula candidate, formula structure, score, ranking, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation.

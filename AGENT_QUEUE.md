@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-028-ROUTE-AFTER-HANDOFF-READINESS
+M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-REVIEW
 
 Status: ACTIVE
-Objective: Decide the next safe route after verified `RQ-028` handoff-readiness documentation, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.
+Objective: Review whether verified `RQ-026` documentation, separated `RQ-027` boundary and verified `RQ-028` handoff-readiness are sufficient to prepare a research-only formula-candidate readiness step, without defining any formula candidate, formula structure, score, ranking, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-028-ROUTE-AFTER-HANDOFF-READINESS
+
+Status: COMPLETED
+Result: `ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_READINESS_REVIEW`. Repository state shows `RQ-026` documentation verified as research-framing only, `RQ-027` still separated as non-derivability / primitivity research-framing, and `RQ-028` handoff-readiness verified only as research-boundary carry-forward preserving non-binding research context, source lineage and leakage-prevention memory. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; they were not answered, not validated and not closed. `PD-026`, `PD-027` and `PD-028` were not created. `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. C / non-derivability remains separated in `RQ-027`. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation was defined. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-028-VERIFY-HANDOFF-READINESS
 
