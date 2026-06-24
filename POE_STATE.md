@@ -166,6 +166,10 @@ These are documented only as research-framing context for `RQ-026`; not settled 
 RQ-026 synthesis-framing exclusions:
 No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph logic or implementation defined.
 
+RQ-026 synthesis-framing verification:
+VERIFIED
+Verified that `RQ-026` synthesis framing remains documented only as bounded research-framing context for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-026` absent; no formula candidate, formula structure, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph logic or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -196,4 +200,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-026-VERIFY-SYNTHESIS-FRAMING` must verify that `RQ-026` synthesis framing was documented only as bounded research-framing context for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+`M-002-RQ-026-ROUTE-AFTER-SYNTHESIS-FRAMING` must decide the next safe route after verified `RQ-026` synthesis framing, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.

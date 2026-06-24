@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-VERIFY-SYNTHESIS-FRAMING
+
+Decision:
+VERIFIED
+
+Reason:
+`RQ-026` synthesis framing was verified as bounded research-framing context only for reviewing A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` together. `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-026` was not answered, not validated and not closed. `PD-026` was not created. No formula candidate, formula structure, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph logic or implementation was introduced.
+
+Next action:
+`M-002-RQ-026-ROUTE-AFTER-SYNTHESIS-FRAMING`
+
 ## PM-REVIEW-M-002-RQ-026-DOCUMENT-SYNTHESIS-FRAMING
 
 Decision:
