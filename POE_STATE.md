@@ -174,6 +174,10 @@ RQ-026 route-after-synthesis-framing:
 ROUTE_TO_RQ_026_DOCUMENTATION_READINESS
 Reason: `RQ-026` synthesis framing is documented and verified, bounded A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` context is aligned in repository state, and no remaining synthesis documentation or consistency gap is recorded; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, no formula candidate and no implementation introduced.
 
+RQ-026 documentation-readiness status:
+READY_FOR_DOCUMENTATION
+`RQ-026` is ready for research-framing documentation only after verified A/B/D synthesis framing; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-026` absent; `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -204,4 +208,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-026-DOCUMENTATION-READINESS` must decide whether `RQ-026` is ready for research-framing documentation only, after verified A/B/D synthesis framing, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+`M-002-RQ-026-DOCUMENT-RESEARCH-FRAMING` must document `RQ-026` as research-framing only after verified A/B/D synthesis framing, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
