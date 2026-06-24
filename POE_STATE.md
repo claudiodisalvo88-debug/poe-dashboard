@@ -189,6 +189,10 @@ D-only `RQ-031` = possible conceptual co-discussion / co-presence only.
 C / non-derivability remains outside active `RQ-026` and remains separated in `RQ-027`.
 No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation defined.
 
+RQ-026 documentation verification status:
+VERIFIED
+Verified that `RQ-026` documentation remains research-framing only after verified A/B/D synthesis framing; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-026` absent; `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; C / non-derivability remains separated in `RQ-027`; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation defined.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -219,4 +223,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-026-VERIFY-DOCUMENTATION` must verify that `RQ-026` was documented only as research-framing complete after verified A/B/D synthesis framing, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+`M-002-RQ-026-ROUTE-AFTER-DOCUMENTATION` must decide the next safe route after verified `RQ-026` research-framing documentation, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
