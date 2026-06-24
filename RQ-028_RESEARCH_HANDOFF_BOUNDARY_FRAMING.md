@@ -89,4 +89,4 @@ Implementation remains `BLOCKED`.
 `RQ-028` does not become protocol object, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step, checklist, gate, classifier, dependency graph, formula structure or implementation-facing structure.
 
 Next required step:
-Innovator Agent / PM stress-test
+Route decision after verified handoff-readiness documentation, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.

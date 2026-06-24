@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-028-VERIFY-HANDOFF-READINESS
+M-002-RQ-028-ROUTE-AFTER-HANDOFF-READINESS
 
 Status: ACTIVE
-Objective: Verify that `RQ-028` handoff-readiness was documented only as research-framing carry-forward from verified `RQ-026` documentation and separated `RQ-027` context, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.
+Objective: Decide the next safe route after verified `RQ-028` handoff-readiness documentation, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-028-VERIFY-HANDOFF-READINESS
+
+Status: COMPLETED
+Result: `VERIFIED`. `RQ-028` handoff-readiness was verified as research-framing carry-forward only from verified `RQ-026` documentation and separated `RQ-027` context. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; they were not answered, not validated and not closed. `PD-026`, `PD-027` and `PD-028` were not created. `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. C / non-derivability remains separated in `RQ-027`. `RQ-028` remains research-boundary carry-forward only and preserves only non-binding research context, source lineage and leakage-prevention memory. No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation was defined. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-028-DOCUMENT-HANDOFF-READINESS
 
