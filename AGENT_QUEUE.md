@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-026-ROUTE-AFTER-SYNTHESIS-FRAMING
+M-002-RQ-026-DOCUMENTATION-READINESS
 
 Status: ACTIVE
-Objective: Decide the next safe route after verified `RQ-026` synthesis framing, without answering, validating or closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+Objective: Decide whether `RQ-026` is ready for research-framing documentation only, after verified A/B/D synthesis framing, without answering, validating or closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-ROUTE-AFTER-SYNTHESIS-FRAMING
+
+Status: COMPLETED
+Result: `ROUTE_TO_RQ_026_DOCUMENTATION_READINESS`. Repository state shows `RQ-026` synthesis framing documented and verified, with bounded A-only `RQ-029`, B-only `RQ-030` and D-only `RQ-031` context already aligned and no remaining documentation or consistency gap recorded. `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-026` was not answered, not validated and not closed. `PD-026` was not created. `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No formula candidate, formula structure, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation was defined. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-026-VERIFY-SYNTHESIS-FRAMING
 
