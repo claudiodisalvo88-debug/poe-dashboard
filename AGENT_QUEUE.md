@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-026-DOCUMENT-RESEARCH-FRAMING
+M-002-RQ-026-VERIFY-DOCUMENTATION
 
 Status: ACTIVE
-Objective: Document `RQ-026` as research-framing only after verified A/B/D synthesis framing, without answering, validating or closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+Objective: Verify that `RQ-026` was documented only as research-framing complete after verified A/B/D synthesis framing, without answering, validating or closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-DOCUMENT-RESEARCH-FRAMING
+
+Status: COMPLETED
+Result: `DOCUMENTED_RESEARCH_FRAMING`. `RQ-026` was documented only as research-framing complete after verified A/B/D synthesis framing. `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-026` was not answered, not validated and not closed. `PD-026` was not created. `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. C / non-derivability remains outside active `RQ-026` and remains separated in `RQ-027`. No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation was defined. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-026-DOCUMENTATION-READINESS
 

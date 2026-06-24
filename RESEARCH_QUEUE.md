@@ -268,7 +268,7 @@ Question:
 Quali proprietà strutturali non-scorabili — oltre a Observability, Attributability, Verifiability — un'unità di evidenza reputazionale primitivamente ammissibile deve possedere affinché il protocollo la consideri oggetto legittimo di formula-candidate research, senza che tali proprietà diventino checklist, score, ranking, weighting, soglia numerica o regola implementativa?
 
 Output:
-RQ-026_A_B_D_SYNTHESIS_RESEARCH_FRAMING.md
+RQ-026_RESEARCH_FRAMING_DOCUMENTATION.md
 
 Scope:
 This question asks only for the next non-implementative admissibility boundary after PD-025.
@@ -294,6 +294,11 @@ B-only means possible temporal situatedness only.
 D-only means possible conceptual co-discussion / co-presence only.
 This documented synthesis framing does not transform A/B/D into final protocol properties, formula dimensions, quality dimensions, evidence package requirements, checklist items, gates, classifiers, validation rules, admissibility rules, dependency graph logic or implementation.
 No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold or implementation is defined.
+Research-framing documentation completion:
+`RQ-026` is now documented as research-framing complete only after verified A/B/D synthesis framing.
+A/B/D remain only research-framing directions.
+C / non-derivability remains outside active `RQ-026` and remains separated in `RQ-027`.
+No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation is defined.
 
 Hard exclusions:
 RQ-026 does not authorize final properties as protocol decision, PD-026 creation, formula candidate definition, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
