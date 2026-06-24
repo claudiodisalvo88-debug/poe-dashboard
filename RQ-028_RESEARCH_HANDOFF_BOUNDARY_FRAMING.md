@@ -71,5 +71,22 @@ Validation criteria:
 Any acceptable next output must remain research-framing only.
 Any acceptable next output must preserve `RQ-026` and `RQ-027` as non-binding research context, reject premature integration leakage, and avoid checklist, gate, classifier, formula-structure, scoring, ranking, weighting, ordering, dependency-graph and implementation-facing logic.
 
+Handoff-readiness documentation:
+`RQ-028` handoff-readiness is documented only as bounded research-framing carry-forward.
+Carry-forward may preserve only non-binding research context, source lineage and leakage-prevention memory from verified `RQ-026` research-framing documentation, separated `RQ-027` non-derivability / primitivity boundary, and existing `RQ-028` research handoff boundary framing.
+`RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+`RQ-027` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+`RQ-028` remains OPEN / RESEARCH-FRAMING with Decision `NONE`.
+`RQ-026`, `RQ-027` and `RQ-028` are not answered.
+`RQ-026`, `RQ-027` and `RQ-028` are not validated.
+`RQ-026`, `RQ-027` and `RQ-028` are not closed.
+`PD-026`, `PD-027` and `PD-028` are not created.
+`RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+C / non-derivability remains separated in `RQ-027`.
+`RQ-028` remains research-boundary carry-forward only.
+No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation is defined.
+Implementation remains `BLOCKED`.
+`RQ-028` does not become protocol object, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step, checklist, gate, classifier, dependency graph, formula structure or implementation-facing structure.
+
 Next required step:
 Innovator Agent / PM stress-test

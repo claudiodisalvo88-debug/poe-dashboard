@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-028-DOCUMENT-HANDOFF-READINESS
+
+Decision:
+DOCUMENTED_HANDOFF_READINESS
+
+Reason:
+`RQ-028` handoff-readiness was documented only as research-framing carry-forward from verified `RQ-026` documentation and separated `RQ-027` context. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. They were not answered, not validated and not closed. `PD-026`, `PD-027` and `PD-028` were not created. No formula candidate, formula structure, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation was introduced.
+
+Next action:
+`M-002-RQ-028-VERIFY-HANDOFF-READINESS`
+
 ## PM-REVIEW-M-002-RQ-028-HANDOFF-READINESS-REVIEW
 
 Decision:

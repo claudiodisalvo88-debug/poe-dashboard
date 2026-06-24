@@ -200,6 +200,16 @@ They must not become checklist, gate, classifier, formula structure, scoring log
 The integration risk is hidden checklist, gate, classifier, formula-structure, scoring, ranking, operational-filter or implementation leakage.
 This opening records only the need for a separate research handoff boundary.
 This does not close `RQ-026`, does not close `RQ-027`, does not create `PD-026`, does not create `PD-027`, does not create `PD-028`, does not define any formula candidate or formula structure, and does not authorize implementation.
+Handoff-readiness documentation: COMPLETE only as bounded research-framing carry-forward.
+Carry-forward may preserve only non-binding research context, source lineage and leakage-prevention memory from verified `RQ-026` documentation, separated `RQ-027` boundary and existing `RQ-028` boundary framing.
+`RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+`RQ-026`, `RQ-027` and `RQ-028` are not answered, not validated and not closed.
+`PD-026`, `PD-027` and `PD-028` are not created.
+`RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`.
+C / non-derivability remains separated in `RQ-027`.
+`RQ-028` remains research-boundary carry-forward only.
+No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation is defined.
+Implementation remains `BLOCKED`.
 
 Hard exclusions:
 `RQ-028` does not authorize answer as settled protocol logic, `RQ-026` closure, `RQ-027` closure, `PD-028` creation, `PD-027` creation, `PD-026` creation, formula candidate definition, final formula, formula structure, formula syntax, weights, coefficients, scalar score, total score, scoring logic, ranking, ordering, leaderboard, checklist, classifier, gate, numeric threshold, operational filter, incentives, rewards, tokens, token rights, payout, economic allocation, economic scoring or implementation.
