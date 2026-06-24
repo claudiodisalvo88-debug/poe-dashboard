@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-ROUTE-AFTER-DOCUMENTATION
+
+Decision:
+ROUTE_TO_RQ_028_HANDOFF_READINESS_REVIEW
+
+Reason:
+Repository state shows `RQ-026` documented and verified as research-framing only, `RQ-027` separated as non-derivability boundary, and `RQ-028` already opened as research handoff boundary framing. No remaining post-documentation gap is recorded for `RQ-026`, and no `PD-026`, no formula candidate and no implementation artifact were introduced. The next safe route is therefore a bounded `RQ-028` handoff-readiness review only.
+
+Next action:
+`M-002-RQ-028-HANDOFF-READINESS-REVIEW`
+
 ## PM-REVIEW-M-002-RQ-026-VERIFY-DOCUMENTATION
 
 Decision:

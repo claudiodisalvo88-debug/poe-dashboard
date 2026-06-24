@@ -193,6 +193,10 @@ RQ-026 documentation verification status:
 VERIFIED
 Verified that `RQ-026` documentation remains research-framing only after verified A/B/D synthesis framing; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; not answered, not validated, not closed; `PD-026` absent; `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; C / non-derivability remains separated in `RQ-027`; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation defined.
 
+RQ-026 route-after-documentation:
+ROUTE_TO_RQ_028_HANDOFF_READINESS_REVIEW
+Reason: `RQ-026` documentation is verified as research-framing only, `RQ-027` remains separated, `RQ-028` already exists as handoff-boundary framing, and no remaining post-documentation gap is recorded for `RQ-026`; `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, no formula candidate and no implementation introduced.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -223,4 +227,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-RQ-026-ROUTE-AFTER-DOCUMENTATION` must decide the next safe route after verified `RQ-026` research-framing documentation, without answering `RQ-026`, without validating `RQ-026`, without closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+`M-002-RQ-028-HANDOFF-READINESS-REVIEW` must review whether verified `RQ-026` research-framing documentation and separated `RQ-027`/`RQ-028` context are ready for a safe handoff-readiness step, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.

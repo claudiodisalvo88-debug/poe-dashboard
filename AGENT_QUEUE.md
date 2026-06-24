@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-026-ROUTE-AFTER-DOCUMENTATION
+M-002-RQ-028-HANDOFF-READINESS-REVIEW
 
 Status: ACTIVE
-Objective: Decide the next safe route after verified `RQ-026` research-framing documentation, without answering, validating or closing `RQ-026`, without creating `PD-026`, and without defining formula candidate or implementation.
+Objective: Review whether verified `RQ-026` research-framing documentation and separated `RQ-027`/`RQ-028` context are ready for a safe handoff-readiness step, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without defining formula candidate or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-ROUTE-AFTER-DOCUMENTATION
+
+Status: COMPLETED
+Result: `ROUTE_TO_RQ_028_HANDOFF_READINESS_REVIEW`. Repository state shows `RQ-026` documented and verified as research-framing only, `RQ-027` separated as non-derivability boundary, and `RQ-028` already opened as research handoff boundary framing. `RQ-026` remains OPEN / RESEARCH-FRAMING with Decision `NONE`. `RQ-026` was not answered, not validated and not closed. `PD-026` was not created. `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. C / non-derivability remains separated in `RQ-027`. No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph or implementation was defined. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-026-VERIFY-DOCUMENTATION
 
