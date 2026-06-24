@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-REVIEW
+M-002-DOCUMENT-FORMULA-CANDIDATE-RESEARCH-READINESS
 
 Status: ACTIVE
-Objective: Review whether verified `RQ-026` documentation, separated `RQ-027` boundary and verified `RQ-028` handoff-readiness are sufficient to prepare a research-only formula-candidate readiness step, without defining any formula candidate, formula structure, score, ranking, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation.
+Objective: Document formula-candidate research readiness as research-only, using verified `RQ-026` documentation, separated `RQ-027` boundary and verified `RQ-028` handoff-readiness as bounded context, without defining any formula candidate, formula structure, score, ranking, weighting, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation.
 Allowed files to edit for next task: `RESEARCH_QUEUE.md`, `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-REVIEW
+
+Status: COMPLETED
+Result: `READY_FOR_RESEARCH_ONLY_FORMULA_CANDIDATE_READINESS_DOCUMENTATION`. Repository state shows verified `RQ-026` documentation as research-framing only, separated C / non-derivability boundary in `RQ-027`, and verified `RQ-028` handoff-readiness constrained to research-boundary carry-forward only. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; they were not answered, not validated and not closed. `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; they were not answered, not validated and not closed. `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` and `PD-031` were not created. C / non-derivability remains separated in `RQ-027`. `RQ-028` remains research-boundary carry-forward only and preserves only non-binding research context, source lineage and leakage-prevention memory. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. No formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation was defined. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-028-ROUTE-AFTER-HANDOFF-READINESS
 
