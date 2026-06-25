@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW
+
+Decision:
+ROUTE_TO_M_002_RQ_027_NON_DERIVABILITY_PRIMITIVITY_RECHECK_REVIEW
+
+Reason:
+Non-authorization boundary review is completed with constraints. Formula-candidate opening remains not ready, not permitted and not executable. The next safe step is a research-only RQ-027 non-derivability / primitivity recheck review, because RQ-027 remains separated and OPEN / RESEARCH-FRAMING with Decision NONE. This route does not answer, validate or close RQ-027 and does not create PD-027. It does not open, authorize, approve, name, draft or define any formula candidate. It does not define formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision. RQ-026, RQ-027, RQ-028, RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+M-002-RQ-027-NON-DERIVABILITY-PRIMITIVITY-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW
 
 Decision:
