@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW
 
 Status: ACTIVE
-Objective: Review the non-authorization boundary for any future formula-candidate opening consideration, while preserving that no formula candidate is opened, authorized, named, drafted or defined.
+Objective: Route the next research-only step after non-authorization boundary review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW
+
+Status: COMPLETED
+Result: `FORMULA_CANDIDATE_RESEARCH_CANDIDATE_OPENING_NON_AUTHORIZATION_BOUNDARY_REVIEWED_WITH_CONSTRAINTS`. Non-authorization boundary review completed with constraints. This is research-only. It does not open, authorize, approve, name, draft or define any formula candidate. It does not make formula-candidate opening ready, permitted or executable. Any future formula-candidate opening still requires a separate explicit route task. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision was introduced. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`.
 
 ## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-PRECHECK-REVIEW
 

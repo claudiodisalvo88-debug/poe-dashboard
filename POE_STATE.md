@@ -249,12 +249,12 @@ Formula-candidate research readiness gate review:
 FORMULA_CANDIDATE_RESEARCH_READINESS_GATE_REVIEWED_WITH_CONSTRAINTS
 Reason: readiness-gate review completed as internal research workflow boundary only. The review does not authorize formula-candidate opening. Any future candidate-opening consideration still requires a separate route task. No formula candidate is opened, named, drafted or defined. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`; no formula candidate or implementation-facing artifact was introduced.
 
-Candidate-opening precheck route:
-ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_CANDIDATE_OPENING_NON_AUTHORIZATION_BOUNDARY_REVIEW
-Reason: Candidate-opening precheck review is completed with constraints. The next safe step is a research-only non-authorization boundary review. This route does not open, authorize, name, draft or define any formula candidate. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. RQ-026, RQ-027, RQ-028, RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+Candidate-opening non-authorization boundary review:
+FORMULA_CANDIDATE_RESEARCH_CANDIDATE_OPENING_NON_AUTHORIZATION_BOUNDARY_REVIEWED_WITH_CONSTRAINTS
+Reason: Non-authorization boundary review completed with constraints. This is research-only. It does not open, authorize, approve, name, draft or define any formula candidate. It does not make formula-candidate opening ready, permitted or executable. Any future formula-candidate opening still requires a separate explicit route task. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision was introduced. RQ-026, RQ-027, RQ-028, RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
 
 Next action:
-M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW must review the non-authorization boundary for any future formula-candidate opening consideration, while preserving that no formula candidate is opened, authorized, named, drafted or defined.
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW must route the next research-only step after non-authorization boundary review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 
 PD-000 to PD-023:
 VALIDATED
@@ -286,4 +286,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW` must review the non-authorization boundary for any future formula-candidate opening consideration, while preserving that no formula candidate is opened, authorized, named, drafted or defined.
+`M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW` must route the next research-only step after non-authorization boundary review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
