@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-REVIEW
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-REVIEW
 
 Status: ACTIVE
-Objective: Route the next research-only step after formula-candidate research entry-boundary review, without opening, naming, drafting or defining any formula candidate.
+Objective: Route the next research-only step after formula-candidate research entry-boundary review to the readiness-gate review, without opening, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_READINESS_GATE_REVIEW`. Entry-boundary review is completed with constraints. The next safe step is a research-only readiness-gate review before any future formula-candidate work can be opened. No formula candidate is opened, named, drafted or defined. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`. No formula candidate or implementation-facing artifact was introduced.
 
 ## M-002-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-REVIEW
 

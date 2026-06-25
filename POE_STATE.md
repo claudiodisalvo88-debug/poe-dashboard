@@ -241,6 +241,10 @@ Formula-candidate research entry-boundary review:
 FORMULA_CANDIDATE_RESEARCH_ENTRY_BOUNDARY_REVIEWED_WITH_CONSTRAINTS
 Reason: entry boundary reviewed. Current work remains research-only. No formula candidate is opened, named, drafted or defined. Future candidate work requires a separate explicit route/readiness step. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`; no formula candidate or implementation-facing artifact was introduced.
 
+Formula-candidate research readiness gate review:
+ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_READINESS_GATE_REVIEW
+Reason: entry-boundary review is completed with constraints. The next safe step is a research-only readiness-gate review before any future formula-candidate work can be opened. No formula candidate is opened, named, drafted or defined. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`; no formula candidate or implementation-facing artifact was introduced.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -271,4 +275,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-REVIEW` must route the next research-only step after formula-candidate research entry-boundary review, without opening, naming, drafting or defining any formula candidate.
+`M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-REVIEW` must review whether formula-candidate research has enough bounded context to later consider candidate-opening research, while preserving no formula candidate, no formula structure, no formula syntax, no score, no ranking, no weighting, no threshold, no checklist, no protocol gate, no classifier, no validation rule, no admissibility rule, no dependency graph, no handoff package, no handoff template, no standard schema, no operational step and no implementation-facing structure.
