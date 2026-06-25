@@ -221,6 +221,10 @@ Formula-candidate research readiness documentation:
 DOCUMENTED_RESEARCH_ONLY_FORMULA_CANDIDATE_READINESS
 Reason: formula-candidate research readiness is now documented strictly as research-only using verified `RQ-026` documentation, separated `RQ-027` boundary and verified `RQ-028` handoff-readiness as bounded context. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` created; C / non-derivability remains separated in `RQ-027`; `RQ-028` remains research-boundary carry-forward only; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation defined.
 
+Formula-candidate research readiness verification:
+VERIFIED_RESEARCH_ONLY_FORMULA_CANDIDATE_READINESS
+Reason: `M-002-DOCUMENT-FORMULA-CANDIDATE-RESEARCH-READINESS` was documented strictly as research-only using verified `RQ-026` documentation, separated `RQ-027` boundary and verified `RQ-028` handoff-readiness as bounded context. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` created; C / non-derivability remains separated in `RQ-027`; `RQ-028` remains research-boundary carry-forward only; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`; no formula candidate or implementation-facing artifact was introduced.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -251,4 +255,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-VERIFY-FORMULA-CANDIDATE-RESEARCH-READINESS` must verify that formula-candidate research readiness was documented only as research context, with no formula candidate, formula structure, score, ranking, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation.
+`M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS` must route the next research-only step after verified formula-candidate research readiness, without defining any formula candidate, formula structure, score, ranking, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation.
