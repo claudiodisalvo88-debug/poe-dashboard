@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-PRECHECK-REVIEW
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-PRECHECK-REVIEW
 
 Status: ACTIVE
-Objective: Review, as research-only precheck, whether a future formula-candidate opening task could be considered without opening, naming, drafting or defining any formula candidate.
+Objective: Route the next research-only step after candidate-opening precheck review, without opening, authorizing, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-PRECHECK-REVIEW
+
+Status: COMPLETED
+Result: `FORMULA_CANDIDATE_RESEARCH_CANDIDATE_OPENING_PRECHECK_REVIEWED_WITH_CONSTRAINTS`. Candidate-opening precheck reviewed with constraints. This does not open, authorize, name, draft or define any formula candidate. Any future formula-candidate opening still requires a separate explicit route task. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision was introduced. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`.
 
 ## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW
 
