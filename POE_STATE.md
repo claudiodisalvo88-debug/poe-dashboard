@@ -253,6 +253,10 @@ Formula-candidate opening-consideration boundary review:
 ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_OPENING_CONSIDERATION_BOUNDARY_REVIEW
 Reason: readiness-gate review is completed with constraints. The next safe step is opening-consideration boundary review only. No formula candidate is opened, named, drafted or defined. Any future candidate-opening task still requires separate explicit routing. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`; no formula candidate or implementation-facing artifact was introduced.
 
+Formula-candidate opening-consideration boundary review:
+FORMULA_CANDIDATE_RESEARCH_OPENING_CONSIDERATION_BOUNDARY_REVIEWED_WITH_CONSTRAINTS
+Reason: opening-consideration boundary review completed with constraints. This does not open or authorize a formula candidate. Any future formula-candidate opening still requires a separate explicit route task. No formula candidate is opened, named, drafted or defined. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`; no formula candidate or implementation-facing artifact was introduced.
+
 PD-000 to PD-023:
 VALIDATED
 
@@ -283,4 +287,4 @@ PD-001 is a protocol hierarchy, not a rigid causal order.
 Observed behavior is only candidate contribution until linked to verified reduction, attribution and systemic relevance.
 
 Next action:
-`M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW` must review the boundary for a future research-only formula-candidate opening consideration, while preserving no formula candidate, no formula structure, no formula syntax, no formula terms, no score, no ranking, no weighting, no threshold, no checklist, no protocol gate, no classifier, no validation rule, no admissibility rule, no dependency graph, no handoff package, no handoff template, no standard schema, no operational step and no implementation-facing structure.
+`M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW` must route the next research-only step after formula-candidate research opening-consideration boundary review, without opening, naming, drafting or defining any formula candidate.
