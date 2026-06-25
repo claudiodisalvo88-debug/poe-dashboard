@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-REVIEW
+M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-REVIEW
 
 Status: ACTIVE
-Objective: Route the next research-only step after formula-candidate research entry-boundary review to the readiness-gate review, without opening, naming, drafting or defining any formula candidate.
+Objective: Review whether formula-candidate research has enough bounded context to later consider candidate-opening research, while preserving no formula candidate, no formula structure, no formula syntax, no score, no ranking, no weighting, no threshold, no checklist, no protocol gate, no classifier, no validation rule, no admissibility rule, no dependency graph, no handoff package, no handoff template, no standard schema, no operational step and no implementation-facing structure.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
