@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-REVIEW
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-REVIEW
 
 Status: ACTIVE
-Objective: Review whether formula-candidate research has enough bounded context to later consider candidate-opening research, while preserving no formula candidate, no formula structure, no formula syntax, no score, no ranking, no weighting, no threshold, no checklist, no protocol gate, no classifier, no validation rule, no admissibility rule, no dependency graph, no handoff package, no handoff template, no standard schema, no operational step and no implementation-facing structure.
+Objective: Route the next research-only step after formula-candidate research readiness-gate review, without opening, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-REVIEW
+
+Status: COMPLETED
+Result: `FORMULA_CANDIDATE_RESEARCH_READINESS_GATE_REVIEWED_WITH_CONSTRAINTS`. Readiness-gate review completed as internal research workflow boundary only. The review does not authorize formula-candidate opening. Any future candidate-opening consideration still requires a separate route task. No formula candidate is opened, named, drafted or defined. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`. No formula candidate or implementation-facing artifact was introduced.
 
 ## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-REVIEW
 
