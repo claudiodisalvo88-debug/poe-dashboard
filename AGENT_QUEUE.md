@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-PRECHECK-REVIEW
+M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-NON-AUTHORIZATION-BOUNDARY-REVIEW
 
 Status: ACTIVE
-Objective: Route the next research-only step after candidate-opening precheck review, without opening, authorizing, naming, drafting or defining any formula candidate.
+Objective: Review the non-authorization boundary for any future formula-candidate opening consideration, while preserving that no formula candidate is opened, authorized, named, drafted or defined.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-PRECHECK-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_CANDIDATE_OPENING_NON_AUTHORIZATION_BOUNDARY_REVIEW`. Candidate-opening precheck review is completed with constraints. The next safe step is a research-only non-authorization boundary review. This does not open, authorize, name, draft or define any formula candidate. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`.
 
 ## M-002-FORMULA-CANDIDATE-RESEARCH-CANDIDATE-OPENING-PRECHECK-REVIEW
 
