@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-DOCUMENT-FORMULA-CANDIDATE-RESEARCH-READINESS
+
+Decision:
+DOCUMENTED_RESEARCH_ONLY_FORMULA_CANDIDATE_READINESS
+
+Reason:
+Formula-candidate research readiness was documented strictly as research-only using verified `RQ-026` documentation, separated C / non-derivability boundary in `RQ-027`, and verified `RQ-028` handoff-readiness constrained to research-boundary carry-forward only. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; no formula candidate, formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate, formula-preparation layer, standard schema, operational step or implementation is introduced. Implementation remains `BLOCKED`.
+
+Next action:
+`M-002-VERIFY-FORMULA-CANDIDATE-RESEARCH-READINESS`
+
 ## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-REVIEW
 
 Decision:
