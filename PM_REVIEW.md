@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-SCOPE-REVIEW
+
+Decision:
+ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_ENTRY_BOUNDARY_REVIEW
+
+Reason:
+Formula-candidate research scope was reviewed with constraints. The next safe step is entry-boundary review, not candidate opening. The repository must preserve that future formula-candidate work is still research-only. `RQ-026`, `RQ-027` and `RQ-028` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`; no formula candidate or implementation-facing artifact was introduced.
+
+Next action:
+`M-002-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-REVIEW`
+
 ## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-SCOPE-REVIEW
 
 Decision:
