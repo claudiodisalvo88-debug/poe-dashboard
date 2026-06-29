@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
+
+Decision:
+FORMULA_CANDIDATE_RESEARCH_OPENING_CONSIDERATION_STATE_CONSOLIDATION_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+opening-consideration state consolidation reviewed with constraints; strictly internal research workflow boundary; not candidate opening; not candidate definition; not formula construction; no formula candidate opened/authorized/approved/named/drafted/defined; formula-candidate opening remains not ready / not permitted / not executable; no state decision, no closure decision, no candidate-opening decision, no PD and no forbidden protocol/implementation structures created.
+
+Next action:
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-NOT-READY-CLOSURE-REVIEW
 
 Decision:
