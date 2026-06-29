@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-031-AGGREGATE-RECHECK-REVIEW
+
+Decision:
+RQ_031_AGGREGATE_RECHECK_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+RQ-031 D-only aggregate recheck completed with constraints. RQ-031 remains D-only aggregate research-framing only. Aggregate remains only conceptual co-discussion / co-presence / possible aggregate relation placeholder among multiple primitively admissible reputational evidence units. This does not answer, validate or close RQ-031 and does not create PD-031. RQ-031 is not converted into protocol decision, formula requirement, aggregate rule, aggregate score, aggregate formula, aggregate ordering, aggregate ranking, weighting logic, dependency graph construction, dependency graph computation, validation/admissibility rule, checklist, classifier, gate, grouping schema, API relation, database relation, dashboard grouping or implementation-facing structure. No A-side referential logic, B-side temporal logic or C-side non-derivability logic is imported. No formula candidate is opened, authorized, approved, named, drafted or defined. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. RQ-026, RQ-027, RQ-028, RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+M-002-ROUTE-AFTER-RQ-031-AGGREGATE-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
 
 Decision:
