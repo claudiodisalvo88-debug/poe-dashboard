@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW
+
+Decision:
+ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_OPENING_CONSIDERATION_FINAL_SAFETY_REVIEW
+
+Reason:
+route after opening-consideration boundary review completed with constraints; next safe step is only opening-consideration final safety review; this is research-only; not candidate opening; not candidate definition; not formula construction; no formula candidate opened/authorized/approved/named/drafted/defined; formula-candidate opening remains not ready / not permitted / not executable; no forbidden protocol/implementation structures created.
+
+Next action:
+M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-FINAL-SAFETY-REVIEW
+
 ## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW
 
 Decision:
