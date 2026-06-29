@@ -407,3 +407,10 @@ Reason: route after opening-consideration readiness review completed with constr
 
 Next action:
 `M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW` must review formula-candidate research opening-consideration boundary strictly as internal research workflow boundary only, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+Formula-candidate research opening-consideration boundary review:
+FORMULA_CANDIDATE_RESEARCH_OPENING_CONSIDERATION_BOUNDARY_REVIEWED_WITH_CONSTRAINTS
+Reason: opening-consideration boundary reviewed with constraints; strictly internal research workflow boundary; not candidate opening; not candidate definition; not formula construction; no formula candidate is opened, authorized, approved, named, drafted or defined; formula-candidate opening remains not ready, not permitted and not executable; no forbidden protocol/implementation structures created. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision NONE. RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+`M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW` must route the next research-only step after formula-candidate research opening-consideration boundary review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.

@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW
 
 Status: ACTIVE
-Objective: review formula-candidate research opening-consideration boundary strictly as internal research workflow boundary only, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: route the next research-only step after formula-candidate research opening-consideration boundary review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-BOUNDARY-REVIEW
+
+Status: COMPLETED
+Result: `FORMULA_CANDIDATE_RESEARCH_OPENING_CONSIDERATION_BOUNDARY_REVIEWED_WITH_CONSTRAINTS`. opening-consideration boundary reviewed with constraints; strictly internal research workflow boundary; not candidate opening; not candidate definition; not formula construction; no formula candidate opened/authorized/approved/named/drafted/defined; formula-candidate opening remains not ready / not permitted / not executable; no forbidden protocol/implementation structures created. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. PD-026, PD-027 and PD-028 are not created. No PD-029, PD-030 or PD-031 is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
 
 ## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-READINESS-REVIEW
 
