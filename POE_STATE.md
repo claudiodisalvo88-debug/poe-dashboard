@@ -386,3 +386,10 @@ Reason: formula-candidate research readiness-gate recheck completed with constra
 
 Next action:
 `M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-RECHECK-REVIEW` must route the next research-only step after formula-candidate research readiness-gate recheck review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+Route after formula-candidate research readiness-gate recheck:
+ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_OPENING_CONSIDERATION_READINESS_REVIEW
+Reason: route after readiness-gate recheck completed with constraints; next safe step is only opening-consideration readiness review; this is research-only; not candidate opening; not candidate definition; not formula construction; no formula candidate is opened, authorized, approved, named, drafted or defined; formula-candidate opening remains not ready, not permitted and not executable. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision NONE. RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+`M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-READINESS-REVIEW` must review formula-candidate research opening-consideration readiness strictly as internal research workflow boundary only, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
