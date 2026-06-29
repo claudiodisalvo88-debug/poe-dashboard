@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-RECHECK-REVIEW
+
+Decision:
+FORMULA_CANDIDATE_RESEARCH_ENTRY_BOUNDARY_RECHECK_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+Formula-candidate research entry-boundary recheck completed with constraints. Entry boundary remains strictly research-only. This is not candidate opening, not candidate definition and not formula construction. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening remains not ready, not permitted and not executable. Future formula-candidate work remains research-only and requires a separate explicit route/readiness step. No candidate terms, formula terms, formula syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation-facing structure are defined. Entry boundary is not converted into protocol decision, candidate-opening task, formula requirement, formula-preparation layer or readiness gate as protocol object. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision NONE. PD-026, PD-027 and PD-028 are not created. RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-SCOPE-RECHECK-REVIEW
 
 Decision:

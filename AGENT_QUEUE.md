@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-RECHECK-REVIEW
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: Recheck formula-candidate research entry boundary strictly as research-only after scope recheck, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: Route the next research-only step after formula-candidate research entry-boundary recheck, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `FORMULA_CANDIDATE_RESEARCH_ENTRY_BOUNDARY_RECHECK_REVIEWED_WITH_CONSTRAINTS`. Formula-candidate research entry-boundary recheck completed with constraints. Entry boundary remains strictly research-only. This is not candidate opening, not candidate definition and not formula construction. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening remains not ready, not permitted and not executable. Future formula-candidate work remains research-only and requires a separate explicit route/readiness step. No candidate terms, formula terms, formula syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation-facing structure are defined. Entry boundary is not converted into protocol decision, candidate-opening task, formula requirement, formula-preparation layer or readiness gate as protocol object. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. PD-026, PD-027 and PD-028 are not created. No PD-029, PD-030 or PD-031 is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
 
 ## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-SCOPE-RECHECK-REVIEW
 
