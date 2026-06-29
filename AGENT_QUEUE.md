@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
+M-002-RQ-031-AGGREGATE-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: Route the next research-only step after RQ-030 B-only temporal delimitation recheck, without answering, validating or closing RQ-030 and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: Recheck RQ-031 D-only aggregate boundary as research-framing only, without answering, validating or closing RQ-031 and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_TO_M_002_RQ_031_AGGREGATE_RECHECK_REVIEW`. RQ-030 B-only temporal delimitation recheck is completed with constraints. The next safe step is a research-only RQ-031 D-only aggregate recheck review because RQ-031 remains OPEN / RESEARCH-FRAMING with Decision `NONE`. This route does not answer, validate or close RQ-031 and does not create PD-031. RQ-031 is not converted into aggregate rule, aggregate score, aggregate formula, aggregate ordering, aggregate ranking, weighting logic, dependency graph construction, dependency graph computation, validation/admissibility rule, checklist, classifier, gate, grouping schema, API relation, database relation, dashboard grouping, formula requirement or implementation-facing structure. No A-side referential logic, B-side temporal logic or C-side non-derivability logic is imported. No formula candidate is opened, authorized, approved, named, drafted or defined. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
 
