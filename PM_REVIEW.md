@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
+
+Decision:
+FORMULA_CANDIDATE_RESEARCH_READINESS_RECHECK_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+Formula-candidate research readiness recheck completed with constraints. The readiness remains strictly research-only. Verified/rechecked RQ-026/RQ-027/RQ-028 boundary alignment is sufficient only for research-only readiness, not candidate opening. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening remains not ready, not permitted and not executable. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision NONE. PD-026, PD-027 and PD-028 are not created. Formula-candidate readiness is not converted into protocol decision, candidate-opening task, formula requirement, formula-preparation layer, readiness gate as protocol object, checklist, classifier, validation/admissibility rule, score, ranking, ordering, weighting, dependency graph, schema, standard schema, operational step or implementation-facing structure. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. RQ-026, RQ-027, RQ-028, RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-RQ-028-HANDOFF-READINESS-RECHECK-REVIEW
 
 Decision:
