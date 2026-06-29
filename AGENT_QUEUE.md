@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-FORMULA-CANDIDATE-RESEARCH-SCOPE-RECHECK-REVIEW
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-SCOPE-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: Recheck formula-candidate research scope strictly as research-only after readiness recheck, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: Route the next research-only step after formula-candidate research scope recheck, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-FORMULA-CANDIDATE-RESEARCH-SCOPE-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `FORMULA_CANDIDATE_RESEARCH_SCOPE_RECHECK_REVIEWED_WITH_CONSTRAINTS`. Formula-candidate research scope recheck completed with constraints. Scope remains strictly research-only. Scope may only preserve/confirm research boundaries for future formula-candidate exploration. This is not candidate opening, not candidate definition and not formula construction. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening remains not ready, not permitted and not executable. No candidate terms, formula terms, formula syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, standard schema, operational step or implementation-facing structure are defined. Scope is not converted into protocol decision, formula requirement, formula-preparation layer or readiness gate as protocol object. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. PD-026, PD-027 and PD-028 are not created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
 
 ## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
 
