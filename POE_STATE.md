@@ -379,3 +379,10 @@ Reason: Formula-candidate research entry-boundary recheck is completed with cons
 
 Next action:
 `M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-RECHECK-REVIEW` must recheck formula-candidate research readiness gate strictly as internal research workflow boundary only after entry-boundary recheck, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+Formula-candidate research readiness-gate recheck:
+FORMULA_CANDIDATE_RESEARCH_READINESS_GATE_RECHECK_REVIEWED_WITH_CONSTRAINTS
+Reason: formula-candidate research readiness-gate recheck completed with constraints. Readiness-gate recheck remains strictly internal research workflow boundary only. This is not candidate opening, not candidate definition and not formula construction. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening remains not ready, not permitted and not executable. Any future candidate-opening consideration still requires a separate explicit route/readiness step. No candidate terms, formula terms, formula syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step or implementation-facing structure are created. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision NONE. RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+`M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-RECHECK-REVIEW` must route the next research-only step after formula-candidate research readiness-gate recheck review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.

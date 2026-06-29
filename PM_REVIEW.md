@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-RECHECK-REVIEW
+
+Decision:
+FORMULA_CANDIDATE_RESEARCH_READINESS_GATE_RECHECK_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+readiness gate rechecked with constraints; strictly internal research workflow boundary; not candidate opening; not candidate definition; not formula construction; no formula candidate opened/authorized/approved/named/drafted/defined; formula-candidate opening remains not ready / not permitted / not executable; any future candidate-opening consideration still requires separate explicit route/readiness step; no forbidden protocol/implementation structures created.
+
+Next action:
+M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-GATE-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-ENTRY-BOUNDARY-RECHECK-REVIEW
 
 Decision:
