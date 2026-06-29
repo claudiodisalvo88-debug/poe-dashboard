@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
+M-002-FORMULA-CANDIDATE-RESEARCH-SCOPE-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: Route the next research-only step after formula-candidate research readiness recheck, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: Recheck formula-candidate research scope strictly as research-only after readiness recheck, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_SCOPE_RECHECK_REVIEW`. Formula-candidate research readiness recheck completed with constraints. The next safe step is formula-candidate research scope recheck review. This is research-only. This is not candidate opening, not candidate definition and not formula construction. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening remains not ready, not permitted and not executable. Formula-candidate research scope must remain only a boundary review for future formula-candidate exploration. Scope is not converted into protocol decision, formula requirement, formula-preparation layer, readiness gate as protocol object, checklist, classifier, validation/admissibility rule, score, ranking, ordering, weighting, dependency graph, schema, standard schema, operational step or implementation-facing structure. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. PD-026, PD-027 and PD-028 are not created. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
 
 ## M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
 

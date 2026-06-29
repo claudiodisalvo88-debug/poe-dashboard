@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
+
+Decision:
+ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_SCOPE_RECHECK_REVIEW
+
+Reason:
+Formula-candidate research readiness recheck is completed with constraints. The next safe step is a research-only formula-candidate research scope recheck review, not candidate opening, not candidate definition and not formula construction. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening remains not ready, not permitted and not executable. Formula-candidate research scope must remain only a boundary review for future formula-candidate exploration and must not become protocol decision, formula requirement, formula-preparation layer, readiness gate as protocol object, checklist, classifier, validation/admissibility rule, score, ranking, ordering, weighting, dependency graph, schema, standard schema, operational step or implementation-facing structure. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision NONE. PD-026, PD-027 and PD-028 are not created. RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+M-002-FORMULA-CANDIDATE-RESEARCH-SCOPE-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
 
 Decision:
