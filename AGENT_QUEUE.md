@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-RQ-028-HANDOFF-READINESS-RECHECK-REVIEW
+M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: Route the next research-only step after RQ-028 handoff-readiness recheck, without answering, validating or closing RQ-026/RQ-027/RQ-028 and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: Recheck formula-candidate research readiness strictly as research-only after verified/rechecked RQ-026/RQ-027/RQ-028 boundary alignment, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-RQ-028-HANDOFF-READINESS-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_TO_M_002_FORMULA_CANDIDATE_RESEARCH_READINESS_RECHECK_REVIEW`. RQ-028 handoff-readiness recheck is completed with constraints. The next safe step is a research-only formula-candidate readiness recheck review. This does not open, authorize, approve, name, draft or define any formula candidate. It does not make formula-candidate opening ready, permitted or executable. RQ-026, RQ-027 and RQ-028 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. PD-026, PD-027 and PD-028 are not created. Formula-candidate readiness is not converted into protocol decision, candidate-opening task, formula requirement, formula-preparation layer, readiness gate as protocol object, checklist, classifier, validation/admissibility rule, score, ranking, ordering, weighting, dependency graph, schema, standard schema, operational step or implementation-facing structure. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. RQ-026, RQ-027, RQ-028, RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
 
 ## M-002-RQ-028-HANDOFF-READINESS-RECHECK-REVIEW
 
