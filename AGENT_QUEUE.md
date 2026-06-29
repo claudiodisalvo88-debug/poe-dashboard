@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-026-A-B-D-SYNTHESIS-READINESS-RECHECK-REVIEW
+M-002-ROUTE-AFTER-RQ-026-A-B-D-SYNTHESIS-READINESS-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: Recheck RQ-026 A/B/D synthesis-readiness as research-framing only after RQ-029/RQ-030/RQ-031 rechecks, without answering, validating or closing RQ-026 and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: Route the next research-only step after RQ-026 A/B/D synthesis-readiness recheck, without answering, validating or closing RQ-026 and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026-A-B-D-SYNTHESIS-READINESS-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `RQ_026_A_B_D_SYNTHESIS_READINESS_RECHECK_REVIEWED_WITH_CONSTRAINTS`. RQ-026 A/B/D synthesis-readiness recheck completed with constraints. RQ-026 remains OPEN / RESEARCH-FRAMING with Decision `NONE`. This does not answer, validate or close RQ-026 and does not create PD-026. RQ-026 is not converted into protocol decision, formula requirement, formula-preparation layer, readiness gate as protocol object, checklist, classifier, validation/admissibility rule, score, ranking, ordering, weighting, dependency graph, handoff package, handoff template, schema or implementation-facing structure. A/B/D remain only bounded research-framing context: A-only `RQ-029` = possible referential structure only. B-only `RQ-030` = possible temporal situatedness / temporal relation only. D-only `RQ-031` = possible conceptual co-discussion / co-presence / aggregate placeholder only. A/B/D are not settled protocol logic, final protocol properties, formula dimensions, quality dimensions, evidence package requirements, readiness gates or implementation requirements. C / non-derivability remains outside active `RQ-026` and separated in `RQ-027`. No formula candidate is opened, authorized, approved, named, drafted or defined. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
 
 ## M-002-ROUTE-AFTER-RQ-031-AGGREGATE-RECHECK-REVIEW
 

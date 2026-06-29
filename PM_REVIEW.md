@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026-A-B-D-SYNTHESIS-READINESS-RECHECK-REVIEW
+
+Decision:
+RQ_026_A_B_D_SYNTHESIS_READINESS_RECHECK_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+RQ-026 A/B/D synthesis-readiness recheck completed with constraints. RQ-026 remains OPEN / RESEARCH-FRAMING with Decision NONE. This does not answer, validate or close RQ-026 and does not create PD-026. RQ-026 is not converted into protocol decision, formula requirement, formula-preparation layer, readiness gate as protocol object, checklist, classifier, validation/admissibility rule, score, ranking, ordering, weighting, dependency graph, handoff package, handoff template, schema or implementation-facing structure. A/B/D remain only bounded research-framing context: A-only RQ-029 as possible referential structure only; B-only RQ-030 as possible temporal situatedness / temporal relation only; D-only RQ-031 as possible conceptual co-discussion / co-presence / aggregate placeholder only. A/B/D are not settled protocol logic, final protocol properties, formula dimensions, quality dimensions, evidence package requirements, readiness gates or implementation requirements. C / non-derivability remains outside active RQ-026 and separated in RQ-027. No formula candidate is opened, authorized, approved, named, drafted or defined. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. RQ-026, RQ-027, RQ-028, RQ-029, RQ-030 and RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026, PD-027, PD-028, PD-029, PD-030 or PD-031 is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+M-002-ROUTE-AFTER-RQ-026-A-B-D-SYNTHESIS-READINESS-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-RQ-031-AGGREGATE-RECHECK-REVIEW
 
 Decision:
