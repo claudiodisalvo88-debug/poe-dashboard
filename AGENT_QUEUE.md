@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
+M-002-RQ-028-RESEARCH-HANDOFF-BOUNDARY-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: route the next research-only step after formula-candidate research opening-consideration state consolidation review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: recheck `RQ-028` research handoff boundary strictly as research-framing only after formula-candidate research opening-consideration state consolidation routing, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_TO_M_002_RQ_028_RESEARCH_HANDOFF_BOUNDARY_RECHECK_REVIEW`. Formula-candidate research opening-consideration state consolidation routing is completed with constraints. The next safe step is a research-only `RQ-028` research handoff boundary recheck review, so repository state stays anchored to non-binding handoff boundary only and does not drift into candidate-opening leakage. This does not answer, validate or close `RQ-026`, `RQ-027` or `RQ-028` and does not create `PD-026`, `PD-027` or `PD-028`. `RQ-028` is not converted into protocol decision, handoff package, handoff template, readiness gate, formula-preparation layer, schema, standard schema, validation/admissibility rule, checklist, gate, classifier, score, dependency graph, operational step or implementation-facing structure. No formula candidate is opened, authorized, approved, named, drafted or defined. No formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision is introduced. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`.
 
 ## M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
 

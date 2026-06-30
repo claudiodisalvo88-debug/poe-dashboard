@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
+
+Decision:
+ROUTE_TO_M_002_RQ_028_RESEARCH_HANDOFF_BOUNDARY_RECHECK_REVIEW
+
+Reason:
+Formula-candidate research opening-consideration state consolidation routing is completed with constraints. The next safe step is a research-only `RQ-028` research handoff boundary recheck review, so repository state stays anchored to non-binding handoff boundary only and does not drift into candidate-opening leakage. This does not answer, validate or close `RQ-026`, `RQ-027` or `RQ-028` and does not create `PD-026`, `PD-027` or `PD-028`. `RQ-028` is not converted into protocol decision, handoff package, handoff template, readiness gate, formula-preparation layer, schema, standard schema, validation/admissibility rule, checklist, gate, classifier, score, dependency graph, operational step or implementation-facing structure. It does not open, authorize, approve, name, draft or define any formula candidate. It does not define formula structure, formula syntax, score, ranking, ordering, weighting, threshold, checklist, protocol gate, classifier, validation rule, admissibility rule, dependency graph, handoff package, handoff template, readiness gate as protocol object, formula-preparation layer, standard schema, implementation-facing structure or protocol decision. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
+
+Next action:
+M-002-RQ-028-RESEARCH-HANDOFF-BOUNDARY-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-FORMULA-CANDIDATE-RESEARCH-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
 
 Decision:
