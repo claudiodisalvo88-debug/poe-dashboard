@@ -470,3 +470,10 @@ Reason: RQ-028 research handoff boundary recheck completed with constraints. RQ-
 
 Next action:
 `M-002-ROUTE-AFTER-RQ-028-RESEARCH-HANDOFF-BOUNDARY-RECHECK-REVIEW` must route the next research-only step after `RQ-028` research handoff boundary recheck, without answering, validating or closing `RQ-028`, without creating `PD-028`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+Route after RQ-028 research handoff boundary recheck:
+ROUTE_AFTER_RQ_028_RESEARCH_HANDOFF_BOUNDARY_RECHECK_REVIEWED_WITH_CONSTRAINTS
+Reason: RQ-028 research handoff boundary recheck routing completed with constraints. The next safe step is a research-only `M-002-RQ-029-REFERENTIAL-STRUCTURE-RECHECK-REVIEW`. `RQ-028` remains research-framing only and non-binding handoff boundary only; `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision NONE; no `PD-028` or `PD-029` is created; no formula candidate is opened, authorized, approved, named, drafted or defined; no handoff package, handoff template, formula-preparation layer, schema, standard schema, gate, checklist, classifier, validation/admissibility rule, dependency graph, operational step, implementation-facing structure, closure decision, candidate-opening decision, state decision or protocol decision is created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision NONE. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Formula-candidate opening remains not ready / not permitted / not executable. Implementation remains BLOCKED.
+
+Next action:
+`M-002-RQ-029-REFERENTIAL-STRUCTURE-RECHECK-REVIEW` must recheck `RQ-029` A-only referential structure strictly as research-framing only after routing from `RQ-028` research handoff boundary recheck, without answering, validating or closing `RQ-029`, without creating `PD-029`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
