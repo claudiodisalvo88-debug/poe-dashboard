@@ -554,3 +554,10 @@ Reason: formula-candidate opening-consideration state consolidation review compl
 
 Next action:
 `M-002-ROUTE-AFTER-FORMULA-CANDIDATE-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW` must route the next research-only step after formula-candidate opening-consideration state consolidation review, without deciding any opening, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+Route after formula-candidate opening-consideration state consolidation review:
+ROUTE_AFTER_FORMULA_CANDIDATE_OPENING_CONSIDERATION_STATE_CONSOLIDATION_REVIEWED_WITH_CONSTRAINTS
+Reason: route after formula-candidate opening-consideration state consolidation review completed with constraints. No further specific research-only internal boundary step is determined safely in repository state without risking opening, readiness or decision leakage. Next required step is `PM_ROUTE_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING`. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. No candidate-opening decision, state decision or protocol decision is created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. No candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure or closure decision is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
+
+Next action:
+`PM_ROUTE_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING` remains required before any future formula-candidate opening-related routing can proceed.
