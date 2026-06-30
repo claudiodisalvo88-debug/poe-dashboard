@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
+M-002-RQ-031-AGGREGATE-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: route the next research-only step after `RQ-030` B-only temporal delimitation recheck, without answering, validating or closing `RQ-030`, without creating `PD-030`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: recheck `RQ-031` D-only aggregate strictly as research-framing only after routing from `RQ-030` temporal delimitation recheck, without answering, validating or closing `RQ-031`, without creating `PD-031`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_AFTER_RQ_030_TEMPORAL_DELIMITATION_RECHECK_REVIEWED_WITH_CONSTRAINTS`. RQ-030 B-only temporal delimitation recheck routing completed with constraints. The next safe step is a research-only `M-002-RQ-031-AGGREGATE-RECHECK-REVIEW`. `RQ-030` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; `RQ-031` remains OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-030` or `PD-031` is created; no formula candidate is opened, authorized, approved, named, drafted or defined; no aggregation formula, aggregate score, summation rule, weighting, ranking, ordering, normalization rule, aggregation bucket, aggregation period, multi-IE score, portfolio score, cross-actor score, protocol metric, threshold, gate, checklist, classifier, validation/admissibility rule, operational step, implementation-facing structure, closure decision, candidate-opening decision, state decision or protocol decision is created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; formula-candidate opening remains not ready / not permitted / not executable; implementation remains `BLOCKED`.
 
 ## M-002-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
 
