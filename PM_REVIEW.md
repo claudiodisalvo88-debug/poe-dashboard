@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-AUTHORIZE_RESEARCH_ONLY_ROUTE_AFTER_HOLD
+
+Decision:
+AUTHORIZE_RESEARCH_ONLY_ROUTE_AFTER_HOLD_RECORDED_WITH_CONSTRAINTS
+
+Reason:
+human PM explicitly authorized continuation after HOLD, but only as research-only route. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. No candidate-opening decision, state decision or protocol decision is created. RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026/027/028/029/030/031 is created. Implementation remains BLOCKED.
+
+Next action:
+ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED
+
 ## PM-REVIEW-HUMAN_PM_DIRECTION_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING_ROUTE
 
 Decision:

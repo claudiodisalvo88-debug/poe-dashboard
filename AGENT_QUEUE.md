@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-FORMULA_CANDIDATE_OPENING_ROUTE_HELD_PENDING_NEW_HUMAN_PM_DIRECTION
+ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED
 
 Status: ACTIVE
-Objective: keep any formula-candidate opening-related route on hold pending new explicit human PM direction, with repository state remaining research-only / internal boundary / PM-only, without deciding any opening, and without creating readiness decision, candidate-opening decision, state decision or protocol decision.
+Objective: route the next research-only / internal / PM-only step after explicit human PM authorization to continue after HOLD, without formula-candidate opening, without readiness, without candidate-opening decision, without state decision, without protocol decision, without PD creation, without RQ closure, and without formula/candidate/protocol/implementation structure.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 

@@ -575,3 +575,10 @@ Reason: human PM direction before any future formula-candidate opening-related r
 
 Next action:
 `FORMULA_CANDIDATE_OPENING_ROUTE_HELD_PENDING_NEW_HUMAN_PM_DIRECTION` remains required pending new explicit human PM direction.
+
+Human PM research-only continuation after hold:
+AUTHORIZE_RESEARCH_ONLY_ROUTE_AFTER_HOLD_RECORDED_WITH_CONSTRAINTS
+Reason: human PM explicitly authorized continuation after HOLD only for research-only routing. This does not open, authorize, approve, name, draft or define any formula candidate. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. No candidate-opening decision, state decision or protocol decision is created. RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 remain OPEN / RESEARCH-FRAMING with Decision NONE. No PD-026/027/028/029/030/031 is created. No candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure or closure decision is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED
