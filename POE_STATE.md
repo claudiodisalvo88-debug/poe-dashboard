@@ -463,3 +463,10 @@ Reason: formula-candidate research opening-consideration state consolidation rou
 
 Next action:
 `M-002-RQ-028-RESEARCH-HANDOFF-BOUNDARY-RECHECK-REVIEW` must recheck `RQ-028` research handoff boundary strictly as research-framing only after formula-candidate research opening-consideration state consolidation routing, without answering, validating or closing `RQ-026`, `RQ-027` or `RQ-028`, without creating `PD-026`, `PD-027` or `PD-028`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+RQ-028 research handoff boundary recheck:
+RQ_028_RESEARCH_HANDOFF_BOUNDARY_RECHECK_REVIEWED_WITH_CONSTRAINTS
+Reason: RQ-028 research handoff boundary recheck completed with constraints. RQ-028 remains research-framing only and non-binding handoff boundary only. This does not answer, validate or close `RQ-028` and does not create `PD-028`. `RQ-028` is not converted into protocol decision, handoff package, handoff template, formula-preparation layer, schema, standard schema, gate, checklist, classifier, validation/admissibility rule, dependency graph, operational step or implementation-facing structure. It does not open, authorize, approve, name, draft or define any formula candidate. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision NONE. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Formula-candidate opening remains not ready / not permitted / not executable. Implementation remains BLOCKED.
+
+Next action:
+`M-002-ROUTE-AFTER-RQ-028-RESEARCH-HANDOFF-BOUNDARY-RECHECK-REVIEW` must route the next research-only step after `RQ-028` research handoff boundary recheck, without answering, validating or closing `RQ-028`, without creating `PD-028`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
