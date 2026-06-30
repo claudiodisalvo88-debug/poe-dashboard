@@ -505,3 +505,10 @@ Reason: RQ-030 B-only temporal delimitation recheck routing completed with const
 
 Next action:
 `M-002-RQ-031-AGGREGATE-RECHECK-REVIEW` must recheck `RQ-031` D-only aggregate strictly as research-framing only after routing from `RQ-030` temporal delimitation recheck, without answering, validating or closing `RQ-031`, without creating `PD-031`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+RQ-031 D-only aggregate recheck:
+RQ_031_AGGREGATE_RECHECK_REVIEWED_WITH_CONSTRAINTS
+Reason: RQ-031 D-only aggregate recheck completed with constraints. `RQ-031` remains D-only aggregate research-framing only. This does not answer, validate or close `RQ-031` and does not create `PD-031`. `RQ-031` is not converted into protocol decision, protocol rule, formula candidate, formula requirement, aggregation formula, scoring structure, aggregate score, summation rule, weighting, ranking, ordering, normalization rule, aggregation bucket, aggregation period, multi-IE score, portfolio score, cross-actor score, protocol metric, threshold, gate, checklist, classifier, validation/admissibility rule, operational step or implementation-facing structure. It does not open, authorize, approve, name, draft or define any formula candidate. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Formula-candidate opening remains not ready / not permitted / not executable. Implementation remains `BLOCKED`.
+
+Next action:
+`M-002-ROUTE-AFTER-RQ-031-AGGREGATE-RECHECK-REVIEW` must route the next research-only step after `RQ-031` D-only aggregate recheck, without answering, validating or closing `RQ-031`, without creating `PD-031`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
