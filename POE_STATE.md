@@ -512,3 +512,10 @@ Reason: RQ-031 D-only aggregate recheck completed with constraints. `RQ-031` rem
 
 Next action:
 `M-002-ROUTE-AFTER-RQ-031-AGGREGATE-RECHECK-REVIEW` must route the next research-only step after `RQ-031` D-only aggregate recheck, without answering, validating or closing `RQ-031`, without creating `PD-031`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+Route after RQ-031 aggregate recheck:
+ROUTE_AFTER_RQ_031_AGGREGATE_RECHECK_REVIEWED_WITH_CONSTRAINTS
+Reason: RQ-031 D-only aggregate recheck routing completed with constraints. The next safe step is a research-only `M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-STATE-CONSOLIDATION-REVIEW`. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created; no formula candidate is opened, authorized, approved, named, drafted or defined; no candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure, closure decision, candidate-opening decision, state decision or protocol decision is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Formula-candidate opening remains not ready / not permitted / not executable. Implementation remains `BLOCKED`.
+
+Next action:
+`M-002-FORMULA-CANDIDATE-RESEARCH-READINESS-STATE-CONSOLIDATION-REVIEW` must consolidate formula-candidate research readiness state strictly as internal research-only boundary after `RQ-028` / `RQ-029` / `RQ-030` / `RQ-031` rechecks, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
