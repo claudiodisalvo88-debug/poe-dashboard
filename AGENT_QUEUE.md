@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-029-REFERENTIAL-STRUCTURE-RECHECK-REVIEW
+M-002-ROUTE-AFTER-RQ-029-REFERENTIAL-STRUCTURE-RECHECK-REVIEW
 
 Status: ACTIVE
-Objective: recheck `RQ-029` A-only referential structure strictly as research-framing only after routing from `RQ-028` research handoff boundary recheck, without answering, validating or closing `RQ-029`, without creating `PD-029`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: route the next research-only step after `RQ-029` A-only referential structure recheck, without answering, validating or closing `RQ-029`, without creating `PD-029`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-029-REFERENTIAL-STRUCTURE-RECHECK-REVIEW
+
+Status: COMPLETED
+Result: `RQ_029_REFERENTIAL_STRUCTURE_RECHECK_REVIEWED_WITH_CONSTRAINTS`. RQ-029 A-only referential structure recheck completed with constraints. `RQ-029` remains A-only referential structure research-framing only. This does not answer, validate or close `RQ-029` and does not create `PD-029`. `RQ-029` is not converted into protocol decision, formula requirement, referential whitelist, allowed-entity list, correctness rule, validity rule, uniqueness rule, disambiguation rule, validation/admissibility rule, schema, standard schema, dependency graph or implementation-facing structure. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` was created; formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; formula-candidate opening remains not ready / not permitted / not executable; implementation remains `BLOCKED`.
 
 ## M-002-ROUTE-AFTER-RQ-028-RESEARCH-HANDOFF-BOUNDARY-RECHECK-REVIEW
 
