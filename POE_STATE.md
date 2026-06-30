@@ -568,3 +568,10 @@ Reason: PM-only route before any future formula-candidate opening was reviewed w
 
 Next action:
 `HUMAN_PM_DIRECTION_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING_ROUTE` remains required before any future formula-candidate opening-related route can proceed.
+
+Human PM hold before formula-candidate opening:
+HUMAN_PM_HOLD_BEFORE_FORMULA_CANDIDATE_OPENING_RECORDED_WITH_CONSTRAINTS
+Reason: human PM direction before any future formula-candidate opening-related route was recorded as HOLD with constraints. The project does not proceed toward formula-candidate opening. No opening route is authorized. No readiness is declared. No candidate-opening decision, state decision or protocol decision is created. Any future route toward formula-candidate opening requires new explicit human PM direction. Repository state remains research-only / internal boundary / PM-only hold. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. No candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure or closure decision is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
+
+Next action:
+`FORMULA_CANDIDATE_OPENING_ROUTE_HELD_PENDING_NEW_HUMAN_PM_DIRECTION` remains required pending new explicit human PM direction.
