@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-OPENING-CONSIDERATION-BOUNDARY-REVIEW
+M-002-FORMULA-CANDIDATE-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
 
 Status: ACTIVE
-Objective: route the next research-only step after formula-candidate opening-consideration boundary review, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+Objective: consolidate formula-candidate opening-consideration state strictly as internal research-only boundary, without opening, authorizing, approving, naming, drafting or defining any formula candidate.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-ROUTE-AFTER-FORMULA-CANDIDATE-OPENING-CONSIDERATION-BOUNDARY-REVIEW
+
+Status: COMPLETED
+Result: `ROUTE_AFTER_FORMULA_CANDIDATE_OPENING_CONSIDERATION_BOUNDARY_REVIEWED_WITH_CONSTRAINTS`. Formula-candidate opening-consideration boundary review routing completed with constraints. The next safe step is a research-only `M-002-FORMULA-CANDIDATE-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW`. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created; no candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure, closure decision, candidate-opening decision, state decision or protocol decision is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; formula-candidate opening remains not ready / not permitted / not executable; implementation remains `BLOCKED`.
 
 ## M-002-FORMULA-CANDIDATE-OPENING-CONSIDERATION-BOUNDARY-REVIEW
 
