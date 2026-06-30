@@ -484,3 +484,10 @@ Reason: RQ-029 A-only referential structure recheck completed with constraints. 
 
 Next action:
 `M-002-ROUTE-AFTER-RQ-029-REFERENTIAL-STRUCTURE-RECHECK-REVIEW` must route the next research-only step after `RQ-029` A-only referential structure recheck, without answering, validating or closing `RQ-029`, without creating `PD-029`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
+
+Route after RQ-029 referential structure recheck:
+ROUTE_AFTER_RQ_029_REFERENTIAL_STRUCTURE_RECHECK_REVIEWED_WITH_CONSTRAINTS
+Reason: RQ-029 A-only referential structure recheck routing completed with constraints. The next safe step is a research-only `M-002-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW`. `RQ-029` remains OPEN / RESEARCH-FRAMING with Decision NONE; `RQ-030` remains OPEN / RESEARCH-FRAMING with Decision NONE; no `PD-029` or `PD-030` is created; no formula candidate is opened, authorized, approved, named, drafted or defined; no threshold, scoring window, validation period, implementation parameter, time bucket, period rule, window standard, schedule, cadence, SLA, cutoff, epoch, round, settlement period, whitelist, schema, dependency graph, validation/admissibility rule, gate, checklist, classifier, operational step, implementation-facing structure, closure decision, candidate-opening decision, state decision or protocol decision is created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision NONE. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Formula-candidate opening remains not ready / not permitted / not executable. Implementation remains BLOCKED.
+
+Next action:
+`M-002-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW` must recheck `RQ-030` B-only temporal delimitation strictly as research-framing only after routing from `RQ-029` referential-structure recheck, without answering, validating or closing `RQ-030`, without creating `PD-030`, and without opening, authorizing, approving, naming, drafting or defining any formula candidate.
