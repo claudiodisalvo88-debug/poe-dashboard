@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
+
+Decision:
+RQ_030_TEMPORAL_DELIMITATION_RECHECK_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+RQ-030 B-only temporal delimitation recheck completed with constraints. `RQ-030` remains B-only temporal delimitation research-framing only. This does not answer, validate or close `RQ-030` and does not create `PD-030`. `RQ-030` is not converted into protocol decision, formula rule, formula requirement, threshold, scoring window, validation period, implementation parameter, time bucket, period rule, window standard, schedule, cadence, SLA, cutoff, epoch, round, settlement period, rolling window, aggregation period, event window, claim period, observation window, gate, checklist, classifier, operational step or implementation-facing structure. It does not open, authorize, approve, name, draft or define any formula candidate. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Formula-candidate opening remains not ready / not permitted / not executable. Implementation remains `BLOCKED`.
+
+Next action:
+M-002-ROUTE-AFTER-RQ-030-TEMPORAL-DELIMITATION-RECHECK-REVIEW
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-RQ-029-REFERENTIAL-STRUCTURE-RECHECK-REVIEW
 
 Decision:
