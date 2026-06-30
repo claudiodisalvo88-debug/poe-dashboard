@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-PM_ROUTE_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING
+
+Decision:
+PM_ROUTE_BEFORE_FORMULA_CANDIDATE_OPENING_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+Nessuna apertura possibile; nessuna readiness; nessuna decisione; serve direzione PM umana prima di qualunque ulteriore route verso formula-candidate opening. Non esiste autorizzazione ad aprire formula candidate. Non esistono candidate-opening decision, state decision o protocol decision. Lo stato resta research-only / internal boundary / PM-only. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` e `RQ-031` restano OPEN / RESEARCH-FRAMING con Decision `NONE`. Nessun `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` o `PD-031` è creato. Nessuna struttura formula/candidate/protocol/implementation proibita è creata. Implementation remains `BLOCKED`.
+
+Next action:
+HUMAN_PM_DIRECTION_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING_ROUTE
+
 ## PM-REVIEW-M-002-ROUTE-AFTER-FORMULA-CANDIDATE-OPENING-CONSIDERATION-STATE-CONSOLIDATION-REVIEW
 
 Decision:

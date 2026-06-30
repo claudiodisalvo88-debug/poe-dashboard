@@ -561,3 +561,10 @@ Reason: route after formula-candidate opening-consideration state consolidation 
 
 Next action:
 `PM_ROUTE_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING` remains required before any future formula-candidate opening-related routing can proceed.
+
+PM route required before formula-candidate opening:
+PM_ROUTE_BEFORE_FORMULA_CANDIDATE_OPENING_REVIEWED_WITH_CONSTRAINTS
+Reason: PM-only route before any future formula-candidate opening was reviewed with constraints. No authorization to open formula candidates exists. No readiness decision, candidate-opening decision, state decision or protocol decision exists. Any next step toward formula-candidate opening requires explicit human PM direction. Repository state remains research-only / internal boundary / PM-only. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`. No `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created. No candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure or closure decision is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`. Final formula remains `NOT DEFINED`. Implementation remains `BLOCKED`.
+
+Next action:
+`HUMAN_PM_DIRECTION_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING_ROUTE` remains required before any future formula-candidate opening-related route can proceed.
