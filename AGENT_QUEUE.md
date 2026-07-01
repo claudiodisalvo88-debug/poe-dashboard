@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ_026_TO_RQ_031_RESEARCH_ONLY_CONTINUITY_REVIEW
+POE_ARCHITECTURE_AND_COST_EVALUATION_HOLD
 
-Status: ACTIVE
-Objective: review continuity of the open research-framing state of RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 after reconciliation, strictly as research-only / internal / PM-only continuity review, without answering, validating, closing or converting any RQ, without formula-candidate opening, without readiness, without candidate-opening decision, without state decision, without protocol decision, without PD creation and without formula/candidate/protocol/implementation structure.
+Status: ON HOLD
+Objective: freeze PoE protocol and implementation work pending CEO decision on tooling architecture and cost strategy, including ChatGPT subscription expiring 2026-07-16 and Use.ai expiring 2026-07-25.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ_026_TO_RQ_031_RESEARCH_ONLY_CONTINUITY_REVIEW
+
+Status: SUPERSEDED / FROZEN
+Result: `SUPERSEDED_BY_ARCHITECTURE_AND_COST_EVALUATION_HOLD`. Task superseded by CEO-directed architecture and cost evaluation hold. No continuity review executed. Project frozen pending decision on tooling architecture, subscription costs, Use.ai role, ChatGPT renewal, GitHub/Codex workflow and sustainable R&D operating model. No RQ answered, validated, closed or converted. No PD created. No formula candidate opened, authorized, approved, named, drafted or defined. Implementation remains `BLOCKED`.
 
 ## M-002-ROUTE_AFTER_RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
 

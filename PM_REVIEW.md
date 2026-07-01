@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-POE_ARCHITECTURE_AND_COST_EVALUATION_HOLD
+
+Decision:
+CEO_FREEZE_FOR_ARCHITECTURE_AND_COST_EVALUATION
+
+Reason:
+CEO froze operational PoE work pending evaluation of tooling architecture and costs. The project must not continue with PM-only continuity reviews, R&D Lab bootstrap, formula-candidate research, protocol decisions or implementation changes until a cost-aware architecture decision is made. ChatGPT subscription expires on 2026-07-16 and Use.ai access expires on 2026-07-25. GitHub remains source of truth. Implementation remains BLOCKED.
+
+Next action:
+CEO_ARCHITECTURE_COST_DECISION_REQUIRED
+
 ## PM-REVIEW-M-002-ROUTE_AFTER_RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
 
 Decision:
