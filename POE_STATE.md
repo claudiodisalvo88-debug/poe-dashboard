@@ -590,3 +590,11 @@ After explicit human PM authorization to continue after HOLD, the next safe step
 
 Next action:
 M-002-RQ-026_TO_RQ-031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
+
+RQ-026 to RQ-031 research-framing reconciliation review:
+RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEWED_WITH_CONSTRAINTS
+Reason:
+Open research-framing state for RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 has been reconciled after human PM research-only continuation authorization. This is research-only / internal / PM-only. It does not answer, validate, close or convert any RQ. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. No candidate-opening decision, state decision or protocol decision is created. No PD-026/027/028/029/030/031 is created. No candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure or closure decision is created. Formula candidates remain RESEARCH PHASE OPENED / NO CANDIDATES DEFINED. Final formula remains NOT DEFINED. Implementation remains BLOCKED.
+
+Next action:
+M-002-ROUTE_AFTER_RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEW

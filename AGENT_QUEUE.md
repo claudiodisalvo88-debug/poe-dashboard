@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-M-002-RQ-026_TO_RQ-031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
+M-002-ROUTE_AFTER_RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
 
 Status: ACTIVE
-Objective: reconcile the open research-framing state of RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 after human PM research-only continuation authorization, without answering, validating, closing or converting any RQ, without formula-candidate opening, without readiness, without candidate-opening decision, without state decision, without protocol decision, without PD creation and without formula/candidate/protocol/implementation structure.
+Objective: route the next safe research-only / internal / PM-only step after reconciliation of RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 open research-framing state, without answering, validating, closing or converting any RQ, without formula-candidate opening, without readiness, without candidate-opening decision, without state decision, without protocol decision, without PD creation and without formula/candidate/protocol/implementation structure.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## M-002-RQ-026_TO_RQ-031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
+
+Status: COMPLETED
+Result: `RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEWED_WITH_CONSTRAINTS`. Open research-framing state for RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 reconciled after human PM research-only continuation authorization. This reconciliation is research-only / internal / PM-only. It does not answer, validate, close or convert any RQ. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. No candidate-opening decision, state decision or protocol decision is created. No PD-026/027/028/029/030/031 is created. No forbidden formula/candidate/protocol/implementation structure is created. Implementation remains BLOCKED.
 
 ## ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED
 

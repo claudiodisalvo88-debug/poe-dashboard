@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-M-002-RQ-026_TO_RQ-031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
+
+Decision:
+RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+The open research-framing state of RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 has been reconciled after human PM research-only continuation authorization. The reconciliation remains research-only / internal / PM-only. It does not answer, validate, close or convert any RQ. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. No candidate-opening decision, state decision or protocol decision is created. No PD-026/027/028/029/030/031 is created. No forbidden formula/candidate/protocol/implementation structure is created. Implementation remains BLOCKED.
+
+Next action:
+M-002-ROUTE_AFTER_RQ_026_TO_RQ_031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
+
 ## PM-REVIEW-ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED
 
 Decision:
