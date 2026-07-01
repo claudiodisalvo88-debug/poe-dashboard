@@ -614,3 +614,12 @@ Operational PoE work is frozen pending CEO decision on tooling architecture and 
 
 Next action:
 CEO_ARCHITECTURE_COST_DECISION_REQUIRED
+
+Temporary Use.ai trial-lab direction:
+USE_AI_TRIAL_LAB_UNTIL_2026_07_25_NO_RENEWAL_COMMITMENT
+
+Reason:
+Use.ai may be used only as temporary analysis lab until 2026-07-25. It is not source of truth, not committer, not an approved permanent architecture and not authorized for renewal. GitHub remains source of truth. Codex remains sole committer. PoE protocol and implementation remain frozen. No R&D Lab bootstrap is authorized. No formula candidate research is authorized. No RQ is answered, validated, closed or converted. No PD is created. No implementation change is made. Implementation remains BLOCKED.
+
+Next action:
+USE_AI_TRIAL_ANALYSIS_PHASE_UNTIL_2026_07_25

@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-USE_AI_TRIAL_LAB_UNTIL_2026_07_25
+
+Decision:
+USE_AI_TRIAL_LAB_UNTIL_2026_07_25_NO_RENEWAL_COMMITMENT
+
+Reason:
+CEO decided to use Use.ai only as temporary analysis lab until 2026-07-25, without making it source of truth, without authorizing renewal, without giving it commit authority and without unfreezing PoE protocol or implementation work. GitHub remains source of truth. Codex remains sole committer. Project remains frozen pending further CEO architecture/cost decision.
+
+Next action:
+USE_AI_TRIAL_ANALYSIS_PHASE_UNTIL_2026_07_25
+
 ## PM-REVIEW-POE_ARCHITECTURE_AND_COST_EVALUATION_HOLD
 
 Decision:

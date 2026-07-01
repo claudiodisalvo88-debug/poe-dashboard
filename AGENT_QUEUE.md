@@ -4,6 +4,9 @@
 POE_ARCHITECTURE_AND_COST_EVALUATION_HOLD
 
 Status: ON HOLD
+CEO temporary tooling direction:
+USE_AI_TRIAL_LAB_UNTIL_2026_07_25_NO_RENEWAL_COMMITMENT
+Use.ai may be used only as temporary analysis lab until 2026-07-25. GitHub remains source of truth. Codex remains sole committer. No R&D Lab bootstrap, protocol work, formula candidate research, RQ closure, PD creation or implementation work is authorized.
 Objective: freeze PoE protocol and implementation work pending CEO decision on tooling architecture and cost strategy, including ChatGPT subscription expiring 2026-07-16 and Use.ai expiring 2026-07-25.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
