@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-USE_AI_TRIAL_DISCONTINUED
+
+Decision:
+USE_AI_TRIAL_DISCONTINUED_DUE_TO_TOKEN_LIMITS
+
+Reason:
+CEO discontinued Use.ai as operational tooling candidate because token limits blocked work across models. The project requires a robust comparative multi-model architecture without opaque platform limits. This does not unfreeze PoE, does not authorize R&D Lab bootstrap, formula candidate research, RQ closure, PD creation or implementation. GitHub remains source of truth. Codex remains sole committer. Implementation remains BLOCKED.
+
+Next action:
+EVALUATE_ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE
+
 ## PM-REVIEW-USE_AI_TRIAL_LAB_UNTIL_2026_07_25
 
 Decision:

@@ -623,3 +623,12 @@ Use.ai may be used only as temporary analysis lab until 2026-07-25. It is not so
 
 Next action:
 USE_AI_TRIAL_ANALYSIS_PHASE_UNTIL_2026_07_25
+
+Use.ai trial discontinued:
+USE_AI_TRIAL_DISCONTINUED_DUE_TO_TOKEN_LIMITS
+
+Reason:
+Use.ai is discontinued as operational tooling candidate because token limits blocked work across models. The project will evaluate alternative multi-model comparison architecture. PoE protocol and implementation remain frozen. No R&D Lab bootstrap is authorized. No formula candidate research is authorized. No RQ is answered, validated, closed or converted. No PD is created. No implementation change is made. Implementation remains BLOCKED.
+
+Next action:
+EVALUATE_ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE
