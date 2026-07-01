@@ -632,3 +632,12 @@ Use.ai is discontinued as operational tooling candidate because token limits blo
 
 Next action:
 EVALUATE_ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE
+
+Alternative multi-model comparison architecture review:
+ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+Use.ai is discontinued due to token limits and operational opacity. OpenRouter + local `POE_MODEL_LAB` + ChatGPT verifier is the preferred operational candidate for comparative analysis workflow only. Ollama remains optional/deprioritized and is not a reliable verifier. `POE_MODEL_LAB` remains outside the PoE GitHub repository and is not source of truth. The PoE GitHub repository remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No RQ action is authorized. No PD action is authorized. This review does not unblock PoE and does not authorize implementation.
+
+Next required step:
+CEO_DECISION_ON_WHETHER_TO_ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW

@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE
+
+Decision:
+ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+Use.ai is discontinued as an operational candidate due to token limits and operational opacity. OpenRouter + local `POE_MODEL_LAB` + ChatGPT verifier is the preferred operational candidate for comparative analysis workflow only. Ollama remains optional/deprioritized and is not treated as a reliable verifier. `POE_MODEL_LAB` remains outside the PoE GitHub repository and is not source of truth. The PoE GitHub repository remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only and do not enter the PoE repo without ChatGPT review, CEO decision and explicit Codex authorization. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No RQ action is authorized. No PD action is authorized. This review does not unblock PoE, does not authorize R&D Lab bootstrap and does not authorize implementation.
+
+Next action:
+CEO_DECISION_ON_WHETHER_TO_ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW
+
 ## PM-REVIEW-USE_AI_TRIAL_DISCONTINUED
 
 Decision:
