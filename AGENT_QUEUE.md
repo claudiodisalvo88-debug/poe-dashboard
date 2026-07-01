@@ -15,8 +15,12 @@ Latest review result:
 ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE_REVIEWED_WITH_CONSTRAINTS
 Review summary:
 Use.ai is discontinued due to token limits and operational opacity. OpenRouter + local POE_MODEL_LAB + ChatGPT verifier is the preferred operational candidate, while Ollama remains optional/deprioritized and is not a reliable verifier. POE_MODEL_LAB remains outside the PoE repo and is not source of truth. GitHub remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No RQ/PD action is authorized. This review does not unblock PoE.
+CEO tooling-only decision:
+ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW_WITH_CONSTRAINTS
+Decision summary:
+OpenRouter + local POE_MODEL_LAB + ChatGPT verifier is adopted as the preferred tooling-only workflow for model comparison, draft analysis, cost control and external stress-test support only. It is not PoE source of truth, not a protocol component and not an R&D Lab bootstrap. It does not unblock PoE, does not authorize formula candidates, RQ/PD actions or implementation. Use.ai remains discontinued. Ollama remains optional/deprioritized and not a reliable verifier. GitHub remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. Any future use requires ChatGPT review + CEO decision + authorized Codex prompt.
 Next required task:
-CEO_DECISION_ON_WHETHER_TO_ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW
+DEFINE_MODEL_LAB_OPERATING_PLAYBOOK_OUTSIDE_POE_REPO
 Route constraint:
 No research route, protocol route, implementation route, formula-candidate route or RQ/PD route is authorized from this review.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`

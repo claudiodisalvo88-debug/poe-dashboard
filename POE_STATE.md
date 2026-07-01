@@ -641,3 +641,12 @@ Use.ai is discontinued due to token limits and operational opacity. OpenRouter +
 
 Next required step:
 CEO_DECISION_ON_WHETHER_TO_ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW
+
+CEO tooling-only decision:
+ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW_WITH_CONSTRAINTS
+
+Reason:
+OpenRouter + local `POE_MODEL_LAB` + ChatGPT verifier is adopted as the preferred tooling-only workflow for model comparison, analysis drafts, cost control and external stress-test support only. It is not PoE source of truth, not a protocol component and not an R&D Lab bootstrap. It does not unblock PoE. It does not authorize formula candidates, formula-candidate research, RQ actions, PD actions or implementation. Use.ai remains discontinued. Ollama remains optional/deprioritized and is not a reliable verifier. The PoE GitHub repository remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. Any future use requires ChatGPT review + CEO decision + authorized Codex prompt before anything enters the PoE repo. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked.
+
+Next required step:
+DEFINE_MODEL_LAB_OPERATING_PLAYBOOK_OUTSIDE_POE_REPO
