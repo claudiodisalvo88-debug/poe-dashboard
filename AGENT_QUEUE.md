@@ -1,10 +1,10 @@
 # AGENT_QUEUE.md
 
 ## Active task
-ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED
+M-002-RQ-026_TO_RQ-031_RESEARCH_FRAMING_RECONCILIATION_REVIEW
 
 Status: ACTIVE
-Objective: route the next research-only / internal / PM-only step after explicit human PM authorization to continue after HOLD, without formula-candidate opening, without readiness, without candidate-opening decision, without state decision, without protocol decision, without PD creation, without RQ closure, and without formula/candidate/protocol/implementation structure.
+Objective: reconcile the open research-framing state of RQ-026/RQ-027/RQ-028/RQ-029/RQ-030/RQ-031 after human PM research-only continuation authorization, without answering, validating, closing or converting any RQ, without formula-candidate opening, without readiness, without candidate-opening decision, without state decision, without protocol decision, without PD creation and without formula/candidate/protocol/implementation structure.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
@@ -17,6 +17,11 @@ Nessun task pending registrato.
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED
+
+Status: COMPLETED
+Result: `ROUTE_AFTER_HUMAN_PM_HOLD_RESEARCH_ONLY_AUTHORIZED_REVIEWED_WITH_CONSTRAINTS`. Human PM research-only continuation after HOLD was reviewed with constraints. The next safe step is `M-002-RQ-026_TO_RQ-031_RESEARCH_FRAMING_RECONCILIATION_REVIEW`. This does not answer, validate, close or convert any RQ. No formula candidate is opened, authorized, approved, named, drafted or defined. Formula-candidate opening is not declared ready, permitted, executable, approved or authorized. No candidate-opening decision, state decision or protocol decision is created. `RQ-026`, `RQ-027`, `RQ-028`, `RQ-029`, `RQ-030` and `RQ-031` remain OPEN / RESEARCH-FRAMING with Decision `NONE`; no `PD-026`, `PD-027`, `PD-028`, `PD-029`, `PD-030` or `PD-031` is created; no candidate terms, formula terms, syntax, formula structure, score, ranking, ordering, weighting, threshold, checklist, gate, classifier, validation/admissibility rule, dependency graph, handoff package, handoff template, formula-preparation layer, schema, standard schema, operational step, implementation-facing structure or closure decision is created. Formula candidates remain `RESEARCH PHASE OPENED / NO CANDIDATES DEFINED`; final formula remains `NOT DEFINED`; implementation remains `BLOCKED`.
 
 ## HUMAN_PM_DIRECTION_REQUIRED_BEFORE_FORMULA_CANDIDATE_OPENING_ROUTE
 
