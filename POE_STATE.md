@@ -650,3 +650,12 @@ OpenRouter + local `POE_MODEL_LAB` + ChatGPT verifier is adopted as the preferre
 
 Next required step:
 DEFINE_MODEL_LAB_OPERATING_PLAYBOOK_OUTSIDE_POE_REPO
+
+Controlled re-entry gate review:
+POE_CONTROLLED_REENTRY_GATE_REVIEWED_STATUS_ONLY_FROZEN_CONTINUED
+
+Reason:
+CEO authorized one controlled re-entry gate review for status recording only. The current safe state remains STATUS_ONLY / FROZEN_CONTINUED. The PoE GitHub repository remains source of truth. `POE_MODEL_LAB` remains tooling-only, outside the PoE repo, and its external model outputs remain analysis drafts only. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No formula-candidate research reopening is authorized. No RQ action is authorized. No PD action is authorized. No implementation is authorized. This review does not reopen PoE.
+
+Next required step:
+CEO_DECISION_REQUIRED_FOR_ANY_CONTROLLED_REOPENING_SCOPE

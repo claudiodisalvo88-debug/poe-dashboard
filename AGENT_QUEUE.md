@@ -12,15 +12,15 @@ USE_AI_TRIAL_DISCONTINUED_DUE_TO_TOKEN_LIMITS
 Use.ai trial is discontinued as an operational tooling candidate because all models became unavailable due to token limits. Use.ai is not source of truth, not committer, not approved for renewal and not part of the robust PoE workflow. The next tooling evaluation focuses on alternative multi-model comparison architecture. GitHub remains source of truth. Codex remains sole committer. PoE remains frozen.
 Objective: freeze PoE protocol and implementation work pending CEO decision on tooling architecture and cost strategy, including ChatGPT subscription expiring 2026-07-16 and Use.ai expiring 2026-07-25.
 Latest review result:
-ALTERNATIVE_MULTI_MODEL_COMPARISON_ARCHITECTURE_REVIEWED_WITH_CONSTRAINTS
+POE_CONTROLLED_REENTRY_GATE_REVIEWED_STATUS_ONLY_FROZEN_CONTINUED
 Review summary:
-Use.ai is discontinued due to token limits and operational opacity. OpenRouter + local POE_MODEL_LAB + ChatGPT verifier is the preferred operational candidate, while Ollama remains optional/deprioritized and is not a reliable verifier. POE_MODEL_LAB remains outside the PoE repo and is not source of truth. GitHub remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No RQ/PD action is authorized. This review does not unblock PoE.
+Controlled re-entry gate was reviewed in status-only mode. Current safe state remains STATUS_ONLY / FROZEN_CONTINUED. POE_MODEL_LAB remains tooling-only and analysis-draft-only, outside the PoE repo and not source of truth. GitHub main remains source of truth. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No RQ/PD action is authorized. No implementation is authorized. This review does not reopen PoE.
 CEO tooling-only decision:
 ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW_WITH_CONSTRAINTS
 Decision summary:
 OpenRouter + local POE_MODEL_LAB + ChatGPT verifier is adopted as the preferred tooling-only workflow for model comparison, draft analysis, cost control and external stress-test support only. It is not PoE source of truth, not a protocol component and not an R&D Lab bootstrap. It does not unblock PoE, does not authorize formula candidates, RQ/PD actions or implementation. Use.ai remains discontinued. Ollama remains optional/deprioritized and not a reliable verifier. GitHub remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. Any future use requires ChatGPT review + CEO decision + authorized Codex prompt.
 Next required task:
-DEFINE_MODEL_LAB_OPERATING_PLAYBOOK_OUTSIDE_POE_REPO
+CEO_DECISION_REQUIRED_FOR_ANY_CONTROLLED_REOPENING_SCOPE
 Route constraint:
 No research route, protocol route, implementation route, formula-candidate route or RQ/PD route is authorized from this review.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`

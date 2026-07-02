@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-POE_CONTROLLED_REENTRY_GATE_STATUS_ONLY
+
+Decision:
+POE_CONTROLLED_REENTRY_GATE_REVIEWED_STATUS_ONLY_FROZEN_CONTINUED
+
+Reason:
+CEO authorized a controlled re-entry gate review for status recording only. The review confirms that GitHub main remains source of truth, `POE_MODEL_LAB` remains tooling-only and analysis-draft-only, and no Model Lab output enters the PoE repo as source of truth. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No formula-candidate research reopening is authorized. No RQ action is authorized. No PD action is authorized. No implementation is authorized. This review records status only and does not reopen PoE.
+
+Next action:
+CEO_DECISION_REQUIRED_FOR_ANY_CONTROLLED_REOPENING_SCOPE
+
 ## PM-REVIEW-ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW
 
 Decision:
