@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-EVIDENCE_DATA_LANE_SCOPE_REVIEW
+
+Decision:
+EVIDENCE_DATA_LANE_SCOPE_REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+The evidence/data lane review has been narrowed to the concrete IoT / smart meter preventivo task already present in `TASKS.md`. This keeps PoE moving toward physical-node evidence without formula candidates, RQ/PD action, protocol decisions, implementation work or code/API/database/runtime changes.
+
+Next action:
+M-002-RICHIESTA-PREVENTIVO-IOT-SMART-METER-POE
+
 ## PM-REVIEW-RESOLVE_OPERATING_LOOP_V1_SELF_REFERENCE
 
 Decision:

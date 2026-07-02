@@ -1,23 +1,23 @@
 # AGENT_QUEUE.md
 
 ## Active task
-EVIDENCE_DATA_LANE_SCOPE_REVIEW
+M-002-RICHIESTA-PREVENTIVO-IOT-SMART-METER-POE
 
 Status: READY / EVIDENCE_DATA_LANE_ACTIVE
-Purpose: review the evidence/data lane scope as the next concrete repository-grounded step.
+Purpose: execute the concrete evidence/data lane task for the first PoE physical node preventivo.
 Source of truth: GitHub main / `POE_STATE.md`
 Operating constraint: execute only the already recorded next required step. Do not expand scope.
 Next required task:
-EVIDENCE_DATA_LANE_SCOPE_REVIEW
+M-002-RICHIESTA-PREVENTIVO-IOT-SMART-METER-POE
 
 ## Pending tasks
 
-## EVIDENCE_DATA_LANE_SCOPE_REVIEW
+## M-002-RICHIESTA-PREVENTIVO-IOT-SMART-METER-POE
 
 Status: READY
-Scope: evidence/data lane scope only
-Result target: define the next concrete evidence/data lane step without protocol drift, implementation, or formula/RQ/PD action
-Why selected: moves PoE toward practical operational progress through the evidence/data lane
+Scope: IoT / smart meter preventivo only
+Result target: obtain or structure the first concrete preventivo for the physical PoE node without implementation drift, formula, or RQ/PD action
+Why selected: directly advances the evidence/data lane through a real-world node and data acquisition step
 
 ## M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 
@@ -34,6 +34,11 @@ Nessun task blocked registrato.
 
 Status: COMPLETED
 Result: `OPERATING_LOOP_V1_SELF_REFERENCE_RESOLVED`. The self-referential operating loop pointer was replaced with the concrete next required step `EVIDENCE_DATA_LANE_SCOPE_REVIEW`. No formula candidate was introduced. No RQ/PD action was performed. No implementation was performed.
+
+## EVIDENCE_DATA_LANE_SCOPE_REVIEW
+
+Status: COMPLETED
+Result: `EVIDENCE_DATA_LANE_SCOPE_REVIEWED_WITH_CONSTRAINTS`. Evidence/data lane scope was reviewed and narrowed to the concrete physical-node preventivo task `M-002-RICHIESTA-PREVENTIVO-IOT-SMART-METER-POE`. No formula candidate was introduced. No RQ/PD action was performed. No implementation was performed.
 
 ## M-002-RQ-030-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 
