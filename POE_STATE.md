@@ -671,3 +671,12 @@ M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 
 Next required step:
 EXECUTE_M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+
+RQ-029 open-boundary consistency review:
+M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEWED_WITH_CONSTRAINTS
+
+Reason:
+`RQ-029` was reviewed under the controlled reopening lane and remains OPEN / RESEARCH-FRAMING only. It remains A-only referential structure only. It does not become formula term, validation rule, admissibility rule, correctness logic, validity logic, uniqueness logic, whitelist logic, registry logic, disambiguation logic, ranking logic, freshness logic, scoring logic or implementation-facing logic. No RQ open/close/validate/convert was performed. No PD creation was performed. No formula candidate was authorized. Implementation remains BLOCKED.
+
+Next required step:
+EXECUTE_M-002-RQ-030-OPEN-BOUNDARY-CONSISTENCY-REVIEW

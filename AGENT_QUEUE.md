@@ -12,15 +12,15 @@ USE_AI_TRIAL_DISCONTINUED_DUE_TO_TOKEN_LIMITS
 Use.ai trial is discontinued as an operational tooling candidate because all models became unavailable due to token limits. Use.ai is not source of truth, not committer, not approved for renewal and not part of the robust PoE workflow. The next tooling evaluation focuses on alternative multi-model comparison architecture. GitHub remains source of truth. Codex remains sole committer. PoE remains frozen.
 Objective: freeze PoE protocol and implementation work pending CEO decision on tooling architecture and cost strategy, including ChatGPT subscription expiring 2026-07-16 and Use.ai expiring 2026-07-25.
 Latest review result:
-POE_CONTROLLED_REOPENING_EXECUTION_LANE_AUTHORIZED_WITH_CONSTRAINTS
+M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEWED_WITH_CONSTRAINTS
 Review summary:
-CEO authorized a controlled PoE reopening execution lane. New operating state is CONTROLLED_REOPENING_ACTIVE / PM-CONTROLLED. GitHub main remains source of truth. Reopening is limited to small, verifiable repo tasks only. Implementation remains BLOCKED. Protocol remains constrained. No formula candidate is authorized. No RQ/PD action is authorized unless separately approved. No implementation is authorized. `POE_MODEL_LAB` remains tooling-only and analysis-draft-only and does not enter the PoE repo as source of truth.
+`RQ-029` was reviewed for open-boundary consistency under CONTROLLED_REOPENING_ACTIVE / PM-CONTROLLED. `RQ-029` remains OPEN / RESEARCH-FRAMING only. It remains A-only referential structure only. It does not become formula term, validation rule, admissibility rule, correctness logic, validity logic, uniqueness logic, whitelist logic, registry logic, disambiguation logic, ranking logic, freshness logic, scoring logic or implementation-facing logic. Implementation remains BLOCKED. No formula candidate is authorized. No RQ/PD action was performed.
 CEO tooling-only decision:
 ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW_WITH_CONSTRAINTS
 Decision summary:
 OpenRouter + local POE_MODEL_LAB + ChatGPT verifier is adopted as the preferred tooling-only workflow for model comparison, draft analysis, cost control and external stress-test support only. It is not PoE source of truth, not a protocol component and not an R&D Lab bootstrap. It does not unblock PoE, does not authorize formula candidates, RQ/PD actions or implementation. Use.ai remains discontinued. Ollama remains optional/deprioritized and not a reliable verifier. GitHub remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. Any future use requires ChatGPT review + CEO decision + authorized Codex prompt.
 Next required task:
-M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+M-002-RQ-030-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 Route constraint:
 No formula-candidate route, no RQ/PD conversion route and no implementation route is authorized from this review.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
@@ -28,12 +28,17 @@ Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BA
 
 ## Pending tasks
 
-## M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+## M-002-RQ-030-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 
 Status: READY
-Scope: existing open `RQ-029` boundary review only
-Result target: confirm that `RQ-029` remains bounded research-framing only, with no formula, no RQ closure/validation/conversion, no PD creation and no implementation leakage
-Why selected: small, repo-grounded, executable in one Codex pass, aligned with controlled reopening constraints
+Scope: existing open `RQ-030` boundary review only
+Result target: confirm that `RQ-030` remains bounded research-framing only, with no formula, no RQ closure/validation/conversion, no PD creation and no implementation leakage
+Why selected: next small, repo-grounded, executable consistency check after `RQ-029`
+
+## M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+
+Status: COMPLETED
+Result: `M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEWED_WITH_CONSTRAINTS`. `RQ-029` remains OPEN / RESEARCH-FRAMING only, remains A-only referential structure only, and does not become formula term, validation/admissibility rule, correctness/validity/uniqueness/whitelist/registry/disambiguation/ranking/freshness/scoring logic or implementation-facing logic. No RQ closure/validation/conversion was performed. No PD was created. No formula candidate was authorized. Implementation remains BLOCKED.
 
 ## Blocked tasks
 
