@@ -1,23 +1,23 @@
 # AGENT_QUEUE.md
 
 ## Active task
-RUN_OPERATING_LOOP_V1_ON_CURRENT_NEXT_STEP
+EVIDENCE_DATA_LANE_SCOPE_REVIEW
 
-Status: READY / OPERATING_LOOP_V1_ACTIVE
-Purpose: execute the current next required step from repository state, then refresh the state files and compactly report the result.
+Status: READY / EVIDENCE_DATA_LANE_ACTIVE
+Purpose: review the evidence/data lane scope as the next concrete repository-grounded step.
 Source of truth: GitHub main / `POE_STATE.md`
 Operating constraint: execute only the already recorded next required step. Do not expand scope.
 Next required task:
-RUN_OPERATING_LOOP_V1_ON_CURRENT_NEXT_STEP
+EVIDENCE_DATA_LANE_SCOPE_REVIEW
 
 ## Pending tasks
 
-## RUN_OPERATING_LOOP_V1_ON_CURRENT_NEXT_STEP
+## EVIDENCE_DATA_LANE_SCOPE_REVIEW
 
 Status: READY
-Scope: the current next required step recorded in repository state
-Result target: run the repo-grounded operating loop once on the recorded next step, update state files, and report the compact outcome
-Why selected: creates the stable execution loop requested by the task
+Scope: evidence/data lane scope only
+Result target: define the next concrete evidence/data lane step without protocol drift, implementation, or formula/RQ/PD action
+Why selected: moves PoE toward practical operational progress through the evidence/data lane
 
 ## M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 
@@ -29,6 +29,11 @@ Result: `M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEWED_WITH_CONSTRAINTS`. `RQ-
 Nessun task blocked registrato.
 
 ## Completed tasks
+
+## RESOLVE_OPERATING_LOOP_V1_SELF_REFERENCE
+
+Status: COMPLETED
+Result: `OPERATING_LOOP_V1_SELF_REFERENCE_RESOLVED`. The self-referential operating loop pointer was replaced with the concrete next required step `EVIDENCE_DATA_LANE_SCOPE_REVIEW`. No formula candidate was introduced. No RQ/PD action was performed. No implementation was performed.
 
 ## M-002-RQ-030-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 

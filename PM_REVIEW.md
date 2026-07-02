@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RESOLVE_OPERATING_LOOP_V1_SELF_REFERENCE
+
+Decision:
+OPERATING_LOOP_V1_SELF_REFERENCE_RESOLVED
+
+Reason:
+The operating loop no longer points to itself. The repository state now advances to a concrete evidence/data lane step, keeping the loop practical and repo-grounded. This change is document-only and does not authorize formula candidates, RQ/PD actions, protocol decisions, implementation work or code/API/database/runtime changes.
+
+Next action:
+EVIDENCE_DATA_LANE_SCOPE_REVIEW
+
 ## PM-REVIEW-RUN_OPERATING_LOOP_V1_ON_CURRENT_NEXT_STEP
 
 Decision:
