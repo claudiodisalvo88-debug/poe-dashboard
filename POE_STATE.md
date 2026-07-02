@@ -680,3 +680,12 @@ Reason:
 
 Next required step:
 EXECUTE_M-002-RQ-030-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+
+Operating loop:
+OPERATING_LOOP_COLLAPSE_V1_CREATED
+
+Reason:
+Repository operating instructions now include a stable repo-grounded execution loop so Codex can read state, identify the next required step, execute only that step, update state files, commit, push and output a compact report. This is document-only and does not authorize formula candidates, RQ/PD actions, implementation work or code/API/database/runtime changes.
+
+Next required step:
+RUN_OPERATING_LOOP_V1_ON_CURRENT_NEXT_STEP

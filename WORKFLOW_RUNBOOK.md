@@ -23,6 +23,20 @@ Nessun agente può dichiarare stato verificato senza fonte repository, terminale
 8. Se il task è valido, si eseguono commit e push.
 9. `POE_STATE.md` viene aggiornato con la next action.
 
+## Operating Loop V1
+Il repository guida il lavoro attraverso un ciclo stabile e minimale:
+1. leggere `POE_STATE.md`;
+2. identificare il next required step già registrato;
+3. verificare lo scope consentito;
+4. eseguire solo quel passo;
+5. aggiornare i file di stato autorizzati;
+6. fare commit e push;
+7. produrre un report compatto.
+
+Codex è executor only.
+ChatGPT interviene come verifier / PM solo se serve una decisione di scope.
+Il loop non autorizza formula candidate, RQ/PD, implementazione o espansione autonoma del perimetro.
+
 ## Role boundaries
 - ChatGPT PM non è dev diretto.
 - Codex modifica file solo dopo validazione PM.

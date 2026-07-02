@@ -5,6 +5,17 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-RUN_OPERATING_LOOP_V1_ON_CURRENT_NEXT_STEP
+
+Decision:
+OPERATING_LOOP_COLLAPSE_V1_ACCEPTED_WITH_CONSTRAINTS
+
+Reason:
+The repository now needs a stable operating loop that lets Codex read state, identify the next required step, execute only that step, refresh state files, commit, push and report compactly. The loop is document-only and does not authorize formula candidates, RQ/PD actions, implementation work, code/API/database/runtime changes or scope expansion. ChatGPT remains verifier / PM only when scope changes are needed. GitHub main and `POE_STATE.md` remain source of truth.
+
+Next action:
+RUN_OPERATING_LOOP_V1_ON_CURRENT_NEXT_STEP
+
 ## PM-REVIEW-M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 
 Decision:
