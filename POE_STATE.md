@@ -659,3 +659,15 @@ CEO authorized one controlled re-entry gate review for status recording only. Th
 
 Next required step:
 CEO_DECISION_REQUIRED_FOR_ANY_CONTROLLED_REOPENING_SCOPE
+
+Controlled reopening execution lane:
+POE_CONTROLLED_REOPENING_EXECUTION_LANE_AUTHORIZED_WITH_CONSTRAINTS
+
+Reason:
+CEO authorized PoE to move from FROZEN / ON HOLD into CONTROLLED_REOPENING_ACTIVE / PM-CONTROLLED. This is a controlled execution lane only for small, verifiable repo tasks. GitHub main remains source of truth. Implementation remains BLOCKED. Protocol remains constrained. No formula candidate is authorized. No formula-candidate research reopening is authorized. No RQ open/close/validate/convert is authorized. No PD creation is authorized. No implementation is authorized. `POE_MODEL_LAB` remains tooling-only, outside the PoE repo, and its external model outputs remain analysis drafts only.
+
+First concrete next task:
+M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+
+Next required step:
+EXECUTE_M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW

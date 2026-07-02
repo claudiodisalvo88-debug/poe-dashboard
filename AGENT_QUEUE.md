@@ -1,9 +1,9 @@
 # AGENT_QUEUE.md
 
 ## Active task
-POE_ARCHITECTURE_AND_COST_EVALUATION_HOLD
+POE_CONTROLLED_REOPENING_EXECUTION_LANE
 
-Status: ON HOLD
+Status: CONTROLLED_REOPENING_ACTIVE / PM-CONTROLLED
 CEO temporary tooling direction:
 USE_AI_TRIAL_LAB_UNTIL_2026_07_25_NO_RENEWAL_COMMITMENT
 Use.ai may be used only as temporary analysis lab until 2026-07-25. GitHub remains source of truth. Codex remains sole committer. No R&D Lab bootstrap, protocol work, formula candidate research, RQ closure, PD creation or implementation work is authorized.
@@ -12,23 +12,28 @@ USE_AI_TRIAL_DISCONTINUED_DUE_TO_TOKEN_LIMITS
 Use.ai trial is discontinued as an operational tooling candidate because all models became unavailable due to token limits. Use.ai is not source of truth, not committer, not approved for renewal and not part of the robust PoE workflow. The next tooling evaluation focuses on alternative multi-model comparison architecture. GitHub remains source of truth. Codex remains sole committer. PoE remains frozen.
 Objective: freeze PoE protocol and implementation work pending CEO decision on tooling architecture and cost strategy, including ChatGPT subscription expiring 2026-07-16 and Use.ai expiring 2026-07-25.
 Latest review result:
-POE_CONTROLLED_REENTRY_GATE_REVIEWED_STATUS_ONLY_FROZEN_CONTINUED
+POE_CONTROLLED_REOPENING_EXECUTION_LANE_AUTHORIZED_WITH_CONSTRAINTS
 Review summary:
-Controlled re-entry gate was reviewed in status-only mode. Current safe state remains STATUS_ONLY / FROZEN_CONTINUED. POE_MODEL_LAB remains tooling-only and analysis-draft-only, outside the PoE repo and not source of truth. GitHub main remains source of truth. PoE remains FROZEN / ON HOLD. Implementation remains BLOCKED. Protocol work remains blocked. No formula candidate is authorized. No RQ/PD action is authorized. No implementation is authorized. This review does not reopen PoE.
+CEO authorized a controlled PoE reopening execution lane. New operating state is CONTROLLED_REOPENING_ACTIVE / PM-CONTROLLED. GitHub main remains source of truth. Reopening is limited to small, verifiable repo tasks only. Implementation remains BLOCKED. Protocol remains constrained. No formula candidate is authorized. No RQ/PD action is authorized unless separately approved. No implementation is authorized. `POE_MODEL_LAB` remains tooling-only and analysis-draft-only and does not enter the PoE repo as source of truth.
 CEO tooling-only decision:
 ADOPT_MODEL_LAB_AS_TOOLING_ONLY_WORKFLOW_WITH_CONSTRAINTS
 Decision summary:
 OpenRouter + local POE_MODEL_LAB + ChatGPT verifier is adopted as the preferred tooling-only workflow for model comparison, draft analysis, cost control and external stress-test support only. It is not PoE source of truth, not a protocol component and not an R&D Lab bootstrap. It does not unblock PoE, does not authorize formula candidates, RQ/PD actions or implementation. Use.ai remains discontinued. Ollama remains optional/deprioritized and not a reliable verifier. GitHub remains source of truth. Codex remains sole committer only when authorized. External model outputs remain analysis drafts only. Any future use requires ChatGPT review + CEO decision + authorized Codex prompt.
 Next required task:
-CEO_DECISION_REQUIRED_FOR_ANY_CONTROLLED_REOPENING_SCOPE
+M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
 Route constraint:
-No research route, protocol route, implementation route, formula-candidate route or RQ/PD route is authorized from this review.
+No formula-candidate route, no RQ/PD conversion route and no implementation route is authorized from this review.
 Allowed files to edit for next task: `AGENT_QUEUE.md`, `PM_REVIEW.md`, `POE_STATE.md`
 Forbidden files: `RESEARCH_QUEUE.md`, `PROTOCOL_DECISIONS.md`, `POE_KNOWLEDGE_BASE.md`, code, API, database, dashboard, runtime files, `poe.db`
 
 ## Pending tasks
 
-Nessun task pending registrato.
+## M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+
+Status: READY
+Scope: existing open `RQ-029` boundary review only
+Result target: confirm that `RQ-029` remains bounded research-framing only, with no formula, no RQ closure/validation/conversion, no PD creation and no implementation leakage
+Why selected: small, repo-grounded, executable in one Codex pass, aligned with controlled reopening constraints
 
 ## Blocked tasks
 

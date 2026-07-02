@@ -5,6 +5,20 @@ registrare la validazione PM/verifier prima che Codex modifichi o committi.
 
 ## Latest PM reviews
 
+## PM-REVIEW-POE_CONTROLLED_REOPENING_EXECUTION_LANE
+
+Decision:
+POE_CONTROLLED_REOPENING_EXECUTION_LANE_AUTHORIZED_WITH_CONSTRAINTS
+
+Reason:
+CEO authorized PoE to move from FROZEN / ON HOLD into CONTROLLED_REOPENING_ACTIVE / PM-CONTROLLED for small, verifiable repo tasks only. GitHub main remains source of truth. Implementation remains BLOCKED. Protocol remains constrained. No formula candidate is authorized. No formula-candidate research reopening is authorized. No RQ open/close/validate/convert is authorized. No PD creation is authorized. No implementation is authorized. `POE_MODEL_LAB` remains tooling-only and analysis-draft-only and does not enter the PoE repo as source of truth.
+
+First concrete next task:
+M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+
+Next action:
+EXECUTE_M-002-RQ-029-OPEN-BOUNDARY-CONSISTENCY-REVIEW
+
 ## PM-REVIEW-POE_CONTROLLED_REENTRY_GATE_STATUS_ONLY
 
 Decision:
